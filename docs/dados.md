@@ -118,27 +118,12 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
           <tr>
             <td><code>nivel_reconhecido</code></td>
             <td>String</td>
-            <td>Nível de RSC outorgado pela comissão avaliadora.</td>
+            <td>Nível de RSC reconhecido e concedido.</td>
           </tr>
           <tr>
             <td><code>status</code></td>
             <td>String</td>
-            <td>Situação da avaliação (<em>Deferido</em>, <em>Indeferido</em>).</td>
-          </tr>
-          <tr>
-            <td><code>ano</code></td>
-            <td>Integer</td>
-            <td>Ano de referência do registro.</td>
-          </tr>
-          <tr>
-            <td><code>mes</code></td>
-            <td>Integer</td>
-            <td>Mês de referência do registro.</td>
-          </tr>
-          <tr>
-            <td><code>tempo_tramitacao_dias</code></td>
-            <td>Integer</td>
-            <td>Tempo estimado/decorrido de tramitação em dias úteis.</td>
+            <td>Situação da avaliação (Deferido).</td>
           </tr>
         </tbody>
       </table>
@@ -164,34 +149,9 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
             <td>Classificação territorial da unidade (Capital, Interior, Reitoria).</td>
           </tr>
           <tr>
-            <td><code>ano</code> / <code>mes</code></td>
-            <td>Integer</td>
-            <td>Período temporal de publicação do memorial avaliado.</td>
-          </tr>
-          <tr>
             <td><code>total_processos</code></td>
             <td>Integer</td>
-            <td>Número total de processos de memoriais avaliados.</td>
-          </tr>
-          <tr>
-            <td><code>tempo_medio_tramitacao</code></td>
-            <td>Float</td>
-            <td>Média aritmética de dias de tramitação no grupo.</td>
-          </tr>
-          <tr>
-            <td><code>tempo_mediano_tramitacao</code></td>
-            <td>Float</td>
-            <td>Mediana de dias de tramitação no grupo.</td>
-          </tr>
-          <tr>
-            <td><code>tempo_min_tramitacao</code></td>
-            <td>Integer</td>
-            <td>Tempo mínimo de tramitação observado no grupo (dias).</td>
-          </tr>
-          <tr>
-            <td><code>tempo_max_tramitacao</code></td>
-            <td>Integer</td>
-            <td>Tempo máximo de tramitação observado no grupo (dias).</td>
+            <td>Número total de processos de memoriais avaliados no campus.</td>
           </tr>
         </tbody>
       </table>
@@ -230,26 +190,6 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
             <td><code>total_processos</code></td>
             <td>Integer</td>
             <td>Total de memoriais avaliados para o cargo/nível.</td>
-          </tr>
-          <tr>
-            <td><code>tempo_medio_tramitacao</code></td>
-            <td>Float</td>
-            <td>Média aritmética de dias de tramitação.</td>
-          </tr>
-          <tr>
-            <td><code>tempo_mediano_tramitacao</code></td>
-            <td>Float</td>
-            <td>Mediana de dias de tramitação.</td>
-          </tr>
-          <tr>
-            <td><code>tempo_min_tramitacao</code></td>
-            <td>Integer</td>
-            <td>Tempo mínimo de tramitação (dias).</td>
-          </tr>
-          <tr>
-            <td><code>tempo_max_tramitacao</code></td>
-            <td>Integer</td>
-            <td>Tempo máximo de tramitação (dias).</td>
           </tr>
         </tbody>
       </table>

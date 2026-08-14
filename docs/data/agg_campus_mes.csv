@@ -1,24 +1,24 @@
-campus,tipo_campus,ano,mes,total_processos,tempo_medio_tramitacao,tempo_mediano_tramitacao,tempo_min_tramitacao,tempo_max_tramitacao
-Apodi,Interior,2026,8,24,45.0,45.0,45,45
-Caicó,Interior,2026,8,19,45.0,45.0,45,45
-Canguaretama,Interior,2026,8,17,45.0,45.0,45,45
-Ceará-Mirim,Interior,2026,8,19,45.0,45.0,45,45
-Centro de Tecnologias do Gás e Energia,Capital,2026,8,2,45.0,45.0,45,45
-Currais Novos,Interior,2026,8,16,45.0,45.0,45,45
-Ipanguaçu,Interior,2026,8,16,45.0,45.0,45,45
-João Câmara,Interior,2026,8,18,45.0,45.0,45,45
-Lajes,Interior,2026,8,5,45.0,45.0,45,45
-Macau,Interior,2026,8,6,45.0,45.0,45,45
-Mossoró,Interior,2026,8,23,45.0,45.0,45,45
-Natal - Central,Capital,2026,8,53,45.0,45.0,45,45
-Natal - Cidade Alta,Capital,2026,8,22,45.0,45.0,45,45
-Natal - Zona Leste,Capital,2026,8,10,45.0,45.0,45,45
-Natal - Zona Norte,Capital,2026,8,23,45.0,45.0,45,45
-Nova Cruz,Interior,2026,8,15,45.0,45.0,45,45
-Não Informado,Outro,2026,8,1,45.0,45.0,45,45
-Parelhas,Interior,2026,8,29,45.0,45.0,45,45
-Pau dos Ferros,Interior,2026,8,21,45.0,45.0,45,45
-Reitoria,Reitoria,2026,8,90,45.0,45.0,45,45
-Santa Cruz,Interior,2026,8,20,45.0,45.0,45,45
-São Gonçalo do Amarante,Interior,2026,8,24,45.0,45.0,45,45
-São Paulo do Potengi,Interior,2026,8,15,45.0,45.0,45,45
+campus,tipo_campus,total_processos
+Reitoria,Reitoria,90
+Natal - Central,Capital,53
+Parelhas,Interior,29
+São Gonçalo do Amarante,Interior,24
+Apodi,Interior,24
+Mossoró,Interior,23
+Natal - Zona Norte,Capital,23
+Natal - Cidade Alta,Capital,22
+Pau dos Ferros,Interior,21
+Santa Cruz,Interior,20
+Caicó,Interior,19
+Ceará-Mirim,Interior,19
+João Câmara,Interior,18
+Canguaretama,Interior,17
+Currais Novos,Interior,16
+Ipanguaçu,Interior,16
+São Paulo do Potengi,Interior,15
+Nova Cruz,Interior,15
+Natal - Zona Leste,Capital,10
+Macau,Interior,6
+Lajes,Interior,5
+Centro de Tecnologias do Gás e Energia,Capital,2
+Não Informado,Outro,1

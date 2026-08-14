@@ -1,2 +1,2 @@
-ano,mes,total_processos,tempo_medio_tramitacao,tempo_mediano_tramitacao,tempo_min_tramitacao,tempo_max_tramitacao
-2026,8,488,45.0,45.0,45,45
+total_processos,total_campi,total_cargos
+488,23,55

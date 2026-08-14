@@ -202,18 +202,6 @@
     const campiEl = document.getElementById('kpiTotalCampi');
     if (campiEl) campiEl.textContent = totalCampi;
 
-    const tempoEl = document.getElementById('kpiTempoMediano');
-    const tempoSubtextEl = document.getElementById('kpiTempoSubtext');
-    if (tempoEl && rawSummaryData.meta) {
-      tempoEl.textContent = `${rawSummaryData.meta.tempo_mediano_global_dias || 0} dias`;
-      if (tempoSubtextEl) {
-        const tMin = rawSummaryData.meta.tempo_min_global_dias ?? 0;
-        const tMed = rawSummaryData.meta.tempo_medio_global_dias ?? 0;
-        const tMax = rawSummaryData.meta.tempo_max_global_dias ?? 0;
-        tempoSubtextEl.textContent = `Mín: ${tMin}d • Méd: ${tMed}d • Máx: ${tMax}d`;
-      }
-    }
-
     const cargosEl = document.getElementById('kpiTotalCargos');
     if (cargosEl) cargosEl.textContent = rawSummaryData.meta.total_cargos_atendidos;
 
@@ -585,20 +573,14 @@
           <th>Campus / Unidade</th>
           <th>Lotação</th>
           <th>Total de Memoriais</th>
-          <th>Participação</th>
-          <th>Tempo Médio</th>
-          <th>Tempo Mín.</th>
-          <th>Tempo Máx.</th>
+          <th>Participação (% do Total)</th>
         </tr>
       `;
 
       let rows = campusData.length > 0 ? campusData : (rawSummaryData.ranking_campi || []).map(r => ({
         campus: r.campus,
         tipo_campus: r.campus === 'Reitoria' ? 'Reitoria' : (r.campus.includes('Natal') ? 'Capital' : 'Interior'),
-        total_processos: r.total,
-        tempo_medio_tramitacao: r.tempo_medio || '45.0',
-        tempo_min_tramitacao: r.tempo_min || '—',
-        tempo_max_tramitacao: r.tempo_max || '—'
+        total_processos: r.total || r.total_processos
       }));
 
       if (searchInput) {
@@ -607,18 +589,12 @@
 
       tbody.innerHTML = rows.map(r => {
         const pct = ((Number(r.total_processos) / totalGeral) * 100).toFixed(1);
-        const tMed = r.tempo_medio_tramitacao !== undefined ? `${r.tempo_medio_tramitacao} d` : '—';
-        const tMin = r.tempo_min_tramitacao !== undefined ? `${r.tempo_min_tramitacao} d` : '—';
-        const tMax = r.tempo_max_tramitacao !== undefined ? `${r.tempo_max_tramitacao} d` : '—';
         return `
         <tr>
           <td><strong>${r.campus}</strong></td>
           <td><span class="badge ${r.tipo_campus === 'Capital' ? 'green' : (r.tipo_campus === 'Reitoria' ? 'blue' : 'amber')}">${r.tipo_campus}</span></td>
           <td><strong>${r.total_processos}</strong></td>
           <td><span class="badge slate">${pct}%</span></td>
-          <td>${tMed}</td>
-          <td><span class="badge slate">${tMin}</span></td>
-          <td><span class="badge slate">${tMax}</span></td>
         </tr>
         `;
       }).join('');
@@ -629,10 +605,7 @@
           <th>Classe</th>
           <th>Nível RSC</th>
           <th>Total de Memoriais</th>
-          <th>Participação</th>
-          <th>Tempo Médio</th>
-          <th>Tempo Mín.</th>
-          <th>Tempo Máx.</th>
+          <th>Participação (% do Total)</th>
         </tr>
       `;
 
@@ -640,10 +613,7 @@
         cargo: c.cargo,
         classe_cargo: c.classe_cargo,
         nivel_pretendido: 'RSC-III',
-        total_processos: c.total,
-        tempo_medio_tramitacao: c.tempo_medio || '45.0',
-        tempo_min_tramitacao: c.tempo_min || '—',
-        tempo_max_tramitacao: c.tempo_max || '—'
+        total_processos: c.total || c.total_processos
       }));
 
       if (searchInput) {
@@ -652,9 +622,6 @@
 
       tbody.innerHTML = rows.map(r => {
         const pct = ((Number(r.total_processos) / totalGeral) * 100).toFixed(1);
-        const tMed = r.tempo_medio_tramitacao !== undefined ? `${r.tempo_medio_tramitacao} d` : '—';
-        const tMin = r.tempo_min_tramitacao !== undefined ? `${r.tempo_min_tramitacao} d` : '—';
-        const tMax = r.tempo_max_tramitacao !== undefined ? `${r.tempo_max_tramitacao} d` : '—';
         return `
         <tr>
           <td><strong>${r.cargo}</strong></td>
@@ -662,9 +629,6 @@
           <td><span class="badge green">${r.nivel_pretendido || r.nivel_reconhecido || 'RSC'}</span></td>
           <td><strong>${r.total_processos}</strong></td>
           <td><span class="badge slate">${pct}%</span></td>
-          <td>${tMed}</td>
-          <td><span class="badge slate">${tMin}</span></td>
-          <td><span class="badge slate">${tMax}</span></td>
         </tr>
         `;
       }).join('');

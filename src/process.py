@@ -215,19 +215,6 @@ def anonymize_records(records: List[dict], collection_date: str) -> pd.DataFrame
         status = "Deferido"
         nivel_reconhecido = nivel_pretendido
 
-        # Data de referência / proxy
-        try:
-            data_dt = datetime.fromisoformat(collection_date.replace("Z", "+00:00"))
-            ano = data_dt.year
-            mes = data_dt.month
-        except Exception:
-            ano = 2026
-            mes = 8
-
-        # Tempo de tramitação (proxy benchmark com base na média do fluxo de RSC no IFRN)
-        # O campo é mantido estruturado conforme requisito
-        tempo_tramitacao_dias = 45
-
         rows.append({
             "id_anonimo": id_anonimo,
             "campus": campus,
@@ -236,10 +223,7 @@ def anonymize_records(records: List[dict], collection_date: str) -> pd.DataFrame
             "classe_cargo": classe_cargo,
             "nivel_pretendido": nivel_pretendido,
             "nivel_reconhecido": nivel_reconhecido,
-            "status": status,
-            "ano": ano,
-            "mes": mes,
-            "tempo_tramitacao_dias": tempo_tramitacao_dias
+            "status": status
         })
 
     df = pd.DataFrame(rows)
@@ -248,49 +232,30 @@ def anonymize_records(records: List[dict], collection_date: str) -> pd.DataFrame
 
 def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict]:
     """
-    Gera tabelas agregadas aplicando a regra de privacidade (supressão para n < 5).
+    Gera tabelas agregadas por campus, cargo e nível.
     """
-    # 1. Agregado por Campus e Mês
+    # 1. Agregado por Campus
     agg_campus = (
-        df_fato.groupby(["campus", "tipo_campus", "ano", "mes"])
-        .agg(
-            total_processos=("id_anonimo", "count"),
-            tempo_medio_tramitacao=("tempo_tramitacao_dias", "mean"),
-            tempo_mediano_tramitacao=("tempo_tramitacao_dias", "median"),
-            tempo_min_tramitacao=("tempo_tramitacao_dias", "min"),
-            tempo_max_tramitacao=("tempo_tramitacao_dias", "max")
-        )
+        df_fato.groupby(["campus", "tipo_campus"])
+        .agg(total_processos=("id_anonimo", "count"))
         .reset_index()
+        .sort_values(by="total_processos", ascending=False)
     )
-    agg_campus["tempo_medio_tramitacao"] = agg_campus["tempo_medio_tramitacao"].round(1)
 
     # 2. Agregado por Cargo e Nível
     agg_cargo = (
         df_fato.groupby(["cargo", "classe_cargo", "nivel_pretendido", "nivel_reconhecido"])
-        .agg(
-            total_processos=("id_anonimo", "count"),
-            tempo_medio_tramitacao=("tempo_tramitacao_dias", "mean"),
-            tempo_mediano_tramitacao=("tempo_tramitacao_dias", "median"),
-            tempo_min_tramitacao=("tempo_tramitacao_dias", "min"),
-            tempo_max_tramitacao=("tempo_tramitacao_dias", "max")
-        )
+        .agg(total_processos=("id_anonimo", "count"))
         .reset_index()
+        .sort_values(by="total_processos", ascending=False)
     )
-    agg_cargo["tempo_medio_tramitacao"] = agg_cargo["tempo_medio_tramitacao"].round(1)
 
-    # 3. Agregado Institucional por Mês
-    agg_institucional = (
-        df_fato.groupby(["ano", "mes"])
-        .agg(
-            total_processos=("id_anonimo", "count"),
-            tempo_medio_tramitacao=("tempo_tramitacao_dias", "mean"),
-            tempo_mediano_tramitacao=("tempo_tramitacao_dias", "median"),
-            tempo_min_tramitacao=("tempo_tramitacao_dias", "min"),
-            tempo_max_tramitacao=("tempo_tramitacao_dias", "max")
-        )
-        .reset_index()
-    )
-    agg_institucional["tempo_medio_tramitacao"] = agg_institucional["tempo_medio_tramitacao"].round(1)
+    # 3. Agregado Institucional Consolidado
+    agg_institucional = pd.DataFrame([{
+        "total_processos": len(df_fato),
+        "total_campi": int(df_fato["campus"].nunique()),
+        "total_cargos": int(df_fato["cargo"].nunique())
+    }])
 
     # 4. Sumário Estruturado em JSON para Carregamento Rápido no Dashboard
     # Contagens por Nível
@@ -299,19 +264,13 @@ def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFra
     tipo_campus_dist = df_fato["tipo_campus"].value_counts().to_dict()
     # Contagens por Classe de Cargo
     classe_dist = df_fato["classe_cargo"].value_counts().to_dict()
-    # Campus ranking completo com métricas temporais
+    # Campus ranking completo
     campus_ranking_df = (
         df_fato.groupby("campus")
-        .agg(
-            total=("id_anonimo", "count"),
-            tempo_medio=("tempo_tramitacao_dias", "mean"),
-            tempo_min=("tempo_tramitacao_dias", "min"),
-            tempo_max=("tempo_tramitacao_dias", "max")
-        )
+        .agg(total=("id_anonimo", "count"))
         .reset_index()
         .sort_values(by="total", ascending=False)
     )
-    campus_ranking_df["tempo_medio"] = campus_ranking_df["tempo_medio"].round(1)
     campus_ranking = campus_ranking_df.to_dict(orient="records")
 
     # Níveis por Campus (para gráfico empilhado)
@@ -320,19 +279,13 @@ def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFra
         .reset_index()
         .to_dict(orient="records")
     )
-    # Todos os Cargos com contagens e tempos
+    # Todos os Cargos com contagens
     top_cargos_df = (
         df_fato.groupby(["cargo", "classe_cargo"])
-        .agg(
-            total=("id_anonimo", "count"),
-            tempo_medio=("tempo_tramitacao_dias", "mean"),
-            tempo_min=("tempo_tramitacao_dias", "min"),
-            tempo_max=("tempo_tramitacao_dias", "max")
-        )
+        .agg(total=("id_anonimo", "count"))
         .reset_index()
         .sort_values(by="total", ascending=False)
     )
-    top_cargos_df["tempo_medio"] = top_cargos_df["tempo_medio"].round(1)
     top_cargos = top_cargos_df.to_dict(orient="records")
 
     summary_json = {
@@ -340,11 +293,7 @@ def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFra
             "gerado_em": datetime.now(timezone.utc).isoformat(),
             "total_geral_avaliados": len(df_fato),
             "total_campi_atendidos": int(df_fato["campus"].nunique()),
-            "total_cargos_atendidos": int(df_fato["cargo"].nunique()),
-            "tempo_min_global_dias": int(df_fato["tempo_tramitacao_dias"].min()) if not df_fato.empty else 0,
-            "tempo_max_global_dias": int(df_fato["tempo_tramitacao_dias"].max()) if not df_fato.empty else 0,
-            "tempo_mediano_global_dias": int(df_fato["tempo_tramitacao_dias"].median()) if not df_fato.empty else 0,
-            "tempo_medio_global_dias": round(float(df_fato["tempo_tramitacao_dias"].mean()), 1) if not df_fato.empty else 0.0
+            "total_cargos_atendidos": int(df_fato["cargo"].nunique())
         },
         "distribuicao_niveis": niveis_dist,
         "distribuicao_tipo_campus": tipo_campus_dist,

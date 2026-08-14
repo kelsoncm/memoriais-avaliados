@@ -48,12 +48,12 @@ description: Descrição detalhada das etapas de coleta, processamento, agregaç
 
       <h3>C. Agregação e Estruturação de Métricas</h3>
       <p>
-        O pipeline consolida os registros anonimizados em três dimensões essenciais para acompanhamento social:
+        O pipeline consolida os registros anonimizados em dimensões essenciais para acompanhamento social:
       </p>
       <ul>
-        <li><strong>Por Campus e Mês:</strong> Contagem de processos, taxas e tempo de tramitação por unidade de lotação.</li>
+        <li><strong>Por Campus:</strong> Contagem de memoriais avaliados e participação relativa por unidade de lotação.</li>
         <li><strong>Por Cargo e Nível:</strong> Mapeamento da adesão e reconhecimento entre as diferentes carreiras do PCCTAE e níveis RSC.</li>
-        <li><strong>Série Institucional:</strong> Acompanhamento temporal consolidado do IFRN.</li>
+        <li><strong>Consolidado Institucional:</strong> Totais gerais de processos, campi atendidos e cargos abrangidos no IFRN.</li>
       </ul>
 
       <h3>D. Validação de Consistência (<code>src/validate.py</code>)</h3>
@@ -69,15 +69,6 @@ description: Descrição detalhada das etapas de coleta, processamento, agregaç
         <li>
           <strong>Participação Relativa (%):</strong>
           $$\text{Participação} = \left( \frac{\text{Total de Memoriais do Grupo}}{\text{Total Institucional}} \right) \times 100$$
-        </li>
-        <li>
-          <strong>Tempo Médio de Tramitação (dias):</strong> Média aritmética calculada entre a data de submissão do requerimento e a data de publicação do memorial avaliado.
-        </li>
-        <li>
-          <strong>Tempo Mediano de Tramitação (dias):</strong> Valor central da distribuição temporal de tramitação, imune a valores atípicos (outliers).
-        </li>
-        <li>
-          <strong>Tempo Mínimo e Máximo de Tramitação (dias):</strong> Intervalo de amplitude da duração do processo entre a abertura e a conclusão final.
         </li>
       </ul>
     </article>
