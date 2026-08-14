@@ -76,6 +76,9 @@ description: Descrição detalhada das etapas de coleta, processamento, agregaç
         <li>
           <strong>Tempo Mediano de Tramitação (dias):</strong> Valor central da distribuição temporal de tramitação, imune a valores atípicos (outliers).
         </li>
+        <li>
+          <strong>Tempo Mínimo e Máximo de Tramitação (dias):</strong> Intervalo de amplitude da duração do processo entre a abertura e a conclusão final.
+        </li>
       </ul>
     </article>
   </div>

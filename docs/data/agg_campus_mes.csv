@@ -1,24 +1,24 @@
-campus,tipo_campus,ano,mes,total_processos,tempo_medio_tramitacao,tempo_mediano_tramitacao
-Apodi,Interior,2026,8,24,45.0,45.0
-Caicó,Interior,2026,8,19,45.0,45.0
-Canguaretama,Interior,2026,8,17,45.0,45.0
-Ceará-Mirim,Interior,2026,8,19,45.0,45.0
-Centro de Tecnologias do Gás e Energia,Capital,2026,8,2,45.0,45.0
-Currais Novos,Interior,2026,8,16,45.0,45.0
-Ipanguaçu,Interior,2026,8,16,45.0,45.0
-João Câmara,Interior,2026,8,18,45.0,45.0
-Lajes,Interior,2026,8,5,45.0,45.0
-Macau,Interior,2026,8,6,45.0,45.0
-Mossoró,Interior,2026,8,23,45.0,45.0
-Natal - Central,Capital,2026,8,53,45.0,45.0
-Natal - Cidade Alta,Capital,2026,8,22,45.0,45.0
-Natal - Zona Leste,Capital,2026,8,10,45.0,45.0
-Natal - Zona Norte,Capital,2026,8,23,45.0,45.0
-Nova Cruz,Interior,2026,8,15,45.0,45.0
-Não Informado,Outro,2026,8,1,45.0,45.0
-Parelhas,Interior,2026,8,29,45.0,45.0
-Pau dos Ferros,Interior,2026,8,21,45.0,45.0
-Reitoria,Reitoria,2026,8,90,45.0,45.0
-Santa Cruz,Interior,2026,8,20,45.0,45.0
-São Gonçalo do Amarante,Interior,2026,8,24,45.0,45.0
-São Paulo do Potengi,Interior,2026,8,15,45.0,45.0
+campus,tipo_campus,ano,mes,total_processos,tempo_medio_tramitacao,tempo_mediano_tramitacao,tempo_min_tramitacao,tempo_max_tramitacao
+Apodi,Interior,2026,8,24,45.0,45.0,45,45
+Caicó,Interior,2026,8,19,45.0,45.0,45,45
+Canguaretama,Interior,2026,8,17,45.0,45.0,45,45
+Ceará-Mirim,Interior,2026,8,19,45.0,45.0,45,45
+Centro de Tecnologias do Gás e Energia,Capital,2026,8,2,45.0,45.0,45,45
+Currais Novos,Interior,2026,8,16,45.0,45.0,45,45
+Ipanguaçu,Interior,2026,8,16,45.0,45.0,45,45
+João Câmara,Interior,2026,8,18,45.0,45.0,45,45
+Lajes,Interior,2026,8,5,45.0,45.0,45,45
+Macau,Interior,2026,8,6,45.0,45.0,45,45
+Mossoró,Interior,2026,8,23,45.0,45.0,45,45
+Natal - Central,Capital,2026,8,53,45.0,45.0,45,45
+Natal - Cidade Alta,Capital,2026,8,22,45.0,45.0,45,45
+Natal - Zona Leste,Capital,2026,8,10,45.0,45.0,45,45
+Natal - Zona Norte,Capital,2026,8,23,45.0,45.0,45,45
+Nova Cruz,Interior,2026,8,15,45.0,45.0,45,45
+Não Informado,Outro,2026,8,1,45.0,45.0,45,45
+Parelhas,Interior,2026,8,29,45.0,45.0,45,45
+Pau dos Ferros,Interior,2026,8,21,45.0,45.0,45,45
+Reitoria,Reitoria,2026,8,90,45.0,45.0,45,45
+Santa Cruz,Interior,2026,8,20,45.0,45.0,45,45
+São Gonçalo do Amarante,Interior,2026,8,24,45.0,45.0,45,45
+São Paulo do Potengi,Interior,2026,8,15,45.0,45.0,45,45

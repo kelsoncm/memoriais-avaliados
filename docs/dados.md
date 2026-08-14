@@ -183,6 +183,16 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
             <td>Float</td>
             <td>Mediana de dias de tramitação no grupo.</td>
           </tr>
+          <tr>
+            <td><code>tempo_min_tramitacao</code></td>
+            <td>Integer</td>
+            <td>Tempo mínimo de tramitação observado no grupo (dias).</td>
+          </tr>
+          <tr>
+            <td><code>tempo_max_tramitacao</code></td>
+            <td>Integer</td>
+            <td>Tempo máximo de tramitação observado no grupo (dias).</td>
+          </tr>
         </tbody>
       </table>
 
@@ -224,7 +234,22 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
           <tr>
             <td><code>tempo_medio_tramitacao</code></td>
             <td>Float</td>
-            <td>Média de dias de tramitação.</td>
+            <td>Média aritmética de dias de tramitação.</td>
+          </tr>
+          <tr>
+            <td><code>tempo_mediano_tramitacao</code></td>
+            <td>Float</td>
+            <td>Mediana de dias de tramitação.</td>
+          </tr>
+          <tr>
+            <td><code>tempo_min_tramitacao</code></td>
+            <td>Integer</td>
+            <td>Tempo mínimo de tramitação (dias).</td>
+          </tr>
+          <tr>
+            <td><code>tempo_max_tramitacao</code></td>
+            <td>Integer</td>
+            <td>Tempo máximo de tramitação (dias).</td>
           </tr>
         </tbody>
       </table>

@@ -1,9 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-08-14T02:15:54.578100+00:00",
+    "gerado_em": "2026-08-14T02:21:30.931125+00:00",
     "total_geral_avaliados": 488,
     "total_campi_atendidos": 23,
     "total_cargos_atendidos": 55,
+    "tempo_min_global_dias": 45,
+    "tempo_max_global_dias": 45,
     "tempo_mediano_global_dias": 45,
     "tempo_medio_global_dias": 45.0
   },
@@ -26,95 +28,164 @@
   "ranking_campi": [
     {
       "campus": "Reitoria",
-      "total": 90
+      "total": 90,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Natal - Central",
-      "total": 53
+      "total": 53,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Parelhas",
-      "total": 29
+      "total": 29,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "São Gonçalo do Amarante",
-      "total": 24
+      "total": 24,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Apodi",
-      "total": 24
+      "total": 24,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Mossoró",
-      "total": 23
+      "total": 23,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Natal - Zona Norte",
-      "total": 23
+      "total": 23,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Natal - Cidade Alta",
-      "total": 22
+      "total": 22,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Pau dos Ferros",
-      "total": 21
+      "total": 21,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Santa Cruz",
-      "total": 20
+      "total": 20,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Caicó",
-      "total": 19
+      "total": 19,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Ceará-Mirim",
-      "total": 19
+      "total": 19,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "João Câmara",
-      "total": 18
+      "total": 18,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Canguaretama",
-      "total": 17
+      "total": 17,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Currais Novos",
-      "total": 16
+      "total": 16,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Ipanguaçu",
-      "total": 16
+      "total": 16,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "São Paulo do Potengi",
-      "total": 15
+      "total": 15,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Nova Cruz",
-      "total": 15
+      "total": 15,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Natal - Zona Leste",
-      "total": 10
+      "total": 10,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Macau",
-      "total": 6
+      "total": 6,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Lajes",
-      "total": 5
+      "total": 5,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Centro de Tecnologias do Gás e Energia",
-      "total": 2
+      "total": 2,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "campus": "Não Informado",
-      "total": 1
+      "total": 1,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     }
   ],
   "campus_niveis": [
@@ -261,77 +332,122 @@
     {
       "cargo": "Assistente em Administração",
       "classe_cargo": "Classe D",
-      "total": 132
+      "total": 132,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Auxiliar em Administração",
       "classe_cargo": "Classe C",
-      "total": 51
+      "total": 51,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Técnico de Laboratorio Area",
       "classe_cargo": "Classe D",
-      "total": 49
+      "total": 49,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Assistente de Aluno",
       "classe_cargo": "Classe C",
-      "total": 19
+      "total": 19,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Assistente Social",
       "classe_cargo": "Classe E",
-      "total": 16
+      "total": 16,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Técnico de Tecnologia da Informação",
       "classe_cargo": "Classe D",
-      "total": 14
+      "total": 14,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Administrador",
       "classe_cargo": "Classe E",
-      "total": 14
+      "total": 14,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Técnico em Assuntos Educacionais",
       "classe_cargo": "Classe E",
-      "total": 14
+      "total": 14,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Técnico em Enfermagem",
       "classe_cargo": "Classe D",
-      "total": 13
+      "total": 13,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Analista de Técnico da Informacao",
       "classe_cargo": "Classe E",
-      "total": 13
+      "total": 13,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Engenheiro",
       "classe_cargo": "Classe E",
-      "total": 12
+      "total": 12,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Pedagogo",
       "classe_cargo": "Classe E",
-      "total": 11
+      "total": 11,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Contador",
       "classe_cargo": "Classe E",
-      "total": 9
+      "total": 9,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Psicólogo",
       "classe_cargo": "Classe E",
-      "total": 7
+      "total": 7,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     },
     {
       "cargo": "Bibliotecário-Documentalista",
       "classe_cargo": "Classe E",
-      "total": 7
+      "total": 7,
+      "tempo_medio": 45.0,
+      "tempo_min": 45,
+      "tempo_max": 45
     }
   ],
   "serie_institucional": [
@@ -340,7 +456,9 @@
       "mes": 8,
       "total_processos": 488,
       "tempo_medio_tramitacao": 45.0,
-      "tempo_mediano_tramitacao": 45.0
+      "tempo_mediano_tramitacao": 45.0,
+      "tempo_min_tramitacao": 45,
+      "tempo_max_tramitacao": 45
     }
   ]
 }
