@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Analítico RSC-TAE | RSC-TAE Dashboard | IFRN</title>
+  <meta name="description" content="Painel estatístico e anônimo dos processos de RSC dos servidores TAE do IFRN.">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="site-body">
+  <header class="site-header">
+  <div class="header-container">
+    <div class="brand-container">
+      <a href="index.html" class="brand-logo-link">
+        <div class="brand-emblem">
+          <span class="emblem-square green"></span>
+          <span class="emblem-square red"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">RSC-TAE Dashboard</span>
+          <span class="brand-subtitle">IFRN • Observatório de Saberes & Competências</span>
+        </div>
+      </a>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Abrir Menu de Navegação">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="sobre.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Sobre
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="metodologia.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            Metodologia
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="privacidade.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Privacidade
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="dados.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            Downloads
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="autor.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            Autor
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="main-content">
+    
+<section class="hero-banner">
+  <div class="content-container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="live-dot"></span>
+        <span>Dados Oficiais • Atualização Automatizada</span>
+      </div>
+      <h1 class="hero-title">Painel de Monitoramento RSC-TAE</h1>
+      <p class="hero-description">
+        Acompanhamento estatístico e transparente dos memoriais de <strong>Reconhecimento de Saberes e Competências (RSC)</strong> avaliados no IFRN, com conformidade integral à Lei Geral de Proteção de Dados (LGPD) e anonimização rigorosa.
+      </p>
+      <div class="hero-meta-bar">
+        <div class="hero-meta-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          <span>Fonte: SUAP / IFRN</span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          <span>Decreto nº 13.048/2026</span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>Privacidade por Design (100% Anônimo)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="content-container">
+  <!-- KPI Metrics Bar -->
+  <section class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-header">
+        <span class="kpi-label">Processos Avaliados</span>
+        <div class="kpi-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        </div>
+      </div>
+      <div class="kpi-value" id="kpiTotalAvaliados">...</div>
+      <div class="kpi-subtext">
+        <span>Memoriais concluídos no IFRN</span>
+      </div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-header">
+        <span class="kpi-label">Nível Predominante</span>
+        <div class="kpi-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </div>
+      </div>
+      <div class="kpi-value" id="kpiTopNivel">...</div>
+      <div class="kpi-subtext">
+        <span>Maior volume de concessões</span>
+      </div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-header">
+        <span class="kpi-label">Taxa de Reconhecimento</span>
+        <div class="kpi-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+        </div>
+      </div>
+      <div class="kpi-value" id="kpiTaxaDeferimento">100.0%</div>
+      <div class="kpi-subtext">
+        <span class="kpi-tag-good">Memoriais aprovados pela CRSC</span>
+      </div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-header">
+        <span class="kpi-label">Campi & Reitoria</span>
+        <div class="kpi-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+        </div>
+      </div>
+      <div class="kpi-value" id="kpiTotalCampi">...</div>
+      <div class="kpi-subtext">
+        <span>Unidades com processos deferidos</span>
+      </div>
+    </div>
+
+    <div class="kpi-card">
+      <div class="kpi-header">
+        <span class="kpi-label">Cargos Abrangidos</span>
+        <div class="kpi-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+      </div>
+      <div class="kpi-value" id="kpiTotalCargos">...</div>
+      <div class="kpi-subtext">
+        <span>Carreiras do PCCTAE beneficiadas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Filter Controls -->
+  <section class="filter-card">
+    <div class="filter-grid">
+      <div class="filter-group">
+        <label for="filterTipoCampus" class="filter-label">Tipo de Lotação</label>
+        <select id="filterTipoCampus" class="form-select">
+          <option value="">Todas as Unidades</option>
+          <option value="Reitoria">Reitoria (Órgãos Centrais)</option>
+          <option value="Capital">Campi Natal (Capital)</option>
+          <option value="Interior">Campi do Interior</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filterCampus" class="filter-label">Campus Específico</label>
+        <select id="filterCampus" class="form-select">
+          <option value="">Todos os Campi</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <button id="btnResetFilters" class="btn-reset" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>
+          Restaurar Filtros
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visualizations Row 1: Panorama Geral -->
+  <div class="section-heading-group">
+    <h2 class="section-title">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+      1. Panorama Institucional & Níveis
+    </h2>
+    <span class="section-tag">Distribuição Geral do Reconhecimento</span>
+  </div>
+
+  <div class="charts-row-2">
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Distribuição por Nível RSC Pleiteado</h3>
+        <p class="chart-card-desc">Proporção dos níveis RSC-VI (equivalência a Doutorado), RSC-V (Mestrado) e RSC-III (Especialização).</p>
+      </div>
+      <div class="chart-canvas-container">
+        <canvas id="chartNiveis"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Distribuição por Tipo de Unidade</h3>
+        <p class="chart-card-desc">Participação da Reitoria (órgãos executivos centrais), Campi da Capital e Campi do Interior.</p>
+      </div>
+      <div class="chart-canvas-container">
+        <canvas id="chartTipoCampus"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Visualizations Row 2: Análise por Campus -->
+  <div class="section-heading-group">
+    <h2 class="section-title">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      2. Territorialidade & Distribuição por Campus
+    </h2>
+    <span class="section-tag">Ranking e Níveis por Unidade</span>
+  </div>
+
+  <div class="charts-row-2">
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Ranking de Memoriais por Campus</h3>
+        <p class="chart-card-desc">Top unidades com maior número de processos de RSC avaliados com sucesso.</p>
+      </div>
+      <div class="chart-canvas-container tall">
+        <canvas id="chartCampusRanking"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Níveis Reconhecidos por Campus (Top 10)</h3>
+        <p class="chart-card-desc">Composição empilhada por nível (RSC-VI, RSC-V, RSC-III) nos 10 maiores campi.</p>
+      </div>
+      <div class="chart-canvas-container tall">
+        <canvas id="chartCampusNivel"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Visualizations Row 3: Análise por Cargo e Carreira -->
+  <div class="section-heading-group">
+    <h2 class="section-title">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+      3. Análise por Cargo e Classes do PCCTAE
+    </h2>
+    <span class="section-tag">Carreiras & Categorias Funcionais</span>
+  </div>
+
+  <div class="charts-row-2">
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Top 10 Cargos com Mais Memoriais</h3>
+        <p class="chart-card-desc">Cargos do PCCTAE com maior adesão e deferimento nos processos avaliados.</p>
+      </div>
+      <div class="chart-canvas-container tall">
+        <canvas id="chartTopCargos"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Distribuição por Classe do PCCTAE</h3>
+        <p class="chart-card-desc">Participação relativa entre servidores de Classe C (Apoio), Classe D (Técnico/Médio) e Classe E (Superior).</p>
+      </div>
+      <div class="chart-canvas-container tall">
+        <canvas id="chartClasses"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Data Table & Downloads -->
+  <div class="section-heading-group">
+    <h2 class="section-title">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+      4. Dados Agregados e Exportação
+    </h2>
+    <span class="section-tag">Tabelas Dinâmicas & Acesso Aberto</span>
+  </div>
+
+  <section class="table-card">
+    <div class="table-card-header">
+      <div class="nav-list" style="margin: 0;">
+        <button id="tabViewCampus" class="nav-link active" type="button" style="border: none; cursor: pointer;">Visão por Campus</button>
+        <button id="tabViewCargo" class="nav-link" type="button" style="border: none; cursor: pointer;">Visão por Cargo</button>
+      </div>
+
+      <div class="table-actions">
+        <input type="text" id="tableSearchInput" class="form-input" placeholder="🔍 Filtrar registros na tabela..." style="max-width: 260px; padding: 0.4rem 0.75rem;">
+        <a href="data/agg_campus_mes.csv" class="btn-download" download>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          CSV Campus
+        </a>
+        <a href="data/agg_cargo_nivel.csv" class="btn-download" download>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          CSV Cargos
+        </a>
+      </div>
+    </div>
+
+    <div class="table-responsive">
+      <table class="data-table" id="dataTable">
+        <thead id="tableThead">
+          <!-- Populated by JavaScript -->
+        </thead>
+        <tbody id="tableTbody">
+          <!-- Populated by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <span class="brand-title">RSC-TAE Dashboard</span>
+          <span class="brand-sub">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN)</span>
+        </div>
+        <p class="footer-desc">
+          Plataforma de transparência e monitoramento analítico agregado dos processos de Reconhecimento de Saberes e Competências (RSC) da carreira TAE, fundamentada no Decreto nº 13.048/2026 e na Lei nº 11.091/2005.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Transparência & Conformidade</h4>
+        <ul class="footer-links">
+          <li><a href="privacidade.html">Compromisso LGPD & Transparência</a></li>
+          <li><a href="metodologia.html">Metodologia & Pipeline ETL</a></li>
+          <li><a href="dados.html">Dicionário de Dados & Downloads</a></li>
+          <li><a href="https://suap.ifrn.edu.br/api/rsc_tae/memoriais-avaliados/" target="_blank" rel="noopener noreferrer">Endpoint Público SUAP/IFRN ↗</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Projeto Aberto</h4>
+        <ul class="footer-links">
+          <li><a href="https://github.com/kelsoncm/memoriais-avaliados" target="_blank" rel="noopener noreferrer">Código no GitHub ↗</a></li>
+          <li><a href="https://github.com/kelsoncm/memoriais-avaliados/actions" target="_blank" rel="noopener noreferrer">Atualização Diária (GitHub Actions) ↗</a></li>
+          <li><a href="autor.html">Sobre o Autor (Kelson Medeiros)</a></li>
+          <li><span class="license-badge">Licença MIT • Acesso Aberto</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Observatório RSC-TAE IFRN • Dados anonimizados e agregados para fins de pesquisa, gestão e controle social.</p>
+      <div class="footer-badges">
+        <span class="badge-status online">API SUAP Sincronizada</span>
+        <span class="badge-status privacy">100% Livre de PII</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    // Toggle Mobile Navigation Menu
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('mobileNavToggle');
+      const nav = document.getElementById('siteNav');
+      if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('nav-open');
+          toggle.classList.toggle('toggle-active');
+        });
+      }
+    });
+  </script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Dashboard Analítico RSC-TAE
+permalink: /dashboard/
+custom_js:
+  - /assets/js/dashboard.js
+---
+
+<!-- Redirecionamento e fallback integrado para o Dashboard -->
+<script>
+  // O layout default e dashboard.js renderizam os componentes
+  window.location.replace("{{ '' | relative_url }}/");
+</script>
+
+<div class="content-container" style="padding: 3rem 0; text-align: center;">
+  <h2>Redirecionando para o Dashboard Principal...</h2>
+  <p><a href="{{ '' | relative_url }}/" class="btn-download">Clique aqui caso não seja redirecionado</a></p>
+</div>

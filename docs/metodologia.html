@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metodologia | RSC-TAE Dashboard | IFRN</title>
+  <meta name="description" content="Pipeline ETL, fórmulas estatísticas e agregação">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="site-body">
+  <header class="site-header">
+  <div class="header-container">
+    <div class="brand-container">
+      <a href="index.html" class="brand-logo-link">
+        <div class="brand-emblem">
+          <span class="emblem-square green"></span>
+          <span class="emblem-square red"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">RSC-TAE Dashboard</span>
+          <span class="brand-subtitle">IFRN • Observatório de Saberes & Competências</span>
+        </div>
+      </a>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Abrir Menu de Navegação">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="sobre.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Sobre
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="metodologia.html" class="nav-link active">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            Metodologia
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="privacidade.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Privacidade
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="dados.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            Downloads
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="autor.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            Autor
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="main-content">
+    
+<div class="content-container">
+  <div class="doc-wrapper">
+    <article class="doc-article">
+      <h1>Metodologia e Engenharia de Dados</h1>
+      
+      <p>
+        O <strong>RSC-TAE Dashboard</strong> opera através de uma arquitetura modular de pipeline de dados (ETL) automatizada, orientada a dados abertos e à estrita conformidade com normas de privacidade e governança estatística.
+      </p>
+
+      <h2>1. Fonte e Origem dos Dados</h2>
+      <p>
+        Os dados são consumidos a partir do endpoint público disponibilizado pelo Sistema Unificado de Administração Pública (SUAP) do IFRN:
+      </p>
+      <pre><code>GET https://suap.ifrn.edu.br/api/rsc_tae/memoriais-avaliados/</code></pre>
+      <p>
+        Este endpoint lista os memoriais que passaram pela comissão de avaliação institucional. A API é pública e não exige token de autenticação para leitura de processos avaliados.
+      </p>
+
+      <h2>2. Etapas do Pipeline ETL</h2>
+      <div class="callout info">
+        <strong>Fluxo Diário:</strong> Coleta (02:00 UTC) ➔ Anonimização & Expurgos ➔ Agregação & K-Anonimato ➔ Validação de Integridade ➔ Deploy no GitHub Pages.
+      </div>
+
+      <h3>A. Coleta (<code>src/collect.py</code>)</h3>
+      <ul>
+        <li>Realiza requisição HTTP com cabeçalhos padrão e mecanismo de retentativas automáticas (3 tentativas com backoff exponencial).</li>
+        <li>Itera pela paginação (caso o campo <code>next</code> esteja presente) até obter o conjunto integral de registros.</li>
+        <li>Registra o JSON com timestamp em <code>data/raw/raw_memoriais_YYYYMMDD_HHMMSS.json</code>.</li>
+      </ul>
+
+      <h3>B. Anonimização e Filtragem (<code>src/process.py</code>)</h3>
+      <ul>
+        <li><strong>Expurgo Total de PII:</strong> São imediatamente descartados nomes, números SIAPE, e-mails, descrições detalhadas de documentos comprobatórios e todo o texto livre (introdução do memorial, relatórios de requisitos e textos de conclusão).</li>
+        <li><strong>Pseudonimização Unidirecional:</strong> O ID do processo original é convertido em um hash criptográfico <code>SHA-256</code> com salt institucional, impossibilitando a correlação externa, mas permitindo contagens estatísticas unívocas internas.</li>
+        <li><strong>Padronização de Entidades:</strong>
+          <ul>
+            <li><strong>Campus e Tipo:</strong> A sigla do setor de lotação (ex: <code>COTIC/CA</code> ➔ <code>CA</code>) é convertida para o Campus padronizado (ex: <em>Caicó</em>) e classificada por territorialidade (<em>Capital</em>, <em>Interior</em> ou <em>Reitoria</em>).</li>
+            <li><strong>Cargo e Classe:</strong> Os cargos são limpos e mapeados para a respectiva classe do PCCTAE (<em>Classe C</em>, <em>Classe D</em> ou <em>Classe E</em>).</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>C. Agregação e Estruturação de Métricas</h3>
+      <p>
+        O pipeline consolida os registros anonimizados em três dimensões essenciais para acompanhamento social:
+      </p>
+      <ul>
+        <li><strong>Por Campus e Mês:</strong> Contagem de processos, taxas e tempo de tramitação por unidade de lotação.</li>
+        <li><strong>Por Cargo e Nível:</strong> Mapeamento da adesão e reconhecimento entre as diferentes carreiras do PCCTAE e níveis RSC.</li>
+        <li><strong>Série Institucional:</strong> Acompanhamento temporal consolidado do IFRN.</li>
+      </ul>
+
+      <h3>D. Validação de Consistência (<code>src/validate.py</code>)</h3>
+      <p>Antes de qualquer publicação, a suíte de testes automáticos checa:</p>
+      <ol>
+        <li>Ausência total de colunas ou dados pessoais identificáveis em todas as tabelas de saída.</li>
+        <li>Coerência matemática ($\sum \text{processos por campus} = \sum \text{processos por cargo} = \sum \text{processos institucionais} = \text{total da tabela fato}$).</li>
+        <li>Validade das taxas percentuais ($0 \le \text{taxa} \le 100$).</li>
+        <li>Integridade de esquemas e formatos CSV/JSON.</li>
+      </ol>
+
+      <h2>3. Fórmulas e Métricas Utilizadas</h2>
+      <ul>
+        <li>
+          <strong>Taxa de Deferimento (%):</strong>
+          $$\text{Taxa} = \left( \frac{\text{Total Deferidos}}{\text{Total Concluídos}} \right) \times 100$$
+        </li>
+        <li>
+          <strong>Tempo Médio de Tramitação (dias):</strong> Média aritmética simples calculada entre o início do requerimento e a data de publicação do memorial avaliado.
+        </li>
+        <li>
+          <strong>Tempo Mediano de Tramitação (dias):</strong> Valor central da distribuição temporal de tramitação, imune a valores atípicos (outliers).
+        </li>
+      </ul>
+    </article>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <span class="brand-title">RSC-TAE Dashboard</span>
+          <span class="brand-sub">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN)</span>
+        </div>
+        <p class="footer-desc">
+          Plataforma de transparência e monitoramento analítico agregado dos processos de Reconhecimento de Saberes e Competências (RSC) da carreira TAE, fundamentada no Decreto nº 13.048/2026 e na Lei nº 11.091/2005.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Transparência & Conformidade</h4>
+        <ul class="footer-links">
+          <li><a href="privacidade.html">Compromisso LGPD & Transparência</a></li>
+          <li><a href="metodologia.html">Metodologia & Pipeline ETL</a></li>
+          <li><a href="dados.html">Dicionário de Dados & Downloads</a></li>
+          <li><a href="https://suap.ifrn.edu.br/api/rsc_tae/memoriais-avaliados/" target="_blank" rel="noopener noreferrer">Endpoint Público SUAP/IFRN ↗</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Projeto Aberto</h4>
+        <ul class="footer-links">
+          <li><a href="https://github.com/kelsoncm/memoriais-avaliados" target="_blank" rel="noopener noreferrer">Código no GitHub ↗</a></li>
+          <li><a href="https://github.com/kelsoncm/memoriais-avaliados/actions" target="_blank" rel="noopener noreferrer">Atualização Diária (GitHub Actions) ↗</a></li>
+          <li><a href="autor.html">Sobre o Autor (Kelson Medeiros)</a></li>
+          <li><span class="license-badge">Licença MIT • Acesso Aberto</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Observatório RSC-TAE IFRN • Dados anonimizados e agregados para fins de pesquisa, gestão e controle social.</p>
+      <div class="footer-badges">
+        <span class="badge-status online">API SUAP Sincronizada</span>
+        <span class="badge-status privacy">100% Livre de PII</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    // Toggle Mobile Navigation Menu
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('mobileNavToggle');
+      const nav = document.getElementById('siteNav');
+      if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('nav-open');
+          toggle.classList.toggle('toggle-active');
+        });
+      }
+    });
+  </script>
+  
+</body>
+</html>

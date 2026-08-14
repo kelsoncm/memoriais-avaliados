@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dados Brutos com PII (Não versionar sob hipótese alguma)
+data/raw/*
+!data/raw/.gitkeep
+

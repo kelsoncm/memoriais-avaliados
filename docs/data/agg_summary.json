@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "gerado_em": "2026-08-14T01:58:32.601044+00:00",
+    "total_geral_avaliados": 488,
+    "taxa_global_deferimento": 100.0,
+    "total_campi_atendidos": 23,
+    "total_cargos_atendidos": 55,
+    "tempo_mediano_global_dias": 45
+  },
+  "distribuicao_niveis": {
+    "RSC-VI": 259,
+    "RSC-V": 225,
+    "RSC-III": 4
+  },
+  "distribuicao_tipo_campus": {
+    "Interior": 287,
+    "Capital": 110,
+    "Reitoria": 90,
+    "Outro": 1
+  },
+  "distribuicao_classes": {
+    "Classe D": 250,
+    "Classe E": 153,
+    "Classe C": 85
+  },
+  "ranking_campi": [
+    {
+      "campus": "Reitoria",
+      "total": 90
+    },
+    {
+      "campus": "Natal - Central",
+      "total": 53
+    },
+    {
+      "campus": "Parelhas",
+      "total": 29
+    },
+    {
+      "campus": "São Gonçalo do Amarante",
+      "total": 24
+    },
+    {
+      "campus": "Apodi",
+      "total": 24
+    },
+    {
+      "campus": "Mossoró",
+      "total": 23
+    },
+    {
+      "campus": "Natal - Zona Norte",
+      "total": 23
+    },
+    {
+      "campus": "Natal - Cidade Alta",
+      "total": 22
+    },
+    {
+      "campus": "Pau dos Ferros",
+      "total": 21
+    },
+    {
+      "campus": "Santa Cruz",
+      "total": 20
+    },
+    {
+      "campus": "Caicó",
+      "total": 19
+    },
+    {
+      "campus": "Ceará-Mirim",
+      "total": 19
+    },
+    {
+      "campus": "João Câmara",
+      "total": 18
+    },
+    {
+      "campus": "Canguaretama",
+      "total": 17
+    },
+    {
+      "campus": "Currais Novos",
+      "total": 16
+    },
+    {
+      "campus": "Ipanguaçu",
+      "total": 16
+    },
+    {
+      "campus": "São Paulo do Potengi",
+      "total": 15
+    },
+    {
+      "campus": "Nova Cruz",
+      "total": 15
+    },
+    {
+      "campus": "Natal - Zona Leste",
+      "total": 10
+    },
+    {
+      "campus": "Macau",
+      "total": 6
+    },
+    {
+      "campus": "Lajes",
+      "total": 5
+    },
+    {
+      "campus": "Centro de Tecnologias do Gás e Energia",
+      "total": 2
+    },
+    {
+      "campus": "Não Informado",
+      "total": 1
+    }
+  ],
+  "campus_niveis": [
+    {
+      "campus": "Apodi",
+      "RSC-III": 0,
+      "RSC-V": 8,
+      "RSC-VI": 16
+    },
+    {
+      "campus": "Caicó",
+      "RSC-III": 1,
+      "RSC-V": 8,
+      "RSC-VI": 10
+    },
+    {
+      "campus": "Canguaretama",
+      "RSC-III": 0,
+      "RSC-V": 8,
+      "RSC-VI": 9
+    },
+    {
+      "campus": "Ceará-Mirim",
+      "RSC-III": 0,
+      "RSC-V": 11,
+      "RSC-VI": 8
+    },
+    {
+      "campus": "Centro de Tecnologias do Gás e Energia",
+      "RSC-III": 0,
+      "RSC-V": 1,
+      "RSC-VI": 1
+    },
+    {
+      "campus": "Currais Novos",
+      "RSC-III": 0,
+      "RSC-V": 8,
+      "RSC-VI": 8
+    },
+    {
+      "campus": "Ipanguaçu",
+      "RSC-III": 0,
+      "RSC-V": 7,
+      "RSC-VI": 9
+    },
+    {
+      "campus": "João Câmara",
+      "RSC-III": 2,
+      "RSC-V": 10,
+      "RSC-VI": 6
+    },
+    {
+      "campus": "Lajes",
+      "RSC-III": 0,
+      "RSC-V": 3,
+      "RSC-VI": 2
+    },
+    {
+      "campus": "Macau",
+      "RSC-III": 0,
+      "RSC-V": 3,
+      "RSC-VI": 3
+    },
+    {
+      "campus": "Mossoró",
+      "RSC-III": 0,
+      "RSC-V": 9,
+      "RSC-VI": 14
+    },
+    {
+      "campus": "Natal - Central",
+      "RSC-III": 0,
+      "RSC-V": 26,
+      "RSC-VI": 27
+    },
+    {
+      "campus": "Natal - Cidade Alta",
+      "RSC-III": 0,
+      "RSC-V": 10,
+      "RSC-VI": 12
+    },
+    {
+      "campus": "Natal - Zona Leste",
+      "RSC-III": 0,
+      "RSC-V": 5,
+      "RSC-VI": 5
+    },
+    {
+      "campus": "Natal - Zona Norte",
+      "RSC-III": 0,
+      "RSC-V": 13,
+      "RSC-VI": 10
+    },
+    {
+      "campus": "Nova Cruz",
+      "RSC-III": 0,
+      "RSC-V": 8,
+      "RSC-VI": 7
+    },
+    {
+      "campus": "Não Informado",
+      "RSC-III": 0,
+      "RSC-V": 0,
+      "RSC-VI": 1
+    },
+    {
+      "campus": "Parelhas",
+      "RSC-III": 0,
+      "RSC-V": 15,
+      "RSC-VI": 14
+    },
+    {
+      "campus": "Pau dos Ferros",
+      "RSC-III": 0,
+      "RSC-V": 8,
+      "RSC-VI": 13
+    },
+    {
+      "campus": "Reitoria",
+      "RSC-III": 0,
+      "RSC-V": 26,
+      "RSC-VI": 64
+    },
+    {
+      "campus": "Santa Cruz",
+      "RSC-III": 0,
+      "RSC-V": 13,
+      "RSC-VI": 7
+    },
+    {
+      "campus": "São Gonçalo do Amarante",
+      "RSC-III": 0,
+      "RSC-V": 18,
+      "RSC-VI": 6
+    },
+    {
+      "campus": "São Paulo do Potengi",
+      "RSC-III": 1,
+      "RSC-V": 7,
+      "RSC-VI": 7
+    }
+  ],
+  "top_cargos": [
+    {
+      "cargo": "Assistente em Administração",
+      "classe_cargo": "Classe D",
+      "total": 132
+    },
+    {
+      "cargo": "Auxiliar em Administração",
+      "classe_cargo": "Classe C",
+      "total": 51
+    },
+    {
+      "cargo": "Técnico de Laboratorio Area",
+      "classe_cargo": "Classe D",
+      "total": 49
+    },
+    {
+      "cargo": "Assistente de Aluno",
+      "classe_cargo": "Classe C",
+      "total": 19
+    },
+    {
+      "cargo": "Assistente Social",
+      "classe_cargo": "Classe E",
+      "total": 16
+    },
+    {
+      "cargo": "Técnico de Tecnologia da Informação",
+      "classe_cargo": "Classe D",
+      "total": 14
+    },
+    {
+      "cargo": "Administrador",
+      "classe_cargo": "Classe E",
+      "total": 14
+    },
+    {
+      "cargo": "Técnico em Assuntos Educacionais",
+      "classe_cargo": "Classe E",
+      "total": 14
+    },
+    {
+      "cargo": "Técnico em Enfermagem",
+      "classe_cargo": "Classe D",
+      "total": 13
+    },
+    {
+      "cargo": "Analista de Técnico da Informacao",
+      "classe_cargo": "Classe E",
+      "total": 13
+    },
+    {
+      "cargo": "Engenheiro",
+      "classe_cargo": "Classe E",
+      "total": 12
+    },
+    {
+      "cargo": "Pedagogo",
+      "classe_cargo": "Classe E",
+      "total": 11
+    },
+    {
+      "cargo": "Contador",
+      "classe_cargo": "Classe E",
+      "total": 9
+    },
+    {
+      "cargo": "Psicólogo",
+      "classe_cargo": "Classe E",
+      "total": 7
+    },
+    {
+      "cargo": "Bibliotecário-Documentalista",
+      "classe_cargo": "Classe E",
+      "total": 7
+    }
+  ],
+  "serie_institucional": [
+    {
+      "ano": 2026,
+      "mes": 8,
+      "total_submetidos": 488,
+      "total_concluidos": 488,
+      "total_deferidos": 488,
+      "total_indeferidos": 0,
+      "tempo_medio_tramitacao": 45.0,
+      "tempo_mediano_tramitacao": 45.0,
+      "taxa_deferimento": 100.0
+    }
+  ]
+}

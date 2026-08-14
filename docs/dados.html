@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dados & Downloads | RSC-TAE Dashboard | IFRN</title>
+  <meta name="description" content="Dicionário de dados, schemas e links para download">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="site-body">
+  <header class="site-header">
+  <div class="header-container">
+    <div class="brand-container">
+      <a href="index.html" class="brand-logo-link">
+        <div class="brand-emblem">
+          <span class="emblem-square green"></span>
+          <span class="emblem-square red"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">RSC-TAE Dashboard</span>
+          <span class="brand-subtitle">IFRN • Observatório de Saberes & Competências</span>
+        </div>
+      </a>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Abrir Menu de Navegação">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="sobre.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Sobre
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="metodologia.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            Metodologia
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="privacidade.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Privacidade
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="dados.html" class="nav-link active">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            Downloads
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="autor.html" class="nav-link ">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            Autor
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="main-content">
+    
+<div class="content-container">
+  <div class="doc-wrapper">
+    <article class="doc-article">
+      <h1>Catálogo de Dados e Dicionário de Schemas</h1>
+
+      <p>
+        Todos os datasets gerados pelo pipeline são disponibilizados publicamente em formatos abertos (CSV e JSON), estruturados para consumo direto por ferramentas analíticas (Python, R, PowerBI, Excel) e pesquisadores.
+      </p>
+
+      <h2>1. Arquivos Disponíveis para Download</h2>
+
+      <div class="kpi-grid" style="margin-top: 1.5rem;">
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">Tabela Fato Anonimizada</span>
+            <span class="badge slate">CSV</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--slate-600); margin-bottom: 1rem;">
+            Tabela de nível microdado individual, completamente desprovida de dados pessoais identificadores.
+          </p>
+          <a href="data/fato_anonimo.csv" class="btn-download" download>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download fato_anonimo.csv
+          </a>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">Agregado Campus / Mês</span>
+            <span class="badge green">CSV</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--slate-600); margin-bottom: 1rem;">
+            Contagens de processos, deferimentos e taxas agrupados por Campus, territorialidade e período.
+          </p>
+          <a href="data/agg_campus_mes.csv" class="btn-download" download>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download agg_campus_mes.csv
+          </a>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">Agregado Cargo / Nível</span>
+            <span class="badge blue">CSV</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--slate-600); margin-bottom: 1rem;">
+            Distribuição por cargo da carreira PCCTAE, classe funcional e nível de RSC pretendido e deferido.
+          </p>
+          <a href="data/agg_cargo_nivel.csv" class="btn-download" download>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download agg_cargo_nivel.csv
+          </a>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-label">Consolidado Institucional</span>
+            <span class="badge amber">JSON</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--slate-600); margin-bottom: 1rem;">
+            Payload consolidado em JSON contendo metadados, rankings e distribuições estatísticas.
+          </p>
+          <a href="data/agg_summary.json" class="btn-download" download>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download agg_summary.json
+          </a>
+        </div>
+      </div>
+
+      <h2>2. Schemas Detalhados dos Datasets</h2>
+
+      <h3>A. <code>fato_anonimo.csv</code></h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Coluna</th>
+            <th>Tipo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>id_anonimo</code></td>
+            <td>String (Hex 16)</td>
+            <td>Identificador pseudonimizado derivado de hash SHA-256 irreversível com salt.</td>
+          </tr>
+          <tr>
+            <td><code>campus</code></td>
+            <td>String</td>
+            <td>Nome padronizado do Campus ou Reitoria do IFRN.</td>
+          </tr>
+          <tr>
+            <td><code>tipo_campus</code></td>
+            <td>String</td>
+            <td>Categoria territorial (<em>Capital</em>, <em>Interior</em>, <em>Reitoria</em>).</td>
+          </tr>
+          <tr>
+            <td><code>cargo</code></td>
+            <td>String</td>
+            <td>Denominação normalizada do cargo do servidor no PCCTAE.</td>
+          </tr>
+          <tr>
+            <td><code>classe_cargo</code></td>
+            <td>String</td>
+            <td>Nível de classificação funcional (<em>Classe C</em>, <em>Classe D</em>, <em>Classe E</em>).</td>
+          </tr>
+          <tr>
+            <td><code>nivel_pretendido</code></td>
+            <td>String</td>
+            <td>Nível de RSC pleiteado (<em>RSC-I</em> a <em>RSC-VI</em>).</td>
+          </tr>
+          <tr>
+            <td><code>nivel_reconhecido</code></td>
+            <td>String</td>
+            <td>Nível de RSC outorgado pela comissão avaliadora.</td>
+          </tr>
+          <tr>
+            <td><code>status</code></td>
+            <td>String</td>
+            <td>Situação da avaliação (<em>Deferido</em>, <em>Indeferido</em>).</td>
+          </tr>
+          <tr>
+            <td><code>ano</code></td>
+            <td>Integer</td>
+            <td>Ano de referência do registro.</td>
+          </tr>
+          <tr>
+            <td><code>mes</code></td>
+            <td>Integer</td>
+            <td>Mês de referência do registro.</td>
+          </tr>
+          <tr>
+            <td><code>tempo_tramitacao_dias</code></td>
+            <td>Integer</td>
+            <td>Tempo estimado/decorrido de tramitação em dias úteis.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>B. <code>agg_campus_mes.csv</code></h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Coluna</th>
+            <th>Tipo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>campus</code></td>
+            <td>String</td>
+            <td>Nome do Campus ou grupo consolidado (<em>Outros Campi agrupados por n &lt; 5</em>).</td>
+          </tr>
+          <tr>
+            <td><code>tipo_campus</code></td>
+            <td>String</td>
+            <td>Classificação territorial da unidade.</td>
+          </tr>
+          <tr>
+            <td><code>ano</code> / <code>mes</code></td>
+            <td>Integer</td>
+            <td>Período temporal da agregação.</td>
+          </tr>
+          <tr>
+            <td><code>total_processos</code></td>
+            <td>Integer</td>
+            <td>Número total de processos avaliados no grupo ($n \ge 5$).</td>
+          </tr>
+          <tr>
+            <td><code>total_deferidos</code></td>
+            <td>Integer</td>
+            <td>Total de processos aprovados com êxito.</td>
+          </tr>
+          <tr>
+            <td><code>taxa_deferimento</code></td>
+            <td>Float (%)</td>
+            <td>Percentual de aprovação no campus/período.</td>
+          </tr>
+          <tr>
+            <td><code>tempo_medio_tramitacao</code></td>
+            <td>Float</td>
+            <td>Média de dias de tramitação.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>C. <code>agg_cargo_nivel.csv</code></h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Coluna</th>
+            <th>Tipo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>cargo</code></td>
+            <td>String</td>
+            <td>Cargo no PCCTAE.</td>
+          </tr>
+          <tr>
+            <td><code>classe_cargo</code></td>
+            <td>String</td>
+            <td>Classe funcional no plano de carreira (C, D, E).</td>
+          </tr>
+          <tr>
+            <td><code>nivel_pretendido</code></td>
+            <td>String</td>
+            <td>Nível de RSC pretendido pelo servidor.</td>
+          </tr>
+          <tr>
+            <td><code>total_processos</code></td>
+            <td>Integer</td>
+            <td>Total de memoriais submetidos e avaliados.</td>
+          </tr>
+          <tr>
+            <td><code>taxa_deferimento</code></td>
+            <td>Float (%)</td>
+            <td>Percentual de concessão.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3. Limitações e Ressalvas Técnicas</h2>
+      <ul>
+        <li>
+          <strong>Dependência do Endpoint SUAP:</strong> O pipeline consome o endpoint oficial <code>/api/rsc_tae/memoriais-avaliados/</code>. Caso o SUAP passe por instabilidades temporárias ou alterações de schema, o workflow retém o último estado consistente de dados válidos.
+        </li>
+        <li>
+          <strong>Cadência de Atualização:</strong> As coletas ocorrem diariamente às 02:00 UTC via GitHub Actions. Novos memoriais publicados no SUAP são incorporados na execução subsequente.
+        </li>
+        <li>
+          <strong>Transparência Ativa:</strong> Os datasets refletem a totalidade dos memoriais publicados oficialmente pela instituição, sem omissões ou supressões artificiais.
+        </li>
+      </ul>
+    </article>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <span class="brand-title">RSC-TAE Dashboard</span>
+          <span class="brand-sub">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN)</span>
+        </div>
+        <p class="footer-desc">
+          Plataforma de transparência e monitoramento analítico agregado dos processos de Reconhecimento de Saberes e Competências (RSC) da carreira TAE, fundamentada no Decreto nº 13.048/2026 e na Lei nº 11.091/2005.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Transparência & Conformidade</h4>
+        <ul class="footer-links">
+          <li><a href="privacidade.html">Compromisso LGPD & Transparência</a></li>
+          <li><a href="metodologia.html">Metodologia & Pipeline ETL</a></li>
+          <li><a href="dados.html">Dicionário de Dados & Downloads</a></li>
+          <li><a href="https://suap.ifrn.edu.br/api/rsc_tae/memoriais-avaliados/" target="_blank" rel="noopener noreferrer">Endpoint Público SUAP/IFRN ↗</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Projeto Aberto</h4>
+        <ul class="footer-links">
+          <li><a href="https://github.com/kelsoncm/memoriais-avaliados" target="_blank" rel="noopener noreferrer">Código no GitHub ↗</a></li>
+          <li><a href="https://github.com/kelsoncm/memoriais-avaliados/actions" target="_blank" rel="noopener noreferrer">Atualização Diária (GitHub Actions) ↗</a></li>
+          <li><a href="autor.html">Sobre o Autor (Kelson Medeiros)</a></li>
+          <li><span class="license-badge">Licença MIT • Acesso Aberto</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Observatório RSC-TAE IFRN • Dados anonimizados e agregados para fins de pesquisa, gestão e controle social.</p>
+      <div class="footer-badges">
+        <span class="badge-status online">API SUAP Sincronizada</span>
+        <span class="badge-status privacy">100% Livre de PII</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    // Toggle Mobile Navigation Menu
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('mobileNavToggle');
+      const nav = document.getElementById('siteNav');
+      if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('nav-open');
+          toggle.classList.toggle('toggle-active');
+        });
+      }
+    });
+  </script>
+  
+</body>
+</html>

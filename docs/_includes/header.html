@@ -1,0 +1,65 @@
+<header class="site-header">
+  <div class="header-container">
+    <div class="brand-container">
+      <a href="{{ '' | relative_url }}/" class="brand-logo-link">
+        <div class="brand-emblem">
+          <span class="emblem-square green"></span>
+          <span class="emblem-square red"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">RSC-TAE Dashboard</span>
+          <span class="brand-subtitle">IFRN • Observatório de Saberes & Competências</span>
+        </div>
+      </a>
+    </div>
+
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Abrir Menu de Navegação">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="{{ '' | relative_url }}/" class="nav-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/sobre' | relative_url }}" class="nav-link {% if page.url contains 'sobre' %}active{% endif %}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Sobre
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/metodologia' | relative_url }}" class="nav-link {% if page.url contains 'metodologia' %}active{% endif %}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            Metodologia
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/privacidade' | relative_url }}" class="nav-link {% if page.url contains 'privacidade' %}active{% endif %}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Privacidade & LGPD
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/dados' | relative_url }}" class="nav-link {% if page.url contains 'dados' %}active{% endif %}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            Dados & Downloads
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/autor' | relative_url }}" class="nav-link {% if page.url contains 'autor' %}active{% endif %}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            Autor
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

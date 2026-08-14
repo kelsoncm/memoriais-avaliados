@@ -1,0 +1,33 @@
+# Configuração do Jekyll para o GitHub Pages
+title: RSC-TAE Dashboard | IFRN
+description: Monitoramento público, anônimo e agregado dos processos de Reconhecimento de Saberes e Competências (RSC) dos TAEs do IFRN.
+baseurl: "" # Será preenchido automaticamente ou relativo no GitHub Pages
+url: "https://kelsoncm.github.io"
+
+# Configuração de Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins suportados nativamente pelo GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Arquivos e pastas a incluir no build
+include:
+  - data
+  - assets
+  - _includes
+  - _layouts
+
+# Exclusões
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .venv
+  - src
