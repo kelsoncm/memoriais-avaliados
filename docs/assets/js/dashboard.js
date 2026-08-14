@@ -202,8 +202,10 @@
     const campiEl = document.getElementById('kpiTotalCampi');
     if (campiEl) campiEl.textContent = totalCampi;
 
-    const deferimentoEl = document.getElementById('kpiTaxaDeferimento');
-    if (deferimentoEl) deferimentoEl.textContent = '100.0%';
+    const tempoEl = document.getElementById('kpiTempoMediano');
+    if (tempoEl && rawSummaryData.meta) {
+      tempoEl.textContent = `${rawSummaryData.meta.tempo_mediano_global_dias || 0} dias`;
+    }
 
     const cargosEl = document.getElementById('kpiTotalCargos');
     if (cargosEl) cargosEl.textContent = rawSummaryData.meta.total_cargos_atendidos;
@@ -568,16 +570,16 @@
 
     if (!thead || !tbody) return;
 
+    const totalGeral = rawSummaryData.meta?.total_geral_avaliados || 488;
+
     if (viewType === 'campus') {
       thead.innerHTML = `
         <tr>
-          <th>Campus</th>
-          <th>Tipo</th>
-          <th>Total Avaliados</th>
-          <th>Deferidos</th>
-          <th>Taxa Deferimento</th>
-          <th>Tempo Médio</th>
-          <th>Status</th>
+          <th>Campus / Unidade</th>
+          <th>Lotação</th>
+          <th>Total de Memoriais</th>
+          <th>Participação</th>
+          <th>Tempo Médio de Tramitação</th>
         </tr>
       `;
 
@@ -585,8 +587,6 @@
         campus: r.campus,
         tipo_campus: r.campus === 'Reitoria' ? 'Reitoria' : (r.campus.includes('Natal') ? 'Capital' : 'Interior'),
         total_processos: r.total,
-        total_deferidos: r.total,
-        taxa_deferimento: '100.0',
         tempo_medio_tramitacao: '45.0'
       }));
 
@@ -594,52 +594,55 @@
         rows = rows.filter(r => (r.campus || '').toLowerCase().includes(searchInput) || (r.tipo_campus || '').toLowerCase().includes(searchInput));
       }
 
-      tbody.innerHTML = rows.map(r => `
+      tbody.innerHTML = rows.map(r => {
+        const pct = ((Number(r.total_processos) / totalGeral) * 100).toFixed(1);
+        return `
         <tr>
           <td><strong>${r.campus}</strong></td>
           <td><span class="badge ${r.tipo_campus === 'Capital' ? 'green' : (r.tipo_campus === 'Reitoria' ? 'blue' : 'amber')}">${r.tipo_campus}</span></td>
-          <td>${r.total_processos}</td>
-          <td>${r.total_deferidos}</td>
-          <td><span class="kpi-tag-good">${r.taxa_deferimento}%</span></td>
+          <td><strong>${r.total_processos}</strong></td>
+          <td><span class="badge slate">${pct}%</span></td>
           <td>${r.tempo_medio_tramitacao} dias</td>
-          <td><span class="badge green">Concluído</span></td>
         </tr>
-      `).join('');
+        `;
+      }).join('');
     } else {
       thead.innerHTML = `
         <tr>
-          <th>Cargo</th>
-          <th>Classe PCCTAE</th>
-          <th>Nível Pretendido</th>
-          <th>Total Processos</th>
-          <th>Deferidos</th>
-          <th>Taxa Deferimento</th>
+          <th>Cargo PCCTAE</th>
+          <th>Classe</th>
+          <th>Nível RSC</th>
+          <th>Total de Memoriais</th>
+          <th>Participação</th>
+          <th>Tempo Médio</th>
         </tr>
       `;
 
       let rows = cargoData.length > 0 ? cargoData : (rawSummaryData.top_cargos || []).map(c => ({
         cargo: c.cargo,
         classe_cargo: c.classe_cargo,
-        nivel_pretendido: 'RSC-VI',
+        nivel_pretendido: 'RSC-III',
         total_processos: c.total,
-        total_deferidos: c.total,
-        taxa_deferimento: '100.0'
+        tempo_medio_tramitacao: '45.0'
       }));
 
       if (searchInput) {
         rows = rows.filter(r => (r.cargo || '').toLowerCase().includes(searchInput) || (r.classe_cargo || '').toLowerCase().includes(searchInput));
       }
 
-      tbody.innerHTML = rows.map(r => `
+      tbody.innerHTML = rows.map(r => {
+        const pct = ((Number(r.total_processos) / totalGeral) * 100).toFixed(1);
+        return `
         <tr>
           <td><strong>${r.cargo}</strong></td>
-          <td><span class="badge blue">${r.classe_cargo}</span></td>
-          <td><span class="badge green">${r.nivel_pretendido}</span></td>
-          <td>${r.total_processos}</td>
-          <td>${r.total_deferidos}</td>
-          <td><span class="kpi-tag-good">${r.taxa_deferimento}%</span></td>
+          <td><span class="badge blue">${r.classe_cargo || 'Classe D'}</span></td>
+          <td><span class="badge green">${r.nivel_pretendido || r.nivel_reconhecido || 'RSC'}</span></td>
+          <td><strong>${r.total_processos}</strong></td>
+          <td><span class="badge slate">${pct}%</span></td>
+          <td>${r.tempo_medio_tramitacao || '—'} dias</td>
         </tr>
-      `).join('');
+        `;
+      }).join('');
     }
   }
 

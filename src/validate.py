@@ -86,7 +86,7 @@ def validate_mathematical_coherence(
     total_fato = len(df_fato)
     total_campus = df_campus["total_processos"].sum()
     total_cargo = df_cargo["total_processos"].sum()
-    total_institucional = df_institucional["total_submetidos"].sum()
+    total_institucional = df_institucional["total_processos"].sum()
 
     logger.info(f"Totais encontrados -> Fato: {total_fato}, Campus: {total_campus}, Cargo: {total_cargo}, Institucional: {total_institucional}")
 

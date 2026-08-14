@@ -61,18 +61,17 @@ description: Descrição detalhada das etapas de coleta, processamento, agregaç
       <ol>
         <li>Ausência total de colunas ou dados pessoais identificáveis em todas as tabelas de saída.</li>
         <li>Coerência matemática ($\sum \text{processos por campus} = \sum \text{processos por cargo} = \sum \text{processos institucionais} = \text{total da tabela fato}$).</li>
-        <li>Validade das taxas percentuais ($0 \le \text{taxa} \le 100$).</li>
-        <li>Integridade de esquemas e formatos CSV/JSON.</li>
+        <li>Integridade de esquemas, tipos de dados e formatos CSV/JSON.</li>
       </ol>
 
       <h2>3. Fórmulas e Métricas Utilizadas</h2>
       <ul>
         <li>
-          <strong>Taxa de Deferimento (%):</strong>
-          $$\text{Taxa} = \left( \frac{\text{Total Deferidos}}{\text{Total Concluídos}} \right) \times 100$$
+          <strong>Participação Relativa (%):</strong>
+          $$\text{Participação} = \left( \frac{\text{Total de Memoriais do Grupo}}{\text{Total Institucional}} \right) \times 100$$
         </li>
         <li>
-          <strong>Tempo Médio de Tramitação (dias):</strong> Média aritmética simples calculada entre o início do requerimento e a data de publicação do memorial avaliado.
+          <strong>Tempo Médio de Tramitação (dias):</strong> Média aritmética calculada entre a data de submissão do requerimento e a data de publicação do memorial avaliado.
         </li>
         <li>
           <strong>Tempo Mediano de Tramitação (dias):</strong> Valor central da distribuição temporal de tramitação, imune a valores atípicos (outliers).

@@ -251,55 +251,38 @@ def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFra
     Gera tabelas agregadas aplicando a regra de privacidade (supressão para n < 5).
     """
     # 1. Agregado por Campus e Mês
-    # 1. Agregado por Campus e Mês (Completo, sem supressão de unidades)
     agg_campus = (
         df_fato.groupby(["campus", "tipo_campus", "ano", "mes"])
         .agg(
             total_processos=("id_anonimo", "count"),
-            total_deferidos=("status", lambda s: (s == "Deferido").sum()),
-            total_indeferidos=("status", lambda s: (s == "Indeferido").sum()),
             tempo_medio_tramitacao=("tempo_tramitacao_dias", "mean"),
             tempo_mediano_tramitacao=("tempo_tramitacao_dias", "median")
         )
         .reset_index()
     )
-    agg_campus["taxa_deferimento"] = (
-        agg_campus["total_deferidos"] / agg_campus["total_processos"] * 100
-    ).round(2)
     agg_campus["tempo_medio_tramitacao"] = agg_campus["tempo_medio_tramitacao"].round(1)
 
-    # 2. Agregado por Cargo e Nível (Completo por cargo e classe funcional)
+    # 2. Agregado por Cargo e Nível
     agg_cargo = (
         df_fato.groupby(["cargo", "classe_cargo", "nivel_pretendido", "nivel_reconhecido"])
         .agg(
             total_processos=("id_anonimo", "count"),
-            total_deferidos=("status", lambda s: (s == "Deferido").sum()),
-            total_indeferidos=("status", lambda s: (s == "Indeferido").sum()),
             tempo_medio_tramitacao=("tempo_tramitacao_dias", "mean")
         )
         .reset_index()
     )
-    agg_cargo["taxa_deferimento"] = (
-        agg_cargo["total_deferidos"] / agg_cargo["total_processos"] * 100
-    ).round(2)
     agg_cargo["tempo_medio_tramitacao"] = agg_cargo["tempo_medio_tramitacao"].round(1)
 
     # 3. Agregado Institucional por Mês
     agg_institucional = (
         df_fato.groupby(["ano", "mes"])
         .agg(
-            total_submetidos=("id_anonimo", "count"),
-            total_concluidos=("status", "count"),
-            total_deferidos=("status", lambda s: (s == "Deferido").sum()),
-            total_indeferidos=("status", lambda s: (s == "Indeferido").sum()),
+            total_processos=("id_anonimo", "count"),
             tempo_medio_tramitacao=("tempo_tramitacao_dias", "mean"),
             tempo_mediano_tramitacao=("tempo_tramitacao_dias", "median")
         )
         .reset_index()
     )
-    agg_institucional["taxa_deferimento"] = (
-        agg_institucional["total_deferidos"] / agg_institucional["total_concluidos"] * 100
-    ).round(2)
     agg_institucional["tempo_medio_tramitacao"] = agg_institucional["tempo_medio_tramitacao"].round(1)
 
     # 4. Sumário Estruturado em JSON para Carregamento Rápido no Dashboard
@@ -336,10 +319,10 @@ def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFra
         "meta": {
             "gerado_em": datetime.now(timezone.utc).isoformat(),
             "total_geral_avaliados": len(df_fato),
-            "taxa_global_deferimento": 100.0,
             "total_campi_atendidos": int(df_fato["campus"].nunique()),
             "total_cargos_atendidos": int(df_fato["cargo"].nunique()),
-            "tempo_mediano_global_dias": int(df_fato["tempo_tramitacao_dias"].median())
+            "tempo_mediano_global_dias": int(df_fato["tempo_tramitacao_dias"].median()) if not df_fato.empty else 0,
+            "tempo_medio_global_dias": round(float(df_fato["tempo_tramitacao_dias"].mean()), 1) if not df_fato.empty else 0.0
         },
         "distribuicao_niveis": niveis_dist,
         "distribuicao_tipo_campus": tipo_campus_dist,

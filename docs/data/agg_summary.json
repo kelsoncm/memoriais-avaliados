@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-08-14T01:58:32.601044+00:00",
+    "gerado_em": "2026-08-14T02:14:37.483494+00:00",
     "total_geral_avaliados": 488,
-    "taxa_global_deferimento": 100.0,
     "total_campi_atendidos": 23,
     "total_cargos_atendidos": 55,
-    "tempo_mediano_global_dias": 45
+    "tempo_mediano_global_dias": 45,
+    "tempo_medio_global_dias": 45.0
   },
   "distribuicao_niveis": {
     "RSC-VI": 259,
@@ -338,13 +338,9 @@
     {
       "ano": 2026,
       "mes": 8,
-      "total_submetidos": 488,
-      "total_concluidos": 488,
-      "total_deferidos": 488,
-      "total_indeferidos": 0,
+      "total_processos": 488,
       "tempo_medio_tramitacao": 45.0,
-      "tempo_mediano_tramitacao": 45.0,
-      "taxa_deferimento": 100.0
+      "tempo_mediano_tramitacao": 45.0
     }
   ]
 }

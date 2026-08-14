@@ -241,37 +241,32 @@
           <tr>
             <td><code>campus</code></td>
             <td>String</td>
-            <td>Nome do Campus ou grupo consolidado (<em>Outros Campi agrupados por n &lt; 5</em>).</td>
+            <td>Nome oficial do Campus ou Reitoria.</td>
           </tr>
           <tr>
             <td><code>tipo_campus</code></td>
             <td>String</td>
-            <td>Classificação territorial da unidade.</td>
+            <td>Classificação territorial da unidade (Capital, Interior, Reitoria).</td>
           </tr>
           <tr>
             <td><code>ano</code> / <code>mes</code></td>
             <td>Integer</td>
-            <td>Período temporal da agregação.</td>
+            <td>Período temporal de publicação do memorial avaliado.</td>
           </tr>
           <tr>
             <td><code>total_processos</code></td>
             <td>Integer</td>
-            <td>Número total de processos avaliados no grupo ($n \ge 5$).</td>
-          </tr>
-          <tr>
-            <td><code>total_deferidos</code></td>
-            <td>Integer</td>
-            <td>Total de processos aprovados com êxito.</td>
-          </tr>
-          <tr>
-            <td><code>taxa_deferimento</code></td>
-            <td>Float (%)</td>
-            <td>Percentual de aprovação no campus/período.</td>
+            <td>Número total de processos de memoriais avaliados.</td>
           </tr>
           <tr>
             <td><code>tempo_medio_tramitacao</code></td>
             <td>Float</td>
-            <td>Média de dias de tramitação.</td>
+            <td>Média aritmética de dias de tramitação no grupo.</td>
+          </tr>
+          <tr>
+            <td><code>tempo_mediano_tramitacao</code></td>
+            <td>Float</td>
+            <td>Mediana de dias de tramitação no grupo.</td>
           </tr>
         </tbody>
       </table>
@@ -289,27 +284,32 @@
           <tr>
             <td><code>cargo</code></td>
             <td>String</td>
-            <td>Cargo no PCCTAE.</td>
+            <td>Denominação do cargo na carreira PCCTAE.</td>
           </tr>
           <tr>
             <td><code>classe_cargo</code></td>
             <td>String</td>
-            <td>Classe funcional no plano de carreira (C, D, E).</td>
+            <td>Classe funcional no plano de carreira (Classe C, D ou E).</td>
           </tr>
           <tr>
             <td><code>nivel_pretendido</code></td>
             <td>String</td>
-            <td>Nível de RSC pretendido pelo servidor.</td>
+            <td>Nível de RSC pleiteado no requerimento.</td>
+          </tr>
+          <tr>
+            <td><code>nivel_reconhecido</code></td>
+            <td>String</td>
+            <td>Nível de RSC outorgado e publicado.</td>
           </tr>
           <tr>
             <td><code>total_processos</code></td>
             <td>Integer</td>
-            <td>Total de memoriais submetidos e avaliados.</td>
+            <td>Total de memoriais avaliados para o cargo/nível.</td>
           </tr>
           <tr>
-            <td><code>taxa_deferimento</code></td>
-            <td>Float (%)</td>
-            <td>Percentual de concessão.</td>
+            <td><code>tempo_medio_tramitacao</code></td>
+            <td>Float</td>
+            <td>Média de dias de tramitação.</td>
           </tr>
         </tbody>
       </table>
