@@ -234,9 +234,24 @@
             <td>Classificação territorial da unidade (Capital, Interior, Reitoria).</td>
           </tr>
           <tr>
+            <td><code>total_ativos</code></td>
+            <td>Integer</td>
+            <td>Total de servidores técnico-administrativos ativos lotados na unidade.</td>
+          </tr>
+          <tr>
             <td><code>total_processos</code></td>
             <td>Integer</td>
             <td>Número total de processos de memoriais avaliados no campus.</td>
+          </tr>
+          <tr>
+            <td><code>taxa_adesao_pct</code></td>
+            <td>Float</td>
+            <td>Percentual de adesão: (total_processos / total_ativos) * 100.</td>
+          </tr>
+          <tr>
+            <td><code>participacao_pct</code></td>
+            <td>Float</td>
+            <td>Participação percentual do campus no total institucional de memoriais.</td>
           </tr>
         </tbody>
       </table>
@@ -275,6 +290,34 @@
             <td><code>total_processos</code></td>
             <td>Integer</td>
             <td>Total de memoriais avaliados para o cargo/nível.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>D. <code>quadro_tae_ativos.csv</code> (Referência Baseline)</h3>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Coluna</th>
+            <th>Tipo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>id_anonimo</code></td>
+            <td>Integer</td>
+            <td>Identificador anônimo sequencial do servidor ativo.</td>
+          </tr>
+          <tr>
+            <td><code>cargo</code></td>
+            <td>String</td>
+            <td>Denominação e código do cargo extraído do SUAP.</td>
+          </tr>
+          <tr>
+            <td><code>campus</code></td>
+            <td>String</td>
+            <td>Sigla da unidade/campus de lotação.</td>
           </tr>
         </tbody>
       </table>

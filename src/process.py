@@ -21,6 +21,7 @@ import argparse
 from datetime import datetime, timezone
 from typing import Dict, Tuple, List, Optional
 import pandas as pd
+import numpy as np
 
 logging.basicConfig(
     level=logging.INFO,
@@ -71,12 +72,13 @@ CAMPUS_MAP: Dict[str, Tuple[str, str]] = {
     "NC": ("Nova Cruz", "Interior"),
     "PAAS": ("Parelhas", "Interior"),
     "PAR": ("Parelhas", "Interior"),
+    "PARN": ("Parnamirim", "Interior"),
     "PF": ("Pau dos Ferros", "Interior"),
     "SC": ("Santa Cruz", "Interior"),
     "SGA": ("São Gonçalo do Amarante", "Interior"),
     "SPP": ("São Paulo do Potengi", "Interior"),
-    "PARN": ("Parnamirim", "Interior"),
     "TOU": ("Touros", "Interior"),
+    "JUC": ("Jucurutu", "Interior"),
 }
 
 
@@ -89,8 +91,8 @@ def parse_lotacao(lotacao_raw: Optional[str]) -> Tuple[str, str]:
         return ("Não Informado", "Outro")
 
     lotacao_clean = lotacao_raw.strip().upper()
-    if not lotacao_clean:
-        return ("Não Informado", "Outro")
+    if not lotacao_clean or lotacao_clean == "-":
+        return ("Outro", "Outro")
 
     # Extrai sufixo após última barra, ex: COTIC/CA -> CA, DIAD/PAAS -> PAAS
     suffix = lotacao_clean.split("/")[-1].strip() if "/" in lotacao_clean else lotacao_clean
@@ -116,7 +118,6 @@ def clean_cargo(cargo_raw: Optional[str]) -> Tuple[str, str]:
     cargo_str = cargo_raw.strip()
 
     # Detecta código PCCTAE se presente
-    # Exemplo: 701405 (Classe C), 701200 (Classe D), 701001 (Classe E), 647001 (Médico - E)
     classe = "Classe D"
     if "7014" in cargo_str:
         classe = "Classe C"
@@ -138,38 +139,52 @@ def clean_cargo(cargo_raw: Optional[str]) -> Tuple[str, str]:
         "Tecnico ": "Técnico ",
         "Tecnologia Da Informacao": "Tecnologia da Informação",
         "Tec Da Informacao": "Tecnologia da Informação",
-        "Assuntos Educacionais": "Assuntos Educacionais",
-        "Administracao": "Administração",
-        "Enfermagem": "Enfermagem",
-        "Nutricionista-Habilitacao": "Nutricionista",
-        "Psicologo-Area": "Psicólogo",
+        "De Laboratorio": "de Laboratório",
+        "Laboratorio": "Laboratório",
+        "Em Administracao": "em Administração",
+        "Em Contabilidade": "em Contabilidade",
+        "Em Assuntos Educacionais": "em Assuntos Educacionais",
+        "Em Enfermagem": "em Enfermagem",
+        "Em Agropecuaria": "em Agropecuária",
+        "Em Edificacoes": "em Edificações",
+        "Em Eletrotecnica": "em Eletrotécnica",
+        "Em Mecanica": "em Mecânica",
+        "Em Quimica": "em Química",
+        "Em Audiovisual": "em Audiovisual",
+        "De Aluno": "de Aluno",
+        "De Enfermagem": "de Enfermagem",
+        "De Edificacoes": "de Edificações",
+        "Bibliotecario-Documentalista": "Bibliotecário-Documentalista",
         "Pedagogo-Area": "Pedagogo",
+        "Enfermeiro-Area": "Enfermeiro",
         "Engenheiro-Area": "Engenheiro",
         "Medico - Pcctae": "Médico",
+        "Psicologo-Area": "Psicólogo",
+        "Economista": "Economista",
+        "Nutricionista-Habilitacao": "Nutricionista",
         "Odontologo": "Odontólogo",
-        "Bibliotecario-Documentalista": "Bibliotecário-Documentalista",
-        "Tecnologo-Formacao": "Tecnólogo",
+        "Auditor": "Auditor",
+        "Contador": "Contador",
+        "Administrador": "Administrador",
+        "Assistente Social": "Assistente Social",
         "Tradutor Interprete De Linguagem Sinais": "Tradutor e Intérprete de Libras",
-        "De ": "de ",
-        "Em ": "em ",
-        "Da ": "da ",
-        "Do ": "do ",
-        "E ": "e ",
+        "Tecnologo-Formacao": "Tecnólogo",
+        "Tecnologo Formacao": "Tecnólogo",
+        "Tecnologo": "Tecnólogo",
     }
     for old, new in substitutions.items():
-        cleaned = cleaned.replace(old, new)
+        if old.lower() in cleaned.lower():
+            cleaned = re.sub(re.escape(old), new, cleaned, flags=re.IGNORECASE)
 
-    return (cleaned, classe)
+    return (cleaned.strip(), classe)
 
 
 def clean_nivel_rsc(nivel_raw: Optional[str]) -> str:
-    """Padroniza o nível RSC (RSC-I a RSC-VI)."""
+    """Padroniza a denominação do nível RSC (RSC-I, RSC-II, RSC-III, etc.)."""
     if not nivel_raw or not isinstance(nivel_raw, str):
-        return "Não Informado"
+        return "RSC-III"
+
     nivel = nivel_raw.strip().upper()
-    if nivel in ["RSC-I", "RSC-II", "RSC-III", "RSC-IV", "RSC-V", "RSC-VI"]:
-        return nivel
-    # Tratamentos de variantes como 'RSC-PCCTAE-VI' ou 'RSC VI'
     if "VI" in nivel:
         return "RSC-VI"
     if "V" in nivel:
@@ -192,15 +207,12 @@ def anonymize_records(records: List[dict], collection_date: str) -> pd.DataFrame
     Gera um hash unidirecional com salt aleatório dinâmico a cada processamento.
     """
     rows = []
-    # Salt aleatório e efêmero (256 bits) gerado dinamicamente a cada execução
-    # para impedir ataques de dicionário, rainbow tables e correlação reversa
     import secrets
     dynamic_salt = secrets.token_hex(32)
     logger.info(f"Salt criptográfico dinâmico gerado para esta execução: {dynamic_salt[:8]}... (efêmero)")
 
     for item in records:
         original_id = str(item.get("id", ""))
-        # Hash criptográfico unidirecional com salt aleatório efêmero
         hash_input = f"{dynamic_salt}:{original_id}".encode("utf-8")
         id_anonimo = hashlib.sha256(hash_input).hexdigest()[:16]
 
@@ -211,7 +223,6 @@ def anonymize_records(records: List[dict], collection_date: str) -> pd.DataFrame
         cargo_nome, classe_cargo = clean_cargo(ident.get("cargo"))
         nivel_pretendido = clean_nivel_rsc(req.get("nivel_rsc_pretendido"))
         
-        # Como o endpoint lista memoriais avaliados pelo comitê, o status é 'Deferido / Avaliado'
         status = "Deferido"
         nivel_reconhecido = nivel_pretendido
 
@@ -230,17 +241,67 @@ def anonymize_records(records: List[dict], collection_date: str) -> pd.DataFrame
     return df
 
 
-def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict]:
+def load_quadro_ativos(ativos_path: str) -> pd.DataFrame:
     """
-    Gera tabelas agregadas por campus, cargo e nível.
+    Carrega o quadro de técnicos administrativos ativos do IFRN.
+    Padroniza campus e cargos.
     """
+    if not os.path.isfile(ativos_path):
+        logger.warning(f"Arquivo de servidores ativos não encontrado em: {ativos_path}")
+        return pd.DataFrame()
+
+    logger.info(f"Carregando quadro de TAEs ativos de: {ativos_path}")
+    df_raw = pd.read_csv(ativos_path)
+    rows = []
+    for _, r in df_raw.iterrows():
+        campus, tipo_campus = parse_lotacao(str(r.get("campus", "")))
+        cargo_nome, classe_cargo = clean_cargo(str(r.get("cargo", "")))
+        rows.append({
+            "campus": campus,
+            "tipo_campus": tipo_campus,
+            "cargo": cargo_nome,
+            "classe_cargo": classe_cargo
+        })
+    df_ativos = pd.DataFrame(rows)
+    logger.info(f"Quadro de ativos carregado: {len(df_ativos)} servidores.")
+    return df_ativos
+
+
+def generate_aggregates(df_fato: pd.DataFrame, df_ativos: Optional[pd.DataFrame] = None) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict]:
+    """
+    Gera tabelas agregadas e cruzamentos com o quadro de TAEs ativos.
+    """
+    total_geral_avaliados = len(df_fato)
+    has_ativos = df_ativos is not None and not df_ativos.empty
+    total_tae_ativos = len(df_ativos) if has_ativos else 1360
+
     # 1. Agregado por Campus
-    agg_campus = (
+    campus_aval = (
         df_fato.groupby(["campus", "tipo_campus"])
         .agg(total_processos=("id_anonimo", "count"))
         .reset_index()
-        .sort_values(by="total_processos", ascending=False)
     )
+
+    if has_ativos:
+        campus_ativos = (
+            df_ativos.groupby(["campus", "tipo_campus"])
+            .size()
+            .reset_index(name="total_ativos")
+        )
+        agg_campus = pd.merge(campus_ativos, campus_aval, on=["campus", "tipo_campus"], how="outer").fillna(0)
+        agg_campus["total_ativos"] = agg_campus["total_ativos"].astype(int)
+        agg_campus["total_processos"] = agg_campus["total_processos"].astype(int)
+        agg_campus["taxa_adesao_pct"] = np.where(
+            agg_campus["total_ativos"] > 0,
+            (agg_campus["total_processos"] / agg_campus["total_ativos"] * 100).round(1),
+            0.0
+        )
+        agg_campus["participacao_pct"] = (agg_campus["total_processos"] / total_geral_avaliados * 100).round(1)
+    else:
+        agg_campus = campus_aval
+        agg_campus["participacao_pct"] = (agg_campus["total_processos"] / total_geral_avaliados * 100).round(1)
+
+    agg_campus = agg_campus.sort_values(by="total_processos", ascending=False)
 
     # 2. Agregado por Cargo e Nível
     agg_cargo = (
@@ -250,57 +311,85 @@ def generate_aggregates(df_fato: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFra
         .sort_values(by="total_processos", ascending=False)
     )
 
+    # Totais por cargo consolidados com ativos
+    top_cargos_list = []
+    if has_ativos:
+        c_ativos = df_ativos.groupby(["cargo", "classe_cargo"]).size().rename("total_ativos")
+        c_aval = df_fato.groupby(["cargo", "classe_cargo"]).size().rename("total_avaliados")
+        c_merged = pd.concat([c_ativos, c_aval], axis=1).fillna(0).astype(int).reset_index()
+        c_merged["taxa_adesao_pct"] = np.where(
+            c_merged["total_ativos"] > 0,
+            (c_merged["total_avaliados"] / c_merged["total_ativos"] * 100).round(1),
+            0.0
+        )
+        c_merged["participacao_pct"] = (c_merged["total_avaliados"] / total_geral_avaliados * 100).round(1)
+        c_merged = c_merged.sort_values(by="total_avaliados", ascending=False)
+        top_cargos_list = c_merged.to_dict(orient="records")
+    else:
+        top_cargos_df = (
+            df_fato.groupby(["cargo", "classe_cargo"])
+            .agg(total=("id_anonimo", "count"))
+            .reset_index()
+            .sort_values(by="total", ascending=False)
+        )
+        top_cargos_list = top_cargos_df.to_dict(orient="records")
+
     # 3. Agregado Institucional Consolidado
+    taxa_cobertura_global = round((total_geral_avaliados / total_tae_ativos * 100), 1) if total_tae_ativos > 0 else 0.0
+    saldo_potencial = max(0, total_tae_ativos - total_geral_avaliados)
+
     agg_institucional = pd.DataFrame([{
-        "total_processos": len(df_fato),
+        "total_processos": total_geral_avaliados,
+        "total_tae_ativos": total_tae_ativos,
+        "taxa_cobertura_global_pct": taxa_cobertura_global,
+        "saldo_potencial_restante": saldo_potencial,
         "total_campi": int(df_fato["campus"].nunique()),
         "total_cargos": int(df_fato["cargo"].nunique())
     }])
 
-    # 4. Sumário Estruturado em JSON para Carregamento Rápido no Dashboard
-    # Contagens por Nível
-    niveis_dist = df_fato["nivel_pretendido"].value_counts().to_dict()
-    # Contagens por Tipo de Campus
-    tipo_campus_dist = df_fato["tipo_campus"].value_counts().to_dict()
-    # Contagens por Classe de Cargo
-    classe_dist = df_fato["classe_cargo"].value_counts().to_dict()
-    # Campus ranking completo
-    campus_ranking_df = (
-        df_fato.groupby("campus")
-        .agg(total=("id_anonimo", "count"))
-        .reset_index()
-        .sort_values(by="total", ascending=False)
-    )
-    campus_ranking = campus_ranking_df.to_dict(orient="records")
+    # 4. Adesão por Classe PCCTAE
+    adesao_classes = {}
+    for cl in ["Classe C", "Classe D", "Classe E"]:
+        ativos_cl = int((df_ativos["classe_cargo"] == cl).sum()) if has_ativos else 0
+        aval_cl = int((df_fato["classe_cargo"] == cl).sum())
+        taxa_cl = round((aval_cl / ativos_cl * 100), 1) if ativos_cl > 0 else 0.0
+        adesao_classes[cl] = {
+            "total_ativos": ativos_cl,
+            "total_avaliados": aval_cl,
+            "taxa_adesao_pct": taxa_cl
+        }
 
-    # Níveis por Campus (para gráfico empilhado)
+    # 5. Sumário Estruturado em JSON
+    niveis_dist = df_fato["nivel_pretendido"].value_counts().to_dict()
+    tipo_campus_dist = df_fato["tipo_campus"].value_counts().to_dict()
+    classe_dist = df_fato["classe_cargo"].value_counts().to_dict()
+    
+    campus_ranking = agg_campus.to_dict(orient="records")
+
     campus_nivel_crosstab = (
         pd.crosstab(df_fato["campus"], df_fato["nivel_pretendido"])
         .reset_index()
         .to_dict(orient="records")
     )
-    # Todos os Cargos com contagens
-    top_cargos_df = (
-        df_fato.groupby(["cargo", "classe_cargo"])
-        .agg(total=("id_anonimo", "count"))
-        .reset_index()
-        .sort_values(by="total", ascending=False)
-    )
-    top_cargos = top_cargos_df.to_dict(orient="records")
 
     summary_json = {
         "meta": {
             "gerado_em": datetime.now(timezone.utc).isoformat(),
-            "total_geral_avaliados": len(df_fato),
+            "total_geral_avaliados": total_geral_avaliados,
+            "total_tae_ativos": total_tae_ativos,
+            "taxa_cobertura_global_pct": taxa_cobertura_global,
+            "saldo_potencial_restante": saldo_potencial,
             "total_campi_atendidos": int(df_fato["campus"].nunique()),
-            "total_cargos_atendidos": int(df_fato["cargo"].nunique())
+            "total_cargos_atendidos": int(df_fato["cargo"].nunique()),
+            "total_cargos_existentes": int(df_ativos["cargo"].nunique()) if has_ativos else int(df_fato["cargo"].nunique())
         },
+        "adesao_classes": adesao_classes,
         "distribuicao_niveis": niveis_dist,
         "distribuicao_tipo_campus": tipo_campus_dist,
         "distribuicao_classes": classe_dist,
         "ranking_campi": campus_ranking,
         "campus_niveis": campus_nivel_crosstab,
-        "top_cargos": top_cargos[:15],
+        "top_cargos": top_cargos_list,
         "serie_institucional": agg_institucional.to_dict(orient="records")
     }
 
@@ -364,6 +453,11 @@ def main():
         default="docs/data",
         help="Diretório de saída para os datasets (padrão: docs/data)"
     )
+    parser.add_argument(
+        "--ativos",
+        default="data/quadro_tae_ativos.csv",
+        help="Caminho do CSV com quadro de TAEs ativos (padrão: data/quadro_tae_ativos.csv)"
+    )
 
     args = parser.parse_args()
 
@@ -390,8 +484,10 @@ def main():
     df_fato = anonymize_records(records, collected_at)
     logger.info(f"Tabela fato anonimizada gerada com {len(df_fato)} linhas.")
 
-    logger.info("Gerando tabelas agregadas e aplicando regras de privacidade (n >= 5)...")
-    agg_campus, agg_cargo, agg_institucional, summary_json = generate_aggregates(df_fato)
+    df_ativos = load_quadro_ativos(args.ativos)
+
+    logger.info("Gerando tabelas agregadas e cruzamentos com quadro de TAEs ativos...")
+    agg_campus, agg_cargo, agg_institucional, summary_json = generate_aggregates(df_fato, df_ativos)
 
     save_processed_files(df_fato, agg_campus, agg_cargo, agg_institucional, summary_json, args.output_dir)
 

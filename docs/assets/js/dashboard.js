@@ -193,23 +193,37 @@
     }
 
     // Dynamic KPI Calculation
-    const totalAvaliados = items.reduce((acc, curr) => acc + curr.total, 0);
+    const totalAvaliados = items.reduce((acc, curr) => acc + (curr.total || curr.total_processos || 0), 0);
     const totalCampi = items.length;
 
     const totalEl = document.getElementById('kpiTotalAvaliados');
     if (totalEl) totalEl.textContent = totalAvaliados.toLocaleString('pt-BR');
 
+    const ativosEl = document.getElementById('kpiTotalAtivos');
+    if (ativosEl && rawSummaryData.meta) {
+      ativosEl.textContent = (rawSummaryData.meta.total_tae_ativos || 1360).toLocaleString('pt-BR');
+    }
+
+    const cobEl = document.getElementById('kpiTaxaCobertura');
+    if (cobEl && rawSummaryData.meta) {
+      cobEl.textContent = `${rawSummaryData.meta.taxa_cobertura_global_pct || 35.9}%`;
+    }
+
     const campiEl = document.getElementById('kpiTotalCampi');
     if (campiEl) campiEl.textContent = totalCampi;
 
     const cargosEl = document.getElementById('kpiTotalCargos');
-    if (cargosEl) cargosEl.textContent = rawSummaryData.meta.total_cargos_atendidos;
+    if (cargosEl && rawSummaryData.meta) {
+      const atend = rawSummaryData.meta.total_cargos_atendidos || 55;
+      const exist = rawSummaryData.meta.total_cargos_existentes || 92;
+      cargosEl.textContent = `${atend} / ${exist}`;
+    }
 
     const topNivelEl = document.getElementById('kpiTopNivel');
     if (topNivelEl && rawSummaryData.distribuicao_niveis) {
       const topPair = Object.entries(rawSummaryData.distribuicao_niveis).sort((a, b) => b[1] - a[1])[0];
       if (topPair) {
-        const pct = ((topPair[1] / rawSummaryData.meta.total_geral_avaliados) * 100).toFixed(1);
+        const pct = ((topPair[1] / (rawSummaryData.meta?.total_geral_avaliados || 488)) * 100).toFixed(1);
         topNivelEl.textContent = `${topPair[0]} (${pct}%)`;
       }
     }
@@ -467,14 +481,14 @@
 
     const top10 = rawSummaryData.top_cargos.slice(0, 10);
     const labels = top10.map(i => i.cargo);
-    const values = top10.map(i => i.total);
+    const values = top10.map(i => i.total_avaliados || i.total || 0);
 
     chartInstances.topCargos = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: labels,
         datasets: [{
-          label: 'Total de Processos',
+          label: 'Total de Memoriais',
           data: values,
           backgroundColor: '#0284c7',
           borderRadius: 6
@@ -488,7 +502,13 @@
           legend: { display: false },
           tooltip: {
             callbacks: {
-              label: (ctx) => ` ${ctx.raw} processos`
+              label: (ctx) => {
+                const item = top10[ctx.dataIndex];
+                if (item && item.total_ativos) {
+                  return ` ${item.total_avaliados} avaliados de ${item.total_ativos} ativos (${item.taxa_adesao_pct}% adesão)`;
+                }
+                return ` ${ctx.raw} memoriais`;
+              }
             }
           }
         },
@@ -542,10 +562,15 @@
           tooltip: {
             callbacks: {
               label: function (ctx) {
+                const cl = ctx.label;
+                const adesao = rawSummaryData.adesao_classes?.[cl];
+                if (adesao) {
+                  return ` ${cl}: ${adesao.total_avaliados} avaliados / ${adesao.total_ativos} ativos (${adesao.taxa_adesao_pct}% adesão)`;
+                }
                 const val = ctx.raw;
                 const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
                 const pct = ((val / total) * 100).toFixed(1);
-                return ` ${ctx.label}: ${val} servidores (${pct}%)`;
+                return ` ${cl}: ${val} memoriais (${pct}%)`;
               }
             }
           }
@@ -572,29 +597,34 @@
         <tr>
           <th>Campus / Unidade</th>
           <th>Lotação</th>
-          <th>Total de Memoriais</th>
-          <th>Participação (% do Total)</th>
+          <th>TAEs Ativos</th>
+          <th>Memoriais Avaliados</th>
+          <th>Taxa de Adesão</th>
+          <th>Participação (% Total)</th>
         </tr>
       `;
 
-      let rows = campusData.length > 0 ? campusData : (rawSummaryData.ranking_campi || []).map(r => ({
-        campus: r.campus,
-        tipo_campus: r.campus === 'Reitoria' ? 'Reitoria' : (r.campus.includes('Natal') ? 'Capital' : 'Interior'),
-        total_processos: r.total || r.total_processos
-      }));
+      let rows = (rawSummaryData.ranking_campi && rawSummaryData.ranking_campi.length > 0) ? rawSummaryData.ranking_campi : campusData;
 
       if (searchInput) {
         rows = rows.filter(r => (r.campus || '').toLowerCase().includes(searchInput) || (r.tipo_campus || '').toLowerCase().includes(searchInput));
       }
 
       tbody.innerHTML = rows.map(r => {
-        const pct = ((Number(r.total_processos) / totalGeral) * 100).toFixed(1);
+        const totalProc = r.total_processos !== undefined ? r.total_processos : (r.total || 0);
+        const ativos = r.total_ativos || '—';
+        const taxa = r.taxa_adesao_pct !== undefined ? `${r.taxa_adesao_pct}%` : '—';
+        const part = r.participacao_pct !== undefined ? `${r.participacao_pct}%` : `${((totalProc / totalGeral) * 100).toFixed(1)}%`;
+        const badgeColor = Number(r.taxa_adesao_pct) >= 50 ? 'green' : (Number(r.taxa_adesao_pct) >= 30 ? 'blue' : 'amber');
+
         return `
         <tr>
           <td><strong>${r.campus}</strong></td>
           <td><span class="badge ${r.tipo_campus === 'Capital' ? 'green' : (r.tipo_campus === 'Reitoria' ? 'blue' : 'amber')}">${r.tipo_campus}</span></td>
-          <td><strong>${r.total_processos}</strong></td>
-          <td><span class="badge slate">${pct}%</span></td>
+          <td>${ativos}</td>
+          <td><strong>${totalProc}</strong></td>
+          <td><span class="badge ${badgeColor}">${taxa}</span></td>
+          <td><span class="badge slate">${part}</span></td>
         </tr>
         `;
       }).join('');
@@ -603,32 +633,34 @@
         <tr>
           <th>Cargo PCCTAE</th>
           <th>Classe</th>
-          <th>Nível RSC</th>
-          <th>Total de Memoriais</th>
-          <th>Participação (% do Total)</th>
+          <th>TAEs Ativos</th>
+          <th>Memoriais Avaliados</th>
+          <th>Taxa de Adesão</th>
+          <th>Participação (% Total)</th>
         </tr>
       `;
 
-      let rows = cargoData.length > 0 ? cargoData : (rawSummaryData.top_cargos || []).map(c => ({
-        cargo: c.cargo,
-        classe_cargo: c.classe_cargo,
-        nivel_pretendido: 'RSC-III',
-        total_processos: c.total || c.total_processos
-      }));
+      let rows = (rawSummaryData.top_cargos && rawSummaryData.top_cargos.length > 0) ? rawSummaryData.top_cargos : cargoData;
 
       if (searchInput) {
         rows = rows.filter(r => (r.cargo || '').toLowerCase().includes(searchInput) || (r.classe_cargo || '').toLowerCase().includes(searchInput));
       }
 
       tbody.innerHTML = rows.map(r => {
-        const pct = ((Number(r.total_processos) / totalGeral) * 100).toFixed(1);
+        const totalAval = r.total_avaliados !== undefined ? r.total_avaliados : (r.total || r.total_processos || 0);
+        const ativos = r.total_ativos || '—';
+        const taxa = r.taxa_adesao_pct !== undefined ? `${r.taxa_adesao_pct}%` : '—';
+        const part = r.participacao_pct !== undefined ? `${r.participacao_pct}%` : `${((totalAval / totalGeral) * 100).toFixed(1)}%`;
+        const badgeColor = Number(r.taxa_adesao_pct) >= 50 ? 'green' : (Number(r.taxa_adesao_pct) >= 30 ? 'blue' : 'amber');
+
         return `
         <tr>
           <td><strong>${r.cargo}</strong></td>
           <td><span class="badge blue">${r.classe_cargo || 'Classe D'}</span></td>
-          <td><span class="badge green">${r.nivel_pretendido || r.nivel_reconhecido || 'RSC'}</span></td>
-          <td><strong>${r.total_processos}</strong></td>
-          <td><span class="badge slate">${pct}%</span></td>
+          <td>${ativos}</td>
+          <td><strong>${totalAval}</strong></td>
+          <td><span class="badge ${badgeColor}">${taxa}</span></td>
+          <td><span class="badge slate">${part}</span></td>
         </tr>
         `;
       }).join('');

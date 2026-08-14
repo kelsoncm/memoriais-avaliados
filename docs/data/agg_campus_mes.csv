@@ -1,24 +1,27 @@
-campus,tipo_campus,total_processos
-Reitoria,Reitoria,90
-Natal - Central,Capital,53
-Parelhas,Interior,29
-São Gonçalo do Amarante,Interior,24
-Apodi,Interior,24
-Mossoró,Interior,23
-Natal - Zona Norte,Capital,23
-Natal - Cidade Alta,Capital,22
-Pau dos Ferros,Interior,21
-Santa Cruz,Interior,20
-Caicó,Interior,19
-Ceará-Mirim,Interior,19
-João Câmara,Interior,18
-Canguaretama,Interior,17
-Currais Novos,Interior,16
-Ipanguaçu,Interior,16
-São Paulo do Potengi,Interior,15
-Nova Cruz,Interior,15
-Natal - Zona Leste,Capital,10
-Macau,Interior,6
-Lajes,Interior,5
-Centro de Tecnologias do Gás e Energia,Capital,2
-Não Informado,Outro,1
+campus,tipo_campus,total_ativos,total_processos,taxa_adesao_pct,participacao_pct
+Reitoria,Reitoria,330,90,27.3,18.4
+Natal - Central,Capital,194,53,27.3,10.9
+Parelhas,Interior,74,29,39.2,5.9
+São Gonçalo do Amarante,Interior,40,24,60.0,4.9
+Apodi,Interior,47,24,51.1,4.9
+Natal - Zona Norte,Capital,41,23,56.1,4.7
+Mossoró,Interior,64,23,35.9,4.7
+Natal - Cidade Alta,Capital,48,22,45.8,4.5
+Pau dos Ferros,Interior,44,21,47.7,4.3
+Santa Cruz,Interior,39,20,51.3,4.1
+Caicó,Interior,42,19,45.2,3.9
+Ceará-Mirim,Interior,35,19,54.3,3.9
+João Câmara,Interior,39,18,46.2,3.7
+Canguaretama,Interior,34,17,50.0,3.5
+Currais Novos,Interior,46,16,34.8,3.3
+Ipanguaçu,Interior,45,16,35.6,3.3
+Nova Cruz,Interior,38,15,39.5,3.1
+São Paulo do Potengi,Interior,38,15,39.5,3.1
+Natal - Zona Leste,Capital,27,10,37.0,2.0
+Macau,Interior,38,6,15.8,1.2
+Lajes,Interior,21,5,23.8,1.0
+Centro de Tecnologias do Gás e Energia,Capital,3,2,66.7,0.4
+Não Informado,Outro,0,1,0.0,0.2
+Jucurutu,Interior,7,0,0.0,0.0
+Outro,Outro,8,0,0.0,0.0
+Outro (NAN),Outro,18,0,0.0,0.0
