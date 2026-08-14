@@ -357,16 +357,22 @@
     const ctx = document.getElementById('chartCampusRanking')?.getContext('2d');
     if (!ctx) return;
 
-    const topItems = items.slice(0, 15);
+    const sortedItems = [...items].sort((a, b) => {
+      const valA = a.total_processos !== undefined ? a.total_processos : (a.total || 0);
+      const valB = b.total_processos !== undefined ? b.total_processos : (b.total || 0);
+      return valB - valA;
+    });
+
+    const topItems = sortedItems.slice(0, 15);
     const labels = topItems.map(i => i.campus);
-    const values = topItems.map(i => i.total);
+    const values = topItems.map(i => (i.total_processos !== undefined ? i.total_processos : (i.total || 0)));
 
     chartInstances.campusRanking = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: labels,
         datasets: [{
-          label: 'Total de Processos',
+          label: 'Total de Memoriais',
           data: values,
           backgroundColor: labels.map((l, idx) => idx === 0 ? COLORS.greenPrimary : 'rgba(0, 102, 51, 0.75)'),
           borderRadius: 6,
@@ -381,7 +387,13 @@
           legend: { display: false },
           tooltip: {
             callbacks: {
-              label: (ctx) => ` ${ctx.raw} memoriais avaliados`
+              label: (ctx) => {
+                const item = topItems[ctx.dataIndex];
+                if (item && item.total_ativos) {
+                  return ` ${ctx.raw} avaliados / ${item.total_ativos} ativos (${item.taxa_adesao_pct}% adesão)`;
+                }
+                return ` ${ctx.raw} memoriais avaliados`;
+              }
             }
           }
         },
@@ -407,7 +419,13 @@
     const ctx = document.getElementById('chartCampusNivel')?.getContext('2d');
     if (!ctx || !rawSummaryData.campus_niveis) return;
 
-    const targetCampi = items.slice(0, 10).map(i => i.campus);
+    const sortedItems = [...items].sort((a, b) => {
+      const valA = a.total_processos !== undefined ? a.total_processos : (a.total || 0);
+      const valB = b.total_processos !== undefined ? b.total_processos : (b.total || 0);
+      return valB - valA;
+    });
+
+    const targetCampi = sortedItems.slice(0, 10).map(i => i.campus);
     const rawCross = rawSummaryData.campus_niveis.filter(cn => targetCampi.includes(cn.campus));
 
     const datasetVI = [];
@@ -580,8 +598,14 @@
     });
   }
 
+  // Table Sort State
+  const tableSortState = {
+    campus: { col: 'total_processos', dir: 'desc' },
+    cargo: { col: 'total_avaliados', dir: 'desc' }
+  };
+
   /**
-   * Render Interactive Data Table
+   * Render Interactive Data Table with Column Sorting
    */
   function renderDataTable(viewType) {
     const thead = document.getElementById('tableThead');
@@ -591,24 +615,68 @@
     if (!thead || !tbody) return;
 
     const totalGeral = rawSummaryData.meta?.total_geral_avaliados || 488;
+    const currentSort = tableSortState[viewType];
 
     if (viewType === 'campus') {
-      thead.innerHTML = `
-        <tr>
-          <th>Campus / Unidade</th>
-          <th>Lotação</th>
-          <th>TAEs Ativos</th>
-          <th>Memoriais Avaliados</th>
-          <th>Taxa de Adesão</th>
-          <th>Participação (% Total)</th>
-        </tr>
-      `;
+      const cols = [
+        { key: 'campus', label: 'Campus / Unidade', type: 'str' },
+        { key: 'tipo_campus', label: 'Lotação', type: 'str' },
+        { key: 'total_ativos', label: 'TAEs Ativos', type: 'num' },
+        { key: 'total_processos', label: 'Memoriais Avaliados', type: 'num' },
+        { key: 'taxa_adesao_pct', label: 'Taxa de Adesão', type: 'num' },
+        { key: 'participacao_pct', label: 'Participação (% Total)', type: 'num' }
+      ];
 
-      let rows = (rawSummaryData.ranking_campi && rawSummaryData.ranking_campi.length > 0) ? rawSummaryData.ranking_campi : campusData;
+      thead.innerHTML = `<tr>${cols.map(c => {
+        const isSorted = currentSort.col === c.key;
+        const icon = isSorted ? (currentSort.dir === 'asc' ? '▲' : '▼') : '↕';
+        const sortClass = isSorted ? 'sortable sorted' : 'sortable';
+        return `<th class="${sortClass}" data-col="${c.key}" data-type="${c.type}" title="Ordenar por ${c.label}">${c.label} <span class="sort-icon">${icon}</span></th>`;
+      }).join('')}</tr>`;
+
+      thead.querySelectorAll('th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+          const colKey = th.getAttribute('data-col');
+          const colType = th.getAttribute('data-type');
+          if (tableSortState.campus.col === colKey) {
+            tableSortState.campus.dir = tableSortState.campus.dir === 'asc' ? 'desc' : 'asc';
+          } else {
+            tableSortState.campus.col = colKey;
+            tableSortState.campus.dir = colType === 'num' ? 'desc' : 'asc';
+          }
+          renderDataTable('campus');
+        });
+      });
+
+      let rows = (rawSummaryData.ranking_campi && rawSummaryData.ranking_campi.length > 0) ? [...rawSummaryData.ranking_campi] : [...campusData];
 
       if (searchInput) {
         rows = rows.filter(r => (r.campus || '').toLowerCase().includes(searchInput) || (r.tipo_campus || '').toLowerCase().includes(searchInput));
       }
+
+      // Sort rows
+      const sortCol = currentSort.col;
+      const sortDir = currentSort.dir;
+      const colDef = cols.find(c => c.key === sortCol);
+      const isNum = colDef ? colDef.type === 'num' : true;
+
+      rows.sort((a, b) => {
+        let valA = a[sortCol];
+        let valB = b[sortCol];
+        if (sortCol === 'total_processos') {
+          valA = valA !== undefined ? valA : (a.total || 0);
+          valB = valB !== undefined ? valB : (b.total || 0);
+        }
+        if (isNum) {
+          valA = Number(valA) || 0;
+          valB = Number(valB) || 0;
+          return sortDir === 'asc' ? valA - valB : valB - valA;
+        } else {
+          valA = String(valA || '');
+          valB = String(valB || '');
+          return sortDir === 'asc' ? valA.localeCompare(valB, 'pt-BR') : valB.localeCompare(valA, 'pt-BR');
+        }
+      });
 
       tbody.innerHTML = rows.map(r => {
         const totalProc = r.total_processos !== undefined ? r.total_processos : (r.total || 0);
@@ -629,22 +697,65 @@
         `;
       }).join('');
     } else {
-      thead.innerHTML = `
-        <tr>
-          <th>Cargo PCCTAE</th>
-          <th>Classe</th>
-          <th>TAEs Ativos</th>
-          <th>Memoriais Avaliados</th>
-          <th>Taxa de Adesão</th>
-          <th>Participação (% Total)</th>
-        </tr>
-      `;
+      const cols = [
+        { key: 'cargo', label: 'Cargo PCCTAE', type: 'str' },
+        { key: 'classe_cargo', label: 'Classe', type: 'str' },
+        { key: 'total_ativos', label: 'TAEs Ativos', type: 'num' },
+        { key: 'total_avaliados', label: 'Memoriais Avaliados', type: 'num' },
+        { key: 'taxa_adesao_pct', label: 'Taxa de Adesão', type: 'num' },
+        { key: 'participacao_pct', label: 'Participação (% Total)', type: 'num' }
+      ];
 
-      let rows = (rawSummaryData.top_cargos && rawSummaryData.top_cargos.length > 0) ? rawSummaryData.top_cargos : cargoData;
+      thead.innerHTML = `<tr>${cols.map(c => {
+        const isSorted = currentSort.col === c.key;
+        const icon = isSorted ? (currentSort.dir === 'asc' ? '▲' : '▼') : '↕';
+        const sortClass = isSorted ? 'sortable sorted' : 'sortable';
+        return `<th class="${sortClass}" data-col="${c.key}" data-type="${c.type}" title="Ordenar por ${c.label}">${c.label} <span class="sort-icon">${icon}</span></th>`;
+      }).join('')}</tr>`;
+
+      thead.querySelectorAll('th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+          const colKey = th.getAttribute('data-col');
+          const colType = th.getAttribute('data-type');
+          if (tableSortState.cargo.col === colKey) {
+            tableSortState.cargo.dir = tableSortState.cargo.dir === 'asc' ? 'desc' : 'asc';
+          } else {
+            tableSortState.cargo.col = colKey;
+            tableSortState.cargo.dir = colType === 'num' ? 'desc' : 'asc';
+          }
+          renderDataTable('cargo');
+        });
+      });
+
+      let rows = (rawSummaryData.top_cargos && rawSummaryData.top_cargos.length > 0) ? [...rawSummaryData.top_cargos] : [...cargoData];
 
       if (searchInput) {
         rows = rows.filter(r => (r.cargo || '').toLowerCase().includes(searchInput) || (r.classe_cargo || '').toLowerCase().includes(searchInput));
       }
+
+      // Sort rows
+      const sortCol = currentSort.col;
+      const sortDir = currentSort.dir;
+      const colDef = cols.find(c => c.key === sortCol);
+      const isNum = colDef ? colDef.type === 'num' : true;
+
+      rows.sort((a, b) => {
+        let valA = a[sortCol];
+        let valB = b[sortCol];
+        if (sortCol === 'total_avaliados') {
+          valA = valA !== undefined ? valA : (a.total_processos || a.total || 0);
+          valB = valB !== undefined ? valB : (b.total_processos || b.total || 0);
+        }
+        if (isNum) {
+          valA = Number(valA) || 0;
+          valB = Number(valB) || 0;
+          return sortDir === 'asc' ? valA - valB : valB - valA;
+        } else {
+          valA = String(valA || '');
+          valB = String(valB || '');
+          return sortDir === 'asc' ? valA.localeCompare(valB, 'pt-BR') : valB.localeCompare(valA, 'pt-BR');
+        }
+      });
 
       tbody.innerHTML = rows.map(r => {
         const totalAval = r.total_avaliados !== undefined ? r.total_avaliados : (r.total || r.total_processos || 0);

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "gerado_em": "2026-08-14T03:00:32.270271+00:00",
+    "gerado_em": "2026-08-14T03:08:18.964491+00:00",
     "total_geral_avaliados": 488,
     "total_tae_ativos": 1360,
     "taxa_cobertura_global_pct": 35.9,
@@ -49,7 +49,8 @@
       "total_ativos": 330,
       "total_processos": 90,
       "taxa_adesao_pct": 27.3,
-      "participacao_pct": 18.4
+      "participacao_pct": 18.4,
+      "total": 90
     },
     {
       "campus": "Natal - Central",
@@ -57,7 +58,8 @@
       "total_ativos": 194,
       "total_processos": 53,
       "taxa_adesao_pct": 27.3,
-      "participacao_pct": 10.9
+      "participacao_pct": 10.9,
+      "total": 53
     },
     {
       "campus": "Parelhas",
@@ -65,7 +67,8 @@
       "total_ativos": 74,
       "total_processos": 29,
       "taxa_adesao_pct": 39.2,
-      "participacao_pct": 5.9
+      "participacao_pct": 5.9,
+      "total": 29
     },
     {
       "campus": "São Gonçalo do Amarante",
@@ -73,7 +76,8 @@
       "total_ativos": 40,
       "total_processos": 24,
       "taxa_adesao_pct": 60.0,
-      "participacao_pct": 4.9
+      "participacao_pct": 4.9,
+      "total": 24
     },
     {
       "campus": "Apodi",
@@ -81,7 +85,8 @@
       "total_ativos": 47,
       "total_processos": 24,
       "taxa_adesao_pct": 51.1,
-      "participacao_pct": 4.9
+      "participacao_pct": 4.9,
+      "total": 24
     },
     {
       "campus": "Natal - Zona Norte",
@@ -89,7 +94,8 @@
       "total_ativos": 41,
       "total_processos": 23,
       "taxa_adesao_pct": 56.1,
-      "participacao_pct": 4.7
+      "participacao_pct": 4.7,
+      "total": 23
     },
     {
       "campus": "Mossoró",
@@ -97,7 +103,8 @@
       "total_ativos": 64,
       "total_processos": 23,
       "taxa_adesao_pct": 35.9,
-      "participacao_pct": 4.7
+      "participacao_pct": 4.7,
+      "total": 23
     },
     {
       "campus": "Natal - Cidade Alta",
@@ -105,7 +112,8 @@
       "total_ativos": 48,
       "total_processos": 22,
       "taxa_adesao_pct": 45.8,
-      "participacao_pct": 4.5
+      "participacao_pct": 4.5,
+      "total": 22
     },
     {
       "campus": "Pau dos Ferros",
@@ -113,7 +121,8 @@
       "total_ativos": 44,
       "total_processos": 21,
       "taxa_adesao_pct": 47.7,
-      "participacao_pct": 4.3
+      "participacao_pct": 4.3,
+      "total": 21
     },
     {
       "campus": "Santa Cruz",
@@ -121,7 +130,8 @@
       "total_ativos": 39,
       "total_processos": 20,
       "taxa_adesao_pct": 51.3,
-      "participacao_pct": 4.1
+      "participacao_pct": 4.1,
+      "total": 20
     },
     {
       "campus": "Caicó",
@@ -129,7 +139,8 @@
       "total_ativos": 42,
       "total_processos": 19,
       "taxa_adesao_pct": 45.2,
-      "participacao_pct": 3.9
+      "participacao_pct": 3.9,
+      "total": 19
     },
     {
       "campus": "Ceará-Mirim",
@@ -137,7 +148,8 @@
       "total_ativos": 35,
       "total_processos": 19,
       "taxa_adesao_pct": 54.3,
-      "participacao_pct": 3.9
+      "participacao_pct": 3.9,
+      "total": 19
     },
     {
       "campus": "João Câmara",
@@ -145,7 +157,8 @@
       "total_ativos": 39,
       "total_processos": 18,
       "taxa_adesao_pct": 46.2,
-      "participacao_pct": 3.7
+      "participacao_pct": 3.7,
+      "total": 18
     },
     {
       "campus": "Canguaretama",
@@ -153,7 +166,8 @@
       "total_ativos": 34,
       "total_processos": 17,
       "taxa_adesao_pct": 50.0,
-      "participacao_pct": 3.5
+      "participacao_pct": 3.5,
+      "total": 17
     },
     {
       "campus": "Currais Novos",
@@ -161,7 +175,8 @@
       "total_ativos": 46,
       "total_processos": 16,
       "taxa_adesao_pct": 34.8,
-      "participacao_pct": 3.3
+      "participacao_pct": 3.3,
+      "total": 16
     },
     {
       "campus": "Ipanguaçu",
@@ -169,7 +184,8 @@
       "total_ativos": 45,
       "total_processos": 16,
       "taxa_adesao_pct": 35.6,
-      "participacao_pct": 3.3
+      "participacao_pct": 3.3,
+      "total": 16
     },
     {
       "campus": "Nova Cruz",
@@ -177,7 +193,8 @@
       "total_ativos": 38,
       "total_processos": 15,
       "taxa_adesao_pct": 39.5,
-      "participacao_pct": 3.1
+      "participacao_pct": 3.1,
+      "total": 15
     },
     {
       "campus": "São Paulo do Potengi",
@@ -185,7 +202,8 @@
       "total_ativos": 38,
       "total_processos": 15,
       "taxa_adesao_pct": 39.5,
-      "participacao_pct": 3.1
+      "participacao_pct": 3.1,
+      "total": 15
     },
     {
       "campus": "Natal - Zona Leste",
@@ -193,7 +211,8 @@
       "total_ativos": 27,
       "total_processos": 10,
       "taxa_adesao_pct": 37.0,
-      "participacao_pct": 2.0
+      "participacao_pct": 2.0,
+      "total": 10
     },
     {
       "campus": "Macau",
@@ -201,7 +220,8 @@
       "total_ativos": 38,
       "total_processos": 6,
       "taxa_adesao_pct": 15.8,
-      "participacao_pct": 1.2
+      "participacao_pct": 1.2,
+      "total": 6
     },
     {
       "campus": "Lajes",
@@ -209,7 +229,8 @@
       "total_ativos": 21,
       "total_processos": 5,
       "taxa_adesao_pct": 23.8,
-      "participacao_pct": 1.0
+      "participacao_pct": 1.0,
+      "total": 5
     },
     {
       "campus": "Centro de Tecnologias do Gás e Energia",
@@ -217,7 +238,8 @@
       "total_ativos": 3,
       "total_processos": 2,
       "taxa_adesao_pct": 66.7,
-      "participacao_pct": 0.4
+      "participacao_pct": 0.4,
+      "total": 2
     },
     {
       "campus": "Não Informado",
@@ -225,7 +247,8 @@
       "total_ativos": 0,
       "total_processos": 1,
       "taxa_adesao_pct": 0.0,
-      "participacao_pct": 0.2
+      "participacao_pct": 0.2,
+      "total": 1
     },
     {
       "campus": "Jucurutu",
@@ -233,7 +256,8 @@
       "total_ativos": 7,
       "total_processos": 0,
       "taxa_adesao_pct": 0.0,
-      "participacao_pct": 0.0
+      "participacao_pct": 0.0,
+      "total": 0
     },
     {
       "campus": "Outro",
@@ -241,7 +265,8 @@
       "total_ativos": 8,
       "total_processos": 0,
       "taxa_adesao_pct": 0.0,
-      "participacao_pct": 0.0
+      "participacao_pct": 0.0,
+      "total": 0
     },
     {
       "campus": "Outro (NAN)",
@@ -249,7 +274,8 @@
       "total_ativos": 18,
       "total_processos": 0,
       "taxa_adesao_pct": 0.0,
-      "participacao_pct": 0.0
+      "participacao_pct": 0.0,
+      "total": 0
     }
   ],
   "campus_niveis": [

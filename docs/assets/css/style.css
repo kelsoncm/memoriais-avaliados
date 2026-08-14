@@ -287,15 +287,23 @@ body {
   gap: 0.4rem;
 }
 
-/* ==========================================================================
-   KPI Metric Cards
-   ========================================================================== */
-
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .kpi-card {
@@ -589,6 +597,31 @@ body {
   padding: 0.875rem 1rem;
   border-bottom: 1px solid var(--slate-300);
   white-space: nowrap;
+}
+
+.data-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.data-table th.sortable:hover {
+  background-color: var(--slate-200);
+  color: var(--ifrn-green-900);
+}
+
+.data-table th .sort-icon {
+  display: inline-block;
+  margin-left: 0.35rem;
+  font-size: 0.75rem;
+  opacity: 0.35;
+  vertical-align: middle;
+}
+
+.data-table th.sorted .sort-icon {
+  opacity: 1;
+  color: var(--ifrn-green-800);
+  font-weight: bold;
 }
 
 .data-table td {

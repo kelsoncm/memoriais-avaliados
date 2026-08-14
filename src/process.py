@@ -301,6 +301,7 @@ def generate_aggregates(df_fato: pd.DataFrame, df_ativos: Optional[pd.DataFrame]
         agg_campus = campus_aval
         agg_campus["participacao_pct"] = (agg_campus["total_processos"] / total_geral_avaliados * 100).round(1)
 
+    agg_campus["total"] = agg_campus["total_processos"]
     agg_campus = agg_campus.sort_values(by="total_processos", ascending=False)
 
     # 2. Agregado por Cargo e Nível
