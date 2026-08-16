@@ -1,26 +1,27 @@
 campus,tipo_campus,total_ativos,total_processos,taxa_adesao_pct,participacao_pct,total
-Reitoria,Reitoria,330,93,28.2,18.4,93
-Natal - Central,Capital,194,55,28.4,10.9,55
-Parelhas,Interior,74,29,39.2,5.7,29
-São Gonçalo do Amarante,Interior,40,25,62.5,5.0,25
-Apodi,Interior,47,25,53.2,5.0,25
-Natal - Cidade Alta,Capital,48,24,50.0,4.8,24
-Natal - Zona Norte,Capital,41,23,56.1,4.6,23
-Mossoró,Interior,64,23,35.9,4.6,23
-Pau dos Ferros,Interior,44,23,52.3,4.6,23
-Ceará-Mirim,Interior,35,20,57.1,4.0,20
-Santa Cruz,Interior,39,20,51.3,4.0,20
-Caicó,Interior,42,19,45.2,3.8,19
-Currais Novos,Interior,46,18,39.1,3.6,18
-João Câmara,Interior,39,18,46.2,3.6,18
-Canguaretama,Interior,34,17,50.0,3.4,17
-Ipanguaçu,Interior,45,17,37.8,3.4,17
-Nova Cruz,Interior,38,16,42.1,3.2,16
-São Paulo do Potengi,Interior,38,15,39.5,3.0,15
-Natal - Zona Leste,Capital,27,10,37.0,2.0,10
+Reitoria,Reitoria,330,96,29.1,18.6,96
+Natal - Central,Capital,194,57,29.4,11.1,57
+Parelhas,Interior,74,29,39.2,5.6,29
+São Gonçalo do Amarante,Interior,40,25,62.5,4.9,25
+Apodi,Interior,47,25,53.2,4.9,25
+Mossoró,Interior,64,24,37.5,4.7,24
+Natal - Cidade Alta,Capital,48,24,50.0,4.7,24
+Natal - Zona Norte,Capital,41,23,56.1,4.5,23
+Pau dos Ferros,Interior,44,23,52.3,4.5,23
+Ceará-Mirim,Interior,35,20,57.1,3.9,20
+Santa Cruz,Interior,39,20,51.3,3.9,20
+Caicó,Interior,42,19,45.2,3.7,19
+João Câmara,Interior,39,18,46.2,3.5,18
+Currais Novos,Interior,46,18,39.1,3.5,18
+Ipanguaçu,Interior,45,18,40.0,3.5,18
+Canguaretama,Interior,34,17,50.0,3.3,17
+Nova Cruz,Interior,38,16,42.1,3.1,16
+São Paulo do Potengi,Interior,38,15,39.5,2.9,15
+Natal - Zona Leste,Capital,27,10,37.0,1.9,10
+Lajes,Interior,21,7,33.3,1.4,7
 Macau,Interior,38,7,18.4,1.4,7
-Lajes,Interior,21,5,23.8,1.0,5
 Centro de Tecnologias do Gás e Energia,Capital,3,2,66.7,0.4,2
+Outro (SECOL),Outro,0,1,0.0,0.2,1
 Não Informado,Outro,0,1,0.0,0.2,1
 Jucurutu,Interior,7,0,0.0,0.0,0
 Outro,Outro,8,0,0.0,0.0,0
