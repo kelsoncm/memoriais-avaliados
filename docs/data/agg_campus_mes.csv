@@ -1,28 +1,28 @@
 campus,tipo_campus,total_ativos,total_processos,taxa_adesao_pct,participacao_pct,total
-Reitoria,Reitoria,330,96,29.1,18.5,96
-Natal - Central,Capital,194,59,30.4,11.4,59
-Parelhas,Interior,74,29,39.2,5.6,29
-Apodi,Interior,47,26,55.3,5.0,26
-São Gonçalo do Amarante,Interior,40,25,62.5,4.8,25
-Mossoró,Interior,64,24,37.5,4.6,24
-Natal - Cidade Alta,Capital,48,24,50.0,4.6,24
-Natal - Zona Norte,Capital,41,23,56.1,4.4,23
-Pau dos Ferros,Interior,44,23,52.3,4.4,23
-Ceará-Mirim,Interior,35,20,57.1,3.9,20
-Santa Cruz,Interior,39,20,51.3,3.9,20
-Caicó,Interior,42,19,45.2,3.7,19
-João Câmara,Interior,39,18,46.2,3.5,18
-Currais Novos,Interior,46,18,39.1,3.5,18
-Ipanguaçu,Interior,45,18,40.0,3.5,18
-Canguaretama,Interior,34,17,50.0,3.3,17
-Nova Cruz,Interior,38,16,42.1,3.1,16
-São Paulo do Potengi,Interior,38,15,39.5,2.9,15
-Natal - Zona Leste,Capital,27,10,37.0,1.9,10
-Lajes,Interior,21,7,33.3,1.4,7
-Macau,Interior,38,7,18.4,1.4,7
+Reitoria,Reitoria,330,103,31.2,18.3,103
+Natal - Central,Capital,194,68,35.1,12.1,68
+Parelhas,Interior,74,32,43.2,5.7,32
+Apodi,Interior,47,29,61.7,5.1,29
+Mossoró,Interior,64,28,43.8,5.0,28
+São Gonçalo do Amarante,Interior,40,25,62.5,4.4,25
+Pau dos Ferros,Interior,44,24,54.5,4.3,24
+Natal - Zona Norte,Capital,41,24,58.5,4.3,24
+Natal - Cidade Alta,Capital,48,24,50.0,4.3,24
+Currais Novos,Interior,46,24,52.2,4.3,24
+Ceará-Mirim,Interior,35,23,65.7,4.1,23
+Caicó,Interior,42,21,50.0,3.7,21
+Santa Cruz,Interior,39,20,51.3,3.5,20
+Canguaretama,Interior,34,19,55.9,3.4,19
+Ipanguaçu,Interior,45,18,40.0,3.2,18
+João Câmara,Interior,39,18,46.2,3.2,18
+Nova Cruz,Interior,38,17,44.7,3.0,17
+São Paulo do Potengi,Interior,38,16,42.1,2.8,16
+Natal - Zona Leste,Capital,27,11,40.7,2.0,11
+Lajes,Interior,21,7,33.3,1.2,7
+Macau,Interior,38,7,18.4,1.2,7
+Não Informado,Outro,0,3,0.0,0.5,3
 Centro de Tecnologias do Gás e Energia,Capital,3,2,66.7,0.4,2
 Outro (SECOL),Outro,0,1,0.0,0.2,1
-Não Informado,Outro,0,1,0.0,0.2,1
 Jucurutu,Interior,7,0,0.0,0.0,0
 Outro,Outro,8,0,0.0,0.0,0
 Outro (NAN),Outro,18,0,0.0,0.0,0
