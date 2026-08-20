@@ -1,25 +1,25 @@
 campus,tipo_campus,total_ativos,total_processos,taxa_adesao_pct,participacao_pct,total
-Reitoria,Reitoria,330,108,32.7,18.2,108
-Natal - Central,Capital,194,76,39.2,12.8,76
-Parelhas,Interior,74,32,43.2,5.4,32
-Mossoró,Interior,64,30,46.9,5.1,30
-Apodi,Interior,47,29,61.7,4.9,29
-São Gonçalo do Amarante,Interior,40,26,65.0,4.4,26
-Pau dos Ferros,Interior,44,25,56.8,4.2,25
-Natal - Cidade Alta,Capital,48,25,52.1,4.2,25
-Natal - Zona Norte,Capital,41,24,58.5,4.1,24
-Currais Novos,Interior,46,24,52.2,4.1,24
-Ceará-Mirim,Interior,35,24,68.6,4.1,24
-Caicó,Interior,42,22,52.4,3.7,22
-Santa Cruz,Interior,39,20,51.3,3.4,20
-Canguaretama,Interior,34,20,58.8,3.4,20
-Ipanguaçu,Interior,45,20,44.4,3.4,20
-Nova Cruz,Interior,38,19,50.0,3.2,19
-João Câmara,Interior,39,18,46.2,3.0,18
-São Paulo do Potengi,Interior,38,17,44.7,2.9,17
-Natal - Zona Leste,Capital,27,13,48.1,2.2,13
-Lajes,Interior,21,7,33.3,1.2,7
-Macau,Interior,38,7,18.4,1.2,7
+Reitoria,Reitoria,330,109,33.0,17.6,109
+Natal - Central,Capital,194,78,40.2,12.6,78
+Parelhas,Interior,74,34,45.9,5.5,34
+Mossoró,Interior,64,32,50.0,5.2,32
+Apodi,Interior,47,30,63.8,4.8,30
+Natal - Cidade Alta,Capital,48,28,58.3,4.5,28
+São Gonçalo do Amarante,Interior,40,26,65.0,4.2,26
+Pau dos Ferros,Interior,44,26,59.1,4.2,26
+Currais Novos,Interior,46,25,54.3,4.0,25
+Natal - Zona Norte,Capital,41,24,58.5,3.9,24
+Ceará-Mirim,Interior,35,24,68.6,3.9,24
+Caicó,Interior,42,23,54.8,3.7,23
+Santa Cruz,Interior,39,21,53.8,3.4,21
+Ipanguaçu,Interior,45,21,46.7,3.4,21
+Nova Cruz,Interior,38,20,52.6,3.2,20
+Canguaretama,Interior,34,20,58.8,3.2,20
+João Câmara,Interior,39,19,48.7,3.1,19
+São Paulo do Potengi,Interior,38,19,50.0,3.1,19
+Natal - Zona Leste,Capital,27,16,59.3,2.6,16
+Macau,Interior,38,11,28.9,1.8,11
+Lajes,Interior,21,8,38.1,1.3,8
 Não Informado,Outro,0,3,0.0,0.5,3
 Centro de Tecnologias do Gás e Energia,Capital,3,2,66.7,0.3,2
 Outro (SECOL),Outro,0,1,0.0,0.2,1

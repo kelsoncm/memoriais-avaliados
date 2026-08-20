@@ -1,593 +1,621 @@
 id_anonimo,campus,tipo_campus,cargo,classe_cargo,nivel_pretendido,nivel_reconhecido,status
-6fe7edd7c6e80a42,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-bc4cc7de41920a3f,Caicó,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-cab210091c9f58d0,Reitoria,Reitoria,Auditor,Classe E,RSC-V,RSC-V,Deferido
-cb82aaba032a1288,Ceará-Mirim,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-96def182d52e3f0e,Macau,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-2c4e4d20e60583c5,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-eea71e4134fe5f66,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a0d1b03236f0a45c,João Câmara,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
-1122170c3b4d022a,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-77a9e1288641721f,Apodi,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-6b6cda0e4580e0df,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-0d75d1b407c7d9b5,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-61576e1ede2172f4,Natal - Zona Leste,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-d1537d7f1bc23248,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-77b62adf688c0af7,Parelhas,Interior,Administrador,Classe E,RSC-V,RSC-V,Deferido
-32cb81eb48a790a7,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-d2d449afcaa7a865,João Câmara,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-50a16ddbc2a054ac,Ipanguaçu,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-a080bc8abe0006d4,Parelhas,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-6c91adef54a487c0,Natal - Central,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-57890e5bda566fc9,Ceará-Mirim,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-28f25391e4cb77a9,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-3256b48db3ca8ac2,Mossoró,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-158408be21e4131d,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-b859aa28ddbe992b,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-17a3bab7b097d113,Currais Novos,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-55d0b8306fba09dc,Ipanguaçu,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-a825b80703ee02dd,Reitoria,Reitoria,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
-7e49348cd51b6f5b,João Câmara,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-e4480d9ef78686b7,Outro (SECOL),Outro,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-f6aaa91d53a2afad,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-ef10749f300a672c,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
-56cca993ab126da6,Lajes,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-45300e4b73e5d7ce,Pau dos Ferros,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-10c5c8960a2f2b32,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-05dd48ddcfe8e6ef,São Gonçalo do Amarante,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-da5ae1b1a73fc24a,Natal - Cidade Alta,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-c414b3dfcabdb8b0,Canguaretama,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-48e3bc478e6cb862,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-7ce1d2b8a7a9e0a0,Mossoró,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-a5223e973897210f,Reitoria,Reitoria,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-acf42668c885a001,São Paulo do Potengi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-420bb8730fbecd38,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-b1d4a74a64f00131,Reitoria,Reitoria,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-883ec8bd8f31e1cb,Mossoró,Interior,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-42c4f296b426cc03,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-c694fb395b6e91d1,Pau dos Ferros,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
-dcee4c1c6ec22a2d,Natal - Central,Capital,Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,Deferido
-b0176ece038e5d97,Natal - Central,Capital,Arquivista,Classe E,RSC-V,RSC-V,Deferido
-758b909120734d0b,Natal - Central,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-ac8aa3c997990ac9,Caicó,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-54bcc609db68f255,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-b456180384fead8f,Reitoria,Reitoria,Programador Visual,Classe E,RSC-VI,RSC-VI,Deferido
-26d19b1cb9de46da,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-5977eadda5b50490,Natal - Zona Leste,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-2e956b1c989afa8a,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-5099323303eb8af4,Santa Cruz,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-89cf05ab43642c83,São Gonçalo do Amarante,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-b53bc15f98a32513,Reitoria,Reitoria,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-ec28dea1ce430aa3,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-02725bd461238e25,Mossoró,Interior,Operador De Maquina Copiadora,Classe C,RSC-V,RSC-V,Deferido
-87bbfb7634b90b33,Parelhas,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-02ed46141169650e,Natal - Central,Capital,Telefonista,Classe C,RSC-VI,RSC-VI,Deferido
-109114e91cb3d613,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-5134fc084f2f7841,Natal - Central,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-7e1093a5a244e520,Mossoró,Interior,Enfermeiro,Classe E,RSC-V,RSC-V,Deferido
-4090e5eb512a2981,Currais Novos,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-e38c8888e48f7597,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e8917b3d2c92a02d,Macau,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-bcb5aded5d8453e3,Natal - Central,Capital,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
-d32b2fe09e56c0fc,Natal - Central,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-0f86e2e3cd01f028,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-20daeb1447a4302e,Ceará-Mirim,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-2bd88292f16a4336,Ceará-Mirim,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-a74d6381a592cd07,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-47ed1146038d7fa0,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-22631bfe33e2ea5c,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-aa60cd4b474c24d4,São Paulo do Potengi,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-a9f3f7de4716841b,Ceará-Mirim,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-9db1cc4566f9cc8d,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
-76820da09a92d942,Natal - Cidade Alta,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-fbf9ace167f6f79f,Pau dos Ferros,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-47fb7eb0c3d74ad8,Mossoró,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-4bfc8594cf50c044,São Paulo do Potengi,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-4375376755d97420,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-697ab7be3244dbae,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-3f22a29fe3ccdeda,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-a362be3eda9c7b8e,João Câmara,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-9278cf84f4930a4a,Caicó,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-4bba07b4e76940f6,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-d51c6c0482c466a4,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a36c337e99fc6dd4,Lajes,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ed2e0988badd3286,Natal - Central,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-8f2c9fada3990f3f,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-fe1638c1381e449b,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-39c528c3f35596ae,Currais Novos,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-dbc2dba23133b58b,Parelhas,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-a92c37935b8dcf87,João Câmara,Interior,Técnico em Eletrotécnica,Classe D,RSC-III,RSC-III,Deferido
-c42c60c63199708c,Mossoró,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
-9012bc118f9e2518,Natal - Zona Leste,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-cc3d759d3f704157,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6b8c2363694115c0,São Paulo do Potengi,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
-3c3817db128aab25,Natal - Central,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-5e88f73ac5b2c162,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-8c714854b69a7174,Natal - Zona Leste,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-8a3f3c42c7cbcb73,Natal - Cidade Alta,Capital,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
-f30f67c40ceedd8f,São Gonçalo do Amarante,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-2a0cc07bcb5a3943,Natal - Zona Norte,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-06b578f87e545b04,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-33efe1adfded690a,Natal - Central,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-1ace82c887e5db3b,Reitoria,Reitoria,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
-7b7a77507fb0b2bd,Natal - Central,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-6e9dd34d3558d9e8,Canguaretama,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-00854741006d66cf,Natal - Central,Capital,Economista,Classe E,RSC-VI,RSC-VI,Deferido
-e68783d0417b02ec,Natal - Central,Capital,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
-b178e9ec887aa2c2,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-590dae6637a55f84,Natal - Zona Norte,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-f71b6e6109154682,Mossoró,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-321723255d4f6cc2,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-646f12613f95ec30,Macau,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-1f781e5c63fe3c87,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-aa0cf7eb11f2f826,Natal - Cidade Alta,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-0a0afd9d59659c3d,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-7913606b55272549,Reitoria,Reitoria,Auxiliar de Laboratório,Classe D,RSC-V,RSC-V,Deferido
-7b0b2a4508da879f,Mossoró,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-V,RSC-V,Deferido
-3d2e84975bb5accc,Caicó,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-b65e5c342d5cb120,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-71465630da0a97fe,Ipanguaçu,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-cf0055a0e18d0812,Canguaretama,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-8d58574d814ce0ee,São Gonçalo do Amarante,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
-4e839e9292208224,Reitoria,Reitoria,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-7344dfb9cc4a774a,Mossoró,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-4a7c0cfdcb9cf552,Natal - Cidade Alta,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-b9a61e0fe5766128,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-aeb5c53459dacfb3,Ceará-Mirim,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-e35c3dc961876544,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-5b4e0f5e979e84ed,Reitoria,Reitoria,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-21fd4a30bcece955,São Paulo do Potengi,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-c52b46c42979b518,São Paulo do Potengi,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-0b0ad42c461d5e87,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-392923c0b6228a0f,Natal - Cidade Alta,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-8cb66b7a81969fef,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-cc1a74746dc58871,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6bc69a907f4bae70,São Paulo do Potengi,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-3f6bdfbdc58390ee,Reitoria,Reitoria,Operador De Tele-Impressora,Classe D,RSC-VI,RSC-VI,Deferido
-be1bc00c06648baa,Natal - Central,Capital,Mecanico,Classe C,RSC-V,RSC-V,Deferido
-e59ad9e7d3204916,Não Informado,Outro,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-bab82b17bfd1b20e,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-633417d114b0406d,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-a609ec193d828feb,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-971dc79c6642a1e9,Lajes,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
-23428549c0f73d98,Natal - Cidade Alta,Capital,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-ed0f2090653c7f8c,Ceará-Mirim,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-ff4d526e8eedceab,São Gonçalo do Amarante,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-3f86f8e6ecb93664,Pau dos Ferros,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-b4a32f4921506274,Natal - Zona Norte,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-186d9a6fbf82eb57,Natal - Zona Norte,Capital,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-a8980ee8aea634d6,Natal - Central,Capital,Motorista,Classe C,RSC-V,RSC-V,Deferido
-230b376cf599307a,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-2346e95012fea8f3,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-3a6349d4e3199672,Natal - Central,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
-c6459e31a070356e,São Paulo do Potengi,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-482885b2f531e344,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-248633151ba2ed1b,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-52ee9c510daf3264,Currais Novos,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
-d64043099949483b,Ipanguaçu,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-4ed2ace04ec04b14,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-b27fa5a2cfa6b764,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-d570f1fb4c652d17,São Paulo do Potengi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-27c579f7875a927c,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-89344e4d6bec07be,Caicó,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-4322027d036c2c6f,Natal - Cidade Alta,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-e85822f455669152,Canguaretama,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-93d34f2fe720ebcb,Nova Cruz,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-5074ab181ad8e2a3,Santa Cruz,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-76e5fb8446e5f3f4,Caicó,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
-305bfcba0b0c807d,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-bba165581ab5320b,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-dc9b868f61a4acd9,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-83d606ed5d7cccf8,Caicó,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-0768b125c373bcfe,Nova Cruz,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-f6b8f08b10dcdbd0,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-22e734b1e5b4abee,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-a996fce5a620dc69,Ipanguaçu,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-f229f920753ef501,Nova Cruz,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-b72d323f71cc680e,Currais Novos,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-9dcaa4c71e8ebf0e,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-7117a094bf27ccba,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-b2fe96ff1401ef23,São Paulo do Potengi,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
-dc7afb413cce68c5,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-785ec00cd710f652,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-79ea81f7b414413d,Ipanguaçu,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-44a3ed34a5bfbf22,Natal - Cidade Alta,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-a9380e046789bd5a,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-40ccbdf76372bea0,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-a8ab3eaeda0431b9,Parelhas,Interior,Técnico em Edificações,Classe D,RSC-V,RSC-V,Deferido
-f8772dbce9564000,Apodi,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
-61a0d2aeb15d5ff0,Natal - Central,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-21c0a2389cffbebf,Reitoria,Reitoria,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-750ea13def07380e,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-4d908a493c8eeb3d,Apodi,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-602edf8f6418bdbf,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-59d2f0a67927447d,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-44bf1a2de1ca66c4,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-b507857c17867bd0,Apodi,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-0ac5892c36ecf5fd,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-10b8a6f323884212,São Gonçalo do Amarante,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-a1bce9c7c07d050b,Pau dos Ferros,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
-efd19a063b83b557,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
-48e298687c15a108,Santa Cruz,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-faaa78b7564a995d,Natal - Cidade Alta,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-da2a0caaf316464e,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-57560fd28ca39727,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-9b2f250eb11d5f66,Parelhas,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-d12bc1142054445b,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-7a426d5f9ca95098,São Gonçalo do Amarante,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-8fd7aaa6fb2add41,Ceará-Mirim,Interior,Psicólogo,Classe E,RSC-V,RSC-V,Deferido
-c56870b78e42d7b5,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-19ea345f9831db8b,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-d8f84de216546209,Natal - Central,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
-00b5ef9070920edb,Natal - Cidade Alta,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-9e52284913f9ffdc,Mossoró,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e910e2bf98b4454d,Reitoria,Reitoria,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-8d9a29190e442368,Apodi,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-8b80525bba4e9d7c,Reitoria,Reitoria,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-bc44e51a5c62103e,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-505e0958c0aae0eb,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-35f96137582faa52,Natal - Central,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-be2fb057e95d7710,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-295676e517ad8b46,Pau dos Ferros,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-2d5b6c51aff9c115,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-0de852cf7792f09d,Ipanguaçu,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-f2b005f3e8fc75d2,Nova Cruz,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-942a1c2e5337473d,Nova Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-c3cd1d06805403c1,Parelhas,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-7504155f9253da62,Apodi,Interior,Engenheiro Agronomo,Classe E,RSC-VI,RSC-VI,Deferido
-77516d190bc7989f,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-444e585269ac38bd,Ceará-Mirim,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-4fcbc7d2eb4652f8,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-6bd6485b754be32a,Pau dos Ferros,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-8af69755101138d2,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-805eb8eda210aa58,João Câmara,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
-4bf736fd286f419a,Natal - Central,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-9cec6f8855700aa0,Reitoria,Reitoria,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
-000ee1c439acbab1,Natal - Zona Norte,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-7b54e1335ae40679,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a9f35dfeac844244,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-ef61834e98a4a5f6,Currais Novos,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-32b9275d17652858,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-8dade18054804637,Natal - Zona Leste,Capital,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
-abaec814c330135a,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-7ef78cf0d00c595e,Reitoria,Reitoria,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-79775cbf1d7d58e9,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-47991c74a3292ea4,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-372142c3d0da5e00,João Câmara,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-9decc9b088c3dfd0,Santa Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-0db08d785f831490,Natal - Central,Capital,Administrador,Classe E,RSC-V,RSC-V,Deferido
-800ee84821e1e0da,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-5fb2fdfe7e478527,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7f09d4525caa47c6,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-4d3f3459ba62cff8,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-732264cd8e3d89f5,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-0f30f6a0abe35ff8,Nova Cruz,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-ccbd78f233652508,Não Informado,Outro,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-458ba1a3f3fed99a,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-6df0d835721112de,Reitoria,Reitoria,Auditor,Classe E,RSC-V,RSC-V,Deferido
-e1645d5390788fdf,Apodi,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-874ea831b28a252a,Reitoria,Reitoria,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-f217f84f0f6fac3b,Santa Cruz,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
-88312fe9bc674d63,Apodi,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-d3bb6303996e3d63,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-32be97fb7498ad02,Reitoria,Reitoria,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-7fd0a5bbeb30c1a8,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-350a2e4f8a1379c0,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-5c3b8afcbfdd7960,Parelhas,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-4d368b079bffc7f9,Pau dos Ferros,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-81ef4675b3ca0453,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-34c43dd6050b7deb,Natal - Central,Capital,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
-09550d4b62985081,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-4246f8e039d0f723,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-aa6216f343654b05,Natal - Zona Leste,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-02697935e12ff32c,Canguaretama,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-4d91ed34bbfe6770,Parelhas,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-e123d0d621ac719e,Ceará-Mirim,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
-3bf2c1796840e85f,Macau,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-58f0da3fe9c52085,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-67fbb0d25e6e1f5b,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1c420284a4cd16db,Mossoró,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-0c2834ad1b3a836b,Mossoró,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-dc2bc32b122d734b,Caicó,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-dc822e468172d955,Ipanguaçu,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-761b6f90a8d909ab,Lajes,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f2ebf4e59f465214,Parelhas,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-ea3a28c78d5d4e9b,Natal - Central,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-a466d1bceee08d38,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-1041aec80c9e7de1,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7341c20f71056fed,Natal - Central,Capital,Técnico em Mecânica,Classe D,RSC-V,RSC-V,Deferido
-e92d53932d94244e,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-3aa17ac29adb2f32,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-40542add2b8c9d9f,Mossoró,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-2381a46f68780f5b,Reitoria,Reitoria,Publicitario,Classe E,RSC-VI,RSC-VI,Deferido
-7f417e770794de15,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-ab3dba38aaaee170,Apodi,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-db00a894564cff47,Centro de Tecnologias do Gás e Energia,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-4e34a6d50e1768a8,São Gonçalo do Amarante,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-4bfeaaf34abc779c,Ceará-Mirim,Interior,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
-9a9fb452f96d396b,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-bbaa9f71abefbd86,Reitoria,Reitoria,Diagramador,Classe D,RSC-VI,RSC-VI,Deferido
-5eb8475be415d380,Mossoró,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-c4ce14a696a9b1c8,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-12c978d4f58daa2e,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-8bd92bb365e11560,Apodi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-e67384101999a369,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-b1a24cd499d4415e,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-55dc8c7e15dc224d,Natal - Central,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-cabebe835802c596,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-26f521dcfed5612c,Reitoria,Reitoria,Técnico Em Seguranca Do Trabalho,Classe D,RSC-VI,RSC-VI,Deferido
-c67cd4e537f3e9cf,Ceará-Mirim,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-a580fa918d6753cd,Santa Cruz,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-3532601cf498e19e,São Gonçalo do Amarante,Interior,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
-feed7b401041fa1d,Caicó,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-37d420be3add4cbe,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-5477581972e0d71d,João Câmara,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-bbc3abf465b7b57d,Caicó,Interior,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
-e511cff63fa014e8,Apodi,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-4aa6c1fed64880b7,Ceará-Mirim,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-e134d6c3c8f0edf5,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-665fd7c8df023fb5,Natal - Cidade Alta,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-8355adf63076d01a,São Gonçalo do Amarante,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
-70dc5fc7a84040ff,Canguaretama,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
-0f9ea27261a71462,Natal - Cidade Alta,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-749fe9c2ef6569ef,Reitoria,Reitoria,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-6bd4e662b0f347b8,Parelhas,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6bb94451f12ca42b,São Paulo do Potengi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-46eac75088fa0c79,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-7e7dc58fb51903c1,Nova Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-6bb7d1214c322bfe,Ceará-Mirim,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-7808df4876454cd1,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-4e843cbd1201d715,Caicó,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
-f5525f1a786396b6,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1ea9ac5b762909cd,Canguaretama,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-b085c7c8415e6260,Natal - Zona Norte,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-1aa3704ad4184d1d,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-2c3a12c1a09c79a6,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-cf4f1838bb90a482,Nova Cruz,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-84b91ee3ea0e0d39,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-f3767d49ba8c5187,Caicó,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-037ecfd0d1db78ea,Ceará-Mirim,Interior,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
-2c1a6e00b90bb31b,Ceará-Mirim,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e0cef5e3a1dda20b,Reitoria,Reitoria,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
-bb50a8d3a33dd9fe,Mossoró,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
-1a5c2f88109924a9,Apodi,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-b820d7da8e7b8c29,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-15a823c8331ba88c,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-51ffddcdf9e4fb1f,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d1794db43255139a,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-a89d1846fc0479cc,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-a5c0509dddead882,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-f826677927c2b87d,Natal - Zona Leste,Capital,Analista De Técnico Da Informacao,Classe E,RSC-V,RSC-V,Deferido
-28c842e06064b0a3,Reitoria,Reitoria,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-e12cda44e92fc3b5,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-ff10067f702c0e33,Reitoria,Reitoria,Economista,Classe E,RSC-V,RSC-V,Deferido
-f09a261d94dc4ef7,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-2b41dc30060df572,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-3fb3105188d703c5,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d91d03792b73f556,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-28e2ac1f7a55582a,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-0522779ea7491e9a,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-8447a530cb076b4c,Currais Novos,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
-4c72645b4b2fbbf2,Lajes,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
-64c517bc9a664293,Apodi,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-fac99d1b2752b5b4,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-6d823adc618c17e1,Pau dos Ferros,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-0f45ebbef3ce208a,Natal - Central,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-ce271303f31104da,Apodi,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-7d3bf3f2b4bd20e6,Mossoró,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
-acd78abd947721a5,Parelhas,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-3f144188ca4715d0,Natal - Cidade Alta,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-d1defd1af8734fcb,Mossoró,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
-7c375280d04830d7,Mossoró,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-91149f990f21d512,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-ac91c87f4b556745,Natal - Central,Capital,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
-bd078064c945df0c,Currais Novos,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-24d551cb1f7e13d1,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-8301f333d44b833e,Apodi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-f0f787bbcd9ad846,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-0dc24e7846c15049,Ipanguaçu,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-3080e57458ab28a5,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-3b9705da3887a9ba,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-4ae2c632ed87579e,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-619780e98cc6bb5f,Mossoró,Interior,Auxiliar de Enfermagem,Classe C,RSC-V,RSC-V,Deferido
-85e82ab3bbdc6b52,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-e06a1be21e5959ef,Santa Cruz,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
-17c057e278bccb89,Ceará-Mirim,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-792791ac84e43e01,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-3af6497a87758266,João Câmara,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-af07dc78c6b72797,Caicó,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-bb3793d8d5fb38cc,Ceará-Mirim,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-2808982e13a21dd9,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-b342a9673c64c9d9,Reitoria,Reitoria,Administrador,Classe E,RSC-V,RSC-V,Deferido
-5a5022d4ff057327,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-bc5ed67004697cb0,Ceará-Mirim,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-a828979be5e688b6,Santa Cruz,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-7aa7ff35eeb59e43,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a9d0dd95af55200d,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-9fb7e191ab2d169d,Parelhas,Interior,Enfermeiro,Classe E,RSC-VI,RSC-VI,Deferido
-1d096c3a7355d0cf,Natal - Central,Capital,Carpinteiro,Classe D,RSC-V,RSC-V,Deferido
-4560c60a0a5ce95f,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d38793562abd0831,Natal - Zona Norte,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-e3b17714699a2885,Macau,Interior,Técnico em Química,Classe D,RSC-VI,RSC-VI,Deferido
-8c5e45ff664fc19f,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-e1e141df2146876e,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-11bcef97c2237764,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-2887a024b443bde8,Parelhas,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-11037c5e3c8feb68,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-65c3ec47a90c70d0,Natal - Cidade Alta,Capital,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-7b57cbd95a200a12,São Paulo do Potengi,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-5a208d23ec079830,Canguaretama,Interior,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
-ce317a6879677903,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-1dd766e472d7e8a0,Parelhas,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
-d81ac1580f3e8ea0,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-100407a6e1bede2d,Natal - Zona Norte,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-6340bd9ba658e915,João Câmara,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-c2ca1d1593c52b66,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-883afee10da383af,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-b95c65f19dd7c0b8,Apodi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-9fc1a29782337757,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6746f22ba39b000a,Natal - Central,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-512aec3c96f7b3d1,Natal - Central,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
-c049cff0cb40be8f,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f368c86b2379c068,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-823a6dabf1b78c60,São Paulo do Potengi,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-9cc0cfc47ecea2c7,Mossoró,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-6d1a84d583c11669,Ceará-Mirim,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-c0e60670ddb8ac13,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-336c28f2f2f2e4b0,Reitoria,Reitoria,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
-65bb33f068e4c12c,Reitoria,Reitoria,Porteiro,Classe C,RSC-V,RSC-V,Deferido
-fdbe150d6bc97cfe,São Gonçalo do Amarante,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-6b5e6d43c4f77275,Centro de Tecnologias do Gás e Energia,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-b1e7262f4244ca72,Reitoria,Reitoria,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-0ac694463113783e,Parelhas,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-49c55b728f30b825,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-2a7a410c60add329,Natal - Central,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-d003ab10842e2c9e,Parelhas,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-43fe6a99eb919dd2,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-09f4e1c7e495b902,Reitoria,Reitoria,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-0b066743290d4d6c,Nova Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-f58efb5ab29a31b1,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-b03b577cc41d6a63,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-0792db04929e8507,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-28b870de8f639a1a,Parelhas,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-f3635d55567dfbc9,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-d119306e7e01e966,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a935c36635089249,Natal - Central,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-9b6427e83223b1a1,Reitoria,Reitoria,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
-8d639cc3596bb2e6,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-0ee4a89d0d5136c1,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-33963b3483f9fc7f,Reitoria,Reitoria,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-1418cf178e180849,Natal - Central,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-9152b6fa75a495ad,Parelhas,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-43f5c58732016e6c,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-be0e109cfe0ae5f3,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
-9e247a2bec078d61,Nova Cruz,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
-83789b3a4f9ceeae,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-83527ad038a78397,Natal - Zona Norte,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-90646ef2b72e2889,Macau,Interior,Técnico em Química,Classe D,RSC-V,RSC-V,Deferido
-3a98aa4a93427636,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-135e8da0d7c76dad,Reitoria,Reitoria,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-13e95b17dda71593,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-c0327270a49cb58c,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6877ba342086a150,Natal - Cidade Alta,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-d688970f78b3ea29,Não Informado,Outro,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-4185bccaecdd515e,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-79a0346f59331f93,Lajes,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-99fb22c12985a1e1,Canguaretama,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-02583c2852a235a3,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-243e573e07b5b656,Apodi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-349c30caf8516f95,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-a23c5e9b7ac543ab,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-24ae2b40a9de274a,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-cb7d649672590bd4,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-9524114c1243e20a,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-a4ac70b0bf58e23d,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-23ebdb0cec1c6c2e,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-1427e1ba8ac4771c,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-cfb43f7632affec5,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-d95b13fbf1d9facb,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-d2497c4fbe3aa66e,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-df1399bc6e5f1cbc,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-d50505769e52a45f,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-63d3d065302709f1,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-d8898138753b21f4,João Câmara,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-287399b71357b9cf,Reitoria,Reitoria,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-00d7e1935de5e998,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-4a985c5a59109ba7,Canguaretama,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-6a05966687a21465,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-b44c57574c83a2c9,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ee7f832d0c339fbe,Parelhas,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-7733596f96fdd69d,Mossoró,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-1d18de6baeaa1fa4,Reitoria,Reitoria,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-1cea6cacdc3fd850,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-627aef7138ee818a,Natal - Zona Norte,Capital,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
-31992f3c4938ccd7,Mossoró,Interior,Auxiliar De Artes Graficas,Classe D,RSC-V,RSC-V,Deferido
-2bcab47173495443,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d0ca1fb2d77f7574,Reitoria,Reitoria,Auditor,Classe E,RSC-V,RSC-V,Deferido
-353e18c626e49b92,São Gonçalo do Amarante,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-781dbde67a12fd0a,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-17c2912f0e1de26a,Ceará-Mirim,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-4c21b0238bcae956,Natal - Zona Norte,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-5860fba38f348092,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-fb082594119a6a7b,Mossoró,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-9b36797bb3f7f799,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-8d259b7b7f8200b3,Apodi,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-2642a33db0816c1a,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-75a728f87f16b141,Lajes,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-0413edf85c9f0b47,Apodi,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-bad57129bdc9e941,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-90f96bd74977260b,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-8cde8f481988f2ec,João Câmara,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-28dff1238a8c9749,Canguaretama,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-e41e0afd9d41e63d,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6833878d8988b6b0,Reitoria,Reitoria,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-ff1795bad23e8d5b,Currais Novos,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-e24b1ef20f8a39ee,Natal - Cidade Alta,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-4573c3528a862c56,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-8dd72663f42fa7b2,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1a952537feae1f10,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-bc096ad38b5a04f5,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-da56dc598d971b2a,Apodi,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-5c2ddbeed117b822,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-b7643f5913efa7c9,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-c5cbf78db62c5dcd,Parelhas,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-1f51a1cf3c494b45,João Câmara,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-ff64b6335a9d24af,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-823bf7cb6540695b,São Paulo do Potengi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-a69ec20e97197d35,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-2529bfa8f9af533d,São Paulo do Potengi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-95d0bf73ba3003bb,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-a9ddbe65a6a66a84,Ipanguaçu,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-c8cd8bf51021dd17,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-9c132e066238def8,Natal - Zona Leste,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-6fe49010551d5d11,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-1313fdc09a1a9bd2,Ceará-Mirim,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-4cf39ccf3f8390e4,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-0856a596db33db33,São Paulo do Potengi,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
-9c2965784c10f919,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7e2e9f57271d0f03,Natal - Cidade Alta,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-0b58b7f844c548bc,Pau dos Ferros,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-912c7565f985caea,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6299a5c53de04f46,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-eb72314cc23227d0,Ipanguaçu,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-57e298ee4a7c9329,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-b4618c4249f8249a,Pau dos Ferros,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-f35397b929889e3f,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7cdaf6f4757be599,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-bbd46a19be880b8a,Natal - Zona Leste,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-6c225ff0360b0859,Nova Cruz,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-3fd383b39e3f571b,Canguaretama,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-729a6bf11ad78c01,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6eff382e98f876fe,Mossoró,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-ee807f8251990409,Ipanguaçu,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-b668aca510ce87b6,Pau dos Ferros,Interior,Técnico em Agropecuária,Classe D,RSC-VI,RSC-VI,Deferido
-cc6d27a954c55962,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-a97ac8aa9b853d4f,Parelhas,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-bff151be3a08fdf3,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-3d2c61f3a8a7319b,Santa Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-f69942124ed68c0a,Macau,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-0e8623a0a3f9f16b,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-27ba72cd176e7ca8,Reitoria,Reitoria,Jornalista,Classe E,RSC-VI,RSC-VI,Deferido
-87de16d4d163cbc4,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-c4b74056023cc3fb,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-3803ac1d6f6532f2,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-49fa4cb7685161f5,Natal - Zona Norte,Capital,Contador,Classe E,RSC-V,RSC-V,Deferido
-e4744ae2bc5f2319,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-6bf99c9cbd0823fb,Ceará-Mirim,Interior,Técnico em Edificações,Classe D,RSC-VI,RSC-VI,Deferido
-5e9128bf36607326,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-28f94b56f5b055cb,João Câmara,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-08da8f05fdd5d0e0,Parelhas,Interior,Auxiliar De Biblioteca,Classe C,RSC-VI,RSC-VI,Deferido
-855da9a40b5eb7c5,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f5eca30144273441,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-ff3df9f61cd44997,Natal - Cidade Alta,Capital,Produtor Cultural,Classe E,RSC-VI,RSC-VI,Deferido
-dc08fc8e8809ff0a,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-b33f544d4540e7c5,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-b312d21770da004e,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-213cb923b0a836f1,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ad22b0cbbb213605,Reitoria,Reitoria,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
-58ba3b991e916b34,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-95a65cbe15b71538,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-1f923d69922c9938,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-58e598b18ea91810,São Paulo do Potengi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e95f50e93c6c9e05,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-3e29fa90ccbe6b2b,Ceará-Mirim,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+33068bd845ee1066,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+5a6fb35afa33723d,Caicó,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+6ad938fe903a626f,Reitoria,Reitoria,Auditor,Classe E,RSC-V,RSC-V,Deferido
+34a8771ce527a4c8,Ceará-Mirim,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+3c7125354843bec1,São Paulo do Potengi,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
+daa0fc83003ca999,Macau,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+3b4b5598be950488,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+563b5f3961018002,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+6a5069647515e95f,João Câmara,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
+915957b0a8634716,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ca90e7f7ea55f5c0,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+f2a52edd745a81ae,Apodi,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+9c03fe099e586a57,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+c6bcb80fb422b964,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+899df64591ef9c91,Natal - Zona Leste,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+f21456aecfe5ebb4,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+b90939f0c5466fd0,Parelhas,Interior,Administrador,Classe E,RSC-V,RSC-V,Deferido
+148ec9711205c782,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+ba612d01ceea110a,João Câmara,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+975f2481c424e77a,Ipanguaçu,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+2352c62c0fe7c2fa,Parelhas,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+879a5ec3385a02ec,Natal - Central,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+5c204753a8fd92e7,Ceará-Mirim,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+537c52f1be5a8349,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+1c45396120639ab4,Mossoró,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+e1d70f26d70623e1,Caicó,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+756efede028f38f9,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ca4ee1ea9a106270,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+3d737c0a7bbf4218,Nova Cruz,Interior,Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,Deferido
+a6edeeefe7870536,Currais Novos,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+725d993260632fee,Ipanguaçu,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+82b7a31496d38490,Reitoria,Reitoria,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
+7bf699b68482ce48,João Câmara,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+8993688838f481b3,Outro (SECOL),Outro,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+763e87169dab4a8a,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0a57bbeb3c9fef57,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
+2592840bbfa3016d,Lajes,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+22db19327f8e0f14,Pau dos Ferros,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+9e545af92cd97919,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+370f50ed0a7cf2f9,São Gonçalo do Amarante,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+b5fd2cc698f32c28,Natal - Cidade Alta,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+f038f56bc23ca113,Canguaretama,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+cd7303514fc560bb,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+c8a857e53bf2a935,Mossoró,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+3fe7a24eb19b265b,Reitoria,Reitoria,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+97d8271e0722496f,São Paulo do Potengi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+3004dcb544ca0f9a,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+374c516c7a431187,Reitoria,Reitoria,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+63f3eec098f32c23,Mossoró,Interior,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+6993806b2b6c7add,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+775311e3ca6751ea,Pau dos Ferros,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
+272b820753b7b4db,Natal - Central,Capital,Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,Deferido
+49156188fe147e74,Natal - Central,Capital,Arquivista,Classe E,RSC-V,RSC-V,Deferido
+63c214899367e6d3,Natal - Central,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+786eda8493dab45e,Caicó,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+45bd3c9c93df432c,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+205c1ed9dd37d449,Reitoria,Reitoria,Programador Visual,Classe E,RSC-VI,RSC-VI,Deferido
+5c84bcdf34cad465,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+8fb68be47a9aced4,Natal - Zona Leste,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+ffb1fefa5ca06bf6,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+4ee141f7719493c1,Santa Cruz,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+3f1b2542e0a54fe4,São Gonçalo do Amarante,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+130c0c501fc84a7e,Reitoria,Reitoria,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+c0f8a4aa74300666,Mossoró,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
+bd5acc532d85ea73,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+aeb98131994b3b91,Mossoró,Interior,Operador De Maquina Copiadora,Classe C,RSC-V,RSC-V,Deferido
+1c65bc0a5d407ae0,Parelhas,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+12b6d9d77d1f18e7,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ac7eb5f6d37af173,Natal - Central,Capital,Telefonista,Classe C,RSC-VI,RSC-VI,Deferido
+891609896ea5e2c2,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+8be04a4f69334251,Apodi,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+e52308f722567e92,Natal - Central,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+1d373343ed97e18e,Mossoró,Interior,Enfermeiro,Classe E,RSC-V,RSC-V,Deferido
+f6a1ac6bf718bad6,São Paulo do Potengi,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+d93e90ef0adaf2ae,Currais Novos,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+0257cb919e21ef41,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+04db56a4b2bf1b40,Macau,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+a360d919d58ced0a,Natal - Central,Capital,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
+775b4d2f78c5f685,Natal - Central,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+2af9e36f662e4543,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+5ba118674ccf321a,Ceará-Mirim,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+4d1ce40c6a66d0f9,Ceará-Mirim,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+86d3d4b356b2e98c,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f73a1f411a1a8ba7,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f1ac1fb3a73974b6,Macau,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+3e4ac09cd42e7b52,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+9d28019c8eb89e72,Natal - Cidade Alta,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+1754a6179df35039,São Paulo do Potengi,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+f59a0f04076c2fb2,Ceará-Mirim,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+366b6de076ccd588,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
+e7e664098efff7c3,Natal - Cidade Alta,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+246ab92390d72881,Pau dos Ferros,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+7df63a4fad1b0fbb,Mossoró,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+09241166f89d8cd1,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+955216228c471a13,Pau dos Ferros,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+2672b921f15639e0,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+87c08861b39b3472,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+63dc636afcf773eb,João Câmara,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+b4cc57bb8dbeacb0,Caicó,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+4a18096a74dde5ef,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+f01dd0c05d4dfdc2,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d6a020d03c4bdf1a,Lajes,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+d42f375d0467fd13,Natal - Central,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+d57f9fef2d0889e4,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+025ddde4fc3b4e3c,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+5730ffdd46ba278b,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+d2a352440c29284c,Currais Novos,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+687d554bef669272,João Câmara,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+908590c58049484d,João Câmara,Interior,Técnico em Eletrotécnica,Classe D,RSC-III,RSC-III,Deferido
+dd0e367b7fb2fe60,Mossoró,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
+b07c8af4a0d8719b,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+8e2bef01b4d8175d,Natal - Zona Leste,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+3a2551c2dcd41d6c,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+6472445920c54589,São Paulo do Potengi,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
+5379e8360cc0067c,Natal - Central,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+240df1a858299c0d,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+cef2e2aa46bd5f77,Natal - Zona Leste,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+64df6fc997c9c9b8,São Gonçalo do Amarante,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+3343baaa14ecd3c6,Natal - Zona Norte,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+640510ab182f47be,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+e526b0318b9c9ff1,Natal - Central,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+aa6d26e98fbffa59,Reitoria,Reitoria,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
+032a45818bfab609,Natal - Central,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+dd2811bd14f345b5,Canguaretama,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+278077ff09e0aa54,Natal - Central,Capital,Economista,Classe E,RSC-VI,RSC-VI,Deferido
+67996f8307b6085a,Natal - Central,Capital,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
+882414fc3125214c,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+6bd80045bcac2b52,Natal - Zona Norte,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+244ed5d8bfb8b9e0,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+88b250f7ad72bb4f,Macau,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+00ffc9d490f66928,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+114249e4900d3888,Natal - Cidade Alta,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+b0d3becca1718464,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+128ed900dd65d3ea,Reitoria,Reitoria,Auxiliar de Laboratório,Classe D,RSC-V,RSC-V,Deferido
+226d948068576a0b,Parelhas,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+4f159f226805287b,Mossoró,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-V,RSC-V,Deferido
+7fd21fd40ecf587d,Caicó,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+354bbdddf215ba7b,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+eee1880f33b5a5da,Ipanguaçu,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+3c58fc3e9569a142,Canguaretama,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+7a6bfacc5338b25a,São Gonçalo do Amarante,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
+a3f73054da6df6cd,Reitoria,Reitoria,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+311eaad89ab49ed3,Natal - Cidade Alta,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+2598368cd3d1741b,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+6571d618dd54e600,Ceará-Mirim,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+7cebac1de8a07638,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+024a60b94b5985b4,Reitoria,Reitoria,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+4ed0fe60a50b4ee4,Natal - Zona Leste,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+68da18c5af145beb,Mossoró,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0fcc789c3c9d7cb2,São Paulo do Potengi,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+ee0cc8a1e4d8414f,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+69e2c46b0423aec2,Natal - Cidade Alta,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+1dfacf218e83d8f1,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+acc95ef095e57acc,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ccc9782e89d4a06a,São Paulo do Potengi,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+531fe3302bdfc645,Reitoria,Reitoria,Operador De Tele-Impressora,Classe D,RSC-VI,RSC-VI,Deferido
+b789fe43e6ec4e6b,Natal - Central,Capital,Mecanico,Classe C,RSC-V,RSC-V,Deferido
+747bdf0e04baa568,Não Informado,Outro,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+5edd6f5de493bd73,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+492ec7d537f98dad,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+004f91e2ffc71716,Natal - Cidade Alta,Capital,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+ef7375ebabd15802,Ceará-Mirim,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+b1e1fd973c01c42c,São Gonçalo do Amarante,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+11313593d08d4624,Pau dos Ferros,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+6271da5c49897eef,Natal - Zona Norte,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+7fbca0e9d7971386,Macau,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4e7a54ff2a92ceeb,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+1e38047220d55794,Natal - Zona Norte,Capital,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+9683259fc2132ee2,Natal - Central,Capital,Motorista,Classe C,RSC-V,RSC-V,Deferido
+5f57db0d1c0fd32a,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+acf4f72b474ba472,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+4893752bb2c57f32,Natal - Central,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
+4f3591ede0fd8e0d,São Paulo do Potengi,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+d40260cc51b56e11,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+93796b7ed6164379,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+e46a0bd0bd931260,Currais Novos,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
+d2ec66eea496e8ab,Ipanguaçu,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+2f2852c3e994de8e,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+a0acfb74a845b882,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+1ab183823090e4bf,São Paulo do Potengi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+4569eb32fdf7a1b6,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+3d7f748e72b5eac0,Caicó,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+28c793911f599b3c,Natal - Cidade Alta,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+7fb498f4dcf003b2,Reitoria,Reitoria,Economista,Classe E,RSC-VI,RSC-VI,Deferido
+57d0b7146a0f8d66,Canguaretama,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+74ca676f29f35c55,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+36b8d1dcb95bf44e,Nova Cruz,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+eb7542f1edbd6156,Santa Cruz,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+500661d5b6d642bd,Caicó,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
+87e7f4ae44139920,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+33fded00013ee058,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+3fd985aee53450a5,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f2308a09e107d1ef,Caicó,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+6bc97c935345eac1,Nova Cruz,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+36de139b1c3cd116,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+775ad4892eae8926,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+d7e91c049453b9a6,Ipanguaçu,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+88fe474d53bff726,Nova Cruz,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+8cf9dfc0443390bd,Macau,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+4d4cfc7976301b4c,Currais Novos,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+72172c0743f85786,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+2fc07677bd98fceb,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+fc4b7a59adb44810,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+3a39ee0652bab1b3,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+4ee3134407a0c85a,Ipanguaçu,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+e4feadf26830a949,Natal - Cidade Alta,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+926823aab038a1fc,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+347c31cb753178de,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+5a10771062a2ec47,Parelhas,Interior,Técnico em Edificações,Classe D,RSC-V,RSC-V,Deferido
+40a1940e74670836,Apodi,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
+bca91f901a5ba829,Natal - Central,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+6f2924773e8d3562,Reitoria,Reitoria,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+6303f86f8f0ea89a,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+8ac1d5a63b064516,Apodi,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+590a4839a7fbe8c5,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+5fe2377bac94f8b0,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+a321008e0ed419b9,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+dca163c8718fc854,Apodi,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+b26877bce03e5b28,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0a0450bb5611a747,São Gonçalo do Amarante,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+c8a7f5d889ee9012,Pau dos Ferros,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
+47725fdb1a1ce26b,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
+bbd5b53504f2a885,Natal - Cidade Alta,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+42e01fada9a0e816,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+b1a6e36dac674c7d,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+c5b3c59d5242e6d5,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+ba75920f2f5bb52e,Lajes,Interior,Enfermeiro,Classe E,RSC-V,RSC-V,Deferido
+58ded251917e979f,São Gonçalo do Amarante,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+2802680eced2acb8,Ceará-Mirim,Interior,Psicólogo,Classe E,RSC-V,RSC-V,Deferido
+06400e596b0e8fea,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+bf3ee7e2a9e00399,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+3cea58c318724eaa,Natal - Central,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
+69fe8778a80d2b34,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+65e004f2ae2b48ae,Natal - Cidade Alta,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+52bbf8f51add76f2,Mossoró,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+285300f2bbc9af7a,Natal - Cidade Alta,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+e3079641e6f7998c,Reitoria,Reitoria,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+dd36aaa58feb0177,Apodi,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+dda099cd78e9e864,Reitoria,Reitoria,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+874a808ba9dacd65,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+b1d8f0333f497ab7,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+89501031dc3dbfba,Natal - Central,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+64da9f9a848c5d89,Pau dos Ferros,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+9c5d8c15701e8b0a,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+974d82be2db99e14,Ipanguaçu,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+da7f7204d562c3ad,Nova Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+65b542971d25c80f,Parelhas,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+e8e38172495fff84,Apodi,Interior,Engenheiro Agronomo,Classe E,RSC-VI,RSC-VI,Deferido
+739f5276617956b4,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+c74148a90dc2db6f,Ceará-Mirim,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+08985ef11e44f05d,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+656708134966aa27,Pau dos Ferros,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+d2b5c913d601c154,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+24372b2f7c6e6acd,João Câmara,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
+5cf7815ed307702b,Natal - Central,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+b9a30bc693acf21d,Reitoria,Reitoria,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
+dc635c2862db16f1,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ed9a33cc150c7f32,Natal - Zona Norte,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+b0eda659d74ea25b,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a31378c72dd6e778,Currais Novos,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+90cd40982acaccc8,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+62cf9671201f2510,Natal - Zona Leste,Capital,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+19569b0739dfc305,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+86ab28d7134f7fd7,Macau,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+6d4123444d7ee2f5,Reitoria,Reitoria,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+a4a6c8666e968c5b,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+2bcca32483fbdf88,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+01aeda7d762d792d,João Câmara,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+d56dc2584e0e69f2,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+2a70b9f81645bfb0,Santa Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+0db778023246bfe0,Natal - Central,Capital,Administrador,Classe E,RSC-V,RSC-V,Deferido
+fa141122dd97cfdf,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+fe318f3e70d5f550,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+1158d86a5b19e127,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+3447acb7867705ee,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+5b0fce2caf4c7a77,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+30033e47d3b0c372,Não Informado,Outro,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+8a73774138e4d1b0,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+05c83733a6d4d3c2,Reitoria,Reitoria,Auditor,Classe E,RSC-V,RSC-V,Deferido
+22ba93823d960c1f,Apodi,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+530b4910cfadc927,Reitoria,Reitoria,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+3f104e00520ae7aa,Santa Cruz,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
+76ad04f4ef2efd5c,Apodi,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+b1b23140af155dc7,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+abb564fb3b6b0fd3,Reitoria,Reitoria,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+da918f1ce5ab8cc0,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+db00f423b1278456,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+040b49cfa1a42589,Parelhas,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+691d5c21f63d4512,Pau dos Ferros,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+7c600c921b78f1d2,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+23220c73a4852473,Natal - Central,Capital,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
+9272aac55f47b668,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+91a13a62ad48ed1f,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+317a81f7ac200daf,Natal - Zona Leste,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+54da0e1288919122,Canguaretama,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+8ccade74d2c79753,Parelhas,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+e1fa44fc3933dc19,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+eade889927f6b966,Natal - Cidade Alta,Capital,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
+6b0d57c388770020,Lajes,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
+57545009c7b64768,São Paulo do Potengi,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+5e5f0e7beff201cd,Parelhas,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+311717630d5a727a,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0b75f83a888e82ba,Nova Cruz,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+350d0db75b1ec67c,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+6dd016b2abf819e4,Santa Cruz,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+aef29b36209cad47,São Paulo do Potengi,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+c6dbe380596a9c7e,Mossoró,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+60e0797bc54e2f5d,Nova Cruz,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+d8b48673a5c059f6,São Paulo do Potengi,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
+f758b386a132c3a8,Parelhas,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+b79781093db89ea2,Mossoró,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+686d9a0fc34108ef,Ceará-Mirim,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
+01f4ea51e568e46a,Macau,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+b47a4accd4ec470f,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a04a6eb090bf2fdf,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+cc8c247dc90b1495,Mossoró,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+75c0d93a0075a215,Mossoró,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+14a3e49865af7bc2,Caicó,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+7575a2b7daa36aee,Ipanguaçu,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+4a6cc42210ff5a8c,Lajes,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f955a191ea4167b1,Parelhas,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+8c87544430076a31,Natal - Central,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+80bf22eb4eeebd6d,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+16c8365769297e8b,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+8ff1b3d9782b4c66,Natal - Central,Capital,Técnico em Mecânica,Classe D,RSC-V,RSC-V,Deferido
+3554c5f07ee04a9c,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+bcd31efb989e29b0,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+5694a7428be86ba8,Mossoró,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+e2452e90e943dfb9,Reitoria,Reitoria,Publicitario,Classe E,RSC-VI,RSC-VI,Deferido
+c5ef43c5af8eb82a,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+76ba6b8f9d407478,Apodi,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+01834043303413b1,Centro de Tecnologias do Gás e Energia,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+2ed38a274f671a1a,São Gonçalo do Amarante,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+b158fff614b83dda,Ceará-Mirim,Interior,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
+b7d153d40553fa85,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+744ef62954498e46,Reitoria,Reitoria,Diagramador,Classe D,RSC-VI,RSC-VI,Deferido
+64d238c9e79dfc6c,Mossoró,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+3c2043b63027e5dd,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+38d8b1dd4967509e,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+7c0a5a1713ebe545,Apodi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+a791a2de7334ff3a,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+2961dde29b0bd6c6,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+51f0b9b2511c6f4a,Natal - Central,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+4b1d9951341275b8,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+50105cc2280512b1,Reitoria,Reitoria,Técnico Em Seguranca Do Trabalho,Classe D,RSC-VI,RSC-VI,Deferido
+620680ec6f66bdf7,Ceará-Mirim,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+01682e254c0041ff,Santa Cruz,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+a579e42fe901dbf5,São Gonçalo do Amarante,Interior,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
+5f11a298e8d5881c,Caicó,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+bee1def3ac651dc2,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+5ad718081fccd843,João Câmara,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+1dd569651aa57eba,Caicó,Interior,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
+faa11375b3c3f1ed,Apodi,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+d13e5dc3ae2d29be,Ceará-Mirim,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+3ec74e26bc77a6c0,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f3e9709ba6a4f5fc,Natal - Cidade Alta,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+1d9c3ae3da5619da,São Gonçalo do Amarante,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
+e43db31feea89290,Canguaretama,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
+1d5041cf62e32e7c,Natal - Cidade Alta,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+1255229af9739923,Reitoria,Reitoria,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+0fd9a68f8250ea07,Parelhas,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f6f8137cb18d0353,São Paulo do Potengi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+d69c66df6caf8214,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+1f9e8b839f613d2b,Nova Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+de3c4460a297aac0,Ceará-Mirim,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+9f4d87fb1ae06077,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+5143f2ce453042f8,Caicó,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
+6b36c8f0d533b8cd,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f709023b7cd4b92f,Canguaretama,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+04bed157607a3d6e,Natal - Zona Norte,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+9dc13bcb4980c210,Natal - Central,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+3938882cbae5c6d0,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+72f84ae3cd79ce37,Nova Cruz,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+4f0bdd1ba93c3569,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+260fa6080f5e93cd,Caicó,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+fdc8c4b48cdeb344,Ceará-Mirim,Interior,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
+e27441e006ca7461,Ceará-Mirim,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+5537c24933b4db9d,Reitoria,Reitoria,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
+6257471440bb63b8,Mossoró,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+41d7d39118984fec,Apodi,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+eff58f4cf70a440c,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+67e3f8728f05c288,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+024576f929e2f793,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+79098686c34f6c0c,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+83be5692d17415b8,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+5d0bf840db280888,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+e5fbb4333b9b1eca,Natal - Zona Leste,Capital,Analista De Técnico Da Informacao,Classe E,RSC-V,RSC-V,Deferido
+624eb59219fd05d9,Reitoria,Reitoria,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+89361a5a7a1a7b9f,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+eb02846ce1336f20,Reitoria,Reitoria,Economista,Classe E,RSC-V,RSC-V,Deferido
+b19c24029b64aeae,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+2397c1d7068c3e2a,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+cedbc7718f71e66b,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4998c045f62a0480,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+baf044ee2f6e99b2,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+347a5239a6486148,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+0a26323e593dcd7c,Currais Novos,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
+a095a48cd53c8f1c,Lajes,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
+b77c4f5b5bec8cec,Apodi,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+06267e229b9348d3,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+359174bed5027867,Pau dos Ferros,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+bd88a3c99a07b7c0,Natal - Central,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+b944fcf7195960ef,Apodi,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+4da072d397028ec4,Mossoró,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
+d97f7722704a4e27,Parelhas,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+e22ee4ab669f6c0b,Natal - Cidade Alta,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+dac89f323a37d235,Mossoró,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
+062a48706c0458f4,Mossoró,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+46e761d0f09b1a8d,Canguaretama,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+e0e14331dfc3c7b9,Natal - Central,Capital,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
+f0fe09308e95622b,Currais Novos,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+feb9d23ad202cc75,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+2763138789ca1886,Apodi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+2d5553ae25870a78,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+dcc7251c50c70d16,Ipanguaçu,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+59a792f0f62fcad8,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+3b09a14a5a178e65,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+07e2c5438f2172a2,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+7c91ffdb6da602ef,Mossoró,Interior,Auxiliar de Enfermagem,Classe C,RSC-V,RSC-V,Deferido
+71a25d46cbf5e275,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+85484f00252eda2d,Santa Cruz,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
+5c428ff5592ff3d7,Ceará-Mirim,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+3a4b6d066a81df02,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+242d431e8a380990,João Câmara,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+7724cf4dc413eb9c,Caicó,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+d3e2138a0baec201,Ceará-Mirim,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+205f76f13eac62f8,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+97cbf20ac85de117,Reitoria,Reitoria,Administrador,Classe E,RSC-V,RSC-V,Deferido
+86414546f0737746,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+e06addcde9dac1b0,Ceará-Mirim,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+a6733a76870225a7,Santa Cruz,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+56c7afbeac909abf,Caicó,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a3af5625e23042d2,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+c1e6f7cd0892dd70,Parelhas,Interior,Enfermeiro,Classe E,RSC-VI,RSC-VI,Deferido
+bd566acc09537d22,Natal - Central,Capital,Carpinteiro,Classe D,RSC-V,RSC-V,Deferido
+e392cf60520ccdeb,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ec1f5fb1c691d5c3,Natal - Zona Norte,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+98113b50d4315aa7,Macau,Interior,Técnico em Química,Classe D,RSC-VI,RSC-VI,Deferido
+bc8ab982c8abd4e2,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+c6d4e87e1916cf5e,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+55c497ed86a441f0,Parelhas,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4afe30898120f95c,Parelhas,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+ecf257d8676e26fd,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+fff04b8c60faf47b,Natal - Cidade Alta,Capital,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+359e18db043cc625,São Paulo do Potengi,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+dd5c1b7dc98dd439,Canguaretama,Interior,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
+b07b6e884bd556b9,Santa Cruz,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+3ed3a5380d9dccfc,Parelhas,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
+0d58b402cecc52df,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+a149a91f3c02a0b5,Natal - Zona Norte,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+1887c6b4b44e3859,João Câmara,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+bb256569f6cd4f00,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+4a448da71e42d043,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+296c845a4619a1ed,Apodi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+9328b1e1c08e6271,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+94b0650be364cfee,Natal - Central,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+6aa16d69f7d0b65e,Natal - Central,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
+938fd8b78ba65e4b,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ec1b6ffd791dbab3,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+7d93f328924e1c40,São Paulo do Potengi,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+f1c1bec1e09f52d1,Mossoró,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+1d948e3086158e88,Ceará-Mirim,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+71d6ec14dba18266,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+df6e98ec190a8028,Reitoria,Reitoria,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
+5374288e081ab547,Reitoria,Reitoria,Porteiro,Classe C,RSC-V,RSC-V,Deferido
+f0df89e4212cb5e8,São Gonçalo do Amarante,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+c4ddff2d4c86217c,Centro de Tecnologias do Gás e Energia,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+9e24bb3077d8f1d9,Reitoria,Reitoria,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+d94d2b1111d4934c,Parelhas,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+133d7bbc7e568953,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f6ce2ff2e001f2b5,Natal - Central,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+54529a6ef1139ca4,Parelhas,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+6ee48105e00b3f6a,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+4618147dbed2f314,Reitoria,Reitoria,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+d3cd5e48b7e4ea85,Nova Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+8805b0eec6f818dc,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+cbd84e41aed94d01,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+a24899f6e4deb347,Natal - Central,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+d834381e34280fc3,Parelhas,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+b70159551a06d356,Natal - Central,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+b3933291d57d53d2,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+7f926175f3564a91,Natal - Central,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+929625f1c3a32de6,Reitoria,Reitoria,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
+e559d4e86a7c7a7c,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+65a908eff020afc6,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+25735b47166928d7,Reitoria,Reitoria,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+75534cba18102ac1,Natal - Central,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+e8486502a1b7aa47,Parelhas,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+049b731a916677c8,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+7944c3805d233fe2,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
+d2ce623d81ee00b7,Nova Cruz,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
+7b83b540bfaa6657,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+89f0b01612d428ec,Natal - Zona Norte,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+e462ffa61a261d7f,Macau,Interior,Técnico em Química,Classe D,RSC-V,RSC-V,Deferido
+11c5eb94dae53fdf,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+225a6ed15daa8146,Reitoria,Reitoria,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+177633b85c40a02a,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+70453c55e105ed8a,Santa Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+79561cd259beaff7,Natal - Cidade Alta,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+cd4bdfe90772fb7b,Não Informado,Outro,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+7f83fa9fd4b8facb,Currais Novos,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+7d0ce0c41646a14f,Lajes,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+7f074ff0a2f1e7c0,Canguaretama,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+0826e0feba8d4673,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+bc157e619860289b,Apodi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+5e22ac2c16ca5b1c,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+854551e7783ef27f,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+34f4aceffaa853bd,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+710b4ef20d33cf17,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+4af8dd90a4166b33,Mossoró,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f4c22c982d7eb333,Caicó,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+664d22af0c83b3a6,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+8de56a78347c24c4,Apodi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+edb136a8f324917e,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+52a76331be3cb800,Parelhas,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+79fc124d65de5d1d,Natal - Cidade Alta,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+72dda1f969ae765f,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+3f8d53bbdd59a10f,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+11e3b72938509ed2,Reitoria,Reitoria,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+712e55ce330cdc44,João Câmara,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+717bc66079878b6d,Reitoria,Reitoria,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+d03a52874740d10a,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+fe960a0f8d5bc4ca,Canguaretama,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+3cdf07a457a6ac95,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+51927c6d67293e8e,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+9cd639f6fe395fb0,Parelhas,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+bff52d5f1c9b4f6e,Mossoró,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+754bb15fcbddb396,Reitoria,Reitoria,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+6264ad63317f1cf7,Natal - Central,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+035d31fd410d3e8b,Natal - Zona Norte,Capital,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
+4b29bf2675241555,Mossoró,Interior,Auxiliar De Artes Graficas,Classe D,RSC-V,RSC-V,Deferido
+335edb1e295d7b62,Natal - Zona Norte,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+9bf257edbc97b848,Reitoria,Reitoria,Auditor,Classe E,RSC-V,RSC-V,Deferido
+97fc1b8e083244a6,São Gonçalo do Amarante,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+bd21d44561c2e755,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ea42a9cb6c6d5df2,Ceará-Mirim,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+e089ff7120c55416,Natal - Zona Norte,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+3374038f89106aa5,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+9d03c5fd589fddb0,Mossoró,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+2ba41f17d9abf04f,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+d67d517e271b7e3f,Apodi,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+0e0e21a102aa8a6e,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+2be2678f9387af37,Lajes,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+9aa778bd4453ac59,Apodi,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+8bd67acd920b5114,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+da601ce351b61715,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+120a08cb9d2759ab,João Câmara,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+e31f37a6036b0c3f,Canguaretama,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+9bd0522336244611,São Gonçalo do Amarante,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+609b4e10dd7b5b6d,Reitoria,Reitoria,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+855a0d80fa7a6773,Currais Novos,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+51337268e924a03a,Natal - Cidade Alta,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+bc1c00fa2d82c7f8,Reitoria,Reitoria,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+0ac560cb2427986b,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+5c6a2701a3a87dc1,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+56dd68ab73add49f,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+f47c94877d0def55,Apodi,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+338043466e28e348,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+c7bd321cbde59d87,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0f639608315f9788,Parelhas,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+5122a3cd82bab560,João Câmara,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+eaaa8402c5cc7ff9,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+36babc29e4ea04fa,São Paulo do Potengi,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+d8aa1b28ee2aa526,Nova Cruz,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+209273f0f33c171e,São Paulo do Potengi,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+165a072b4e4c19dc,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+ed5587c7d3bd23a9,Ipanguaçu,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+e18aac236a50b401,Currais Novos,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a91612f5ab05ef8a,Natal - Zona Leste,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+1a066de1504addc5,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+ac4bcce7453f3b91,Ceará-Mirim,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+c9221729b7dbe3fb,João Câmara,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+d86ea2b289c11c7d,São Paulo do Potengi,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
+277e0cc10d0e8860,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+323497809e7c549d,Natal - Cidade Alta,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+80b25d1b72a94133,Pau dos Ferros,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+bdeb948ea43553ad,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+68199d11b6272d99,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+e4d65a08fee0d1ce,Ipanguaçu,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+2e991ea077d1e33f,Reitoria,Reitoria,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+b068b98cec881f77,Pau dos Ferros,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+d63f45d33e31c03a,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+317cb157e1009368,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+a151ad4bd5c2b7ed,Natal - Zona Leste,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+1177dc48188452a9,Nova Cruz,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+a5ea0a4972144ac4,Canguaretama,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+7bd8576f8d485929,Apodi,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+69c8800d160ceca2,Mossoró,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+37f87289b033822e,Ipanguaçu,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+77e21931de177b79,Pau dos Ferros,Interior,Técnico em Agropecuária,Classe D,RSC-VI,RSC-VI,Deferido
+abe3fd3c1e57c4c0,Reitoria,Reitoria,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+4cb11dcaeb711924,Parelhas,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+bd8991e7de18a443,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+1410958bc7675c09,Santa Cruz,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+a46cdbe5aa38b138,Macau,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+522bb45dddd6a0f9,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ed135cfb7121e7df,Reitoria,Reitoria,Jornalista,Classe E,RSC-VI,RSC-VI,Deferido
+d1d5088bf1b81a22,Natal - Central,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+61729f45fbf6f997,Pau dos Ferros,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+9e8468320a3b550f,Natal - Zona Leste,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+7c56786569405d76,Natal - Zona Norte,Capital,Contador,Classe E,RSC-V,RSC-V,Deferido
+eb089a8f63cdc017,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+7fcde957f614a423,Ceará-Mirim,Interior,Técnico em Edificações,Classe D,RSC-VI,RSC-VI,Deferido
+5a3eff6ac5a1ec65,Natal - Zona Norte,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+783761d67b0e9b33,João Câmara,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ea0ff7e1b2cede24,Parelhas,Interior,Auxiliar De Biblioteca,Classe C,RSC-VI,RSC-VI,Deferido
+a194030f4a8139cd,Ipanguaçu,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+e085fb0c0432b768,Pau dos Ferros,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+97dfb1af9bb79b42,Natal - Cidade Alta,Capital,Produtor Cultural,Classe E,RSC-VI,RSC-VI,Deferido
+5e5bdbc5a1bcdc80,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+e9425d3d6a48d487,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+1716b21817ac59a2,São Gonçalo do Amarante,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+e14f10861d388aaf,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+28bd732311cf6f9b,Reitoria,Reitoria,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
+148cae9c2696269b,Canguaretama,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+d391eaede6243fd3,Reitoria,Reitoria,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+342c7dea06973933,Reitoria,Reitoria,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+0efee2753c0d90f3,São Paulo do Potengi,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+89a3ca7e96c0f478,Reitoria,Reitoria,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+7bfe7a51f69717b3,Ceará-Mirim,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
