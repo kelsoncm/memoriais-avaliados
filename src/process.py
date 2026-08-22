@@ -224,7 +224,11 @@ def load_quadro_ativos(ativos_path: str) -> pd.DataFrame:
     return df_ativos
 
 
-def generate_aggregates(df_fato: pd.DataFrame, df_ativos: Optional[pd.DataFrame] = None) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict]:
+def generate_aggregates(
+    df_fato: pd.DataFrame,
+    df_ativos: Optional[pd.DataFrame] = None,
+    collected_at: Optional[str] = None
+) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict]:
     """
     Gera tabelas agregadas e cruzamentos com o quadro de TAEs ativos.
     """
@@ -333,6 +337,7 @@ def generate_aggregates(df_fato: pd.DataFrame, df_ativos: Optional[pd.DataFrame]
     summary_json = {
         "meta": {
             "gerado_em": datetime.now(timezone.utc).isoformat(),
+            "coletado_em": collected_at or datetime.now(timezone.utc).isoformat(),
             "total_geral_avaliados": total_geral_avaliados,
             "total_tae_ativos": total_tae_ativos,
             "taxa_cobertura_global_pct": taxa_cobertura_global,
@@ -445,7 +450,7 @@ def main():
     df_ativos = load_quadro_ativos(args.ativos)
 
     logger.info("Gerando tabelas agregadas e cruzamentos com quadro de TAEs ativos...")
-    agg_campus, agg_cargo, agg_institucional, summary_json = generate_aggregates(df_fato, df_ativos)
+    agg_campus, agg_cargo, agg_institucional, summary_json = generate_aggregates(df_fato, df_ativos, collected_at)
 
     save_processed_files(df_fato, agg_campus, agg_cargo, agg_institucional, summary_json, args.output_dir)
 

@@ -154,11 +154,54 @@
    * Initialize UI, KPI cards, Filters and Charts
    */
   function initDashboard() {
+    updateSyncStatus();
     populateFilterDropdowns();
     updateDashboardView();
     renderDataTable('campus');
     setupEventListeners();
     initGenericTableSort();
+  }
+
+  function formatSyncDate(dateStr) {
+    if (!dateStr) return null;
+    try {
+      const d = new Date(dateStr);
+      return d.toLocaleString('pt-BR', {
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function updateSyncStatus() {
+    const meta = rawSummaryData?.meta;
+    const syncItem = document.getElementById('heroSyncDateItem');
+    const syncText = document.getElementById('heroSyncDate');
+    const alertBanner = document.getElementById('dashboardAlertBanner');
+    const alertTitle = document.getElementById('alertBannerTitle');
+    const alertMsg = document.getElementById('alertBannerMessage');
+
+    const coletadoEm = meta?.coletado_em || meta?.gerado_em;
+    if (coletadoEm && syncItem && syncText) {
+      const formatted = formatSyncDate(coletadoEm);
+      if (formatted) {
+        syncText.textContent = `Coleta: ${formatted}`;
+        syncItem.style.display = 'inline-flex';
+      }
+    }
+
+    if (meta?.status_sincronizacao === 'aviso' || meta?.erro_sincronizacao) {
+      if (alertBanner && alertTitle && alertMsg) {
+        alertTitle.textContent = 'Aviso de Sincronização';
+        alertMsg.textContent = meta.mensagem_sincronizacao || 'O último processamento identificou indisponibilidade e manteve a base anterior.';
+        alertBanner.style.display = 'flex';
+      }
+    }
   }
 
   /**

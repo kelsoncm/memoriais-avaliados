@@ -49,13 +49,6 @@ jobs:
         id: collect
         run: |
           python src/collect.py
-        continue-on-error: true # Se a API do SUAP estiver temporariamente fora, mantém os últimos dados válidos
-
-      - name: Verificar Status da Coleta
-        run: |
-          if [ "${{ steps.collect.outcome }}" != "success" ]; then
-            echo "::warning title=SUAP API Indisponível::A coleta da API falhou ou está indisponível. Mantendo os dados da execução anterior."
-          fi
 
       - name: Processar e Anonimizar Dados
         run: |

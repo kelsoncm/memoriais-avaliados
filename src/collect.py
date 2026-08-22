@@ -87,10 +87,17 @@ def collect_all_data(start_url: str = API_DEFAULT_URL) -> dict:
             # API retornou lista direta
             all_results.extend(data)
             break
-        else:
-            raise ValueError(f"Formato inesperado de resposta da API: {type(data)}")
+    # Validação rigorosa de integridade
+    if total_count is not None and len(all_results) != total_count:
+        raise RuntimeError(
+            f"Coleta incompleta da API do SUAP: a API reportou count={total_count} registros, "
+            f"mas foram obtidos {len(all_results)} registros. Abortando para manter os dados anteriores intactos."
+        )
 
-    logger.info(f"Coleta concluída com sucesso. Total coletado: {len(all_results)} registros.")
+    if len(all_results) == 0:
+        raise RuntimeError("A API do SUAP retornou 0 registros. Abortando para evitar sobrescrever a base com dados vazios.")
+
+    logger.info(f"Coleta concluída com 100% de sucesso. Total coletado e validado: {len(all_results)} registros.")
 
     return {
         "metadata": {

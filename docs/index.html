@@ -113,12 +113,25 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
           <span>Privacidade por Design (100% Anônimo)</span>
         </div>
+        <div class="hero-meta-item" id="heroSyncDateItem" style="display: none;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span id="heroSyncDate">Última Sincronização: --</span>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <div class="content-container">
+  <!-- Status / Alert Banner -->
+  <div id="dashboardAlertBanner" style="display: none;" class="alert-banner warning">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+    <div class="alert-content">
+      <strong id="alertBannerTitle">Aviso de Sincronização</strong>
+      <span id="alertBannerMessage">Os dados exibidos referem-se à última sincronização válida disponível.</span>
+    </div>
+  </div>
+
   <!-- KPI Metrics Bar -->
   <section class="kpi-grid">
     <div class="kpi-card">
