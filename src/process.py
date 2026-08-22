@@ -33,79 +33,36 @@ logger = logging.getLogger("rsc_processor")
 # Limiar de privacidade (k-anonymity / supressão de pequenas células)
 PRIVACY_THRESHOLD = 5
 
-# Mapeamento oficial de lotações/siglas do IFRN para Campus e Tipo de Campus
-CAMPUS_MAP: Dict[str, Tuple[str, str]] = {
-    # Reitoria e órgãos centrais
-    "RE": ("Reitoria", "Reitoria"),
-    "AUDGE": ("Reitoria", "Reitoria"),
-    "COGLEG": ("Reitoria", "Reitoria"),
-    "DSINF": ("Reitoria", "Reitoria"),
-    "DIDEPE": ("Reitoria", "Reitoria"),
-    "DICLIC": ("Reitoria", "Reitoria"),
-    "DIASS": ("Reitoria", "Reitoria"),
-    "DIGOV": ("Reitoria", "Reitoria"),
-    "PROEN": ("Reitoria", "Reitoria"),
-    "PROAD": ("Reitoria", "Reitoria"),
-    "PROEX": ("Reitoria", "Reitoria"),
-    "PROREC": ("Reitoria", "Reitoria"),
-    "PROPES": ("Reitoria", "Reitoria"),
-    "DTI": ("Reitoria", "Reitoria"),
-    # Campi Capital (Natal)
-    "CNAT": ("Natal - Central", "Capital"),
-    "ZN": ("Natal - Zona Norte", "Capital"),
-    "ZL": ("Natal - Zona Leste", "Capital"),
-    "DEAD": ("Natal - Zona Leste", "Capital"),
-    "CH": ("Natal - Cidade Alta", "Capital"),
-    "CAL": ("Natal - Cidade Alta", "Capital"),
-    "CTM": ("Centro de Tecnologias do Gás e Energia", "Capital"),
-    # Campi Interior
-    "AP": ("Apodi", "Interior"),
-    "CA": ("Caicó", "Interior"),
-    "CANG": ("Canguaretama", "Interior"),
-    "CM": ("Ceará-Mirim", "Interior"),
-    "CN": ("Currais Novos", "Interior"),
-    "IP": ("Ipanguaçu", "Interior"),
-    "JC": ("João Câmara", "Interior"),
-    "LAJ": ("Lajes", "Interior"),
-    "MC": ("Macau", "Interior"),
-    "MO": ("Mossoró", "Interior"),
-    "NC": ("Nova Cruz", "Interior"),
-    "PAAS": ("Parelhas", "Interior"),
-    "PAR": ("Parelhas", "Interior"),
-    "PARN": ("Parnamirim", "Interior"),
-    "PF": ("Pau dos Ferros", "Interior"),
-    "SC": ("Santa Cruz", "Interior"),
-    "SGA": ("São Gonçalo do Amarante", "Interior"),
-    "SPP": ("São Paulo do Potengi", "Interior"),
-    "TOU": ("Touros", "Interior"),
-    "JUC": ("Jucurutu", "Interior"),
-}
-
-
 def parse_lotacao(lotacao_raw: Optional[str]) -> Tuple[str, str]:
     """
-    Identifica o campus e o tipo de campus (Capital, Interior, Reitoria)
-    a partir da sigla de lotação do SUAP.
+    Identifica a sigla do campus e o tipo de campus (Capital, Interior, Reitoria)
+    a partir da lotação do SUAP (faz split por '/' e usa o 2º elemento).
     """
     if not lotacao_raw or not isinstance(lotacao_raw, str):
         return ("Não Informado", "Outro")
 
     lotacao_clean = lotacao_raw.strip().upper()
-    if not lotacao_clean or lotacao_clean == "-":
+    if not lotacao_clean or lotacao_clean in ("-", "NAN"):
         return ("Outro", "Outro")
 
-    # Extrai sufixo após última barra, ex: COTIC/CA -> CA, DIAD/PAAS -> PAAS
-    suffix = lotacao_clean.split("/")[-1].strip() if "/" in lotacao_clean else lotacao_clean
+    # Extrai o campus a partir do segundo elemento após a barra (UNIDADE/CAMPUS)
+    if "/" in lotacao_clean:
+        parts = lotacao_clean.split("/")
+        campus = parts[1].strip() if len(parts) > 1 else parts[0].strip()
+    else:
+        campus = "RE" if lotacao_clean in ("AUDGE", "COGLEG") else lotacao_clean
 
-    if suffix in CAMPUS_MAP:
-        return CAMPUS_MAP[suffix]
+    # Classificação do tipo de campus baseada na sigla
+    if campus == "RE":
+        tipo_campus = "Reitoria"
+    elif campus in ("CNAT", "ZN", "ZL", "CH", "CAL", "CTM"):
+        tipo_campus = "Capital"
+    elif campus in ("-", "NAN", "OUTRO", "NÃO INFORMADO"):
+        tipo_campus = "Outro"
+    else:
+        tipo_campus = "Interior"
 
-    # Tentativa de matching por partes
-    for key, val in CAMPUS_MAP.items():
-        if key in lotacao_clean.split("/"):
-            return val
-
-    return (f"Outro ({suffix})", "Outro")
+    return (campus, tipo_campus)
 
 
 def clean_cargo(cargo_raw: Optional[str]) -> Tuple[str, str]:

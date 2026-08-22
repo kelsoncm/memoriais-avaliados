@@ -199,7 +199,7 @@
 
     if (tipoFilter) {
       items = items.filter(c => {
-        const t = tipoMap[c.campus] || c.tipo_campus || (c.campus === 'Reitoria' ? 'Reitoria' : (c.campus && c.campus.includes('Natal') ? 'Capital' : 'Interior'));
+        const t = tipoMap[c.campus] || c.tipo_campus || (['RE'].includes(c.campus) ? 'Reitoria' : (['CNAT', 'ZN', 'ZL', 'CH', 'CAL', 'CTM'].includes(c.campus) ? 'Capital' : 'Interior'));
         return t === tipoFilter;
       });
     }
@@ -718,7 +718,7 @@
 
       if (tipoFilter) {
         rows = rows.filter(r => {
-          const t = r.tipo_campus || (r.campus === 'Reitoria' ? 'Reitoria' : (r.campus && r.campus.includes('Natal') ? 'Capital' : 'Interior'));
+          const t = r.tipo_campus || (['RE'].includes(r.campus) ? 'Reitoria' : (['CNAT', 'ZN', 'ZL', 'CH', 'CAL', 'CTM'].includes(r.campus) ? 'Capital' : 'Interior'));
           return t === tipoFilter;
         });
       }
