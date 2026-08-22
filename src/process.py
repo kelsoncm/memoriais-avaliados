@@ -35,27 +35,50 @@ PRIVACY_THRESHOLD = 5
 
 def parse_lotacao(lotacao_raw: Optional[str]) -> Tuple[str, str]:
     """
-    Identifica a sigla do campus e o tipo de campus (Capital, Interior, Reitoria)
-    a partir da lotação do SUAP (faz split por '/' e usa o 2º elemento).
+    Identifica a sigla do campus e a classificação territorial (Capital ou Interior)
+    a partir da lotação funcional (SUAP / SIAPE).
+
+    A entrada pode estar no formato 'setor/campus' (ex: 'COTIC/CA', 'DG/CNAT', 'DIAC/CANG')
+    ou diretamente apenas o 'campus' (ex: 'RE', 'CM', 'NC', 'CH', 'CAL', 'CCAL').
+
+    Regras de Normalização:
+    - O campus CH às vezes aparece como CH, outras vezes como CAL (ou CCAL).
+      O pipeline converte 'CAL' e 'CCAL' para 'CH'.
+    - 'CNC' é normalizado para 'NC', 'CSGA' para 'SGA' e 'SPO' para 'SPP'.
+
+    Regra de Territorialidade:
+    - Capital: RE, CNAT, ZL, CH (e CAL/CCAL), ZN
+    - Interior: demais unidades/campi
+
+    Nota metodológica: Utiliza-se o campus de lotação no SIAPE como regra geral.
+    Para os servidores sem campus de lotação no SIAPE (ex: cedidos), adota-se o campus de exercício.
     """
     if not lotacao_raw or not isinstance(lotacao_raw, str):
         return ("Não Informado", "Outro")
 
     lotacao_clean = lotacao_raw.strip().upper()
-    if not lotacao_clean or lotacao_clean in ("-", "NAN"):
+    if not lotacao_clean or lotacao_clean in ("-", "NAN", "OUTRO", "NÃO INFORMADO", "NONE"):
         return ("Outro", "Outro")
 
-    # Extrai o campus a partir do segundo elemento após a barra (UNIDADE/CAMPUS)
+    # Extrai o campus a partir da string de lotação (seja 'setor/campus' ou apenas 'campus')
     if "/" in lotacao_clean:
         parts = lotacao_clean.split("/")
         campus = parts[1].strip() if len(parts) > 1 else parts[0].strip()
     else:
-        campus = "RE" if lotacao_clean in ("AUDGE", "COGLEG") else lotacao_clean
+        campus = "RE" if lotacao_clean in ("AUDGE", "COGLEG", "SECOL", "DIGPE") else lotacao_clean
 
-    # Classificação do tipo de campus baseada na sigla
-    if campus == "RE":
-        tipo_campus = "Reitoria"
-    elif campus in ("CNAT", "ZN", "ZL", "CH", "CAL", "CTM"):
+    # Padronização de siglas de campi (CAL/CCAL -> CH, SPO -> SPP, CSGA -> SGA, CNC -> NC)
+    if campus in ("CAL", "CCAL"):
+        campus = "CH"
+    elif campus == "CNC":
+        campus = "NC"
+    elif campus == "CSGA":
+        campus = "SGA"
+    elif campus == "SPO":
+        campus = "SPP"
+
+    # Classificação do tipo de campus baseada na sigla (Capital vs Interior)
+    if campus in ("RE", "CNAT", "ZL", "CH", "ZN"):
         tipo_campus = "Capital"
     elif campus in ("-", "NAN", "OUTRO", "NÃO INFORMADO"):
         tipo_campus = "Outro"
@@ -63,6 +86,11 @@ def parse_lotacao(lotacao_raw: Optional[str]) -> Tuple[str, str]:
         tipo_campus = "Interior"
 
     return (campus, tipo_campus)
+
+
+parse_campus = parse_lotacao
+
+
 
 
 def clean_cargo(cargo_raw: Optional[str]) -> Tuple[str, str]:
@@ -201,6 +229,8 @@ def anonymize_records(records: List[dict], collection_date: str) -> pd.DataFrame
 def load_quadro_ativos(ativos_path: str) -> pd.DataFrame:
     """
     Carrega o quadro de técnicos administrativos ativos do IFRN.
+    Suporta tanto a coluna 'lotacao' (que pode ser 'setor/campus' ou apenas 'campus')
+    quanto a coluna 'campus'.
     Padroniza campus e cargos.
     """
     if not os.path.isfile(ativos_path):
@@ -211,7 +241,8 @@ def load_quadro_ativos(ativos_path: str) -> pd.DataFrame:
     df_raw = pd.read_csv(ativos_path)
     rows = []
     for _, r in df_raw.iterrows():
-        campus, tipo_campus = parse_lotacao(str(r.get("campus", "")))
+        raw_lot = r.get("lotacao") if "lotacao" in r and pd.notna(r.get("lotacao")) else r.get("campus", "")
+        campus, tipo_campus = parse_lotacao(str(raw_lot))
         cargo_nome, classe_cargo = clean_cargo(str(r.get("cargo", "")))
         rows.append({
             "campus": campus,

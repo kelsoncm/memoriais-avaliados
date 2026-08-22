@@ -40,8 +40,7 @@
       'RSC-I': '#64748b'
     },
     tipoCampus: {
-      'Reitoria': '#004d26',
-      'Capital': '#008744',
+      'Capital': '#006633',
       'Interior': '#0ea5e9',
       'Outro': '#94a3b8'
     }
@@ -242,7 +241,7 @@
 
     if (tipoFilter) {
       items = items.filter(c => {
-        const t = tipoMap[c.campus] || c.tipo_campus || (['RE'].includes(c.campus) ? 'Reitoria' : (['CNAT', 'ZN', 'ZL', 'CH', 'CAL', 'CTM'].includes(c.campus) ? 'Capital' : 'Interior'));
+        const t = tipoMap[c.campus] || c.tipo_campus || (['RE', 'CNAT', 'ZL', 'CH', 'CCAL', 'CAL', 'ZN'].includes(c.campus) ? 'Capital' : 'Interior');
         return t === tipoFilter;
       });
     }
@@ -761,7 +760,7 @@
 
       if (tipoFilter) {
         rows = rows.filter(r => {
-          const t = r.tipo_campus || (['RE'].includes(r.campus) ? 'Reitoria' : (['CNAT', 'ZN', 'ZL', 'CH', 'CAL', 'CTM'].includes(r.campus) ? 'Capital' : 'Interior'));
+          const t = r.tipo_campus || (['RE', 'CNAT', 'ZL', 'CH', 'CCAL', 'CAL', 'ZN'].includes(r.campus) ? 'Capital' : 'Interior');
           return t === tipoFilter;
         });
       }
@@ -814,7 +813,7 @@
         return `
         <tr>
           <td><strong>${r.campus}</strong></td>
-          <td><span class="badge ${r.tipo_campus === 'Capital' ? 'green' : (r.tipo_campus === 'Reitoria' ? 'blue' : 'amber')}">${r.tipo_campus || 'Geral'}</span></td>
+          <td><span class="badge ${r.tipo_campus === 'Capital' ? 'green' : 'blue'}">${r.tipo_campus || 'Geral'}</span></td>
           <td>${ativos}</td>
           <td><strong>${totalProc}</strong></td>
           <td><span class="badge ${badgeColor}">${taxa}</span></td>

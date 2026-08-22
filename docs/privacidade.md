@@ -77,7 +77,7 @@ description: Regras de anonimização, descarte de dados pessoais sensíveis, co
       <ul>
         <li><strong>Sem Identificadores Pessoais:</strong> Nomes, matrículas SIAPE, CPFs, e-mails e contatos são eliminados antes de qualquer agregação.</li>
         <li><strong>Sem Textos Livres ou Comprovações:</strong> Narrativas autobiográficas, portarias individuais e relatórios de atividades não são armazenados.</li>
-        <li><strong>Metadados Puramente Institucionais:</strong> Os dados publicados contêm exclusivamente atributos públicos da estrutura do IFRN (Campus de lotação, cargo da carreira PCCTAE, nível de RSC pleiteado e deferido).</li>
+        <li><strong>Metadados Puramente Institucionais:</strong> Os dados publicados contêm exclusivamente atributos públicos da estrutura do IFRN (Campus de exercício SIAPE, territorialidade Capital/Interior, cargo da carreira PCCTAE, nível de RSC pleiteado e deferido).</li>
       </ul>
 
       <h2>3. Transparência Plena e Não-Reidentificação</h2>

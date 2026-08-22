@@ -93,12 +93,12 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
           <tr>
             <td><code>campus</code></td>
             <td>String</td>
-            <td>Nome padronizado do Campus ou Reitoria do IFRN.</td>
+            <td>Sigla padronizada do Campus (lotação SIAPE ou exercício para servidores sem lotação).</td>
           </tr>
           <tr>
             <td><code>tipo_campus</code></td>
             <td>String</td>
-            <td>Categoria territorial (<em>Capital</em>, <em>Interior</em>, <em>Reitoria</em>).</td>
+            <td>Categoria territorial (<em>Capital</em> [RE, CNAT, ZL, CH, ZN] ou <em>Interior</em>).</td>
           </tr>
           <tr>
             <td><code>cargo</code></td>
@@ -141,17 +141,17 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
           <tr>
             <td><code>campus</code></td>
             <td>String</td>
-            <td>Nome oficial do Campus ou Reitoria.</td>
+            <td>Sigla oficial do Campus (lotação SIAPE ou exercício para servidores sem lotação).</td>
           </tr>
           <tr>
             <td><code>tipo_campus</code></td>
             <td>String</td>
-            <td>Classificação territorial da unidade (Capital, Interior, Reitoria).</td>
+            <td>Classificação territorial da unidade (<em>Capital</em> [RE, CNAT, ZL, CH, ZN] ou <em>Interior</em>).</td>
           </tr>
           <tr>
             <td><code>total_ativos</code></td>
             <td>Integer</td>
-            <td>Total de servidores técnico-administrativos ativos lotados na unidade.</td>
+            <td>Total de servidores técnico-administrativos ativos não aposentados lotados/em exercício na unidade.</td>
           </tr>
           <tr>
             <td><code>total_processos</code></td>
@@ -230,9 +230,9 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
             <td>Denominação e código do cargo extraído do SUAP.</td>
           </tr>
           <tr>
-            <td><code>campus</code></td>
+            <td><code>lotacao</code></td>
             <td>String</td>
-            <td>Sigla da unidade/campus de lotação.</td>
+            <td>Lotação funcional do servidor (no formato <code>setor/campus</code> ou apenas <code>campus</code>).</td>
           </tr>
         </tbody>
       </table>
