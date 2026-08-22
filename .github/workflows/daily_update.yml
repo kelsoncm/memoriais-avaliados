@@ -48,7 +48,7 @@ jobs:
       - name: Executar Coleta de Dados (SUAP API)
         id: collect
         run: |
-          python src/collect.py
+          python src/collect.py --timeout 180 --max-retries 4
 
       - name: Processar e Anonimizar Dados
         run: |

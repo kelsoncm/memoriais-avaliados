@@ -29,36 +29,49 @@ API_DEFAULT_URL = "https://suap.ifrn.edu.br/api/rsc_tae/memoriais-avaliados/"
 USER_AGENT = "rsc-tae-dashboard-collector/1.0 (+https://github.com/kelsoncm/memoriais-avaliados)"
 
 
-def fetch_page(url: str, timeout: int = 30, max_retries: int = 3) -> dict:
+def fetch_page(url: str, timeout: int = 180, max_retries: int = 4) -> dict:
     """
-    Realiza requisição HTTP GET para uma página da API do SUAP com retentativas.
+    Realiza requisição HTTP GET para uma página da API do SUAP com retentativas e timeout expandido.
     """
     headers = {
         "User-Agent": USER_AGENT,
-        "Accept": "application/json"
+        "Accept": "application/json",
+        "Accept-Encoding": "gzip, deflate, identity"
     }
     req = urllib.request.Request(url, headers=headers)
 
     for attempt in range(1, max_retries + 1):
         try:
-            logger.info(f"Requisitando URL: {url} (tentativa {attempt}/{max_retries})")
+            logger.info(f"Requisitando URL: {url} (tentativa {attempt}/{max_retries}, timeout={timeout}s)")
             with urllib.request.urlopen(req, timeout=timeout) as response:
                 if response.status != 200:
                     raise urllib.error.HTTPError(
                         url, response.status, f"HTTP Status {response.status}", response.headers, None
                     )
-                raw_data = response.read().decode("utf-8")
+                # Trata descompressão caso gzip esteja presente
+                content_encoding = response.headers.get("Content-Encoding", "").lower()
+                raw_bytes = response.read()
+                if "gzip" in content_encoding:
+                    import gzip
+                    raw_data = gzip.decompress(raw_bytes).decode("utf-8")
+                elif "deflate" in content_encoding:
+                    import zlib
+                    raw_data = zlib.decompress(raw_bytes).decode("utf-8")
+                else:
+                    raw_data = raw_bytes.decode("utf-8")
                 return json.loads(raw_data)
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as exc:
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, TimeoutError, Exception) as exc:
             logger.warning(f"Falha na tentativa {attempt}: {exc}")
             if attempt == max_retries:
-                logger.error(f"Número máximo de tentativas atingido para URL: {url}")
+                logger.error(f"Número máximo de tentativas ({max_retries}) atingido para URL: {url}")
                 raise
-            time.sleep(2 * attempt)
+            backoff = min(30, 5 * attempt)
+            logger.info(f"Aguardando {backoff}s antes da próxima tentativa...")
+            time.sleep(backoff)
     raise RuntimeError("Falha inesperada ao executar requisição HTTP.")
 
 
-def collect_all_data(start_url: str = API_DEFAULT_URL) -> dict:
+def collect_all_data(start_url: str = API_DEFAULT_URL, timeout: int = 180, max_retries: int = 4) -> dict:
     """
     Coleta todos os registros navegando pela paginação da API.
     Retorna o payload consolidado contendo todos os 'results'.
@@ -70,7 +83,7 @@ def collect_all_data(start_url: str = API_DEFAULT_URL) -> dict:
 
     while current_url:
         logger.info(f"Processando página {page_num}...")
-        data = fetch_page(current_url)
+        data = fetch_page(current_url, timeout=timeout, max_retries=max_retries)
 
         if isinstance(data, dict):
             if total_count is None and "count" in data:
@@ -150,6 +163,18 @@ def main():
         "--sample-file",
         help="Caminho para arquivo JSON de amostra local (modo offline/fallback)"
     )
+    parser.add_argument(
+        "--timeout",
+        type=int,
+        default=180,
+        help="Tempo limite (em segundos) para cada requisição HTTP (padrão: 180)"
+    )
+    parser.add_argument(
+        "--max-retries",
+        type=int,
+        default=4,
+        help="Número máximo de tentativas por requisição (padrão: 4)"
+    )
 
     args = parser.parse_args()
 
@@ -177,7 +202,7 @@ def main():
                 "results": results
             }
         else:
-            data = collect_all_data(start_url=args.url)
+            data = collect_all_data(start_url=args.url, timeout=args.timeout, max_retries=args.max_retries)
 
         saved_file = save_raw_data(data, args.output_dir)
         print(f"SUCESSO: Coleta finalizada. Arquivo gerado: {saved_file}")
