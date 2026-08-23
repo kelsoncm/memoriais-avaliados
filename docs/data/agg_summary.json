@@ -1,13 +1,13 @@
 {
   "meta": {
-    "gerado_em": "2026-08-22T20:26:56.475341+00:00",
-    "coletado_em": "2026-08-22T20:26:55.285945+00:00",
-    "total_geral_avaliados": 660,
+    "gerado_em": "2026-08-23T03:03:43.658334+00:00",
+    "coletado_em": "2026-08-23T03:03:42.475148+00:00",
+    "total_geral_avaliados": 662,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 55.4,
-    "saldo_potencial_restante": 531,
+    "taxa_cobertura_global_pct": 55.6,
+    "saldo_potencial_restante": 529,
     "total_campi_atendidos": 26,
-    "total_cargos_atendidos": 60,
+    "total_cargos_atendidos": 61,
     "total_cargos_existentes": 81
   },
   "adesao_classes": {
@@ -18,8 +18,8 @@
     },
     "Classe D": {
       "total_ativos": 591,
-      "total_avaliados": 329,
-      "taxa_adesao_pct": 55.7
+      "total_avaliados": 331,
+      "taxa_adesao_pct": 56.0
     },
     "Classe E": {
       "total_ativos": 421,
@@ -29,15 +29,15 @@
   },
   "distribuicao_niveis": {
     "RSC-VI": 331,
-    "RSC-V": 323,
+    "RSC-V": 325,
     "RSC-III": 6
   },
   "distribuicao_tipo_campus": {
-    "Interior": 386,
-    "Capital": 274
+    "Interior": 387,
+    "Capital": 275
   },
   "distribuicao_classes": {
-    "Classe D": 329,
+    "Classe D": 331,
     "Classe E": 218,
     "Classe C": 113
   },
@@ -48,26 +48,26 @@
       "total_ativos": 166,
       "total_processos": 114,
       "taxa_adesao_pct": 68.7,
-      "participacao_pct": 17.3,
+      "participacao_pct": 17.2,
       "total": 114
     },
     {
       "campus": "CNAT",
       "tipo_campus": "Capital",
       "total_ativos": 195,
-      "total_processos": 87,
-      "taxa_adesao_pct": 44.6,
-      "participacao_pct": 13.2,
-      "total": 87
+      "total_processos": 88,
+      "taxa_adesao_pct": 45.1,
+      "participacao_pct": 13.3,
+      "total": 88
     },
     {
       "campus": "MO",
       "tipo_campus": "Interior",
       "total_ativos": 60,
-      "total_processos": 34,
-      "taxa_adesao_pct": 56.7,
-      "participacao_pct": 5.2,
-      "total": 34
+      "total_processos": 35,
+      "taxa_adesao_pct": 58.3,
+      "participacao_pct": 5.3,
+      "total": 35
     },
     {
       "campus": "SGA",
@@ -335,7 +335,7 @@
     {
       "campus": "CNAT",
       "RSC-III": 1,
-      "RSC-V": 42,
+      "RSC-V": 43,
       "RSC-VI": 44
     },
     {
@@ -371,7 +371,7 @@
     {
       "campus": "MO",
       "RSC-III": 0,
-      "RSC-V": 16,
+      "RSC-V": 17,
       "RSC-VI": 18
     },
     {
@@ -460,7 +460,7 @@
       "total_ativos": 302,
       "total_avaliados": 183,
       "taxa_adesao_pct": 60.6,
-      "participacao_pct": 27.7
+      "participacao_pct": 27.6
     },
     {
       "cargo": "Auxiliar em Administração",
@@ -783,6 +783,14 @@
       "participacao_pct": 0.3
     },
     {
+      "cargo": "Servente De Limpeza",
+      "classe_cargo": "Classe D",
+      "total_ativos": 6,
+      "total_avaliados": 2,
+      "taxa_adesao_pct": 33.3,
+      "participacao_pct": 0.3
+    },
+    {
       "cargo": "Diagramador",
       "classe_cargo": "Classe D",
       "total_ativos": 3,
@@ -791,15 +799,7 @@
       "participacao_pct": 0.2
     },
     {
-      "cargo": "Carpinteiro",
-      "classe_cargo": "Classe D",
-      "total_ativos": 1,
-      "total_avaliados": 1,
-      "taxa_adesao_pct": 100.0,
-      "participacao_pct": 0.2
-    },
-    {
-      "cargo": "Produtor Cultural",
+      "cargo": "Engenheiro Agronomo",
       "classe_cargo": "Classe E",
       "total_ativos": 1,
       "total_avaliados": 1,
@@ -807,11 +807,11 @@
       "participacao_pct": 0.2
     },
     {
-      "cargo": "Técnico em Agropecuária",
+      "cargo": "Carpinteiro",
       "classe_cargo": "Classe D",
-      "total_ativos": 2,
+      "total_ativos": 1,
       "total_avaliados": 1,
-      "taxa_adesao_pct": 50.0,
+      "taxa_adesao_pct": 100.0,
       "participacao_pct": 0.2
     },
     {
@@ -839,24 +839,24 @@
       "participacao_pct": 0.2
     },
     {
-      "cargo": "Engenheiro Agronomo",
-      "classe_cargo": "Classe E",
-      "total_ativos": 1,
+      "cargo": "Técnico em Agropecuária",
+      "classe_cargo": "Classe D",
+      "total_ativos": 2,
       "total_avaliados": 1,
-      "taxa_adesao_pct": 100.0,
+      "taxa_adesao_pct": 50.0,
+      "participacao_pct": 0.2
+    },
+    {
+      "cargo": "Técnico em Mecânica",
+      "classe_cargo": "Classe D",
+      "total_ativos": 2,
+      "total_avaliados": 1,
+      "taxa_adesao_pct": 50.0,
       "participacao_pct": 0.2
     },
     {
       "cargo": "Zootecnista",
       "classe_cargo": "Classe E",
-      "total_ativos": 1,
-      "total_avaliados": 1,
-      "taxa_adesao_pct": 100.0,
-      "participacao_pct": 0.2
-    },
-    {
-      "cargo": "Operador De Tele-Impressora",
-      "classe_cargo": "Classe D",
       "total_ativos": 1,
       "total_avaliados": 1,
       "taxa_adesao_pct": 100.0,
@@ -879,11 +879,11 @@
       "participacao_pct": 0.2
     },
     {
-      "cargo": "Técnico em Mecânica",
-      "classe_cargo": "Classe D",
-      "total_ativos": 2,
+      "cargo": "Publicitario",
+      "classe_cargo": "Classe E",
+      "total_ativos": 1,
       "total_avaliados": 1,
-      "taxa_adesao_pct": 50.0,
+      "taxa_adesao_pct": 100.0,
       "participacao_pct": 0.2
     },
     {
@@ -895,14 +895,6 @@
       "participacao_pct": 0.2
     },
     {
-      "cargo": "Publicitario",
-      "classe_cargo": "Classe E",
-      "total_ativos": 1,
-      "total_avaliados": 1,
-      "taxa_adesao_pct": 100.0,
-      "participacao_pct": 0.2
-    },
-    {
       "cargo": "Telefonista",
       "classe_cargo": "Classe C",
       "total_ativos": 3,
@@ -911,7 +903,31 @@
       "participacao_pct": 0.2
     },
     {
+      "cargo": "Produtor Cultural",
+      "classe_cargo": "Classe E",
+      "total_ativos": 1,
+      "total_avaliados": 1,
+      "taxa_adesao_pct": 100.0,
+      "participacao_pct": 0.2
+    },
+    {
       "cargo": "Impressor",
+      "classe_cargo": "Classe C",
+      "total_ativos": 2,
+      "total_avaliados": 1,
+      "taxa_adesao_pct": 50.0,
+      "participacao_pct": 0.2
+    },
+    {
+      "cargo": "Operador De Tele-Impressora",
+      "classe_cargo": "Classe D",
+      "total_ativos": 1,
+      "total_avaliados": 1,
+      "taxa_adesao_pct": 100.0,
+      "participacao_pct": 0.2
+    },
+    {
+      "cargo": "Operador De Maquina Copiadora",
       "classe_cargo": "Classe C",
       "total_ativos": 2,
       "total_avaliados": 1,
@@ -925,22 +941,6 @@
       "total_avaliados": 1,
       "taxa_adesao_pct": 50.0,
       "participacao_pct": 0.2
-    },
-    {
-      "cargo": "Operador De Maquina Copiadora",
-      "classe_cargo": "Classe C",
-      "total_ativos": 2,
-      "total_avaliados": 1,
-      "taxa_adesao_pct": 50.0,
-      "participacao_pct": 0.2
-    },
-    {
-      "cargo": "Agente Administrativo",
-      "classe_cargo": "Classe D",
-      "total_ativos": 2,
-      "total_avaliados": 0,
-      "taxa_adesao_pct": 0.0,
-      "participacao_pct": 0.0
     },
     {
       "cargo": "Auxiliar De Eletricista",
@@ -967,9 +967,9 @@
       "participacao_pct": 0.0
     },
     {
-      "cargo": "Decorador",
-      "classe_cargo": "Classe E",
-      "total_ativos": 1,
+      "cargo": "Agente Administrativo",
+      "classe_cargo": "Classe D",
+      "total_ativos": 2,
       "total_avaliados": 0,
       "taxa_adesao_pct": 0.0,
       "participacao_pct": 0.0
@@ -1047,17 +1047,17 @@
       "participacao_pct": 0.0
     },
     {
-      "cargo": "Técnico Em Alimentos E Laticinios",
-      "classe_cargo": "Classe D",
-      "total_ativos": 3,
+      "cargo": "Decorador",
+      "classe_cargo": "Classe E",
+      "total_ativos": 1,
       "total_avaliados": 0,
       "taxa_adesao_pct": 0.0,
       "participacao_pct": 0.0
     },
     {
-      "cargo": "Servente De Limpeza",
+      "cargo": "Procurador Federal",
       "classe_cargo": "Classe D",
-      "total_ativos": 6,
+      "total_ativos": 4,
       "total_avaliados": 0,
       "taxa_adesao_pct": 0.0,
       "participacao_pct": 0.0
@@ -1071,9 +1071,9 @@
       "participacao_pct": 0.0
     },
     {
-      "cargo": "Procurador Federal",
+      "cargo": "Técnico Em Alimentos E Laticinios",
       "classe_cargo": "Classe D",
-      "total_ativos": 4,
+      "total_ativos": 3,
       "total_avaliados": 0,
       "taxa_adesao_pct": 0.0,
       "participacao_pct": 0.0
@@ -1105,12 +1105,12 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 660,
+      "total_processos": 662,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 55.4,
-      "saldo_potencial_restante": 531,
+      "taxa_cobertura_global_pct": 55.6,
+      "saldo_potencial_restante": 529,
       "total_campi": 26,
-      "total_cargos": 60
+      "total_cargos": 61
     }
   ]
 }
