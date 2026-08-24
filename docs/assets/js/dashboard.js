@@ -43,6 +43,11 @@
       'Capital': '#006633',
       'Interior': '#0ea5e9',
       'Outro': '#94a3b8'
+    },
+    tipoCampusAtivos: {
+      'Capital': '#7fc4a5',
+      'Interior': '#93d6f7',
+      'Outro': '#cbd5e1'
     }
   };
 
@@ -363,28 +368,46 @@
   }
 
   /**
-   * Chart 2: Distribuição por Tipo de Campus (Doughnut)
+   * Chart 2: Distribuição por Tipo de Campus (Doughnut duplo: memoriais publicados x total de TAE ativos)
    */
   function renderTipoCampusChart() {
     const ctx = document.getElementById('chartTipoCampus')?.getContext('2d');
     if (!ctx || !rawSummaryData) return;
 
-    const dataObj = rawSummaryData.distribuicao_tipo_campus || {};
-    const labels = Object.keys(dataObj);
-    const values = Object.values(dataObj);
-    const bgColors = labels.map(l => COLORS.tipoCampus[l] || '#94a3b8');
+    const publicadosObj = rawSummaryData.distribuicao_tipo_campus || {};
+    const ativosObj = rawSummaryData.distribuicao_tipo_campus_ativos || {};
+
+    const CANONICAL_ORDER = ['Capital', 'Interior', 'Outro'];
+    const labels = CANONICAL_ORDER.filter(l => l in publicadosObj || l in ativosObj);
+
+    const publicadosValues = labels.map(l => publicadosObj[l] || 0);
+    const ativosValues = labels.map(l => ativosObj[l] || 0);
+
+    const publicadosColors = labels.map(l => COLORS.tipoCampus[l] || '#94a3b8');
+    const ativosColors = labels.map(l => COLORS.tipoCampusAtivos[l] || '#cbd5e1');
 
     chartInstances.tipoCampus = new Chart(ctx, {
       type: 'doughnut',
       data: {
         labels: labels,
-        datasets: [{
-          data: values,
-          backgroundColor: bgColors,
-          borderWidth: 2,
-          borderColor: '#ffffff',
-          hoverOffset: 6
-        }]
+        datasets: [
+          {
+            label: 'Memoriais Publicados',
+            data: publicadosValues,
+            backgroundColor: publicadosColors,
+            borderWidth: 2,
+            borderColor: '#ffffff',
+            hoverOffset: 6
+          },
+          {
+            label: 'Total de Técnicos Administrativos',
+            data: ativosValues,
+            backgroundColor: ativosColors,
+            borderWidth: 2,
+            borderColor: '#ffffff',
+            hoverOffset: 6
+          }
+        ]
       },
       options: {
         responsive: true,
@@ -400,12 +423,13 @@
                 const val = tooltipCtx.raw;
                 const total = tooltipCtx.dataset.data.reduce((a, b) => a + b, 0);
                 const pct = total > 0 ? ((val / total) * 100).toFixed(1) : '0';
-                return ` ${tooltipCtx.label}: ${val} memoriais (${pct}%)`;
+                const unidade = tooltipCtx.datasetIndex === 0 ? 'memoriais' : 'técnicos';
+                return ` ${tooltipCtx.dataset.label} — ${tooltipCtx.label}: ${val} ${unidade} (${pct}%)`;
               }
             }
           }
         },
-        cutout: '62%'
+        cutout: '38%'
       }
     });
   }

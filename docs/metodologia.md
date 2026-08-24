@@ -94,7 +94,7 @@ description: Descrição detalhada das etapas de coleta, processamento, critéri
         <li><strong>Pseudonimização Criptográfica:</strong> Conversão do identificador de processo em hash <code>SHA-256</code> com salt efêmero institucional, impossibilitando reidentificação externa.</li>
         <li><strong>Padronização de Dimensões:</strong>
           <ul>
-            <li><strong>Campus e Territorialidade:</strong> Extração da sigla da unidade a partir do campo <code>lotacao</code>, conversão de <code>CAL</code> para <code>CH</code> e classificação em <em>Capital</em> ou <em>Interior</em>.</li>
+            <li><strong>Campus e Territorialidade:</strong> Extração da sigla da unidade a partir do campo <code>lotacao</code>, conversão de <code>CAL</code> para <code>CH</code> e classificação em <em>Capital</em> ou <em>Interior</em>. Essa classificação é gravada como coluna <code>tipo_campus</code> em <code>data/quadro_tae_ativos.csv</code> e reaproveitada diretamente nas execuções seguintes do pipeline (em vez de reclassificar a lotação a cada rodada); caso a coluna esteja ausente — como na cópia pública <code>docs/data/quadro_tae_ativos.csv</code> — o pipeline recalcula normalmente a partir da <code>lotacao</code>.</li>
             <li><strong>Cargo e Classe:</strong> Normalização textual das denominações de cargo e enquadramento nas respectivas classes do PCCTAE (<em>Classe C</em>, <em>Classe D</em> e <em>Classe E</em>).</li>
           </ul>
         </li>
@@ -108,6 +108,7 @@ description: Descrição detalhada das etapas de coleta, processamento, critéri
         <li><strong>Por Campus:</strong> Contagem de memoriais avaliados, quantitativo de servidores ativos na unidade (lotação ou exercício para sem lotação), taxa de adesão percentual e participação relativa.</li>
         <li><strong>Por Cargo e Nível:</strong> Volume de processos por carreira do PCCTAE, cruzamento com o total de ativos do cargo e distribuição por nível pretendido e reconhecido (RSC-I a RSC-VI).</li>
         <li><strong>Consolidado Institucional:</strong> Totais globais, taxa de cobertura frente ao quadro de 1.191 ativos não aposentados e saldo potencial de requerimentos restantes.</li>
+        <li><strong>Por Tipo de Unidade (Capital vs. Interior):</strong> Duas distribuições paralelas são publicadas — <code>distribuicao_tipo_campus</code> (memoriais publicados) e <code>distribuicao_tipo_campus_ativos</code> (total de técnicos administrativos ativos) — exibidas no painel como um gráfico de rosca duplo e concêntrico: o anel externo representa os memoriais publicados e o anel interno, o quadro total de TAEs ativos por território.</li>
       </ul>
 
       <h3>D. Validação e Integridade Matemática (<code>src/validate.py</code>)</h3>

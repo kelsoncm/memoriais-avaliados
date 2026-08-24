@@ -1103,5 +1103,9 @@
       "total_campi": 26,
       "total_cargos": 61
     }
-  ]
+  ],
+  "distribuicao_tipo_campus_ativos": {
+    "Interior": 699,
+    "Capital": 492
+  }
 }

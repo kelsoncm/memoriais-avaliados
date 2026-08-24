@@ -231,7 +231,8 @@ def load_quadro_ativos(ativos_path: str) -> pd.DataFrame:
     Carrega o quadro de técnicos administrativos ativos do IFRN.
     Suporta tanto a coluna 'lotacao' (que pode ser 'setor/campus' ou apenas 'campus')
     quanto a coluna 'campus'.
-    Padroniza campus e cargos.
+    Padroniza campus e cargos. Se o CSV já tiver uma coluna 'tipo_campus'
+    pré-calculada, ela é usada diretamente em vez de reclassificar a lotação.
     """
     if not os.path.isfile(ativos_path):
         logger.warning(f"Arquivo de servidores ativos não encontrado em: {ativos_path}")
@@ -239,10 +240,15 @@ def load_quadro_ativos(ativos_path: str) -> pd.DataFrame:
 
     logger.info(f"Carregando quadro de TAEs ativos de: {ativos_path}")
     df_raw = pd.read_csv(ativos_path)
+    has_tipo_campus_col = "tipo_campus" in df_raw.columns
     rows = []
     for _, r in df_raw.iterrows():
         raw_lot = r.get("lotacao") if "lotacao" in r and pd.notna(r.get("lotacao")) else r.get("campus", "")
-        campus, tipo_campus = parse_lotacao(str(raw_lot))
+        campus, parsed_tipo_campus = parse_lotacao(str(raw_lot))
+        if has_tipo_campus_col and pd.notna(r.get("tipo_campus")):
+            tipo_campus = r["tipo_campus"]
+        else:
+            tipo_campus = parsed_tipo_campus
         cargo_nome, classe_cargo = clean_cargo(str(r.get("cargo", "")))
         rows.append({
             "campus": campus,
@@ -355,6 +361,7 @@ def generate_aggregates(
     # 5. Sumário Estruturado em JSON
     niveis_dist = df_fato["nivel_pretendido"].value_counts().to_dict()
     tipo_campus_dist = df_fato["tipo_campus"].value_counts().to_dict()
+    tipo_campus_dist_ativos = df_ativos["tipo_campus"].value_counts().to_dict() if has_ativos else {}
     classe_dist = df_fato["classe_cargo"].value_counts().to_dict()
     
     campus_ranking = agg_campus.to_dict(orient="records")
@@ -380,6 +387,7 @@ def generate_aggregates(
         "adesao_classes": adesao_classes,
         "distribuicao_niveis": niveis_dist,
         "distribuicao_tipo_campus": tipo_campus_dist,
+        "distribuicao_tipo_campus_ativos": tipo_campus_dist_ativos,
         "distribuicao_classes": classe_dist,
         "ranking_campi": campus_ranking,
         "campus_niveis": campus_nivel_crosstab,
