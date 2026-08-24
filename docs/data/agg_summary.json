@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-08-23T03:03:43.658334+00:00",
-    "coletado_em": "2026-08-23T03:03:42.475148+00:00",
-    "total_geral_avaliados": 662,
+    "gerado_em": "2026-08-24T03:04:36.853911+00:00",
+    "coletado_em": "2026-08-24T03:04:35.717903+00:00",
+    "total_geral_avaliados": 664,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 55.6,
-    "saldo_potencial_restante": 529,
+    "taxa_cobertura_global_pct": 55.8,
+    "saldo_potencial_restante": 527,
     "total_campi_atendidos": 26,
     "total_cargos_atendidos": 61,
     "total_cargos_existentes": 81
@@ -13,8 +13,8 @@
   "adesao_classes": {
     "Classe C": {
       "total_ativos": 179,
-      "total_avaliados": 113,
-      "taxa_adesao_pct": 63.1
+      "total_avaliados": 114,
+      "taxa_adesao_pct": 63.7
     },
     "Classe D": {
       "total_ativos": 591,
@@ -23,33 +23,33 @@
     },
     "Classe E": {
       "total_ativos": 421,
-      "total_avaliados": 218,
-      "taxa_adesao_pct": 51.8
+      "total_avaliados": 219,
+      "taxa_adesao_pct": 52.0
     }
   },
   "distribuicao_niveis": {
-    "RSC-VI": 331,
-    "RSC-V": 325,
+    "RSC-VI": 332,
+    "RSC-V": 326,
     "RSC-III": 6
   },
   "distribuicao_tipo_campus": {
     "Interior": 387,
-    "Capital": 275
+    "Capital": 277
   },
   "distribuicao_classes": {
     "Classe D": 331,
-    "Classe E": 218,
-    "Classe C": 113
+    "Classe E": 219,
+    "Classe C": 114
   },
   "ranking_campi": [
     {
       "campus": "RE",
       "tipo_campus": "Capital",
       "total_ativos": 166,
-      "total_processos": 114,
-      "taxa_adesao_pct": 68.7,
-      "participacao_pct": 17.2,
-      "total": 114
+      "total_processos": 115,
+      "taxa_adesao_pct": 69.3,
+      "participacao_pct": 17.3,
+      "total": 115
     },
     {
       "campus": "CNAT",
@@ -208,10 +208,10 @@
       "campus": "ZL",
       "tipo_campus": "Capital",
       "total_ativos": 26,
-      "total_processos": 17,
-      "taxa_adesao_pct": 65.4,
-      "participacao_pct": 2.6,
-      "total": 17
+      "total_processos": 18,
+      "taxa_adesao_pct": 69.2,
+      "participacao_pct": 2.7,
+      "total": 18
     },
     {
       "campus": "MC",
@@ -401,7 +401,7 @@
     {
       "campus": "RE",
       "RSC-III": 0,
-      "RSC-V": 39,
+      "RSC-V": 40,
       "RSC-VI": 75
     },
     {
@@ -444,7 +444,7 @@
       "campus": "ZL",
       "RSC-III": 0,
       "RSC-V": 9,
-      "RSC-VI": 8
+      "RSC-VI": 9
     },
     {
       "campus": "ZN",
@@ -466,9 +466,9 @@
       "cargo": "Auxiliar em Administração",
       "classe_cargo": "Classe C",
       "total_ativos": 90,
-      "total_avaliados": 66,
-      "taxa_adesao_pct": 73.3,
-      "participacao_pct": 10.0
+      "total_avaliados": 67,
+      "taxa_adesao_pct": 74.4,
+      "participacao_pct": 10.1
     },
     {
       "cargo": "Técnico de Laboratório Area",
@@ -559,8 +559,8 @@
       "participacao_pct": 2.0
     },
     {
-      "cargo": "Tradutor e Intérprete de Libras",
-      "classe_cargo": "Classe D",
+      "cargo": "Auditor",
+      "classe_cargo": "Classe E",
       "total_ativos": 17,
       "total_avaliados": 11,
       "taxa_adesao_pct": 64.7,
@@ -575,12 +575,12 @@
       "participacao_pct": 1.7
     },
     {
-      "cargo": "Auditor",
-      "classe_cargo": "Classe E",
+      "cargo": "Tradutor e Intérprete de Libras",
+      "classe_cargo": "Classe D",
       "total_ativos": 17,
-      "total_avaliados": 10,
-      "taxa_adesao_pct": 58.8,
-      "participacao_pct": 1.5
+      "total_avaliados": 11,
+      "taxa_adesao_pct": 64.7,
+      "participacao_pct": 1.7
     },
     {
       "cargo": "Médico",
@@ -1105,10 +1105,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 662,
+      "total_processos": 664,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 55.6,
-      "saldo_potencial_restante": 529,
+      "taxa_cobertura_global_pct": 55.8,
+      "saldo_potencial_restante": 527,
       "total_campi": 26,
       "total_cargos": 61
     }
