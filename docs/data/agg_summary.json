@@ -1,7 +1,7 @@
 {
   "meta": {
-    "gerado_em": "2026-08-24T16:38:27.997799+00:00",
-    "coletado_em": "2026-08-24T16:38:26.829401+00:00",
+    "gerado_em": "2026-08-24T17:04:27.973430+00:00",
+    "coletado_em": "2026-08-24T17:04:26.798129+00:00",
     "total_geral_avaliados": 666,
     "total_tae_ativos": 1191,
     "taxa_cobertura_global_pct": 55.9,
@@ -35,6 +35,10 @@
   "distribuicao_tipo_campus": {
     "Interior": 389,
     "Capital": 277
+  },
+  "distribuicao_tipo_campus_ativos": {
+    "Interior": 699,
+    "Capital": 492
   },
   "distribuicao_classes": {
     "Classe D": 332,
@@ -1103,9 +1107,5 @@
       "total_campi": 26,
       "total_cargos": 61
     }
-  ],
-  "distribuicao_tipo_campus_ativos": {
-    "Interior": 699,
-    "Capital": 492
-  }
+  ]
 }
