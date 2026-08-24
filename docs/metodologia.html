@@ -130,7 +130,12 @@
           <strong>Adoção do Campus de Lotação SIAPE:</strong> Como regra geral, o estudo utiliza o <strong>campus de lotação no SIAPE</strong> dos servidores ativos não aposentados.
         </li>
         <li>
-          <strong>Tratamento para Servidores sem Campus de Lotação:</strong> Existem <strong>25 servidores ativos não aposentados sem registro de campus de lotação no SIAPE</strong> (em razão de cessões a outros órgãos, convênios ou situações funcionais correlatas). Para estes servidores sem campus de lotação, <strong>consideramos o campus de exercício</strong>, garantindo o enquadramento integral dos <strong>1.191 servidores ativos não aposentados</strong>.
+          <strong>Tratamento para Servidores sem Campus de Lotação:</strong> Existem <strong>25 servidores ativos não aposentados sem registro de campus de lotação no SIAPE</strong> (em razão de cessões a outros órgãos, exercício provisório, colaboração técnica em outra carreira e situações funcionais correlatas). Para estes servidores sem campus de lotação, <strong>consideramos o campus de exercício</strong>, garantindo o enquadramento integral dos <strong>1.191 servidores ativos não aposentados</strong> e a eliminação da categoria residual "Outro" no ranking por campus.
+          <div class="callout warning" style="margin-top: 0.75rem;">
+            <p style="margin-bottom: 0;">
+              <strong>Nota de correção (24/08/2026):</strong> este fallback estava documentado desde a concepção do pipeline, mas não vinha sendo aplicado de fato na construção do quadro de ativos — os 25 registros permaneciam sem campus atribuído (categoria "Outro"). A correção foi aplicada retroativamente cruzando o campo <code>campus_exercicio</code> da exportação SIAPE/SUAP para os 25 registros afetados, sem alterar os demais 1.166. Script de correção: <code>src/fix_ativos_lotacao_outro.py</code>.
+            </p>
+          </div>
         </li>
         <li>
           <strong>Tratamento e Normalização de Siglas (<code>CAL</code> ➔ <code>CH</code>):</strong> No atributo <code>lotacao</code> retornado no web service do SUAP, o campus Cidade Alta / Centro Histórico aparece por vezes como <code>CH</code> e por vezes como <code>CAL</code> (ex: <code>COETEP/CAL</code>). O pipeline trata essa divergência convertendo sistematicamente o campus <code>CAL</code> (e <code>CCAL</code>) para <code>CH</code>.

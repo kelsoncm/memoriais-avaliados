@@ -219,5 +219,6 @@ __marimo__/
 
 # Dados Brutos com PII (Não versionar sob hipótese alguma)
 data/raw/*
+data/export_suap.csv
 !data/raw/.gitkeep
 
