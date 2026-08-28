@@ -1,696 +1,708 @@
 id_anonimo,campus,tipo_campus,cargo,classe_cargo,nivel_pretendido,nivel_reconhecido,status
-223368dbfbb1f74e,RE,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-c36650498af85c17,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-e285411795aa9733,SPP,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-94267dcfc8db7278,SC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-8bd62234c293c4c7,RE,Capital,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-196bc5093ac47749,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-f6744dee1b490fcb,MO,Interior,Servente De Limpeza,Classe D,RSC-V,RSC-V,Deferido
-77611eaccdeb4b09,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ad8b6b3d16f9c162,CA,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-e3f68b02a1e9218e,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-fdbb8897ac7f8ae6,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-bf2d5fba9ccb0890,SPP,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-0072d2dc3f865a11,SGA,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-5f3ba81a37704f60,LAJ,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
-b5565c267ff6c9b2,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
-006416bd2fb05109,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-134a3af31cab70d2,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-59880bc03560c306,ZL,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-fcaaf52568a8429f,CM,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-e193631ef24e4aec,LAJ,Interior,Administrador,Classe E,RSC-V,RSC-V,Deferido
-e115172276d29e8e,SGA,Interior,Psicólogo,Classe E,RSC-V,RSC-V,Deferido
-7b3901d7f2f9e5b8,RE,Capital,Médico,Classe E,RSC-V,RSC-V,Deferido
-50e4bf5cdc1fa0cc,SPP,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
-aa6b0a1196d5ca11,IP,Interior,Zootecnista,Classe E,RSC-VI,RSC-VI,Deferido
-06219c8b70dbfa32,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-5625377eb83a2021,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-2b312d29aec1c3dc,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-dc5d2e1f8f1f12b8,CNAT,Capital,Auxiliar De Eletricista,Classe D,RSC-III,RSC-III,Deferido
-a84504a2df4249af,PF,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
-4d072a3c8e66c0dc,JC,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
-3049354cf4797193,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d3d52fe8047451f5,JC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-9cd2b622e1807742,AP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-117097e85c2271f7,PAR,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-2cd67dd221372482,MO,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-57bbcd42a67cd61c,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-4a92a3dc659009f5,MO,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-906ce3576cf76cd0,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-7ad09e04684c889a,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
-7f4cd53901ae0fcb,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d093a59e1e2ed1c7,PAAS,Interior,Administrador,Classe E,RSC-V,RSC-V,Deferido
-4b92b15a5f9e461e,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-1970f69cfe21877a,IP,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-fbabcb57a9acf342,PAR,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-95cdfa3018f65008,CNAT,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-debf1825df6d14c4,CM,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-856ec641bf116fd8,CA,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
-ae3589a17b2b1b6a,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-61b2148e0e8f5208,CNAT,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
-31bd808c81e95433,PAR,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-7e2911a814d1ca24,NC,Interior,Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,Deferido
-cc1b1ff811193a06,RE,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-36c1a3e00b1e221d,CN,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-d11c310cea277214,PAR,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-b016d60d0662bb56,IP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-3fe627dc20c560ba,MO,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
-2d9c7efb19e532fe,RE,Capital,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
-5a2eadee676e6d03,CNAT,Capital,Motorista,Classe C,RSC-V,RSC-V,Deferido
-3fe534ee5e9d4288,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
-6603893e12a0ce84,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-2dc1905d56493cfa,NC,Interior,Auxiliar em Administração,Classe C,RSC-III,RSC-III,Deferido
-a6aed828d9357138,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-290a0ce978f1a1ff,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-250db2700a1990db,CNAT,Capital,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
-3ca9a4d27b044c9a,LAJ,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-ee898c855e4f1d55,PF,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-4db4962957ecc00e,PF,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-63e90a6636bc8905,CH,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-f87903ac379f897a,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-de4c23294e0fdc40,RE,Capital,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-cac31583aa3625bc,MO,Interior,Servente De Limpeza,Classe D,RSC-V,RSC-V,Deferido
-13274def90b4467f,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-631cbafcebb46604,RE,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-cb49ccca636317fd,MO,Interior,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-96a13f3e1a5878b8,PF,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
-9c51ed25f4a2bf18,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-548ff930dc5f67ac,CNAT,Capital,Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,Deferido
-dbacfcd4a9929bdd,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-2badd0550db5f22b,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-3572cc382da39280,CNAT,Capital,Arquivista,Classe E,RSC-V,RSC-V,Deferido
-2908b4905d6fee25,CNAT,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-c504e96911e5cf9d,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-69ea6e31d0897254,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-ab268d10647b3344,CNAT,Capital,Auxiliar de Enfermagem,Classe C,RSC-VI,RSC-VI,Deferido
-ef035602a0e0f7e4,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-d8a458d00190114d,CM,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-51fcaf7943484dc0,MO,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
-f0f7d07d667c12e6,MO,Interior,Operador De Maquina Copiadora,Classe C,RSC-V,RSC-V,Deferido
-178cec850ce03d32,ZN,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-4de348ffd7b25281,CH,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-8ab2044e62d3aff0,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-4baa4f28bcd244bc,IP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-e11e1b35c7fc5a65,AP,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-ec53e7c90da35fe6,CNAT,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-bdc131683a5c6f18,SPP,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-2d7334308cdc75e7,CN,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-90b069c584b2adca,MC,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-2baa5058e1849bfb,CNAT,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-3fa3692dedeebad5,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-db06cd4c53dbf3e4,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-0b85526dc7807d60,ZL,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d4370e82c3c1339c,MC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-b8fe6a8e3d55c589,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-93ac104c0aad4a40,CM,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-69ec7752d3d9969a,CH,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-7d767b4ae3ffed83,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f65fa0be24e2e3cf,PF,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-685d9a1ef72e5d99,MO,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-907a913c30aff461,CNAT,Capital,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-69aaebfac35f1c6b,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-88583e46af2b31b1,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-b2fe6a69121ff02a,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-bd2c6783e34e3047,LAJ,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-4bede18da0651d00,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-c10d8c2bc7446f2c,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-7d348a5823a48ab5,MO,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-92dc91fff8374f83,CN,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-225ed113797d6e80,JC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-31dbbaed30387298,JC,Interior,Técnico em Eletrotécnica,Classe D,RSC-III,RSC-III,Deferido
-8622afdbc1b7d78a,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6631a0e5c57c1f12,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-022e9ae6727c1203,CNAT,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-1c1fe2758c621658,PAR,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-d43bee0ef3e6e81d,ZL,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-a6f29fdb7847a5d3,SGA,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-191b23a55569c0c8,ZN,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-ca116ad1f0fadbee,ZN,Capital,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-977473fb3ce0d7e1,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d341ee6c296074eb,CNAT,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-ad346fdf4957f571,RE,Capital,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
-912a226e020320de,CANG,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-66b3c4b1945bb6d9,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-67df281a751e7d28,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6f2c92c51ff46f93,CH,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-2fa19a004bddf172,RE,Capital,Auxiliar de Laboratório,Classe D,RSC-V,RSC-V,Deferido
-092d2bf30d017bac,PAAS,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
-c114096e7cd1f95e,MO,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-V,RSC-V,Deferido
-4ab4121d8559cfa2,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-028054a1b0563dd1,CA,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-f5da0be1dc3cc013,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-065caf9541dea6b6,IP,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-b11988a2537349b8,CANG,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-c381427211684d01,RE,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-f642404703cc3a46,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-02c8518669dac8d0,SGA,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-42c38fc13f713c63,CM,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-67c7997d79e2e086,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-bcfb58262a9845eb,ZL,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-6eed6f2f550d6174,MO,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-45a57cb51120eafd,SPP,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-2f9ee8213b735995,PAR,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-4943bc32cc092eda,CH,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-dd77b156ace1cbde,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-a8bb8817a21648c7,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-3877c34a3a5a1d43,SPP,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-1ca5ccca5f5d3862,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-31493a1595d87e87,CH,Capital,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-8cc97bd2615b6ab1,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-fd192b1a9a3a7a87,SGA,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-bff87dfb6008bb67,NC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-459297fec993050c,MC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6cc286d0cafe32fa,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-fdeb09dde6c5b8e8,CNAT,Capital,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
-18851ef0243a8847,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-07aace18d30eeece,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-5f1a128b7b0ed3b7,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-a4e4c5aa758f4e77,CNAT,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
-5c7c0367c9a95d81,SPP,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-c3ab444fecbffaa1,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6d31aa6f94faa815,IP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-99035e2af3618586,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ce376dc9c277244b,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-6f70472895c08751,SPP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-ba0bf1fb425773eb,PAR,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-1a16b0328fd47e70,CA,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-bb7df8bf79cd0a7a,CNAT,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-59cb7a1c42723f95,RE,Capital,Economista,Classe E,RSC-VI,RSC-VI,Deferido
-3078729b17b33040,CANG,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-aa8eb3f870749255,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e0d22a482d9a0055,SC,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-72e4095832975be3,PAAS,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-2eff3ac99329ee25,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-270762ef12df8648,NC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-bca76a6f724aa343,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-8cff0dd3c3b77487,IP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-c1ed8be4cf08e3fe,NC,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-c5086fdf6e3cddc0,MC,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-385f8706b9c8a538,CN,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-e382b4cfd59fef90,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-8b17235fd6586ae8,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-e14adbe3570c14da,PAAS,Interior,Técnico em Edificações,Classe D,RSC-V,RSC-V,Deferido
-65abb985b52c712a,AP,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
-71c57cfdd6533f05,RE,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-f45a7c149570aa2a,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-d24c00de6a3d0b1b,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-8f9dd532c888af1a,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-c1779d496de9049c,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-76aba370fb0d2238,AP,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-02915ccdcd7af515,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-8ffe53ecfd78ff92,MC,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-d49534ebf9d44376,PF,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
-adbd95b86722147a,CH,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-7b35dd99f8b70eff,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-c426c6e3742e1aee,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-97c8184483a1234f,LAJ,Interior,Enfermeiro,Classe E,RSC-V,RSC-V,Deferido
-074c9c142eeff40c,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-bebfacf196df85c5,CM,Interior,Psicólogo,Classe E,RSC-V,RSC-V,Deferido
-5554d7f1d607918d,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-3fd5e26bd3f9729a,MO,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-cff344dd3c4c9c80,CH,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-e3a90f8c14c70435,AP,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-dde862b7c3fbe7d1,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-e746322094206954,CNAT,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-e3173fc14ec55a4a,CANG,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-8dbae5b608cf712f,IP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-ecb798848237e135,NC,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-2bff8d2b39f798f6,PAR,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-a8c5c8618c334175,AP,Interior,Engenheiro Agronomo,Classe E,RSC-VI,RSC-VI,Deferido
-f4fae4641108fbec,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-27c9ad08f9013610,CM,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-62741205e9b5f47e,PF,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-9e7595a09684c331,JC,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
-a2ab8bdc11db7adf,CNAT,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-25b6033c8e11392b,ZL,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7bab815989eeebdf,ZL,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-6917d8f9e2bc57a9,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-dab75df51619c7fd,CNAT,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-6b66f4428136c8de,ZL,Capital,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
-6dfe6d902b2fc9e1,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-57d99ce5c5fff853,MC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-604afc378a3391b9,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-fc353a1f3eecd0af,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-6953bbe864ace12f,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-335a718cf43465da,ZL,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-1a5d42dfc2aa338b,CNAT,Capital,Administrador,Classe E,RSC-V,RSC-V,Deferido
-6f2518a854f311c3,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-1056e81293adb5f8,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-d3a4499171fd5a28,CANG,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-cb1f604ca7c5286d,ZN,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-2da8afeb4e696439,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-62eb86b2af632849,SM,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-9c46c2209b1b1df6,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-58f51eb520a14992,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
-b785dd77129284a5,AP,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-4141721e454e4143,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-45e37c7ecf514adf,RE,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-43fd20cdfc90ab9e,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-e2ec1221fec0c119,PF,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-bafbdd2ec1e29d11,ZL,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-eafede8028701970,CANG,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-73c7ff1231fbc402,RE,Capital,Operador De Tele-Impressora,Classe D,RSC-VI,RSC-VI,Deferido
-a4cc26115ba040d2,SC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-e65863a1cb786598,MO,Interior,Auxiliar De Mecanica,Classe D,RSC-V,RSC-V,Deferido
-2b5c83b3f4046502,MO,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-34163c029f1ad08c,ZN,Capital,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-927a71a45466026e,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-5e077ae64b265cc1,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-3a18f0af88e233d9,ZN,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-d4e3b011d0298551,MC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-86a8837b31216995,RE,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
-6783e3f402551e6c,MO,Interior,Enfermeiro,Classe E,RSC-V,RSC-V,Deferido
-7ad0bf42ebc87203,PAAS,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-bcd3548632220f54,CM,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-c36837d194cddd22,CA,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-0d8c1c56e3a8939a,PAR,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-f0c3a30a080dc749,RE,Capital,Programador Visual,Classe E,RSC-VI,RSC-VI,Deferido
-697c9a159e791ac8,CNAT,Capital,Economista,Classe E,RSC-VI,RSC-VI,Deferido
-1ce6e129a4020475,SPP,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
-ec21cd41976e67e2,CA,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
-21150e6c93918020,SGA,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-e889ba26b9d9da6a,CN,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
-c9ce8ec66ac88f45,CANG,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-a74aaf96304c9290,JC,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-c817b88f3699b06b,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-3825e55b23d9a6a2,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-6df272e2de78716d,SPP,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-ab4166dfaaa29679,PAR,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6b67d73a048af540,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-f7ba42a5e5e53446,CNAT,Capital,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
-f7fe88925f4d5305,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-445ed1f3d77d4968,MO,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
-90d32af0b86f0d87,JC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-18499fa453cc7e84,ZN,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-454d3ee50059b192,PAR,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-7dec3cd4125f443b,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-a75841833c858124,MC,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-537c13b036414034,CN,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-11a4f2e82eac3de8,JC,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-a9a14df7a8792f11,RE,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-fc81381a0eb1dc97,RE,Capital,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-c3e32e2539758e4e,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-8a29a51a361eba16,CNAT,Capital,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
-e9fbcad735bccca8,ZL,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-7109325f64d52b5e,CM,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-1493ce03c484185a,CNAT,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-bf1042c5283fbca5,SC,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-2ba6f2cd415fa916,PAR,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-3928031cb6e00e1d,CNAT,Capital,Servente De Limpeza,Classe D,RSC-V,RSC-V,Deferido
-386858b5a1824d85,CNAT,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-a90cab89baa496f9,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-24ee578558b132ff,CNAT,Capital,Impressor,Classe C,RSC-V,RSC-V,Deferido
-63d9f2f4d19a592a,RE,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-9f0ebd3f46de0780,PF,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-da92d979c03967ca,CH,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-f7a111310c87c7ad,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-7dc44d7d597f0029,ZL,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-3983c46d6522516e,CH,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-439cfa9a2cff79f3,TOU,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1504a181118373ff,ZL,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-d81fb6d6ae652b1a,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-67ca4fbd1c28739b,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e95903af040752d9,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f35be46adef86b6a,CA,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
-c7eb9d3469f98805,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-7d13ece5e1850c8a,MO,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-1bdafbdbd381a52f,CNAT,Capital,Telefonista,Classe C,RSC-VI,RSC-VI,Deferido
-30ae265928f59fb8,NC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-b5181afdbc80436f,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-1857bed02273253e,CNAT,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
-c40675fb978c7da0,RE,Capital,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
-97f25bcc6777a091,ZN,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-1e8a4e0d4527ffe1,SGA,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
-7e4203b5d0be11e6,RE,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-140772ca4f9639c5,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-93306bccdcd64a90,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6315ed15f543f0e7,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6369107e6e8bb564,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-369762e15c8b2085,CH,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ea1d8dae670a2edd,CH,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-453d518a80c5bbb2,SC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-ea65519a6616cea4,CNAT,Capital,Motorista,Classe C,RSC-V,RSC-V,Deferido
-4356ff30215864b7,SGA,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-f663b4af7b8a1b5c,PF,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-86a7d7a830d333e3,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-de9374e85936a1b1,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-b0bdae076a27985d,PF,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-bec179795dc86784,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-fb597d1b726f96a4,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-c140e9e507005c54,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-8d77ec0a8a3c9a00,IP,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-80c49635bceeb1c8,RE,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-a29ea9a2efd5f917,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-6c700eb58c7c517d,CA,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-cb12ce21ad0e3a24,SC,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
-8a0a98174f640fc3,CNAT,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-30f0f78220fc29f1,AP,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-3e3f51910ef6303e,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-cbc2054cf6ced358,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-140dcc415a73e56d,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-1e6735df63c755d8,CM,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-f4eec2fc20c7fb52,CA,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-c004ccb27c1a6c2c,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-419a65ba777f5cf0,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-b069221f025f3b2b,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-3b1a14ef69b89097,AP,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-e5963252a656e222,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-c4bda0d9f2f746be,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-64e0c24d25cf6984,PAR,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-d6604e1ae98168e2,RE,Capital,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
-cf2bc91eaa5baf19,CH,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-2d6354ffda945ccf,SGA,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-3f9a0e967a2a407a,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-779b06bb9d9112cf,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-f48936aa0d6f157f,ZN,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-0367a53f4afed4fc,SGA,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
-660f790b24fe8e82,CNAT,Capital,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
-cb5e9b22184b91a1,SPP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f76afca9b6265c00,CNAT,Capital,Mecanico,Classe C,RSC-V,RSC-V,Deferido
-f577d6ca231a71c5,RE,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-592d827eb52ac125,PAAS,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-58dc691243a21c01,NC,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-2181c5bef68af413,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-88217c3bbc27f570,CH,Capital,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
-3cdeb30020ebf73e,LAJ,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
-07cdc846deb1ef8b,SPP,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-ff679804a9184015,PAR,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-f2d90a9affd464a3,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-50a93ad1215a9fbb,NC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-e80ca55e1fdcd740,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-3920fcdb9ba67818,SC,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-75724393992a95bb,SPP,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-a2e053b83732386c,MO,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-a43aa2c8075e7567,NC,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-e5a356e80a69bdf3,SPP,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
-1081d031b4d5a98d,PAR,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-31c476dc2e215b8c,MO,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-b611d58fb977c6a9,CM,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
-a3ef6dcf1b5007e8,MC,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-d639523732e2c26e,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-8f79c7fedad48172,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-efdb762bbea187cf,MO,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-86ce0e8859214b51,MO,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-2d0381903d305d0b,CA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-1c08c74af00a6d1c,IP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-b761079959992e2b,LAJ,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e1c10ca5010e28cc,PAR,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-2535039aaa5e6e0a,CNAT,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-04557f56d8212950,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a2e9450a450231f4,SGA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-978861819a6adc74,CNAT,Capital,Técnico em Mecânica,Classe D,RSC-V,RSC-V,Deferido
-84f699ffd867cc37,CANG,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1d1f1d84216639d1,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-ba526f524fbada25,MO,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-eb83a1cfa1f9b8d6,RE,Capital,Publicitario,Classe E,RSC-VI,RSC-VI,Deferido
-810ee829c729ec1f,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-3c84d982ee63ec1e,AP,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-e0ea5fbe6cadc02a,CTM,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-69429b4845764ccc,SGA,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-bcb5c81e885ba896,CM,Interior,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
-1ec60b09382be3b8,ZL,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-ba16e00dd727add3,RE,Capital,Diagramador,Classe D,RSC-VI,RSC-VI,Deferido
-924693b39aba3e90,MO,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-4de725dd61ff4af1,CH,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-e26a9041a9d06055,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-fc9d489dc0a020fa,AP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-056427ac85a90117,SC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-274798650511edd7,ZN,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-009bd72105f16815,CNAT,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
-afba780c739c6dbc,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-cecd7e1106c03aad,RE,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-VI,RSC-VI,Deferido
-b552cdb23293a177,CM,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-1742a4ccb0e02e06,SC,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-7da512b4a4bdb1f8,SGA,Interior,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
-5cefeb0ee805f6f2,CA,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-d99617a5ccbd2e94,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-9a33273618d94318,JC,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-08a3e67180c2604f,CA,Interior,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
-8f4c35a2121b888b,AP,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-4f380bcf70db5132,CM,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
-bddeb406abb1fbf8,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-dc6b9b9807342784,CH,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-d05f826db03a3ba0,SGA,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
-842df87df9cda77a,CANG,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
-833aaafb9f6b7fd0,CH,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-bb4333e289f27909,RE,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-671aaeaa3feafc9f,PAR,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-50ca876cd5487198,SPP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-dfcd43a92efa54a2,JC,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-915b30e67fa3e116,NC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-3624b47760b07f2b,CM,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-aa4e47e0cade517e,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-8576e95f2d39e501,CA,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
-5c5e0fb6e4e883cc,ZL,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-dd1d4be29bd1384f,CANG,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-01ed04adf05c413b,ZN,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-446101f090793e83,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
-db6dfec0d07bd88a,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-435f5696ced61dfd,NC,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-251621a58281d662,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-a001e907b06956d0,CA,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-8ad09545f4910b72,CM,Interior,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
-53f7ec639f8c45c5,CM,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-86085af7f5e352dc,RE,Capital,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
-8e0fbee3051a8c99,MO,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
-75e9cd0d4032f10f,AP,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-049218f71890cd87,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-6a4bfd3d6f555bb0,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7fe64f6e79067626,CANG,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e7a5936f4251a10f,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-361a898de9677b93,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-2b46de0ed8c96f87,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-90260d9f917aadf9,ZL,Capital,Analista De Técnico Da Informacao,Classe E,RSC-V,RSC-V,Deferido
-c528f0672231f3b9,RE,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-7bf89d0771b768f4,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-3f03eb6d07778c02,RE,Capital,Economista,Classe E,RSC-V,RSC-V,Deferido
-1d5bff7fe1b693f9,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f8263958252bddb3,PAAS,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-31eee5ae00f51743,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-adc0402653df4370,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-2d98073275c9e0d6,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-ff7a118c32159df2,PF,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-da58a8ac49dd89ab,CN,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
-6d7e38f63b6656c6,LAJ,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
-afeb3a1e009ebcc5,AP,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-395cdc43858ca89f,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-6ff67761ee8f076f,PF,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-91e3b0cdf765f284,CNAT,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
-b999abc726eee1bc,AP,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-a48931ee320c97ac,MO,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
-c8377476c2cd11d7,PAR,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-d69c3201712740c7,CH,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-2c3327007bcc47a1,MO,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
-5ff3cadcbbc002e9,MO,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-289fb4000de9f0ac,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-9056b5fd468207c8,CNAT,Capital,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
-21de9b0a082476a9,CN,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-b10b509da143b049,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f632301ad0260f44,AP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-f27112e6a11b08e8,ZN,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-97f34de1124b2d55,IP,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-29dae9902aff940e,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-f1980964c7bad573,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a5fb240ebb7570e8,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-44249ef833006d5c,MO,Interior,Auxiliar de Enfermagem,Classe C,RSC-V,RSC-V,Deferido
-2ce48fcb57b59b1c,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-8144e25f6f881f33,SC,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
-f47e0d38d781cda1,CM,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-ed09333f4f536610,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-e6dfecf93c6e8746,JC,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-9ca736b277124ad2,CA,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-da6b7ee8da8bd09b,CM,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-8f702754ffaf5d30,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-c26c7dd525628bb0,RE,Capital,Administrador,Classe E,RSC-V,RSC-V,Deferido
-1dcc4af3b2307a48,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-4abd74ecc62ff13c,CM,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-7809e9e94aba4133,SC,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-5d61e6716833cddb,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-be4fe9bfd241d93f,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-8bddbde9ef925e92,PAAS,Interior,Enfermeiro,Classe E,RSC-VI,RSC-VI,Deferido
-e9a633834a17cde2,CNAT,Capital,Carpinteiro,Classe D,RSC-V,RSC-V,Deferido
-01e4cd03c6858a62,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-c9227983e6ad4fbc,ZN,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-1d02bcc21ad8bcf2,MC,Interior,Técnico em Química,Classe D,RSC-VI,RSC-VI,Deferido
-aa97814a8b87b641,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-a5b3ea9e048847df,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-1084fc894b1c3d34,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-185be848343a9f5a,PAR,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
-29100095cd7815a5,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-1a238f77b9065006,CH,Capital,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-5cd39f91aa97ac59,SPP,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-25dffa7ad13dcef0,CANG,Interior,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
-3496a640f387175b,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-c833308f4f214c5a,PAR,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
-a65e18671313d956,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-b0d4d95a8e4d3b14,ZN,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-e6f368a525c2e35c,JC,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-a130fc331cc986ff,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-c80ccb3e6e8da46c,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-b7934ede7398b15a,AP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-ada4466daf9af243,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ecd9665787e902af,CNAT,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
-a2807905b2d8129d,CNAT,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
-f1b89ad7107cf6f1,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a9cadf97b91da4a7,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-106a33e828f70ee2,SPP,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-de72394fbe5ef200,MO,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
-659025a1e7d7db23,CM,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-57ff663bc60ac94c,JC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-fdc5c6a128fccaae,RE,Capital,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
-4969397b8178c552,RE,Capital,Porteiro,Classe C,RSC-V,RSC-V,Deferido
-30ce5523ba79edb2,SGA,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-0f19880cde6f74b2,CTM,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-2e75495b1853ba52,RE,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-6f85f07a35c0ec7a,PAR,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-2945477e6b39c4cd,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-cb23ed2dc7050a04,CNAT,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-99774b32f258787c,PAR,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-fa6621fd74a8c415,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-367850fa83f33de1,RE,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-5db8c1f62f3c9e35,NC,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-60c397ca53018684,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-d6deaf16dd1fbd39,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-b90e78720cbcd71b,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-4bdd97bb6629bf30,PAR,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
-60f2daf48d91fed8,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-d88f12665b3b2306,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-6c5605775238f116,CNAT,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-1542f835e2ef0aef,RE,Capital,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
-2ccb9773671a52c8,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-a5bcddc803d32b33,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-19103519a0c86398,RE,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-0b604e2d51725273,CNAT,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-aa2e5d5171472de1,PAR,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-5fde12ff8a2e51b9,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1f60ce4462ad71cd,RE,Capital,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
-16456506b8418e18,NC,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
-a8bc44bcdd42f162,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6759b0546a3ff669,ZN,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
-3701f9b6d5d21a78,MC,Interior,Técnico em Química,Classe D,RSC-V,RSC-V,Deferido
-0b6a3441971efafb,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-4daeef1a611db4fe,RE,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-f098b44099f544ef,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-fb60269b7c5cf148,SC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-69801226bbb07793,CH,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-7251a65f33d56b4f,UMZ,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-2d2ead572ca8743e,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-fee9f427cd68b418,LAJ,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-78f90701e6abefc0,CANG,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-6f50aa3bd7325ed3,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-04addf01e88ce971,AP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-7539abf5cda95863,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-8af0de3044806f7a,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-c5fcd1b6a7d05dc2,PF,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7090842231e9fb08,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6d68d405ed263016,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-a279072ed126a024,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-692370442f24dcbb,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-45c938934fa81128,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-050aa8f37e862e25,IP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-5d60996d811428f3,PAAS,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
-b78431bcd79c3dee,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-80fff6552dd066ce,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-bea66eb79b4afd67,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-8aa7e5faae18633a,RE,Capital,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
-d16cf4db00679269,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a07f56c5e40841b0,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-03b54f0423dc7f44,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-700f0dbd11f2d631,CANG,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
-9025c3682365072d,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-58478e7ca18995d9,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-b5bef25724de9726,PAR,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-a6da0c687bc2083f,MO,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-2ace34b9eb175fd6,RE,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-f10e5308d3e78edf,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-d3826d6ec02a7417,ZN,Capital,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
-4b1ac2506e9749ef,MO,Interior,Auxiliar De Artes Graficas,Classe D,RSC-V,RSC-V,Deferido
-90138c4a310bf562,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-a40a63778cf31c52,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
-d4f8f8b06881e434,SGA,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-21878e33d6b3388d,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-9717f64ee3e33db4,CM,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
-65a96e837e17ef91,ZN,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
-7f768e672f61c902,ZN,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-8b98a2c83f9a5a4a,MO,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-cc337ddc462d1518,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-226a696c0e3c8302,AP,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-335512c6de685721,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-62740aeff84364b6,LAJ,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
-45ffe02d02c472f7,AP,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-42a631b06afb4fca,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-920f77633010a565,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-aeb2d270e71b6ca5,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-cc1f6cf0d4d441c5,CANG,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-fb4af3157cb5d576,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-eff7f32e168be90b,RE,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
-e5ee69b25d84960d,CN,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-11224154d2d1c633,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-e0246bd8fb30bec6,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
-96393f3a4c67a9f5,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-018dbda8a6c60f60,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-919836af9bc6f5ac,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-0b230deb02df839c,AP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-34d7ec94583f335c,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-32dad881c0afc120,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-1fb142b260064186,PAR,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-03de9a833c807215,JC,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
-7b0588db67d6992f,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-316dde46845ba011,SPP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-39837fd0b05b0669,NC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-904e00b3320e743e,SPP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-e8fe207dec3306b8,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-547d14ee2175fbc4,IP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-c68787aebec5b950,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-e68b897222578497,ZL,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-cbbaad5209b55e61,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-959b181d84b411e7,CM,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
-97706068cad3b1f0,JC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-370d7830906b47a9,SPP,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
-4960dca790b907f8,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-d2b9760f0ca3f404,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-2872b57a3340a5fa,PF,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-a25b781a3620dcac,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-8daedb89af550bec,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-128e5f9affedc9fd,IP,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-3ba5c78c5510b5fc,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
-250ebec08fde9a10,PF,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
-9ce5154547888148,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1af489818df59899,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-17304c805ebcf124,ZL,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
-07da2aaa52bc86e1,NC,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
-24430b08e2d6bebb,CANG,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
-78d8997f07a66229,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-6b6cbe5843b633c4,MO,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
-c190d272867a8a01,IP,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
-481a8ef03e6f73e9,PF,Interior,Técnico em Agropecuária,Classe D,RSC-VI,RSC-VI,Deferido
-477beeecb6bfee10,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-90f31157eff7fc11,PAR,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
-862cfb0a9da44f0a,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-2a3b403dc26eb15a,SC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-e4925702c86ddd32,MC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-93831a4556377982,IP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-7acf5182df6d24d2,RE,Capital,Jornalista,Classe E,RSC-VI,RSC-VI,Deferido
-13a12cbc2bfaafff,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-83e2dcfb13b69bbb,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-ca230f8772c2588e,ZL,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1a9496f24e895daa,ZN,Capital,Contador,Classe E,RSC-V,RSC-V,Deferido
-5f020e68aa97da71,ZN,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
-a683c49f5bcc2061,CM,Interior,Técnico em Edificações,Classe D,RSC-VI,RSC-VI,Deferido
-ce0b000fff193460,ZN,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-70ad2345ff8569c6,JC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-99cab5f9e383a8d8,PAAS,Interior,Auxiliar De Biblioteca,Classe C,RSC-VI,RSC-VI,Deferido
-3fb0a518ec7c91da,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-f7ad8bd2f923b692,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
-b313258a6d262361,CH,Capital,Produtor Cultural,Classe E,RSC-VI,RSC-VI,Deferido
-6e276dab826213af,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-3926c810dad9a3af,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-1430df36d68cb719,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
-e960a576a2eaa992,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-3e0ae7a0e53082b0,RE,Capital,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
-bfa57700c085bad1,CANG,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-1d0778b1ec03d0a6,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
-11fd6ce3b29c0ff0,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
-fc0655c3c8986167,SPP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
-d3a59aea59192467,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
-ecdd3977807352f4,CM,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+34ce8c19198537be,RE,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+7e83a910ed6177e8,RE,Capital,Diagramador,Classe D,RSC-VI,RSC-VI,Deferido
+a6dae5b53a131abe,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+0010917504a0f7d9,AP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+ef91f82e245b0d1e,SPP,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+085d838c6e44ff7f,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+dfe8ea790919dc2c,SC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+d6da8524788057b7,RE,Capital,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+8d9242612b7a6b1a,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+31b3284ed720629c,MO,Interior,Servente De Limpeza,Classe D,RSC-V,RSC-V,Deferido
+95a3c5e2fc182ffd,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+e0d10f19e1823b86,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+66074a58c5de18e5,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+ff5790da95f90a98,SPP,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+df3cb5e9488eeed6,SGA,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+a68233df050b2a11,LAJ,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
+d72ce7f850ed334b,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
+36304c7853e7506f,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+721242c9968434e3,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+9240664572548337,ZL,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+711d27d0b6c381a6,CM,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+7096dea4b5e0e4c1,LAJ,Interior,Administrador,Classe E,RSC-V,RSC-V,Deferido
+093989d7d4ab3cca,SGA,Interior,Psicólogo,Classe E,RSC-V,RSC-V,Deferido
+a8c42eda5fd05f37,RE,Capital,Médico,Classe E,RSC-V,RSC-V,Deferido
+23e20dcac0a3fda9,SPP,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
+e641a472f02de712,IP,Interior,Zootecnista,Classe E,RSC-VI,RSC-VI,Deferido
+5db54b17e1e3641f,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+c13532b81e97836e,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+2437d276421e3186,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+c75f5f8e61408ea3,CNAT,Capital,Auxiliar De Eletricista,Classe D,RSC-III,RSC-III,Deferido
+c36a854f3d2f0f44,PF,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
+dbc6bdf66d21cac0,JC,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
+4c1bcfa0cf56579d,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d6e25e3da65430a2,ZL,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+5d5e93195de6fb1d,AP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+e1c7efb3aa24da2f,PAR,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+d61d7804c1acfccc,MO,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+524b4e817cd198bc,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+abe62c3f247315b2,MO,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+214b6ead31cfc3ca,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+6c14fe6f6e1dca17,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+555cc2b013507e37,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
+7b4643652062cfab,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f30e95e5478d0ebe,PAAS,Interior,Administrador,Classe E,RSC-V,RSC-V,Deferido
+69a1116cdd68a6af,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+4090c9b8b4216e48,IP,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+2e140b4dd24cb1f8,PAR,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+8f35439257e14995,CNAT,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+4dfd9a4bc17a14cb,CM,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+edb3207629bbf9c7,CA,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+24c3de12fc0f0404,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f201aafe8f5dd63f,CNAT,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
+fe44212f9e9c3d42,PAR,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+02daa08664f3e58c,NC,Interior,Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,Deferido
+44fd89a26ea040cb,RE,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+f631fa197f20be10,CN,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+695132e01762fab8,PAR,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+9450afd6569fdced,MO,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
+da73f9ff6c3f79db,RE,Capital,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
+8cda466f6e952a8f,CNAT,Capital,Motorista,Classe C,RSC-V,RSC-V,Deferido
+d18bb98395e93284,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+4425851316bde589,NC,Interior,Auxiliar em Administração,Classe C,RSC-III,RSC-III,Deferido
+f383765c394b2c57,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+bcfa9f1ab8577411,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+bfce48d209addba5,CNAT,Capital,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
+ca62c16febc34fc2,LAJ,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+32edae7ecae49675,PF,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+5cd65b2e056c5a58,PF,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+e45350457b5da3e5,CH,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+25434b560fa6a50f,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+add6f2c294d6def9,RE,Capital,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+86f1180b6377e640,MO,Interior,Servente De Limpeza,Classe D,RSC-V,RSC-V,Deferido
+d4365767fba6136c,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0601826f64ebb3f8,CNAT,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+d41d7eed0d72aeac,RE,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+762bdffd85c4cf4a,MO,Interior,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+23d255d095234181,PF,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
+6b1d1fcfc1b6d74c,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+35145440f0bb1b6e,CNAT,Capital,Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,Deferido
+b5bac497fe45425c,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+7f637d128592dd43,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+5fa10a83a8af49e8,CNAT,Capital,Arquivista,Classe E,RSC-V,RSC-V,Deferido
+e37de0709cb24317,CNAT,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+c5a1d8f0364855d3,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+14e33d102ea4b56c,CNAT,Capital,Auxiliar de Enfermagem,Classe C,RSC-VI,RSC-VI,Deferido
+7ad397c796733947,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+7cba303a9707c293,CM,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+ae7e4db860c20e33,MO,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
+42101acc30d5b9e3,ZN,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+5d7c6ac6ec652252,CH,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+f8eb77b6dd72e8e0,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d473f122e125cb1e,IP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+20fd1b7df59b7e6f,AP,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+cd9c917e0e5e9f2e,CNAT,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+82fdce8a5a6207fb,SPP,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+d80e74836285431c,CN,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+f6f2e5726b349e9e,MC,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+483f10de5307f627,CNAT,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+7eb76057485de44b,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+787f9bf6aaa1135a,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+fef753684d10aecb,MC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+b05f901119f8dd09,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+7e8763e32d601c57,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+0518e3ef8b1e40de,CM,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+1426e8e09b2d6174,CH,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+b84feeb0b8be9ea4,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d607ca139acabec4,PF,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+f14b7add0623da21,MO,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+c5d8668e6e1041e3,CNAT,Capital,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+53dfc93a2cee2fc3,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+1e5de77f6c0e7148,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+e9c81e563d4c61da,CANG,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+71b07d6783d4ffaf,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+70e3c38d6d4c8f5f,LAJ,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+3f1c24a8901fe2f9,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+8f8ccc63e4c196a5,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+2df67e2045009541,MO,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ecaca70fb1bbe389,CN,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+c4bbf6aa58bb94ef,JC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+9e07d459250343e6,JC,Interior,Técnico em Eletrotécnica,Classe D,RSC-III,RSC-III,Deferido
+b6eb844c82f7dccb,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+954a5f6f7c29b6ba,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+072f44e22f13f16f,CNAT,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+0ad1ebfcbf0449f4,PAR,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+784e42c53df0bca1,ZL,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+37e768c8813a6ae9,SGA,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+dea2107a56c73630,ZN,Capital,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+d0a66a9dbb8c4d13,ZN,Capital,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+ec7056a7cc111aaf,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+290a24a793f1457a,CNAT,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+2f4fefd89f115f37,RE,Capital,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
+aadc6fa333d722f0,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4889bcba2195944b,CH,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+386a8e5fd5fffa03,RE,Capital,Auxiliar de Laboratório,Classe D,RSC-V,RSC-V,Deferido
+409880aed05a98e1,PAAS,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+b22f3886628c4322,CANG,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+606cd7ef30b330df,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+bab87e3d6b58f513,CA,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+e0259f7afb41bb18,RE,Capital,Programador Visual,Classe E,RSC-VI,RSC-VI,Deferido
+70b81349f10de095,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+e4e697760c9b1689,IP,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+5fbb9cbe70394c29,CANG,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+b5fc45d2b478f7c2,RE,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+f61453b42a59f8bf,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+725f4e93d87076da,SGA,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+7c7cc80ca1f4dee4,CM,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+713fdc2e47b3fd94,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+9bb0454e72f482de,ZL,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+87adf344e1b80b76,MO,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+e631ac20cd522c89,SPP,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+d90bbcd6c0a7bb25,CH,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+2ae9e4beedbb918a,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+b9b8c14f80e0fe4f,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0246bac3c4a63cc0,SPP,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+1b3dd89bc4849f0d,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+0d6b4315d97c2b31,CH,Capital,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+269a8190b1adcd2f,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+2e31fef1f3d09251,NC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+1813b7e5abfb253f,MC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+276091acae97628c,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a04bbfa1741b7060,CNAT,Capital,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
+69e50647d6d76acc,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0f42b40caa5c2cce,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+733bbdd154256515,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+c1a61c9e782d48a4,CNAT,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
+c67a71c03e6cfef0,SPP,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+40d50b29d36b999f,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+61793c6f300306e0,IP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+dc5b2ef50059eef8,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+b23fa27abbc4bc80,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+ce282298efe4f2f8,SPP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+36a7620be4ab62c9,PAR,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+96bd538061b32104,CA,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+538312631e3df221,CNAT,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+286991b5acd2077c,RE,Capital,Economista,Classe E,RSC-VI,RSC-VI,Deferido
+a43f26e01d581a4b,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+19f18fc019b0fd1b,SC,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+4f75d4196b736e7a,PAAS,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ed4a2ed37d78b36c,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+bf2b95051d3d6207,NC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+5efe5c4e66437f75,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+af4b5dceec8c6707,NC,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+fe6fb5d45b25caff,MC,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+dcbaa22578ff7753,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+6200b5dfdef0b769,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+b79f2a10523e42e2,PAAS,Interior,Técnico em Edificações,Classe D,RSC-V,RSC-V,Deferido
+90c02a294aa6bf1a,AP,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
+c3c67418ad74c3ab,RE,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+1f422e66eb1cc4da,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+2998a4f5a36fba5f,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+7af2c435fc521bb1,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+7a6dc63ab812c736,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+c3fa70b425417dc0,AP,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+4319dc9fc065d640,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a11a51e47887204a,MC,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+bd15896ce8fc979c,PF,Interior,Contador,Classe E,RSC-V,RSC-V,Deferido
+03299d2d9bca304c,CH,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+ecd17350859b382d,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+1f50aac38332ec3a,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+294be7176c23b8d6,LAJ,Interior,Enfermeiro,Classe E,RSC-V,RSC-V,Deferido
+464f2cb5ca47c83b,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f3b7ba7d116adb51,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+79bd976234d5b23c,MO,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+85106d960e96817d,CH,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+f3a2cb7012ccba4f,AP,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+d6b73108c9590d67,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+102412986e592c20,CNAT,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+8c4d343e40229e7a,CANG,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f5aabd1ca6fe02dc,IP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+af483c59ad8563b4,NC,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+ee8d680959321fc9,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+5f9b85e37e8003be,CM,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+23c11ba5a8565e7d,JC,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
+4e6d2e65051b7a1f,CNAT,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+5dc754ec4f3ae873,ZL,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+da7e31cf5a7c1f53,ZL,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+1122d659296b55e6,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+cb1fbce34200d176,CNAT,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+5d1e5cd680914715,ZL,Capital,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+72e7321135d1dd4f,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+74f837fe4db96655,MC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+54f290abeed5ca18,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+1045b462c8fd0809,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+c58c459a17909312,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+89db65d3a1f76e5d,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+a288aec868ee042e,ZL,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+771cc7b0816d7d88,CNAT,Capital,Administrador,Classe E,RSC-V,RSC-V,Deferido
+f67c0ccedf3cd8d9,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+dd1b4f8d30198cb5,CANG,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+bd0d7f00cbc320a3,ZN,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+6f4d8913807222d7,SM,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+e81824aa0883af42,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
+c305ce169f1f71fa,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+13c8276e1812e5cb,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d9829c82632a3d0b,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f842e6fe1b212cfc,ZL,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+2a49897fb144ee66,CANG,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+c1fc22a88d660c16,MO,Interior,Operador De Maquina Copiadora,Classe C,RSC-V,RSC-V,Deferido
+2e8668998c64eafc,SGA,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+39166c435ca1ee6c,IP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+205152cd8d55bf93,MO,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-V,RSC-V,Deferido
+ae3cd75cfea85a0b,AP,Interior,Engenheiro Agronomo,Classe E,RSC-VI,RSC-VI,Deferido
+1d40e59be1d397bb,PF,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+179887f3f4f742a7,PF,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+0e6f059b9a48bcd6,CN,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+a0f17b860f3f4228,RE,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+f7269e489e2fb7dc,PAR,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+c90c4fdd0bd1e363,PAR,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+e955ddd9cad6fd0e,IP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+d56a29565fea5a48,JC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+37516793764d94c8,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+ffc2a5b2ef5d48ca,ZL,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0158d1176acb87ab,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ae1514cdb777df1b,CANG,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+654dd66f0874bf1c,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+661f698800e388e1,CA,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+3fe7751347e4b686,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+0b683ec686057a06,AP,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+2838f00913f74f17,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+ffb47d3bb360fe50,CM,Interior,Psicólogo,Classe E,RSC-V,RSC-V,Deferido
+96d953921a162b80,CANG,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+5bb21d5a38fdc4be,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
+bba4fc5361d224d6,RE,Capital,Operador De Tele-Impressora,Classe D,RSC-VI,RSC-VI,Deferido
+edf86adc18748286,SC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+225f089289ec3b77,MO,Interior,Auxiliar De Mecanica,Classe D,RSC-V,RSC-V,Deferido
+362c375f55397789,MO,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+22121e2a37eb09fb,ZN,Capital,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+9a3f42ba5ee0f6eb,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+ce439af659731344,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4fa2991a083287d7,ZN,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+9187e4e6b13ae8bc,MC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+3456948764c24c57,RE,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
+1ada198849c57878,MO,Interior,Enfermeiro,Classe E,RSC-V,RSC-V,Deferido
+4d54b42014fd9c05,PAAS,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+163d208d82a5edc9,CM,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+e8b1f31bd9fdd103,CA,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+ef12e37a34bc4d44,PAR,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+1f27869057bf35c7,RE,Capital,Programador Visual,Classe E,RSC-VI,RSC-VI,Deferido
+1e0e0a4bf38fb187,CNAT,Capital,Economista,Classe E,RSC-VI,RSC-VI,Deferido
+8f921f837532d2d0,SPP,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
+0b465415ec0cc846,CA,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
+43f0b3800ba448c5,SGA,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+9ad4d15bee854986,CN,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
+5954b3f06252d29d,CANG,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+b1ced21def5539f1,JC,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+084f7364e8346e84,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+47c3e39ea4d07aaf,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+045e31bf9b20dcf6,SPP,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+3b19ae0f35aff02e,PAR,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+2d48ecf68158e7f1,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+b159c1e696b86c09,CNAT,Capital,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
+187ac9102456416a,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+a6d84f2f001d5818,MO,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
+c601708eb7d11087,JC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+dd04ad3a25471e68,ZN,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+2809fd9fcc254ca9,PAR,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+73d299419cac36f7,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+913648d812fcd402,MC,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+7c31e66eb4ce3b77,CN,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+bbe96d30baee0644,JC,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+8e156ffe9492aea1,RE,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+583506d5f9f1d214,RE,Capital,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+e5de704aa51fa473,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+a060e55aa15834fc,CNAT,Capital,Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,Deferido
+b6bb88758eef93c9,ZL,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+f2b4cf8750bd799f,CM,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+83e59272a7dfe18f,CNAT,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+1ce5e8bf2125bf68,SC,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+b534a6cd823cafde,PAR,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+6b7e47787466980e,CNAT,Capital,Servente De Limpeza,Classe D,RSC-V,RSC-V,Deferido
+28faf2054573f3a0,CNAT,Capital,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+bfd5f0453983aab4,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+2c831c76a356b767,CNAT,Capital,Impressor,Classe C,RSC-V,RSC-V,Deferido
+2311392003753d16,RE,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+8a11d994a0e7c58b,PF,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+bb2f0c1aad604724,CH,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+ddc77ebfcbf3687c,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+fe75de4d77450e91,ZL,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+33e386e3e228834b,CH,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+a524fdc4d5c48a51,TOU,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+4877b37ae12386ee,ZL,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+a60c8d78c9234098,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0164264ec291b0fb,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+baf90b07c02ac623,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f33b7d091fcaa7be,CA,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
+c95b95f588bf1895,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a08a6adc467637f5,MO,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+29c8330f9fa1b6d3,CNAT,Capital,Telefonista,Classe C,RSC-VI,RSC-VI,Deferido
+25fe83483d6ab01e,NC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+164b9133c65356aa,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+de0cc523f75e50bf,CNAT,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
+1bb49db352c838cb,RE,Capital,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
+aa1e4873374ba69c,ZN,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+8445420e510f22f0,SGA,Interior,Assistente Social,Classe E,RSC-V,RSC-V,Deferido
+8fbf9800b8d1b2c4,RE,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+5b11333020934d04,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+cae5a572efaf0bc1,RE,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4ec18384d1ad276c,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+c22ee70df558c651,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+96412f5b6db1642c,CH,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+4ba7102c908b9c7c,CH,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+3ba3937050df6c73,SC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+8fd4ea08a7929865,CNAT,Capital,Motorista,Classe C,RSC-V,RSC-V,Deferido
+6e395c622aab2d28,SGA,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+78e24e0ff73dbe65,PF,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+fd6af6a2271dd4f1,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+e795998385273e4e,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+501f068f49340d81,PF,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+672d795c0948287f,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+8e9f85307a936a51,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+d7d881c979dcb506,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+1f014e3ca55f4aba,IP,Interior,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+8afb00f2df0b9514,RE,Capital,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+f45877557cf3a8db,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+5fb3b08de6032e4a,CA,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+0696aa3e8f30b7b1,SC,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
+d946bb71bbe5f144,CNAT,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+dd44c7eff46c0002,AP,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+c84855cfb8207556,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+db40ce9e1fe0608d,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+395b0909596421ed,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+fa5a07c8a0c14d4d,CM,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+fdd0db388e0565a1,CA,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+fb1f263bb6d2bb12,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+52ef736368803629,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+0a003aa32235c74c,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+b1b999bfed3aa1c6,AP,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+f34c33f37f1690e3,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+ca6826ea691f4bae,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+8f9996f81d9b5ae1,PAR,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+414ee3a65b017ee2,RE,Capital,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
+cf52d21808ec6677,CH,Capital,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+124e37321b1d4dbe,SGA,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+f76f95900c8f697a,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+cd3ed8d4c51f21f8,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+3e7a7cc122c7ea83,ZN,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+38b2114333f1305c,SGA,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
+4564da7ff84a0817,CNAT,Capital,Nutricionista,Classe E,RSC-V,RSC-V,Deferido
+ede631972cc7d4dd,SPP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4c3605ef55706756,CNAT,Capital,Mecanico,Classe C,RSC-V,RSC-V,Deferido
+37c05259c6152a46,RE,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+a5b9710cc3e9390f,PAAS,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+509f28a2ba45bb50,NC,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+6c3d7df5e5f5b5ee,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+9f6517300d5962d6,CH,Capital,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
+fad8ea17ac33bc97,LAJ,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
+76d9b0d681ab4933,SPP,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+2f86bc17c7ad9ec0,PAR,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+55d75b5ac50c12aa,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+deae36893c812a41,NC,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+3e48ccd6efc10e4e,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+3326a7601ef4e33d,SC,Interior,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+fad83a6a7cec9451,SPP,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+897f3414911a3796,MO,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+f18fbbafdb185b71,NC,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+645005b5be312b29,SPP,Interior,Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,Deferido
+a043e8772837e4f5,PAR,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+dc95bd23439d779d,MO,Interior,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+0d175734ae2cbfb1,CM,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
+c7138472e742e18c,MC,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+d3978d9849a67d4d,NC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+e694fc7a779d99ca,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+a409a8f7f5db9b47,MO,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+4314ed5f96998118,MO,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+0481a27d75ee7789,CA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+1f92c4fdf8ad88cb,IP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+2d7eba4f05a5e3ce,LAJ,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+05f599e13a470f2b,PAR,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+042384d67f5e890c,CNAT,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+138b6e546a0e3d63,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+eaf9f18f1bd1afa4,SGA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f3d60c232e539cf6,CNAT,Capital,Técnico em Mecânica,Classe D,RSC-V,RSC-V,Deferido
+29133b20c7db3b93,CANG,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f4dbb04677b325ea,SC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+8b1a8cf949857f62,MO,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+86187929f652ba92,RE,Capital,Publicitario,Classe E,RSC-VI,RSC-VI,Deferido
+4a676bc310e364e5,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+b1c2879ac2f3fb47,AP,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+25ada5d1b9b10e0b,CTM,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+8c4d4cf1038454e5,SGA,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+74045230054e5d12,CM,Interior,Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,Deferido
+ecb22cc5e733afff,ZL,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+8ff0f73a5658b019,RE,Capital,Diagramador,Classe D,RSC-VI,RSC-VI,Deferido
+874dd3168826e716,MO,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+f2e0b8836108f9f5,CH,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+8be5ee66773c019e,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+289b4662b93b6db0,AP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+9fa4a12055917644,SC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+6d97087734c6a7e2,ZN,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ce9508ae7c2dfb85,CNAT,Capital,Médico,Classe E,RSC-VI,RSC-VI,Deferido
+1bf834dd2bfa9d7a,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+b14b2054cb70df00,RE,Capital,Técnico Em Seguranca Do Trabalho,Classe D,RSC-VI,RSC-VI,Deferido
+5d79a102a1f9402d,CM,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+d5a8455381077c47,SC,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+9beadaaab091be77,SGA,Interior,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
+2950105386236854,CA,Interior,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+b30527879872c0e4,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ea1e397e1566074a,JC,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+8560417a43995d3c,CA,Interior,Assistente em Administração,Classe D,RSC-III,RSC-III,Deferido
+e75a2c6cad19a4c1,AP,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+ac1a395af2d79522,CM,Interior,Técnico em Audiovisual,Classe D,RSC-V,RSC-V,Deferido
+66dfb2476cbdc157,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+aee94ba5753801db,CH,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+1a9d5d9fefaba2c8,SGA,Interior,Médico,Classe E,RSC-V,RSC-V,Deferido
+0f62531bb74ade54,CANG,Interior,Técnico em Contabilidade,Classe D,RSC-V,RSC-V,Deferido
+373afc2ffd5632d3,CH,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+b050669203a1d8e4,RE,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+501db981fa6a1dc5,PAR,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+d8a477d7e7a46101,SPP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+de73998f50d03183,JC,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+60267bb76db8bf56,NC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+5cf0a10f23324923,CM,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+aefb6ed8f615a6bd,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+da6421ec33f95dbb,CA,Interior,Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,Deferido
+52cbc15f43e77cbb,ZL,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f636dd55d8f8bfba,CANG,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+e119132e13d4a1d3,ZN,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+8d5eb9b77480ab54,CNAT,Capital,Vigilante,Classe D,RSC-V,RSC-V,Deferido
+dbd295dece26bf4b,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+339f9f79909b8416,NC,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+323da41b4b809baa,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+448f6860824ddc6e,CA,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+7f2782c0d6a4dfc3,CM,Interior,Tecnólogo,Classe E,RSC-VI,RSC-VI,Deferido
+20fd4dca4430d2de,CM,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d5b984875494e48b,RE,Capital,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
+6ea06086ca1bf151,MO,Interior,Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,Deferido
+295a8894b28816e8,AP,Interior,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+6bbd0858ba037f97,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+271ac5725d7c0e52,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+2c97d0461918f13e,CANG,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+15392b1ee4a71d57,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+1cd85648db31d410,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+7b2ce384d0dfad29,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+6dbb9b465b96701e,ZL,Capital,Analista De Técnico Da Informacao,Classe E,RSC-V,RSC-V,Deferido
+57879d5f3b28f2d3,RE,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+10d6abd37e9e520d,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+96f4cd95ee52d8ca,RE,Capital,Economista,Classe E,RSC-V,RSC-V,Deferido
+7b86ffebc8ad2a50,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+a32989ca5fdc74ee,PAAS,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+180c33584a6db418,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4dbc11811fef14c8,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+4f250756e081862a,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+4e84403480eedbe8,PF,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+1c8bb5ef314eec68,CN,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
+33489c02106dd9d6,LAJ,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
+a772f940e1003cae,AP,Interior,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+59bff4c67c5aee0d,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+d813226014f44cab,PF,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+4cbc467cd4689311,CNAT,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,Deferido
+08f4614826db924e,AP,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+03122fb2eba91795,MO,Interior,Porteiro,Classe C,RSC-V,RSC-V,Deferido
+611d6b0a9b63d9fe,PAR,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+1b292112b7af6a9b,CH,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+ba321dde5b61b2b6,MO,Interior,Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,Deferido
+d701e43a6d465d80,MO,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+ee41b19185cade49,CANG,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+650a6e7c1f5b8fb6,CNAT,Capital,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
+8c8d43d16aed2980,CN,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+afcffdde345763f6,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+fb78631f02894968,AP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+8875e47c67f682f0,ZN,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+7d5a00be325e22ea,IP,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+e36d21e0e1de43e7,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+03eb0cefaf81764b,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+90b5bd643751c3c6,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d81e18c78faff6ed,MO,Interior,Auxiliar de Enfermagem,Classe C,RSC-V,RSC-V,Deferido
+823d192eae28a0f9,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+1cc91b4a60ffc5fb,SC,Interior,Técnico Em Secretariado,Classe D,RSC-V,RSC-V,Deferido
+bb75cb78309e2b81,CM,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+a72da01dec87531c,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+f86928641b670418,JC,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+3d98c9392a87b6bd,CA,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+f7d30cd0a74df9a7,CM,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+f4959243ca620b6f,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+00a6e238252265e6,RE,Capital,Administrador,Classe E,RSC-V,RSC-V,Deferido
+b91274b1b1c78f82,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+d2c01f6ae79eac03,CM,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+dd3ef3c17eba5cbd,SC,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+6759d2c7924614cf,CA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+78e2c6e924bd180a,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+caa6f2e4740794da,PAAS,Interior,Enfermeiro,Classe E,RSC-VI,RSC-VI,Deferido
+14f0a0f8aabdb76f,CNAT,Capital,Carpinteiro,Classe D,RSC-V,RSC-V,Deferido
+8137ae99a74ab6fc,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+87b6dc2e4d74ba8d,ZN,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+bd6cae0410e171c2,MC,Interior,Técnico em Química,Classe D,RSC-VI,RSC-VI,Deferido
+a2a19935fde853c4,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+c2bc641170331848,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+a0787243cb67743f,PAR,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+3dbf5f8639b1b4b6,PAR,Interior,Nutricionista,Classe E,RSC-VI,RSC-VI,Deferido
+936014463d7e247c,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+07cd24c7ef907c13,CH,Capital,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+dd416c2b7dbb96dc,SPP,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+115d60bbf056b990,CANG,Interior,Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,Deferido
+e990c82673438afd,SC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+b4d3b62619e84308,PAR,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,Deferido
+ccb72266c899cce1,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+9870fd7b2dfeacf9,ZN,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+cb93ba657adb6cdd,JC,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+bc308373579b236d,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+462555c54f02c443,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+a1cc450bd196eb82,AP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+fe2d98b75f0b4875,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+67b50a941871ff28,CNAT,Capital,Psicólogo,Classe E,RSC-VI,RSC-VI,Deferido
+08be714310359f8d,CNAT,Capital,Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,Deferido
+59271bf09a5a0e8b,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+12bf1aee2aeaa43b,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+9e8be14ed9800c71,SPP,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+60f5d7f106716229,MO,Interior,Pedagogo,Classe E,RSC-V,RSC-V,Deferido
+8242af178a36a79d,CM,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+ccb65187f1ae5d90,JC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+8298a5cd4c82ee64,RE,Capital,Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,Deferido
+a55aec37d953cfa5,RE,Capital,Porteiro,Classe C,RSC-V,RSC-V,Deferido
+e3e6558ac016bc61,SGA,Interior,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+5db68c0f884bd53c,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+79b1837181c09fd0,RE,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+77e3892a9f52d5c9,PAR,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+f2e899ae352631f9,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+95565be7f1335978,CNAT,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+d002380e95a5f5be,PAR,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+04075746facf70e0,CN,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+b4b1faf1bc042dcd,RE,Capital,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+564656134ab3f0b4,NC,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+94182cf4a83ba148,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+20561054e5d78f72,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+9c7ad3195e4c9f11,CNAT,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+a0fafe4d3c6def4d,PAR,Interior,Técnico em Enfermagem,Classe D,RSC-V,RSC-V,Deferido
+57694fa7436e8f29,CNAT,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+e3a640affee68c17,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+f00cb128838d92de,CNAT,Capital,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+440adeb074881974,RE,Capital,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
+9f7a710260c4aebe,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+8c9b0ae54a237bb9,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+6b8030552217feca,RE,Capital,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+f9d395d4f6af64af,CNAT,Capital,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+472cb3a7cd86c9e5,PAR,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+03d7faa98e251d5f,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+a16850ead8ba90c6,RE,Capital,Secretario Executivo,Classe E,RSC-V,RSC-V,Deferido
+9fe5864d0cacbba7,NC,Interior,Assistente de Laboratório,Classe C,RSC-V,RSC-V,Deferido
+939f3ac873e662c2,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+6cd1c3bdad98a49b,ZN,Capital,Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,Deferido
+500af5699d83ec5f,MC,Interior,Técnico em Química,Classe D,RSC-V,RSC-V,Deferido
+04992c9fa5c56444,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+6f9b091c9e88ee09,RE,Capital,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+18de076a709290ea,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+dc86402f0a02bf6f,SC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+069cda11dcc5a39e,CH,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+b2fbd24df798092a,UMZ,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+b451b29b91c698ad,CN,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+a0c9b276f2c3b7fa,LAJ,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+cc1640d7e48ace1c,CANG,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+8c85028bf7e9e2bb,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+c54f4d043aef1374,AP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+2861b89313fe3474,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+0c7aba48bd2425b2,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+87c02a15cfd4d306,PF,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+4dad11efef62b97e,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+129546da8cff3bd9,MO,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+b31ff3e640720e2b,CA,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+fc9122d158d1fee0,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0049bc3be4b9d786,AP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0f417318e0eee2da,IP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ba180d3be0d82500,PAAS,Interior,Assistente de Aluno,Classe C,RSC-VI,RSC-VI,Deferido
+f43f1d5208475472,CH,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+c0a94f8bf68039a4,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ad4c3def0dba8851,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+ebd94c700229075f,RE,Capital,Tecnólogo,Classe E,RSC-V,RSC-V,Deferido
+0b9af9d406b5e95f,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d59a609c9f1618f0,RE,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+a7a861d7b3c37d4e,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+2cc9f6b5cbe8d700,CANG,Interior,Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,Deferido
+2c15dc94be914c35,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+67902d75d998b75e,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+09ec005981ab414e,PAR,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+d7c1c91d2d9e0ff3,MO,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+d47191de2713dbd5,RE,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+e392247eb0c742c5,CNAT,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+729df2884c890c8e,ZN,Capital,Engenheiro,Classe E,RSC-V,RSC-V,Deferido
+8de342dc45749bed,MO,Interior,Auxiliar De Artes Graficas,Classe D,RSC-V,RSC-V,Deferido
+f4348e1fa51e1932,ZN,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+fce3e14bef6cf072,RE,Capital,Auditor,Classe E,RSC-V,RSC-V,Deferido
+d2bf1fbe66ab7978,SGA,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+7c3ee43ef3ea5c08,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+59a899eaf87021bf,CM,Interior,Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,Deferido
+4f0dde5cbbb3bbfe,ZN,Capital,Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,Deferido
+a78c37100c0857ea,ZN,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+77d16e283b42d9f6,MO,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+1ffe2d4fa09d0162,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+88f49d1d6095480b,AP,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+47fd6b599a38adf5,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+31d2b61d5eb115d6,LAJ,Interior,Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,Deferido
+2fc10a1d4b7aca8b,AP,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+da7d36817a7e3437,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+2c8200bcdff440e4,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+5c548e335d8a48b5,JC,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+16f1f1a1ec3cc157,CANG,Interior,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+ff2244396d04bbd9,SGA,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+81521457973c1fec,RE,Capital,Pedagogo,Classe E,RSC-VI,RSC-VI,Deferido
+e91437d7191b4ff7,CN,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+3617552aec2896a8,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+a6601587daad7ca7,RE,Capital,Auditor,Classe E,RSC-VI,RSC-VI,Deferido
+3dc02a43c3420792,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+141c2bef9ec6d0d5,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+89e4fc8099ed7b5d,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+fdff4f4cc410bf80,AP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+c83add943dc4f511,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+2f7894872f24b39c,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+b6edd66c6f43192a,PAR,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+f71500d0f694c0bf,JC,Interior,Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,Deferido
+70df9a1013132dfe,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+420726ffcd5b1c21,SPP,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+975fedd7352baf54,NC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+b33aa6f2a6d35e0a,SPP,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+8e4297a7db9803b2,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+505d552febc489cc,IP,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+f276df8ee45d55d4,CN,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0ecdf98a54c13178,ZL,Capital,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+49262d2d4ba66d93,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+7efc9b9b0c723ff6,CM,Interior,Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,Deferido
+2d5dd56af0030f62,JC,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+2a7c52c5df205727,SPP,Interior,Assistente de Aluno,Classe C,RSC-III,RSC-III,Deferido
+8e1e647686a0dbfc,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+5393f3d2e7c4aa0f,CH,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+d22136f8b0a52478,PF,Interior,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+ec3062037c930dbd,CNAT,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+32577956fc9cefad,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+2317383d04a4a2ae,IP,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+2aad262485c686b4,RE,Capital,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
+4ac5c26258a4d3b1,PF,Interior,Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,Deferido
+9a6988cca7a40449,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+2470795b328e6077,RE,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+0b2836454833c287,ZL,Capital,Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,Deferido
+2ddaf9df533933e5,NC,Interior,Engenheiro,Classe E,RSC-VI,RSC-VI,Deferido
+28872cd3b9b3cfe1,CANG,Interior,Assistente de Aluno,Classe C,RSC-V,RSC-V,Deferido
+36fc750f4c37d1e3,AP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+ab5f55b74005b1cf,MO,Interior,Assistente Social,Classe E,RSC-VI,RSC-VI,Deferido
+8b9b220a6ea9deb3,IP,Interior,Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,Deferido
+f39629db8ced791f,PF,Interior,Técnico em Agropecuária,Classe D,RSC-VI,RSC-VI,Deferido
+d870975a957980c5,RE,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+9251258d567896d7,PAR,Interior,Contador,Classe E,RSC-VI,RSC-VI,Deferido
+5a9ad3f92c84aaa2,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+22a8f3de501d6bb8,SC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+56b3ff45b4d45e66,MC,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+362f6eaad7226409,IP,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+a8081fcf252827c4,RE,Capital,Jornalista,Classe E,RSC-VI,RSC-VI,Deferido
+487344ac4a5d5684,CNAT,Capital,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+9a5824f2376a1710,PF,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+0c198fa50838f41d,ZL,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+93f1ee025a5b5f0d,ZN,Capital,Contador,Classe E,RSC-V,RSC-V,Deferido
+2d06246eaa3587ce,ZN,Capital,Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,Deferido
+7dc909745df9a7c7,CM,Interior,Técnico em Edificações,Classe D,RSC-VI,RSC-VI,Deferido
+267a9b740aabe4db,ZN,Capital,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+3cd3859dd4683733,JC,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+1d4aed112df4b139,PAAS,Interior,Auxiliar De Biblioteca,Classe C,RSC-VI,RSC-VI,Deferido
+30f2bc23be609dba,IP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+5b3cccf0cc9a9225,PF,Interior,Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,Deferido
+fb54f850269bc274,CH,Capital,Produtor Cultural,Classe E,RSC-VI,RSC-VI,Deferido
+977c856d21e3cf67,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+179c7a8750c085e1,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+32fc406861737a71,SGA,Interior,Auxiliar em Administração,Classe C,RSC-V,RSC-V,Deferido
+0203d5f2566cd11b,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+f37cd98c3d14aa92,RE,Capital,Revisor De Textos,Classe E,RSC-VI,RSC-VI,Deferido
+93ea15053bbae0f4,CANG,Interior,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+a35237e8ef7d45c8,RE,Capital,Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,Deferido
+e00b36fb33163275,RE,Capital,Secretario Executivo,Classe E,RSC-VI,RSC-VI,Deferido
+ff59e0658a66b871,SPP,Interior,Assistente em Administração,Classe D,RSC-V,RSC-V,Deferido
+d5d66d7a224b3f8b,RE,Capital,Assistente em Administração,Classe D,RSC-VI,RSC-VI,Deferido
+247904bcd2eef41e,CM,Interior,Administrador,Classe E,RSC-VI,RSC-VI,Deferido
