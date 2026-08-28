@@ -159,7 +159,6 @@
    */
   function initDashboard() {
     updateSyncStatus();
-    populateFilterDropdowns();
     updateDashboardView();
     renderDataTable('campus');
     setupEventListeners();
@@ -209,32 +208,10 @@
   }
 
   /**
-   * Populate Campus filter select
-   */
-  function populateFilterDropdowns() {
-    const campusSelect = document.getElementById('filterCampus');
-    if (!campusSelect) return;
-
-    const source = (rawSummaryData && rawSummaryData.ranking_campi) ? rawSummaryData.ranking_campi : campusData;
-    if (!source || source.length === 0) return;
-
-    campusSelect.innerHTML = '<option value="">Todos os Campi</option>';
-    source.forEach(item => {
-      if (!item.campus) return;
-      const total = item.total_processos !== undefined ? item.total_processos : (item.total || 0);
-      const opt = document.createElement('option');
-      opt.value = item.campus;
-      opt.textContent = `${item.campus} (${total})`;
-      campusSelect.appendChild(opt);
-    });
-  }
-
-  /**
    * Computes filtered subset and updates KPIs and Charts dynamically
    */
   function updateDashboardView() {
     const tipoFilter = document.getElementById('filterTipoCampus')?.value || '';
-    const campusFilter = document.getElementById('filterCampus')?.value || '';
 
     let items = (rawSummaryData && rawSummaryData.ranking_campi && rawSummaryData.ranking_campi.length > 0)
       ? [...rawSummaryData.ranking_campi]
@@ -249,10 +226,6 @@
         const t = tipoMap[c.campus] || c.tipo_campus || (['RE', 'CNAT', 'ZL', 'CH', 'CCAL', 'CAL', 'ZN'].includes(c.campus) ? 'Capital' : 'Interior');
         return t === tipoFilter;
       });
-    }
-
-    if (campusFilter) {
-      items = items.filter(c => c.campus === campusFilter);
     }
 
     // Dynamic KPI Calculation
@@ -944,9 +917,8 @@
         });
       });
 
-      // Filter by tipoFilter and campusFilter from controls as well as search
+      // Filter by tipoFilter and search input
       const tipoFilter = document.getElementById('filterTipoCampus')?.value || '';
-      const campusFilter = document.getElementById('filterCampus')?.value || '';
 
       let rows = (rawSummaryData?.ranking_campi && rawSummaryData.ranking_campi.length > 0)
         ? [...rawSummaryData.ranking_campi]
@@ -957,10 +929,6 @@
           const t = r.tipo_campus || (['RE', 'CNAT', 'ZL', 'CH', 'CCAL', 'CAL', 'ZN'].includes(r.campus) ? 'Capital' : 'Interior');
           return t === tipoFilter;
         });
-      }
-
-      if (campusFilter) {
-        rows = rows.filter(r => r.campus === campusFilter);
       }
 
       if (searchInput) {
@@ -1188,24 +1156,11 @@
    */
   function setupEventListeners() {
     const filterTipo = document.getElementById('filterTipoCampus');
-    const filterCampus = document.getElementById('filterCampus');
-    const btnReset = document.getElementById('btnResetFilters');
     const tableSearch = document.getElementById('tableSearchInput');
     const tabCampus = document.getElementById('tabViewCampus');
     const tabCargo = document.getElementById('tabViewCargo');
 
     if (filterTipo) filterTipo.addEventListener('change', () => updateDashboardView());
-    if (filterCampus) filterCampus.addEventListener('change', () => updateDashboardView());
-
-    if (btnReset) {
-      btnReset.addEventListener('click', () => {
-        if (filterTipo) filterTipo.value = '';
-        if (filterCampus) filterCampus.value = '';
-        if (tableSearch) tableSearch.value = '';
-        updateDashboardView();
-        renderDataTable(currentTableTab);
-      });
-    }
 
     if (tableSearch) {
       tableSearch.addEventListener('input', () => {

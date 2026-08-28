@@ -503,6 +503,40 @@ body {
   margin-bottom: 1rem;
 }
 
+.chart-card-header.card-header-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.card-header-action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.select-compact {
+  padding: 0.35rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  background-color: var(--slate-100);
+  border: 1px solid var(--slate-300);
+  color: var(--slate-800);
+  cursor: pointer;
+  outline: none;
+  transition: all var(--transition-fast);
+}
+
+.select-compact:focus {
+  background-color: var(--white);
+  border-color: var(--ifrn-green-800);
+  box-shadow: 0 0 0 2px rgba(0, 102, 51, 0.15);
+}
+
 .chart-card-title {
   font-family: var(--font-heading);
   font-size: 1.05rem;
