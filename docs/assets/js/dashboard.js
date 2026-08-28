@@ -305,6 +305,7 @@
     renderNivelDonutChart();
     renderTipoCampusChart();
     renderCampusRankingChart(filteredItems);
+    renderNivelTerritorioChart();
     renderCampusNivelStackedChart(filteredItems);
     renderTopCargosChart();
     renderClassesChart();
@@ -513,6 +514,175 @@
           y: {
             grid: { display: false },
             ticks: { font: { family: 'Inter', size: 12, weight: '500' } }
+          }
+        }
+      }
+    });
+  }
+
+  /**
+   * Chart: Proporção Relativa por Nível: Capital vs. Interior vs. Estado (Grouped Bar)
+   */
+  function renderNivelTerritorioChart() {
+    const ctx = document.getElementById('chartNivelTerritorio')?.getContext('2d');
+    if (!ctx || !rawSummaryData) return;
+
+    let dataTerritorio = rawSummaryData.proporcao_niveis_territorio;
+
+    // Fallback dinâmico caso proporcao_niveis_territorio não esteja pré-calculado no JSON
+    if (!dataTerritorio) {
+      const levels = ['RSC-III', 'RSC-V', 'RSC-VI'];
+      const capNiveis = { 'RSC-III': 0, 'RSC-V': 0, 'RSC-VI': 0 };
+      const intNiveis = { 'RSC-III': 0, 'RSC-V': 0, 'RSC-VI': 0 };
+      let totalCapAval = 0;
+      let totalIntAval = 0;
+
+      const ranking = rawSummaryData.ranking_campi || campusData || [];
+      const campusNiveis = rawSummaryData.campus_niveis || [];
+
+      campusNiveis.forEach(cn => {
+        const cInfo = ranking.find(r => r.campus === cn.campus);
+        const tipo = cInfo?.tipo_campus || (['RE', 'CNAT', 'ZL', 'CH', 'CCAL', 'CAL', 'ZN'].includes(cn.campus) ? 'Capital' : 'Interior');
+        levels.forEach(lvl => {
+          const count = Number(cn[lvl] || 0);
+          if (tipo === 'Capital') {
+            capNiveis[lvl] += count;
+            totalCapAval += count;
+          } else {
+            intNiveis[lvl] += count;
+            totalIntAval += count;
+          }
+        });
+      });
+
+      const totalGeral = totalCapAval + totalIntAval;
+      const estadoAbs = {};
+      const estadoPct = {};
+      const capPct = {};
+      const intPct = {};
+
+      levels.forEach(lvl => {
+        estadoAbs[lvl] = capNiveis[lvl] + intNiveis[lvl];
+        estadoPct[lvl] = totalGeral > 0 ? Number(((estadoAbs[lvl] / totalGeral) * 100).toFixed(2)) : 0;
+        capPct[lvl] = totalCapAval > 0 ? Number(((capNiveis[lvl] / totalCapAval) * 100).toFixed(2)) : 0;
+        intPct[lvl] = totalIntAval > 0 ? Number(((intNiveis[lvl] / totalIntAval) * 100).toFixed(2)) : 0;
+      });
+
+      const ativosDist = rawSummaryData.distribuicao_tipo_campus_ativos || {};
+
+      dataTerritorio = {
+        Capital: {
+          absoluto: capNiveis,
+          percentual: capPct,
+          total_avaliados: totalCapAval,
+          total_ativos: ativosDist['Capital'] || 492
+        },
+        Interior: {
+          absoluto: intNiveis,
+          percentual: intPct,
+          total_avaliados: totalIntAval,
+          total_ativos: ativosDist['Interior'] || 699
+        },
+        Estado: {
+          absoluto: estadoAbs,
+          percentual: estadoPct,
+          total_avaliados: totalGeral,
+          total_ativos: rawSummaryData.meta?.total_tae_ativos || 1191
+        }
+      };
+    }
+
+    const capitalData = dataTerritorio.Capital || {};
+    const interiorData = dataTerritorio.Interior || {};
+    const estadoData = dataTerritorio.Estado || {};
+
+    const levels = ['RSC-III', 'RSC-V', 'RSC-VI'];
+    const levelLabels = ['RSC-III (Especialização)', 'RSC-V (Mestrado)', 'RSC-VI (Doutorado)'];
+
+    const capitalPct = levels.map(l => (capitalData.percentual?.[l] !== undefined ? capitalData.percentual[l] : 0));
+    const interiorPct = levels.map(l => (interiorData.percentual?.[l] !== undefined ? interiorData.percentual[l] : 0));
+    const estadoPct = levels.map(l => (estadoData.percentual?.[l] !== undefined ? estadoData.percentual[l] : 0));
+
+    chartInstances.nivelTerritorio = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: levelLabels,
+        datasets: [
+          {
+            label: 'Capital',
+            data: capitalPct,
+            backgroundColor: '#006633', // IFRN Green
+            borderRadius: 6,
+            borderSkipped: false
+          },
+          {
+            label: 'Interior',
+            data: interiorPct,
+            backgroundColor: '#0ea5e9', // Sky Blue
+            borderRadius: 6,
+            borderSkipped: false
+          },
+          {
+            label: 'Estado (Média IFRN)',
+            data: estadoPct,
+            backgroundColor: '#8b5cf6', // Purple Reference
+            borderRadius: 6,
+            borderSkipped: false
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'top',
+            labels: {
+              boxWidth: 14,
+              font: { family: 'Inter', size: 12, weight: '500' }
+            }
+          },
+          tooltip: {
+            callbacks: {
+              label: function (tooltipCtx) {
+                const datasetLabel = tooltipCtx.dataset.label;
+                const lvlKey = levels[tooltipCtx.dataIndex];
+                const pct = tooltipCtx.raw;
+
+                let source = null;
+                if (datasetLabel === 'Capital') source = capitalData;
+                else if (datasetLabel === 'Interior') source = interiorData;
+                else source = estadoData;
+
+                const count = source?.absoluto?.[lvlKey] || 0;
+                const totalAval = source?.total_avaliados || 0;
+                const totalAtiv = source?.total_ativos || 0;
+                const taxaAtiv = totalAtiv > 0 ? ((count / totalAtiv) * 100).toFixed(1) : '0';
+
+                return [
+                  ` ${datasetLabel}: ${pct}% dos memoriais avaliados`,
+                  ` Quantidade: ${count} de ${totalAval} processos`,
+                  ` Cobertura no quadro ativo: ${taxaAtiv}% (${count}/${totalAtiv})`
+                ];
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: { font: { family: 'Inter', size: 11, weight: '600' } }
+          },
+          y: {
+            beginAtZero: true,
+            max: 65,
+            ticks: {
+              callback: function (val) {
+                return val + '%';
+              },
+              font: { family: 'Inter', size: 11 }
+            },
+            grid: { color: COLORS.slate200 }
           }
         }
       }

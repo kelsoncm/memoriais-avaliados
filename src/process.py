@@ -372,6 +372,35 @@ def generate_aggregates(
         .to_dict(orient="records")
     )
 
+    # 6. Proporção de Níveis por Territorialidade (Capital vs Interior vs Estado)
+    ct_abs = pd.crosstab(df_fato["tipo_campus"], df_fato["nivel_pretendido"]).to_dict(orient="index")
+    ct_pct = (pd.crosstab(df_fato["tipo_campus"], df_fato["nivel_pretendido"], normalize="index") * 100).round(2).to_dict(orient="index")
+
+    all_levels = ["RSC-III", "RSC-V", "RSC-VI"]
+    estado_abs = {lvl: int((df_fato["nivel_pretendido"] == lvl).sum()) for lvl in all_levels}
+    estado_pct = {lvl: round(float((df_fato["nivel_pretendido"] == lvl).sum() / total_geral_avaliados * 100), 2) if total_geral_avaliados > 0 else 0.0 for lvl in all_levels}
+
+    proporcao_territorio = {
+        "Capital": {
+            "absoluto": {lvl: int(ct_abs.get("Capital", {}).get(lvl, 0)) for lvl in all_levels},
+            "percentual": {lvl: float(ct_pct.get("Capital", {}).get(lvl, 0.0)) for lvl in all_levels},
+            "total_avaliados": int((df_fato["tipo_campus"] == "Capital").sum()),
+            "total_ativos": int((df_ativos["tipo_campus"] == "Capital").sum()) if has_ativos else 0
+        },
+        "Interior": {
+            "absoluto": {lvl: int(ct_abs.get("Interior", {}).get(lvl, 0)) for lvl in all_levels},
+            "percentual": {lvl: float(ct_pct.get("Interior", {}).get(lvl, 0.0)) for lvl in all_levels},
+            "total_avaliados": int((df_fato["tipo_campus"] == "Interior").sum()),
+            "total_ativos": int((df_ativos["tipo_campus"] == "Interior").sum()) if has_ativos else 0
+        },
+        "Estado": {
+            "absoluto": estado_abs,
+            "percentual": estado_pct,
+            "total_avaliados": total_geral_avaliados,
+            "total_ativos": total_tae_ativos
+        }
+    }
+
     summary_json = {
         "meta": {
             "gerado_em": datetime.now(timezone.utc).isoformat(),
@@ -391,6 +420,7 @@ def generate_aggregates(
         "distribuicao_classes": classe_dist,
         "ranking_campi": campus_ranking,
         "campus_niveis": campus_nivel_crosstab,
+        "proporcao_niveis_territorio": proporcao_territorio,
         "top_cargos": top_cargos_list,
         "serie_institucional": agg_institucional.to_dict(orient="records")
     }

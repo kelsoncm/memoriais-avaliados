@@ -1,96 +1,97 @@
 cargo,classe_cargo,nivel_pretendido,nivel_reconhecido,total_processos
 Assistente em Administração,Classe D,RSC-V,RSC-V,109
-Assistente em Administração,Classe D,RSC-VI,RSC-VI,79
+Assistente em Administração,Classe D,RSC-VI,RSC-VI,80
 Auxiliar em Administração,Classe C,RSC-V,RSC-V,57
-Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,39
+Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,40
 Assistente Social,Classe E,RSC-VI,RSC-VI,26
 Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,23
-Assistente de Aluno,Classe C,RSC-V,RSC-V,18
 Administrador,Classe E,RSC-VI,RSC-VI,18
+Assistente de Aluno,Classe C,RSC-V,RSC-V,18
 Pedagogo,Classe E,RSC-VI,RSC-VI,15
-Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,12
+Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,12
 Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,12
-Engenheiro,Classe E,RSC-VI,RSC-VI,11
+Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,12
 Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,11
+Engenheiro,Classe E,RSC-VI,RSC-VI,11
 Psicólogo,Classe E,RSC-VI,RSC-VI,11
-Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,11
 Técnico em Enfermagem,Classe D,RSC-V,RSC-V,10
 Contador,Classe E,RSC-VI,RSC-VI,10
 Vigilante,Classe D,RSC-V,RSC-V,9
 Tradutor e Intérprete de Libras,Classe D,RSC-V,RSC-V,8
 Secretario Executivo,Classe E,RSC-VI,RSC-VI,8
-Médico,Classe E,RSC-VI,RSC-VI,7
-Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,7
-Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,7
-Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,7
 Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,7
+Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,7
+Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,7
+Médico,Classe E,RSC-VI,RSC-VI,7
+Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,7
 Auditor,Classe E,RSC-VI,RSC-VI,7
-Técnico em Audiovisual,Classe D,RSC-V,RSC-V,6
 Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,6
+Técnico em Audiovisual,Classe D,RSC-V,RSC-V,6
+Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,5
+Assistente de Aluno,Classe C,RSC-VI,RSC-VI,5
 Assistente Social,Classe E,RSC-V,RSC-V,5
 Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,5
-Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,5
 Auditor,Classe E,RSC-V,RSC-V,5
-Tecnólogo,Classe E,RSC-V,RSC-V,5
 Nutricionista,Classe E,RSC-VI,RSC-VI,5
 Médico,Classe E,RSC-V,RSC-V,5
+Tecnólogo,Classe E,RSC-V,RSC-V,5
 Administrador,Classe E,RSC-V,RSC-V,4
-Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,4
-Assistente de Aluno,Classe C,RSC-VI,RSC-VI,4
-Assistente de Laboratório,Classe C,RSC-V,RSC-V,4
-Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,4
 Pedagogo,Classe E,RSC-V,RSC-V,4
 Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,4
+Assistente de Laboratório,Classe C,RSC-V,RSC-V,4
+Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,4
+Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,4
 Contador,Classe E,RSC-V,RSC-V,3
-Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,3
+Assistente de Aluno,Classe C,RSC-III,RSC-III,3
+Técnico Em Secretariado,Classe D,RSC-V,RSC-V,3
+Servente De Limpeza,Classe D,RSC-V,RSC-V,3
+Engenheiro,Classe E,RSC-V,RSC-V,3
 Odontólogo - 30H - Dec Jud,Classe E,RSC-VI,RSC-VI,3
 Porteiro,Classe C,RSC-V,RSC-V,3
-Servente De Limpeza,Classe D,RSC-V,RSC-V,3
-Técnico Em Secretariado,Classe D,RSC-V,RSC-V,3
+Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,3
 Técnico em Contabilidade,Classe D,RSC-V,RSC-V,3
 Tecnólogo,Classe E,RSC-VI,RSC-VI,3
-Assistente de Aluno,Classe C,RSC-III,RSC-III,3
-Assistente em Administração,Classe D,RSC-III,RSC-III,2
-Enfermeiro,Classe E,RSC-V,RSC-V,2
-Engenheiro,Classe E,RSC-V,RSC-V,2
+Diagramador,Classe D,RSC-VI,RSC-VI,2
 Economista,Classe E,RSC-VI,RSC-VI,2
+Enfermeiro,Classe E,RSC-V,RSC-V,2
 Engenheiro De Seg Do Trabalho,Classe E,RSC-VI,RSC-VI,2
 Técnico em Eletrotécnica,Classe D,RSC-VI,RSC-VI,2
 Técnico Em Secretariado,Classe D,RSC-VI,RSC-VI,2
+Psicólogo,Classe E,RSC-V,RSC-V,2
 Revisor De Textos,Classe E,RSC-VI,RSC-VI,2
 Secretario Executivo,Classe E,RSC-V,RSC-V,2
-Psicólogo,Classe E,RSC-V,RSC-V,2
 Programador Visual,Classe E,RSC-VI,RSC-VI,2
+Motorista,Classe C,RSC-V,RSC-V,2
 Odontólogo - 40 Horas,Classe E,RSC-V,RSC-V,2
-Diagramador,Classe D,RSC-VI,RSC-VI,2
+Nutricionista,Classe E,RSC-V,RSC-V,2
+Assistente em Administração,Classe D,RSC-III,RSC-III,2
 Assistente de Laboratório,Classe C,RSC-VI,RSC-VI,2
 Arquiteto E Urbanista,Classe E,RSC-VI,RSC-VI,2
-Nutricionista,Classe E,RSC-V,RSC-V,2
-Motorista,Classe C,RSC-V,RSC-V,2
-Carpinteiro,Classe D,RSC-V,RSC-V,1
-Auxiliar De Biblioteca,Classe C,RSC-VI,RSC-VI,1
-Auxiliar De Mecanica,Classe D,RSC-V,RSC-V,1
-Auxiliar De Eletricista,Classe D,RSC-III,RSC-III,1
-Auxiliar de Enfermagem,Classe C,RSC-V,RSC-V,1
-Auxiliar de Enfermagem,Classe C,RSC-VI,RSC-VI,1
-Auxiliar de Laboratório,Classe D,RSC-V,RSC-V,1
-Auxiliar em Administração,Classe C,RSC-III,RSC-III,1
-Arquivista,Classe E,RSC-V,RSC-V,1
-Auxiliar De Artes Graficas,Classe D,RSC-V,RSC-V,1
 Analista De Técnico Da Informacao,Classe E,RSC-V,RSC-V,1
 Economista,Classe E,RSC-V,RSC-V,1
+Carpinteiro,Classe D,RSC-V,RSC-V,1
+Auxiliar De Eletricista,Classe D,RSC-III,RSC-III,1
+Auxiliar De Mecanica,Classe D,RSC-V,RSC-V,1
+Auxiliar de Enfermagem,Classe C,RSC-VI,RSC-VI,1
+Auxiliar de Enfermagem,Classe C,RSC-V,RSC-V,1
+Auxiliar em Administração,Classe C,RSC-III,RSC-III,1
+Auxiliar de Laboratório,Classe D,RSC-V,RSC-V,1
+Auxiliar De Artes Graficas,Classe D,RSC-V,RSC-V,1
+Arquivista,Classe E,RSC-V,RSC-V,1
+Auxiliar De Biblioteca,Classe C,RSC-VI,RSC-VI,1
 Engenheiro Agronomo,Classe E,RSC-VI,RSC-VI,1
 Enfermeiro,Classe E,RSC-VI,RSC-VI,1
-Impressor,Classe C,RSC-V,RSC-V,1
+Mecanico,Classe C,RSC-V,RSC-V,1
 Jornalista,Classe E,RSC-VI,RSC-VI,1
+Odontólogo - 30H - Dec Jud,Classe E,RSC-V,RSC-V,1
 Publicitario,Classe E,RSC-VI,RSC-VI,1
 Produtor Cultural,Classe E,RSC-VI,RSC-VI,1
-Operador De Tele-Impressora,Classe D,RSC-VI,RSC-VI,1
 Operador De Maquina Copiadora,Classe C,RSC-V,RSC-V,1
-Odontólogo - 30H - Dec Jud,Classe E,RSC-V,RSC-V,1
-Mecanico,Classe C,RSC-V,RSC-V,1
-Telefonista,Classe C,RSC-VI,RSC-VI,1
+Operador De Tele-Impressora,Classe D,RSC-VI,RSC-VI,1
+Impressor,Classe C,RSC-V,RSC-V,1
 Técnico Em Seguranca Do Trabalho,Classe D,RSC-VI,RSC-VI,1
+Técnico Em Alimentos E Laticinios,Classe D,RSC-VI,RSC-VI,1
+Telefonista,Classe C,RSC-VI,RSC-VI,1
 Técnico em Agropecuária,Classe D,RSC-VI,RSC-VI,1
 Técnico em Eletrotécnica,Classe D,RSC-III,RSC-III,1
 Técnico em Edificações,Classe D,RSC-V,RSC-V,1
