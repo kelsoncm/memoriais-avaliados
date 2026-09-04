@@ -1,8 +1,8 @@
 cargo,classe_cargo,nivel_pretendido,nivel_reconhecido,total_processos
-Assistente em Administração,Classe D,RSC-V,RSC-V,111
+Assistente em Administração,Classe D,RSC-V,RSC-V,112
 Assistente em Administração,Classe D,RSC-VI,RSC-VI,81
-Auxiliar em Administração,Classe C,RSC-V,RSC-V,60
-Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,40
+Auxiliar em Administração,Classe C,RSC-V,RSC-V,61
+Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,41
 Assistente Social,Classe E,RSC-VI,RSC-VI,26
 Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,24
 Assistente de Aluno,Classe C,RSC-V,RSC-V,19
@@ -11,9 +11,9 @@ Pedagogo,Classe E,RSC-VI,RSC-VI,15
 Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,13
 Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,12
 Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,12
+Engenheiro,Classe E,RSC-VI,RSC-VI,12
 Psicólogo,Classe E,RSC-VI,RSC-VI,12
 Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,11
-Engenheiro,Classe E,RSC-VI,RSC-VI,11
 Técnico em Enfermagem,Classe D,RSC-V,RSC-V,10
 Contador,Classe E,RSC-VI,RSC-VI,10
 Vigilante,Classe D,RSC-V,RSC-V,9
