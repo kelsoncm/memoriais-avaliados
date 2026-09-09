@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-09-08T15:33:19.198343+00:00",
-    "coletado_em": "2026-09-08T15:33:17.923081+00:00",
-    "total_geral_avaliados": 748,
+    "gerado_em": "2026-09-09T07:09:06.444736+00:00",
+    "coletado_em": "2026-09-09T07:09:05.178586+00:00",
+    "total_geral_avaliados": 750,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 62.8,
-    "saldo_potencial_restante": 443,
+    "taxa_cobertura_global_pct": 63.0,
+    "saldo_potencial_restante": 441,
     "total_campi_atendidos": 26,
     "total_cargos_atendidos": 64,
     "total_cargos_existentes": 81
@@ -18,8 +18,8 @@
     },
     "Classe D": {
       "total_ativos": 591,
-      "total_avaliados": 367,
-      "taxa_adesao_pct": 62.1
+      "total_avaliados": 369,
+      "taxa_adesao_pct": 62.4
     },
     "Classe E": {
       "total_ativos": 421,
@@ -28,20 +28,20 @@
     }
   },
   "distribuicao_niveis": {
-    "RSC-V": 373,
+    "RSC-V": 375,
     "RSC-VI": 365,
     "RSC-III": 10
   },
   "distribuicao_tipo_campus": {
     "Interior": 433,
-    "Capital": 315
+    "Capital": 317
   },
   "distribuicao_tipo_campus_ativos": {
     "Interior": 699,
     "Capital": 492
   },
   "distribuicao_classes": {
-    "Classe D": 367,
+    "Classe D": 369,
     "Classe E": 250,
     "Classe C": 131
   },
@@ -50,19 +50,19 @@
       "campus": "RE",
       "tipo_campus": "Capital",
       "total_ativos": 175,
-      "total_processos": 128,
-      "taxa_adesao_pct": 73.1,
-      "participacao_pct": 17.1,
-      "total": 128
+      "total_processos": 129,
+      "taxa_adesao_pct": 73.7,
+      "participacao_pct": 17.2,
+      "total": 129
     },
     {
       "campus": "CNAT",
       "tipo_campus": "Capital",
       "total_ativos": 200,
-      "total_processos": 105,
-      "taxa_adesao_pct": 52.5,
-      "participacao_pct": 14.0,
-      "total": 105
+      "total_processos": 106,
+      "taxa_adesao_pct": 53.0,
+      "participacao_pct": 14.1,
+      "total": 106
     },
     {
       "campus": "MO",
@@ -330,7 +330,7 @@
     {
       "campus": "CNAT",
       "RSC-III": 3,
-      "RSC-V": 53,
+      "RSC-V": 54,
       "RSC-VI": 49
     },
     {
@@ -396,7 +396,7 @@
     {
       "campus": "RE",
       "RSC-III": 0,
-      "RSC-V": 48,
+      "RSC-V": 49,
       "RSC-VI": 80
     },
     {
@@ -452,15 +452,15 @@
     "Capital": {
       "absoluto": {
         "RSC-III": 3,
-        "RSC-V": 143,
+        "RSC-V": 145,
         "RSC-VI": 169
       },
       "percentual": {
         "RSC-III": 0.95,
-        "RSC-V": 45.4,
-        "RSC-VI": 53.65
+        "RSC-V": 45.74,
+        "RSC-VI": 53.31
       },
-      "total_avaliados": 315,
+      "total_avaliados": 317,
       "total_ativos": 492
     },
     "Interior": {
@@ -480,15 +480,15 @@
     "Estado": {
       "absoluto": {
         "RSC-III": 10,
-        "RSC-V": 373,
+        "RSC-V": 375,
         "RSC-VI": 365
       },
       "percentual": {
-        "RSC-III": 1.34,
-        "RSC-V": 49.87,
-        "RSC-VI": 48.8
+        "RSC-III": 1.33,
+        "RSC-V": 50.0,
+        "RSC-VI": 48.67
       },
-      "total_avaliados": 748,
+      "total_avaliados": 750,
       "total_ativos": 1191
     }
   },
@@ -513,9 +513,9 @@
       "cargo": "Técnico de Laboratório Area",
       "classe_cargo": "Classe D",
       "total_ativos": 113,
-      "total_avaliados": 67,
-      "taxa_adesao_pct": 59.3,
-      "participacao_pct": 9.0
+      "total_avaliados": 68,
+      "taxa_adesao_pct": 60.2,
+      "participacao_pct": 9.1
     },
     {
       "cargo": "Assistente Social",
@@ -726,6 +726,14 @@
       "participacao_pct": 0.7
     },
     {
+      "cargo": "Técnico Em Seguranca Do Trabalho",
+      "classe_cargo": "Classe D",
+      "total_ativos": 8,
+      "total_avaliados": 5,
+      "taxa_adesao_pct": 62.5,
+      "participacao_pct": 0.7
+    },
+    {
       "cargo": "Técnico em Eletrotécnica",
       "classe_cargo": "Classe D",
       "total_ativos": 4,
@@ -739,14 +747,6 @@
       "total_ativos": 5,
       "total_avaliados": 4,
       "taxa_adesao_pct": 80.0,
-      "participacao_pct": 0.5
-    },
-    {
-      "cargo": "Técnico Em Seguranca Do Trabalho",
-      "classe_cargo": "Classe D",
-      "total_ativos": 8,
-      "total_avaliados": 4,
-      "taxa_adesao_pct": 50.0,
       "participacao_pct": 0.5
     },
     {
@@ -1144,10 +1144,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 748,
+      "total_processos": 750,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 62.8,
-      "saldo_potencial_restante": 443,
+      "taxa_cobertura_global_pct": 63.0,
+      "saldo_potencial_restante": 441,
       "total_campi": 26,
       "total_cargos": 64
     }
