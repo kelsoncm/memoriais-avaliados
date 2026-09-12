@@ -1,6 +1,6 @@
 cargo,classe_cargo,nivel_pretendido,nivel_reconhecido,total_processos
 Assistente em Administração,Classe D,RSC-V,RSC-V,113
-Assistente em Administração,Classe D,RSC-VI,RSC-VI,83
+Assistente em Administração,Classe D,RSC-VI,RSC-VI,84
 Auxiliar em Administração,Classe C,RSC-V,RSC-V,61
 Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,44
 Assistente Social,Classe E,RSC-VI,RSC-VI,28
@@ -27,18 +27,18 @@ Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,8
 Odontólogo - 40 Horas,Classe E,RSC-VI,RSC-VI,7
 Técnico De Tecnologia da Informação,Classe D,RSC-VI,RSC-VI,6
 Auditor,Classe E,RSC-V,RSC-V,6
+Assistente Social,Classe E,RSC-V,RSC-V,6
 Técnico em Audiovisual,Classe D,RSC-V,RSC-V,6
 Bibliotecário-Documentalista,Classe E,RSC-VI,RSC-VI,5
-Assistente Social,Classe E,RSC-V,RSC-V,5
 Assistente de Aluno,Classe C,RSC-VI,RSC-VI,5
-Tecnólogo,Classe E,RSC-V,RSC-V,5
 Nutricionista,Classe E,RSC-VI,RSC-VI,5
+Tecnólogo,Classe E,RSC-V,RSC-V,5
 Tradutor e Intérprete de Libras,Classe D,RSC-VI,RSC-VI,5
 Médico,Classe E,RSC-V,RSC-V,5
+Pedagogo,Classe E,RSC-V,RSC-V,5
 Auxiliar em Assuntos Educacionais,Classe C,RSC-V,RSC-V,5
-Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,4
 Administrador,Classe E,RSC-V,RSC-V,4
-Pedagogo,Classe E,RSC-V,RSC-V,4
+Auxiliar De Biblioteca,Classe C,RSC-V,RSC-V,4
 Técnico em Contabilidade,Classe D,RSC-VI,RSC-VI,4
 Assistente de Laboratório,Classe C,RSC-V,RSC-V,4
 Técnico Em Seguranca Do Trabalho,Classe D,RSC-V,RSC-V,4
