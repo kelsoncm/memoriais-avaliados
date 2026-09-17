@@ -1,6 +1,6 @@
 campus,tipo_campus,total_ativos,total_processos,taxa_adesao_pct,participacao_pct,total
-RE,Capital,175,132,75.4,16.8,132
-CNAT,Capital,200,112,56.0,14.3,112
+RE,Capital,175,134,76.6,17.0,134
+CNAT,Capital,200,112,56.0,14.2,112
 MO,Interior,61,44,72.1,5.6,44
 PAR,Interior,52,38,73.1,4.8,38
 CH,Capital,46,37,80.4,4.7,37
@@ -11,18 +11,19 @@ CN,Interior,46,31,67.4,3.9,31
 ZN,Capital,45,30,66.7,3.8,30
 NC,Interior,37,28,75.7,3.6,28
 IP,Interior,46,26,56.5,3.3,26
-CM,Interior,36,25,69.4,3.2,25
-CANG,Interior,34,25,73.5,3.2,25
 CA,Interior,40,25,62.5,3.2,25
-SPP,Interior,40,24,60.0,3.1,24
-SC,Interior,40,24,60.0,3.1,24
-ZL,Capital,26,21,80.8,2.7,21
+CANG,Interior,34,25,73.5,3.2,25
+CM,Interior,36,25,69.4,3.2,25
+SC,Interior,40,24,60.0,3.0,24
+SPP,Interior,40,24,60.0,3.0,24
 JC,Interior,39,21,53.8,2.7,21
+ZL,Capital,26,21,80.8,2.7,21
 MC,Interior,40,14,35.0,1.8,14
 PAAS,Interior,23,12,52.2,1.5,12
 LAJ,Interior,21,11,52.4,1.4,11
 CTM,Interior,1,2,200.0,0.3,2
 Não Informado,Outro,0,1,0.0,0.1,1
+CAGE,Interior,0,1,0.0,0.1,1
 UMZ,Interior,0,1,0.0,0.1,1
 SM,Interior,0,1,0.0,0.1,1
 TOU,Interior,0,1,0.0,0.1,1
