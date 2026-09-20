@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-09-18T07:09:24.816410+00:00",
-    "coletado_em": "2026-09-18T07:09:23.454292+00:00",
-    "total_geral_avaliados": 790,
+    "gerado_em": "2026-09-20T07:32:07.203010+00:00",
+    "coletado_em": "2026-09-20T07:32:05.786568+00:00",
+    "total_geral_avaliados": 799,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 66.3,
-    "saldo_potencial_restante": 401,
+    "taxa_cobertura_global_pct": 67.1,
+    "saldo_potencial_restante": 392,
     "total_campi_atendidos": 27,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
@@ -13,37 +13,37 @@
   "adesao_classes": {
     "Classe C": {
       "total_ativos": 179,
-      "total_avaliados": 137,
-      "taxa_adesao_pct": 76.5
+      "total_avaliados": 138,
+      "taxa_adesao_pct": 77.1
     },
     "Classe D": {
       "total_ativos": 591,
-      "total_avaliados": 386,
-      "taxa_adesao_pct": 65.3
+      "total_avaliados": 389,
+      "taxa_adesao_pct": 65.8
     },
     "Classe E": {
       "total_ativos": 421,
-      "total_avaliados": 267,
-      "taxa_adesao_pct": 63.4
+      "total_avaliados": 272,
+      "taxa_adesao_pct": 64.6
     }
   },
   "distribuicao_niveis": {
-    "RSC-V": 392,
-    "RSC-VI": 387,
+    "RSC-V": 397,
+    "RSC-VI": 391,
     "RSC-III": 11
   },
   "distribuicao_tipo_campus": {
-    "Interior": 454,
-    "Capital": 336
+    "Interior": 459,
+    "Capital": 340
   },
   "distribuicao_tipo_campus_ativos": {
     "Interior": 699,
     "Capital": 492
   },
   "distribuicao_classes": {
-    "Classe D": 386,
-    "Classe E": 267,
-    "Classe C": 137
+    "Classe D": 389,
+    "Classe E": 272,
+    "Classe C": 138
   },
   "ranking_campi": [
     {
@@ -52,17 +52,17 @@
       "total_ativos": 175,
       "total_processos": 136,
       "taxa_adesao_pct": 77.7,
-      "participacao_pct": 17.2,
+      "participacao_pct": 17.0,
       "total": 136
     },
     {
       "campus": "CNAT",
       "tipo_campus": "Capital",
       "total_ativos": 200,
-      "total_processos": 112,
-      "taxa_adesao_pct": 56.0,
-      "participacao_pct": 14.2,
-      "total": 112
+      "total_processos": 115,
+      "taxa_adesao_pct": 57.5,
+      "participacao_pct": 14.4,
+      "total": 115
     },
     {
       "campus": "MO",
@@ -70,17 +70,17 @@
       "total_ativos": 61,
       "total_processos": 44,
       "taxa_adesao_pct": 72.1,
-      "participacao_pct": 5.6,
+      "participacao_pct": 5.5,
       "total": 44
     },
     {
       "campus": "PAR",
       "tipo_campus": "Interior",
       "total_ativos": 52,
-      "total_processos": 39,
-      "taxa_adesao_pct": 75.0,
-      "participacao_pct": 4.9,
-      "total": 39
+      "total_processos": 40,
+      "taxa_adesao_pct": 76.9,
+      "participacao_pct": 5.0,
+      "total": 40
     },
     {
       "campus": "CH",
@@ -88,17 +88,17 @@
       "total_ativos": 46,
       "total_processos": 37,
       "taxa_adesao_pct": 80.4,
-      "participacao_pct": 4.7,
+      "participacao_pct": 4.6,
       "total": 37
     },
     {
       "campus": "PF",
       "tipo_campus": "Interior",
       "total_ativos": 44,
-      "total_processos": 33,
-      "taxa_adesao_pct": 75.0,
-      "participacao_pct": 4.2,
-      "total": 33
+      "total_processos": 35,
+      "taxa_adesao_pct": 79.5,
+      "participacao_pct": 4.4,
+      "total": 35
     },
     {
       "campus": "AP",
@@ -106,7 +106,7 @@
       "total_ativos": 49,
       "total_processos": 33,
       "taxa_adesao_pct": 67.3,
-      "participacao_pct": 4.2,
+      "participacao_pct": 4.1,
       "total": 33
     },
     {
@@ -115,17 +115,17 @@
       "total_ativos": 43,
       "total_processos": 33,
       "taxa_adesao_pct": 76.7,
-      "participacao_pct": 4.2,
+      "participacao_pct": 4.1,
       "total": 33
     },
     {
       "campus": "CN",
       "tipo_campus": "Interior",
       "total_ativos": 46,
-      "total_processos": 31,
-      "taxa_adesao_pct": 67.4,
-      "participacao_pct": 3.9,
-      "total": 31
+      "total_processos": 32,
+      "taxa_adesao_pct": 69.6,
+      "participacao_pct": 4.0,
+      "total": 32
     },
     {
       "campus": "ZN",
@@ -160,7 +160,7 @@
       "total_ativos": 34,
       "total_processos": 25,
       "taxa_adesao_pct": 73.5,
-      "participacao_pct": 3.2,
+      "participacao_pct": 3.1,
       "total": 25
     },
     {
@@ -169,7 +169,7 @@
       "total_ativos": 40,
       "total_processos": 25,
       "taxa_adesao_pct": 62.5,
-      "participacao_pct": 3.2,
+      "participacao_pct": 3.1,
       "total": 25
     },
     {
@@ -178,7 +178,7 @@
       "total_ativos": 36,
       "total_processos": 25,
       "taxa_adesao_pct": 69.4,
-      "participacao_pct": 3.2,
+      "participacao_pct": 3.1,
       "total": 25
     },
     {
@@ -203,10 +203,10 @@
       "campus": "ZL",
       "tipo_campus": "Capital",
       "total_ativos": 26,
-      "total_processos": 21,
-      "taxa_adesao_pct": 80.8,
-      "participacao_pct": 2.7,
-      "total": 21
+      "total_processos": 22,
+      "taxa_adesao_pct": 84.6,
+      "participacao_pct": 2.8,
+      "total": 22
     },
     {
       "campus": "JC",
@@ -214,7 +214,7 @@
       "total_ativos": 39,
       "total_processos": 21,
       "taxa_adesao_pct": 53.8,
-      "participacao_pct": 2.7,
+      "participacao_pct": 2.6,
       "total": 21
     },
     {
@@ -239,10 +239,10 @@
       "campus": "LAJ",
       "tipo_campus": "Interior",
       "total_ativos": 21,
-      "total_processos": 11,
-      "taxa_adesao_pct": 52.4,
-      "participacao_pct": 1.4,
-      "total": 11
+      "total_processos": 12,
+      "taxa_adesao_pct": 57.1,
+      "participacao_pct": 1.5,
+      "total": 12
     },
     {
       "campus": "CTM",
@@ -339,14 +339,14 @@
     {
       "campus": "CN",
       "RSC-III": 0,
-      "RSC-V": 16,
+      "RSC-V": 17,
       "RSC-VI": 15
     },
     {
       "campus": "CNAT",
       "RSC-III": 4,
-      "RSC-V": 56,
-      "RSC-VI": 52
+      "RSC-V": 57,
+      "RSC-VI": 54
     },
     {
       "campus": "CTM",
@@ -370,7 +370,7 @@
       "campus": "LAJ",
       "RSC-III": 0,
       "RSC-V": 8,
-      "RSC-VI": 3
+      "RSC-VI": 4
     },
     {
       "campus": "MC",
@@ -400,12 +400,12 @@
       "campus": "PAR",
       "RSC-III": 0,
       "RSC-V": 21,
-      "RSC-VI": 18
+      "RSC-VI": 19
     },
     {
       "campus": "PF",
       "RSC-III": 0,
-      "RSC-V": 16,
+      "RSC-V": 18,
       "RSC-VI": 17
     },
     {
@@ -453,7 +453,7 @@
     {
       "campus": "ZL",
       "RSC-III": 0,
-      "RSC-V": 11,
+      "RSC-V": 12,
       "RSC-VI": 10
     },
     {
@@ -467,43 +467,43 @@
     "Capital": {
       "absoluto": {
         "RSC-III": 4,
-        "RSC-V": 150,
-        "RSC-VI": 182
+        "RSC-V": 152,
+        "RSC-VI": 184
       },
       "percentual": {
-        "RSC-III": 1.19,
-        "RSC-V": 44.64,
-        "RSC-VI": 54.17
+        "RSC-III": 1.18,
+        "RSC-V": 44.71,
+        "RSC-VI": 54.12
       },
-      "total_avaliados": 336,
+      "total_avaliados": 340,
       "total_ativos": 492
     },
     "Interior": {
       "absoluto": {
         "RSC-III": 7,
-        "RSC-V": 242,
-        "RSC-VI": 205
+        "RSC-V": 245,
+        "RSC-VI": 207
       },
       "percentual": {
-        "RSC-III": 1.54,
-        "RSC-V": 53.3,
-        "RSC-VI": 45.15
+        "RSC-III": 1.53,
+        "RSC-V": 53.38,
+        "RSC-VI": 45.1
       },
-      "total_avaliados": 454,
+      "total_avaliados": 459,
       "total_ativos": 699
     },
     "Estado": {
       "absoluto": {
         "RSC-III": 11,
-        "RSC-V": 392,
-        "RSC-VI": 387
+        "RSC-V": 397,
+        "RSC-VI": 391
       },
       "percentual": {
-        "RSC-III": 1.39,
-        "RSC-V": 49.62,
-        "RSC-VI": 48.99
+        "RSC-III": 1.38,
+        "RSC-V": 49.69,
+        "RSC-VI": 48.94
       },
-      "total_avaliados": 790,
+      "total_avaliados": 799,
       "total_ativos": 1191
     }
   },
@@ -512,9 +512,9 @@
       "cargo": "Assistente em Administração",
       "classe_cargo": "Classe D",
       "total_ativos": 302,
-      "total_avaliados": 206,
-      "taxa_adesao_pct": 68.2,
-      "participacao_pct": 26.1
+      "total_avaliados": 208,
+      "taxa_adesao_pct": 68.9,
+      "participacao_pct": 26.0
     },
     {
       "cargo": "Auxiliar em Administração",
@@ -522,7 +522,7 @@
       "total_ativos": 90,
       "total_avaliados": 78,
       "taxa_adesao_pct": 86.7,
-      "participacao_pct": 9.9
+      "participacao_pct": 9.8
     },
     {
       "cargo": "Técnico de Laboratório Area",
@@ -530,7 +530,7 @@
       "total_ativos": 113,
       "total_avaliados": 71,
       "taxa_adesao_pct": 62.8,
-      "participacao_pct": 9.0
+      "participacao_pct": 8.9
     },
     {
       "cargo": "Assistente Social",
@@ -546,7 +546,7 @@
       "total_ativos": 47,
       "total_avaliados": 29,
       "taxa_adesao_pct": 61.7,
-      "participacao_pct": 3.7
+      "participacao_pct": 3.6
     },
     {
       "cargo": "Administrador",
@@ -594,7 +594,23 @@
       "total_ativos": 23,
       "total_avaliados": 17,
       "taxa_adesao_pct": 73.9,
-      "participacao_pct": 2.2
+      "participacao_pct": 2.1
+    },
+    {
+      "cargo": "Bibliotecário-Documentalista",
+      "classe_cargo": "Classe E",
+      "total_ativos": 29,
+      "total_avaliados": 16,
+      "taxa_adesao_pct": 55.2,
+      "participacao_pct": 2.0
+    },
+    {
+      "cargo": "Médico",
+      "classe_cargo": "Classe E",
+      "total_ativos": 27,
+      "total_avaliados": 16,
+      "taxa_adesao_pct": 59.3,
+      "participacao_pct": 2.0
     },
     {
       "cargo": "Psicólogo",
@@ -605,11 +621,11 @@
       "participacao_pct": 2.0
     },
     {
-      "cargo": "Analista De Técnico Da Informacao",
-      "classe_cargo": "Classe E",
-      "total_ativos": 27,
+      "cargo": "Tradutor e Intérprete de Libras",
+      "classe_cargo": "Classe D",
+      "total_ativos": 17,
       "total_avaliados": 14,
-      "taxa_adesao_pct": 51.9,
+      "taxa_adesao_pct": 82.4,
       "participacao_pct": 1.8
     },
     {
@@ -621,23 +637,7 @@
       "participacao_pct": 1.8
     },
     {
-      "cargo": "Tradutor e Intérprete de Libras",
-      "classe_cargo": "Classe D",
-      "total_ativos": 17,
-      "total_avaliados": 14,
-      "taxa_adesao_pct": 82.4,
-      "participacao_pct": 1.8
-    },
-    {
-      "cargo": "Bibliotecário-Documentalista",
-      "classe_cargo": "Classe E",
-      "total_ativos": 29,
-      "total_avaliados": 14,
-      "taxa_adesao_pct": 48.3,
-      "participacao_pct": 1.8
-    },
-    {
-      "cargo": "Médico",
+      "cargo": "Analista De Técnico Da Informacao",
       "classe_cargo": "Classe E",
       "total_ativos": 27,
       "total_avaliados": 14,
@@ -648,9 +648,9 @@
       "cargo": "Contador",
       "classe_cargo": "Classe E",
       "total_ativos": 19,
-      "total_avaliados": 13,
-      "taxa_adesao_pct": 68.4,
-      "participacao_pct": 1.6
+      "total_avaliados": 14,
+      "taxa_adesao_pct": 73.7,
+      "participacao_pct": 1.8
     },
     {
       "cargo": "Secretario Executivo",
@@ -773,8 +773,24 @@
       "participacao_pct": 0.5
     },
     {
+      "cargo": "Motorista",
+      "classe_cargo": "Classe C",
+      "total_ativos": 4,
+      "total_avaliados": 4,
+      "taxa_adesao_pct": 100.0,
+      "participacao_pct": 0.5
+    },
+    {
       "cargo": "Arquiteto E Urbanista",
       "classe_cargo": "Classe E",
+      "total_ativos": 3,
+      "total_avaliados": 3,
+      "taxa_adesao_pct": 100.0,
+      "participacao_pct": 0.4
+    },
+    {
+      "cargo": "Porteiro",
+      "classe_cargo": "Classe C",
       "total_ativos": 3,
       "total_avaliados": 3,
       "taxa_adesao_pct": 100.0,
@@ -789,19 +805,11 @@
       "participacao_pct": 0.4
     },
     {
-      "cargo": "Porteiro",
-      "classe_cargo": "Classe C",
+      "cargo": "Diagramador",
+      "classe_cargo": "Classe D",
       "total_ativos": 3,
       "total_avaliados": 3,
       "taxa_adesao_pct": 100.0,
-      "participacao_pct": 0.4
-    },
-    {
-      "cargo": "Motorista",
-      "classe_cargo": "Classe C",
-      "total_ativos": 4,
-      "total_avaliados": 3,
-      "taxa_adesao_pct": 75.0,
       "participacao_pct": 0.4
     },
     {
@@ -819,14 +827,6 @@
       "total_avaliados": 3,
       "taxa_adesao_pct": 50.0,
       "participacao_pct": 0.4
-    },
-    {
-      "cargo": "Engenheiro De Seg Do Trabalho",
-      "classe_cargo": "Classe E",
-      "total_ativos": 4,
-      "total_avaliados": 2,
-      "taxa_adesao_pct": 50.0,
-      "participacao_pct": 0.3
     },
     {
       "cargo": "Auxiliar de Enfermagem",
@@ -877,11 +877,11 @@
       "participacao_pct": 0.3
     },
     {
-      "cargo": "Diagramador",
-      "classe_cargo": "Classe D",
-      "total_ativos": 3,
+      "cargo": "Engenheiro De Seg Do Trabalho",
+      "classe_cargo": "Classe E",
+      "total_ativos": 4,
       "total_avaliados": 2,
-      "taxa_adesao_pct": 66.7,
+      "taxa_adesao_pct": 50.0,
       "participacao_pct": 0.3
     },
     {
@@ -1159,10 +1159,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 790,
+      "total_processos": 799,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 66.3,
-      "saldo_potencial_restante": 401,
+      "taxa_cobertura_global_pct": 67.1,
+      "saldo_potencial_restante": 392,
       "total_campi": 27,
       "total_cargos": 65
     }
