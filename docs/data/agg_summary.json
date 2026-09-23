@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-09-22T07:25:38.857144+00:00",
-    "coletado_em": "2026-09-22T07:25:37.641025+00:00",
-    "total_geral_avaliados": 805,
+    "gerado_em": "2026-09-23T07:28:22.764655+00:00",
+    "coletado_em": "2026-09-23T07:28:21.433762+00:00",
+    "total_geral_avaliados": 806,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 67.6,
-    "saldo_potencial_restante": 386,
+    "taxa_cobertura_global_pct": 67.7,
+    "saldo_potencial_restante": 385,
     "total_campi_atendidos": 27,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
@@ -18,8 +18,8 @@
     },
     "Classe D": {
       "total_ativos": 591,
-      "total_avaliados": 394,
-      "taxa_adesao_pct": 66.7
+      "total_avaliados": 395,
+      "taxa_adesao_pct": 66.8
     },
     "Classe E": {
       "total_ativos": 421,
@@ -30,10 +30,10 @@
   "distribuicao_niveis": {
     "RSC-V": 401,
     "RSC-VI": 393,
-    "RSC-III": 11
+    "RSC-III": 12
   },
   "distribuicao_tipo_campus": {
-    "Interior": 462,
+    "Interior": 463,
     "Capital": 343
   },
   "distribuicao_tipo_campus_ativos": {
@@ -41,7 +41,7 @@
     "Capital": 492
   },
   "distribuicao_classes": {
-    "Classe D": 394,
+    "Classe D": 395,
     "Classe E": 272,
     "Classe C": 139
   },
@@ -68,10 +68,10 @@
       "campus": "MO",
       "tipo_campus": "Interior",
       "total_ativos": 61,
-      "total_processos": 45,
-      "taxa_adesao_pct": 73.8,
-      "participacao_pct": 5.6,
-      "total": 45
+      "total_processos": 46,
+      "taxa_adesao_pct": 75.4,
+      "participacao_pct": 5.7,
+      "total": 46
     },
     {
       "campus": "PAR",
@@ -133,7 +133,7 @@
       "total_ativos": 45,
       "total_processos": 31,
       "taxa_adesao_pct": 68.9,
-      "participacao_pct": 3.9,
+      "participacao_pct": 3.8,
       "total": 31
     },
     {
@@ -380,7 +380,7 @@
     },
     {
       "campus": "MO",
-      "RSC-III": 0,
+      "RSC-III": 1,
       "RSC-V": 22,
       "RSC-VI": 23
     },
@@ -480,30 +480,30 @@
     },
     "Interior": {
       "absoluto": {
-        "RSC-III": 7,
+        "RSC-III": 8,
         "RSC-V": 248,
         "RSC-VI": 207
       },
       "percentual": {
-        "RSC-III": 1.52,
-        "RSC-V": 53.68,
-        "RSC-VI": 44.81
+        "RSC-III": 1.73,
+        "RSC-V": 53.56,
+        "RSC-VI": 44.71
       },
-      "total_avaliados": 462,
+      "total_avaliados": 463,
       "total_ativos": 699
     },
     "Estado": {
       "absoluto": {
-        "RSC-III": 11,
+        "RSC-III": 12,
         "RSC-V": 401,
         "RSC-VI": 393
       },
       "percentual": {
-        "RSC-III": 1.37,
-        "RSC-V": 49.81,
-        "RSC-VI": 48.82
+        "RSC-III": 1.49,
+        "RSC-V": 49.75,
+        "RSC-VI": 48.76
       },
-      "total_avaliados": 805,
+      "total_avaliados": 806,
       "total_ativos": 1191
     }
   },
@@ -664,9 +664,9 @@
       "cargo": "Vigilante",
       "classe_cargo": "Classe D",
       "total_ativos": 15,
-      "total_avaliados": 10,
-      "taxa_adesao_pct": 66.7,
-      "participacao_pct": 1.2
+      "total_avaliados": 11,
+      "taxa_adesao_pct": 73.3,
+      "participacao_pct": 1.4
     },
     {
       "cargo": "Odontólogo - 40 Horas",
@@ -1159,10 +1159,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 805,
+      "total_processos": 806,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 67.6,
-      "saldo_potencial_restante": 386,
+      "taxa_cobertura_global_pct": 67.7,
+      "saldo_potencial_restante": 385,
       "total_campi": 27,
       "total_cargos": 65
     }
