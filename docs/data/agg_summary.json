@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-09-24T07:20:31.631506+00:00",
-    "coletado_em": "2026-09-24T07:20:30.485515+00:00",
-    "total_geral_avaliados": 806,
+    "gerado_em": "2026-09-25T07:14:57.088482+00:00",
+    "coletado_em": "2026-09-25T07:14:55.803811+00:00",
+    "total_geral_avaliados": 807,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 67.7,
-    "saldo_potencial_restante": 385,
+    "taxa_cobertura_global_pct": 67.8,
+    "saldo_potencial_restante": 384,
     "total_campi_atendidos": 27,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
@@ -18,8 +18,8 @@
     },
     "Classe D": {
       "total_ativos": 591,
-      "total_avaliados": 395,
-      "taxa_adesao_pct": 66.8
+      "total_avaliados": 396,
+      "taxa_adesao_pct": 67.0
     },
     "Classe E": {
       "total_ativos": 421,
@@ -29,19 +29,19 @@
   },
   "distribuicao_niveis": {
     "RSC-V": 401,
-    "RSC-VI": 393,
+    "RSC-VI": 394,
     "RSC-III": 12
   },
   "distribuicao_tipo_campus": {
     "Interior": 463,
-    "Capital": 343
+    "Capital": 344
   },
   "distribuicao_tipo_campus_ativos": {
     "Interior": 699,
     "Capital": 492
   },
   "distribuicao_classes": {
-    "Classe D": 395,
+    "Classe D": 396,
     "Classe E": 272,
     "Classe C": 139
   },
@@ -203,10 +203,10 @@
       "campus": "ZL",
       "tipo_campus": "Capital",
       "total_ativos": 26,
-      "total_processos": 22,
-      "taxa_adesao_pct": 84.6,
-      "participacao_pct": 2.7,
-      "total": 22
+      "total_processos": 23,
+      "taxa_adesao_pct": 88.5,
+      "participacao_pct": 2.9,
+      "total": 23
     },
     {
       "campus": "JC",
@@ -454,7 +454,7 @@
       "campus": "ZL",
       "RSC-III": 0,
       "RSC-V": 12,
-      "RSC-VI": 10
+      "RSC-VI": 11
     },
     {
       "campus": "ZN",
@@ -468,14 +468,14 @@
       "absoluto": {
         "RSC-III": 4,
         "RSC-V": 153,
-        "RSC-VI": 186
+        "RSC-VI": 187
       },
       "percentual": {
-        "RSC-III": 1.17,
-        "RSC-V": 44.61,
-        "RSC-VI": 54.23
+        "RSC-III": 1.16,
+        "RSC-V": 44.48,
+        "RSC-VI": 54.36
       },
-      "total_avaliados": 343,
+      "total_avaliados": 344,
       "total_ativos": 492
     },
     "Interior": {
@@ -496,14 +496,14 @@
       "absoluto": {
         "RSC-III": 12,
         "RSC-V": 401,
-        "RSC-VI": 393
+        "RSC-VI": 394
       },
       "percentual": {
         "RSC-III": 1.49,
-        "RSC-V": 49.75,
-        "RSC-VI": 48.76
+        "RSC-V": 49.69,
+        "RSC-VI": 48.82
       },
-      "total_avaliados": 806,
+      "total_avaliados": 807,
       "total_ativos": 1191
     }
   },
@@ -512,9 +512,9 @@
       "cargo": "Assistente em Administração",
       "classe_cargo": "Classe D",
       "total_ativos": 302,
-      "total_avaliados": 211,
-      "taxa_adesao_pct": 69.9,
-      "participacao_pct": 26.2
+      "total_avaliados": 212,
+      "taxa_adesao_pct": 70.2,
+      "participacao_pct": 26.3
     },
     {
       "cargo": "Auxiliar em Administração",
@@ -1159,10 +1159,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 806,
+      "total_processos": 807,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 67.7,
-      "saldo_potencial_restante": 385,
+      "taxa_cobertura_global_pct": 67.8,
+      "saldo_potencial_restante": 384,
       "total_campi": 27,
       "total_cargos": 65
     }
