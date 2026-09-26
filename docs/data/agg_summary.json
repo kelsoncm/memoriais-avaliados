@@ -1,12 +1,12 @@
 {
   "meta": {
-    "gerado_em": "2026-09-25T07:14:57.088482+00:00",
-    "coletado_em": "2026-09-25T07:14:55.803811+00:00",
+    "gerado_em": "2026-09-26T07:10:18.573898+00:00",
+    "coletado_em": "2026-09-26T07:10:17.346637+00:00",
     "total_geral_avaliados": 807,
     "total_tae_ativos": 1191,
     "taxa_cobertura_global_pct": 67.8,
     "saldo_potencial_restante": 384,
-    "total_campi_atendidos": 27,
+    "total_campi_atendidos": 28,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
   },
@@ -33,8 +33,9 @@
     "RSC-III": 12
   },
   "distribuicao_tipo_campus": {
-    "Interior": 463,
-    "Capital": 344
+    "Interior": 462,
+    "Capital": 344,
+    "Outro": 1
   },
   "distribuicao_tipo_campus_ativos": {
     "Interior": 699,
@@ -110,20 +111,20 @@
       "total": 33
     },
     {
-      "campus": "SGA",
-      "tipo_campus": "Interior",
-      "total_ativos": 43,
-      "total_processos": 33,
-      "taxa_adesao_pct": 76.7,
-      "participacao_pct": 4.1,
-      "total": 33
-    },
-    {
       "campus": "CN",
       "tipo_campus": "Interior",
       "total_ativos": 46,
       "total_processos": 33,
       "taxa_adesao_pct": 71.7,
+      "participacao_pct": 4.1,
+      "total": 33
+    },
+    {
+      "campus": "SGA",
+      "tipo_campus": "Interior",
+      "total_ativos": 43,
+      "total_processos": 33,
+      "taxa_adesao_pct": 76.7,
       "participacao_pct": 4.1,
       "total": 33
     },
@@ -155,20 +156,20 @@
       "total": 26
     },
     {
-      "campus": "CANG",
-      "tipo_campus": "Interior",
-      "total_ativos": 34,
-      "total_processos": 25,
-      "taxa_adesao_pct": 73.5,
-      "participacao_pct": 3.1,
-      "total": 25
-    },
-    {
       "campus": "CA",
       "tipo_campus": "Interior",
       "total_ativos": 40,
       "total_processos": 25,
       "taxa_adesao_pct": 62.5,
+      "participacao_pct": 3.1,
+      "total": 25
+    },
+    {
+      "campus": "CANG",
+      "tipo_campus": "Interior",
+      "total_ativos": 34,
+      "total_processos": 25,
+      "taxa_adesao_pct": 73.5,
       "participacao_pct": 3.1,
       "total": 25
     },
@@ -182,7 +183,7 @@
       "total": 25
     },
     {
-      "campus": "SPP",
+      "campus": "SC",
       "tipo_campus": "Interior",
       "total_ativos": 40,
       "total_processos": 24,
@@ -191,7 +192,7 @@
       "total": 24
     },
     {
-      "campus": "SC",
+      "campus": "SPP",
       "tipo_campus": "Interior",
       "total_ativos": 40,
       "total_processos": 24,
@@ -212,10 +213,10 @@
       "campus": "JC",
       "tipo_campus": "Interior",
       "total_ativos": 39,
-      "total_processos": 21,
-      "taxa_adesao_pct": 53.8,
-      "participacao_pct": 2.6,
-      "total": 21
+      "total_processos": 20,
+      "taxa_adesao_pct": 51.3,
+      "participacao_pct": 2.5,
+      "total": 20
     },
     {
       "campus": "MC",
@@ -252,6 +253,15 @@
       "taxa_adesao_pct": 200.0,
       "participacao_pct": 0.2,
       "total": 2
+    },
+    {
+      "campus": "Não Informado",
+      "tipo_campus": "Outro",
+      "total_ativos": 0,
+      "total_processos": 1,
+      "taxa_adesao_pct": 0.0,
+      "participacao_pct": 0.1,
+      "total": 1
     },
     {
       "campus": "CAGE",
@@ -364,7 +374,7 @@
       "campus": "JC",
       "RSC-III": 2,
       "RSC-V": 11,
-      "RSC-VI": 8
+      "RSC-VI": 7
     },
     {
       "campus": "LAJ",
@@ -389,6 +399,12 @@
       "RSC-III": 1,
       "RSC-V": 18,
       "RSC-VI": 9
+    },
+    {
+      "campus": "Não Informado",
+      "RSC-III": 0,
+      "RSC-V": 0,
+      "RSC-VI": 1
     },
     {
       "campus": "PAAS",
@@ -482,14 +498,14 @@
       "absoluto": {
         "RSC-III": 8,
         "RSC-V": 248,
-        "RSC-VI": 207
+        "RSC-VI": 206
       },
       "percentual": {
         "RSC-III": 1.73,
-        "RSC-V": 53.56,
-        "RSC-VI": 44.71
+        "RSC-V": 53.68,
+        "RSC-VI": 44.59
       },
-      "total_avaliados": 463,
+      "total_avaliados": 462,
       "total_ativos": 699
     },
     "Estado": {
@@ -1163,7 +1179,7 @@
       "total_tae_ativos": 1191,
       "taxa_cobertura_global_pct": 67.8,
       "saldo_potencial_restante": 384,
-      "total_campi": 27,
+      "total_campi": 28,
       "total_cargos": 65
     }
   ]
