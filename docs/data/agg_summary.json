@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-09-30T08:08:12.695795+00:00",
-    "coletado_em": "2026-09-30T08:08:11.516014+00:00",
-    "total_geral_avaliados": 811,
+    "gerado_em": "2026-10-01T08:27:05.922473+00:00",
+    "coletado_em": "2026-10-01T08:27:04.762544+00:00",
+    "total_geral_avaliados": 812,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 68.1,
-    "saldo_potencial_restante": 380,
+    "taxa_cobertura_global_pct": 68.2,
+    "saldo_potencial_restante": 379,
     "total_campi_atendidos": 27,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
@@ -23,17 +23,17 @@
     },
     "Classe E": {
       "total_ativos": 421,
-      "total_avaliados": 274,
-      "taxa_adesao_pct": 65.1
+      "total_avaliados": 275,
+      "taxa_adesao_pct": 65.3
     }
   },
   "distribuicao_niveis": {
-    "RSC-V": 404,
+    "RSC-V": 405,
     "RSC-VI": 395,
     "RSC-III": 12
   },
   "distribuicao_tipo_campus": {
-    "Interior": 465,
+    "Interior": 466,
     "Capital": 346
   },
   "distribuicao_tipo_campus_ativos": {
@@ -42,7 +42,7 @@
   },
   "distribuicao_classes": {
     "Classe D": 397,
-    "Classe E": 274,
+    "Classe E": 275,
     "Classe C": 140
   },
   "ranking_campi": [
@@ -52,7 +52,7 @@
       "total_ativos": 175,
       "total_processos": 136,
       "taxa_adesao_pct": 77.7,
-      "participacao_pct": 16.8,
+      "participacao_pct": 16.7,
       "total": 136
     },
     {
@@ -79,7 +79,7 @@
       "total_ativos": 52,
       "total_processos": 41,
       "taxa_adesao_pct": 78.8,
-      "participacao_pct": 5.1,
+      "participacao_pct": 5.0,
       "total": 41
     },
     {
@@ -142,8 +142,17 @@
       "total_ativos": 37,
       "total_processos": 28,
       "taxa_adesao_pct": 75.7,
-      "participacao_pct": 3.5,
+      "participacao_pct": 3.4,
       "total": 28
+    },
+    {
+      "campus": "CA",
+      "tipo_campus": "Interior",
+      "total_ativos": 40,
+      "total_processos": 26,
+      "taxa_adesao_pct": 65.0,
+      "participacao_pct": 3.2,
+      "total": 26
     },
     {
       "campus": "CANG",
@@ -169,15 +178,6 @@
       "total_ativos": 36,
       "total_processos": 25,
       "taxa_adesao_pct": 69.4,
-      "participacao_pct": 3.1,
-      "total": 25
-    },
-    {
-      "campus": "CA",
-      "tipo_campus": "Interior",
-      "total_ativos": 40,
-      "total_processos": 25,
-      "taxa_adesao_pct": 62.5,
       "participacao_pct": 3.1,
       "total": 25
     },
@@ -309,7 +309,7 @@
     {
       "campus": "CA",
       "RSC-III": 1,
-      "RSC-V": 11,
+      "RSC-V": 12,
       "RSC-VI": 13
     },
     {
@@ -481,29 +481,29 @@
     "Interior": {
       "absoluto": {
         "RSC-III": 8,
-        "RSC-V": 249,
+        "RSC-V": 250,
         "RSC-VI": 208
       },
       "percentual": {
         "RSC-III": 1.72,
-        "RSC-V": 53.55,
-        "RSC-VI": 44.73
+        "RSC-V": 53.65,
+        "RSC-VI": 44.64
       },
-      "total_avaliados": 465,
+      "total_avaliados": 466,
       "total_ativos": 699
     },
     "Estado": {
       "absoluto": {
         "RSC-III": 12,
-        "RSC-V": 404,
+        "RSC-V": 405,
         "RSC-VI": 395
       },
       "percentual": {
         "RSC-III": 1.48,
-        "RSC-V": 49.82,
-        "RSC-VI": 48.71
+        "RSC-V": 49.88,
+        "RSC-VI": 48.65
       },
-      "total_avaliados": 811,
+      "total_avaliados": 812,
       "total_ativos": 1191
     }
   },
@@ -514,7 +514,7 @@
       "total_ativos": 302,
       "total_avaliados": 213,
       "taxa_adesao_pct": 70.5,
-      "participacao_pct": 26.3
+      "participacao_pct": 26.2
     },
     {
       "cargo": "Auxiliar em Administração",
@@ -530,7 +530,7 @@
       "total_ativos": 113,
       "total_avaliados": 71,
       "taxa_adesao_pct": 62.8,
-      "participacao_pct": 8.8
+      "participacao_pct": 8.7
     },
     {
       "cargo": "Assistente Social",
@@ -560,9 +560,9 @@
       "cargo": "Técnico em Assuntos Educacionais",
       "classe_cargo": "Classe E",
       "total_ativos": 42,
-      "total_avaliados": 22,
-      "taxa_adesao_pct": 52.4,
-      "participacao_pct": 2.7
+      "total_avaliados": 23,
+      "taxa_adesao_pct": 54.8,
+      "participacao_pct": 2.8
     },
     {
       "cargo": "Pedagogo",
@@ -1159,10 +1159,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 811,
+      "total_processos": 812,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 68.1,
-      "saldo_potencial_restante": 380,
+      "taxa_cobertura_global_pct": 68.2,
+      "saldo_potencial_restante": 379,
       "total_campi": 27,
       "total_cargos": 65
     }
