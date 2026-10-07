@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-10-06T08:40:30.964612+00:00",
-    "coletado_em": "2026-10-06T08:40:29.925990+00:00",
-    "total_geral_avaliados": 819,
+    "gerado_em": "2026-10-07T08:15:28.255436+00:00",
+    "coletado_em": "2026-10-07T08:15:26.731359+00:00",
+    "total_geral_avaliados": 820,
     "total_tae_ativos": 1191,
     "taxa_cobertura_global_pct": 68.8,
-    "saldo_potencial_restante": 372,
+    "saldo_potencial_restante": 371,
     "total_campi_atendidos": 27,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
@@ -18,8 +18,8 @@
     },
     "Classe D": {
       "total_ativos": 591,
-      "total_avaliados": 402,
-      "taxa_adesao_pct": 68.0
+      "total_avaliados": 403,
+      "taxa_adesao_pct": 68.2
     },
     "Classe E": {
       "total_ativos": 421,
@@ -28,20 +28,20 @@
     }
   },
   "distribuicao_niveis": {
-    "RSC-V": 408,
+    "RSC-V": 409,
     "RSC-VI": 399,
     "RSC-III": 12
   },
   "distribuicao_tipo_campus": {
     "Interior": 472,
-    "Capital": 347
+    "Capital": 348
   },
   "distribuicao_tipo_campus_ativos": {
     "Interior": 699,
     "Capital": 492
   },
   "distribuicao_classes": {
-    "Classe D": 402,
+    "Classe D": 403,
     "Classe E": 277,
     "Classe C": 140
   },
@@ -59,10 +59,10 @@
       "campus": "CNAT",
       "tipo_campus": "Capital",
       "total_ativos": 200,
-      "total_processos": 120,
-      "taxa_adesao_pct": 60.0,
-      "participacao_pct": 14.7,
-      "total": 120
+      "total_processos": 121,
+      "taxa_adesao_pct": 60.5,
+      "participacao_pct": 14.8,
+      "total": 121
     },
     {
       "campus": "MO",
@@ -115,7 +115,7 @@
       "total_ativos": 43,
       "total_processos": 34,
       "taxa_adesao_pct": 79.1,
-      "participacao_pct": 4.2,
+      "participacao_pct": 4.1,
       "total": 34
     },
     {
@@ -178,7 +178,7 @@
       "total_ativos": 36,
       "total_processos": 25,
       "taxa_adesao_pct": 69.4,
-      "participacao_pct": 3.1,
+      "participacao_pct": 3.0,
       "total": 25
     },
     {
@@ -345,7 +345,7 @@
     {
       "campus": "CNAT",
       "RSC-III": 4,
-      "RSC-V": 60,
+      "RSC-V": 61,
       "RSC-VI": 56
     },
     {
@@ -467,15 +467,15 @@
     "Capital": {
       "absoluto": {
         "RSC-III": 4,
-        "RSC-V": 156,
+        "RSC-V": 157,
         "RSC-VI": 187
       },
       "percentual": {
         "RSC-III": 1.15,
-        "RSC-V": 44.96,
-        "RSC-VI": 53.89
+        "RSC-V": 45.11,
+        "RSC-VI": 53.74
       },
-      "total_avaliados": 347,
+      "total_avaliados": 348,
       "total_ativos": 492
     },
     "Interior": {
@@ -495,15 +495,15 @@
     "Estado": {
       "absoluto": {
         "RSC-III": 12,
-        "RSC-V": 408,
+        "RSC-V": 409,
         "RSC-VI": 399
       },
       "percentual": {
-        "RSC-III": 1.47,
-        "RSC-V": 49.82,
-        "RSC-VI": 48.72
+        "RSC-III": 1.46,
+        "RSC-V": 49.88,
+        "RSC-VI": 48.66
       },
-      "total_avaliados": 819,
+      "total_avaliados": 820,
       "total_ativos": 1191
     }
   },
@@ -528,9 +528,9 @@
       "cargo": "Técnico de Laboratório Area",
       "classe_cargo": "Classe D",
       "total_ativos": 113,
-      "total_avaliados": 75,
-      "taxa_adesao_pct": 66.4,
-      "participacao_pct": 9.2
+      "total_avaliados": 76,
+      "taxa_adesao_pct": 67.3,
+      "participacao_pct": 9.3
     },
     {
       "cargo": "Assistente Social",
@@ -1159,10 +1159,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 819,
+      "total_processos": 820,
       "total_tae_ativos": 1191,
       "taxa_cobertura_global_pct": 68.8,
-      "saldo_potencial_restante": 372,
+      "saldo_potencial_restante": 371,
       "total_campi": 27,
       "total_cargos": 65
     }
