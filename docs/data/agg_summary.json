@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-10-14T07:13:31.950633+00:00",
-    "coletado_em": "2026-10-14T07:13:30.458078+00:00",
-    "total_geral_avaliados": 825,
+    "gerado_em": "2026-10-15T07:05:04.838011+00:00",
+    "coletado_em": "2026-10-15T07:05:03.467920+00:00",
+    "total_geral_avaliados": 826,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 69.3,
-    "saldo_potencial_restante": 366,
+    "taxa_cobertura_global_pct": 69.4,
+    "saldo_potencial_restante": 365,
     "total_campi_atendidos": 27,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
@@ -23,17 +23,17 @@
     },
     "Classe E": {
       "total_ativos": 421,
-      "total_avaliados": 278,
-      "taxa_adesao_pct": 66.0
+      "total_avaliados": 279,
+      "taxa_adesao_pct": 66.3
     }
   },
   "distribuicao_niveis": {
     "RSC-V": 410,
-    "RSC-VI": 402,
+    "RSC-VI": 403,
     "RSC-III": 13
   },
   "distribuicao_tipo_campus": {
-    "Interior": 474,
+    "Interior": 475,
     "Capital": 351
   },
   "distribuicao_tipo_campus_ativos": {
@@ -42,7 +42,7 @@
   },
   "distribuicao_classes": {
     "Classe D": 405,
-    "Classe E": 278,
+    "Classe E": 279,
     "Classe C": 142
   },
   "ranking_campi": [
@@ -160,7 +160,7 @@
       "total_ativos": 40,
       "total_processos": 26,
       "taxa_adesao_pct": 65.0,
-      "participacao_pct": 3.2,
+      "participacao_pct": 3.1,
       "total": 26
     },
     {
@@ -169,7 +169,7 @@
       "total_ativos": 46,
       "total_processos": 26,
       "taxa_adesao_pct": 56.5,
-      "participacao_pct": 3.2,
+      "participacao_pct": 3.1,
       "total": 26
     },
     {
@@ -239,10 +239,10 @@
       "campus": "PAAS",
       "tipo_campus": "Interior",
       "total_ativos": 23,
-      "total_processos": 12,
-      "taxa_adesao_pct": 52.2,
-      "participacao_pct": 1.5,
-      "total": 12
+      "total_processos": 13,
+      "taxa_adesao_pct": 56.5,
+      "participacao_pct": 1.6,
+      "total": 13
     },
     {
       "campus": "CTM",
@@ -394,7 +394,7 @@
       "campus": "PAAS",
       "RSC-III": 0,
       "RSC-V": 7,
-      "RSC-VI": 5
+      "RSC-VI": 6
     },
     {
       "campus": "PAR",
@@ -482,28 +482,28 @@
       "absoluto": {
         "RSC-III": 8,
         "RSC-V": 253,
-        "RSC-VI": 213
+        "RSC-VI": 214
       },
       "percentual": {
-        "RSC-III": 1.69,
-        "RSC-V": 53.38,
-        "RSC-VI": 44.94
+        "RSC-III": 1.68,
+        "RSC-V": 53.26,
+        "RSC-VI": 45.05
       },
-      "total_avaliados": 474,
+      "total_avaliados": 475,
       "total_ativos": 699
     },
     "Estado": {
       "absoluto": {
         "RSC-III": 13,
         "RSC-V": 410,
-        "RSC-VI": 402
+        "RSC-VI": 403
       },
       "percentual": {
-        "RSC-III": 1.58,
-        "RSC-V": 49.7,
-        "RSC-VI": 48.73
+        "RSC-III": 1.57,
+        "RSC-V": 49.64,
+        "RSC-VI": 48.79
       },
-      "total_avaliados": 825,
+      "total_avaliados": 826,
       "total_ativos": 1191
     }
   },
@@ -514,7 +514,7 @@
       "total_ativos": 302,
       "total_avaliados": 215,
       "taxa_adesao_pct": 71.2,
-      "participacao_pct": 26.1
+      "participacao_pct": 26.0
     },
     {
       "cargo": "Auxiliar em Administração",
@@ -560,9 +560,9 @@
       "cargo": "Técnico em Assuntos Educacionais",
       "classe_cargo": "Classe E",
       "total_ativos": 42,
-      "total_avaliados": 23,
-      "taxa_adesao_pct": 54.8,
-      "participacao_pct": 2.8
+      "total_avaliados": 24,
+      "taxa_adesao_pct": 57.1,
+      "participacao_pct": 2.9
     },
     {
       "cargo": "Pedagogo",
@@ -1159,10 +1159,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 825,
+      "total_processos": 826,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 69.3,
-      "saldo_potencial_restante": 366,
+      "taxa_cobertura_global_pct": 69.4,
+      "saldo_potencial_restante": 365,
       "total_campi": 27,
       "total_cargos": 65
     }
