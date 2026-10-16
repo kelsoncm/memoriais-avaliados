@@ -1,24 +1,24 @@
 cargo,classe_cargo,nivel_pretendido,nivel_reconhecido,total_processos
-Assistente em Administração,Classe D,RSC-V,RSC-V,121
+Assistente em Administração,Classe D,RSC-V,RSC-V,122
 Assistente em Administração,Classe D,RSC-VI,RSC-VI,90
 Auxiliar em Administração,Classe C,RSC-V,RSC-V,65
 Técnico de Laboratório Area,Classe D,RSC-VI,RSC-VI,46
 Assistente Social,Classe E,RSC-VI,RSC-VI,31
 Técnico de Laboratório Area,Classe D,RSC-V,RSC-V,30
-Assistente de Aluno,Classe C,RSC-V,RSC-V,21
+Assistente de Aluno,Classe C,RSC-V,RSC-V,22
 Administrador,Classe E,RSC-VI,RSC-VI,19
+Pedagogo,Classe E,RSC-VI,RSC-VI,16
 Técnico em Assuntos Educacionais,Classe E,RSC-VI,RSC-VI,15
-Pedagogo,Classe E,RSC-VI,RSC-VI,15
 Engenheiro,Classe E,RSC-VI,RSC-VI,14
 Auxiliar em Administração,Classe C,RSC-VI,RSC-VI,13
 Técnico De Tecnologia da Informação,Classe D,RSC-V,RSC-V,13
 Psicólogo,Classe E,RSC-VI,RSC-VI,13
 Analista De Técnico Da Informacao,Classe E,RSC-VI,RSC-VI,13
 Secretario Executivo,Classe E,RSC-VI,RSC-VI,11
-Vigilante,Classe D,RSC-V,RSC-V,10
+Vigilante,Classe D,RSC-V,RSC-V,11
 Médico,Classe E,RSC-VI,RSC-VI,10
-Técnico em Enfermagem,Classe D,RSC-V,RSC-V,10
 Técnico em Enfermagem,Classe D,RSC-VI,RSC-VI,10
+Técnico em Enfermagem,Classe D,RSC-V,RSC-V,10
 Bibliotecário-Documentalista,Classe E,RSC-V,RSC-V,10
 Contador,Classe E,RSC-VI,RSC-VI,10
 Técnico em Assuntos Educacionais,Classe E,RSC-V,RSC-V,9
