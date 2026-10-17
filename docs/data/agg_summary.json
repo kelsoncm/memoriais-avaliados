@@ -1,11 +1,11 @@
 {
   "meta": {
-    "gerado_em": "2026-10-16T06:48:54.800831+00:00",
-    "coletado_em": "2026-10-16T06:48:53.414337+00:00",
-    "total_geral_avaliados": 830,
+    "gerado_em": "2026-10-17T06:41:00.690571+00:00",
+    "coletado_em": "2026-10-17T06:40:59.302602+00:00",
+    "total_geral_avaliados": 831,
     "total_tae_ativos": 1191,
-    "taxa_cobertura_global_pct": 69.7,
-    "saldo_potencial_restante": 361,
+    "taxa_cobertura_global_pct": 69.8,
+    "saldo_potencial_restante": 360,
     "total_campi_atendidos": 27,
     "total_cargos_atendidos": 65,
     "total_cargos_existentes": 81
@@ -23,18 +23,18 @@
     },
     "Classe E": {
       "total_ativos": 421,
-      "total_avaliados": 280,
-      "taxa_adesao_pct": 66.5
+      "total_avaliados": 281,
+      "taxa_adesao_pct": 66.7
     }
   },
   "distribuicao_niveis": {
     "RSC-V": 413,
-    "RSC-VI": 404,
+    "RSC-VI": 405,
     "RSC-III": 13
   },
   "distribuicao_tipo_campus": {
     "Interior": 476,
-    "Capital": 354
+    "Capital": 355
   },
   "distribuicao_tipo_campus_ativos": {
     "Interior": 699,
@@ -42,7 +42,7 @@
   },
   "distribuicao_classes": {
     "Classe D": 407,
-    "Classe E": 280,
+    "Classe E": 281,
     "Classe C": 143
   },
   "ranking_campi": [
@@ -50,10 +50,10 @@
       "campus": "RE",
       "tipo_campus": "Capital",
       "total_ativos": 175,
-      "total_processos": 137,
-      "taxa_adesao_pct": 78.3,
-      "participacao_pct": 16.5,
-      "total": 137
+      "total_processos": 138,
+      "taxa_adesao_pct": 78.9,
+      "participacao_pct": 16.6,
+      "total": 138
     },
     {
       "campus": "CNAT",
@@ -412,7 +412,7 @@
       "campus": "RE",
       "RSC-III": 0,
       "RSC-V": 52,
-      "RSC-VI": 85
+      "RSC-VI": 86
     },
     {
       "campus": "SC",
@@ -468,14 +468,14 @@
       "absoluto": {
         "RSC-III": 5,
         "RSC-V": 159,
-        "RSC-VI": 190
+        "RSC-VI": 191
       },
       "percentual": {
         "RSC-III": 1.41,
-        "RSC-V": 44.92,
-        "RSC-VI": 53.67
+        "RSC-V": 44.79,
+        "RSC-VI": 53.8
       },
-      "total_avaliados": 354,
+      "total_avaliados": 355,
       "total_ativos": 492
     },
     "Interior": {
@@ -496,14 +496,14 @@
       "absoluto": {
         "RSC-III": 13,
         "RSC-V": 413,
-        "RSC-VI": 404
+        "RSC-VI": 405
       },
       "percentual": {
-        "RSC-III": 1.57,
-        "RSC-V": 49.76,
-        "RSC-VI": 48.67
+        "RSC-III": 1.56,
+        "RSC-V": 49.7,
+        "RSC-VI": 48.74
       },
-      "total_avaliados": 830,
+      "total_avaliados": 831,
       "total_ativos": 1191
     }
   },
@@ -757,11 +757,11 @@
       "participacao_pct": 0.6
     },
     {
-      "cargo": "Odontólogo - 30H - Dec Jud",
+      "cargo": "Arquiteto E Urbanista",
       "classe_cargo": "Classe E",
-      "total_ativos": 5,
+      "total_ativos": 3,
       "total_avaliados": 4,
-      "taxa_adesao_pct": 80.0,
+      "taxa_adesao_pct": 133.3,
       "participacao_pct": 0.5
     },
     {
@@ -773,7 +773,7 @@
       "participacao_pct": 0.5
     },
     {
-      "cargo": "Enfermeiro",
+      "cargo": "Odontólogo - 30H - Dec Jud",
       "classe_cargo": "Classe E",
       "total_ativos": 5,
       "total_avaliados": 4,
@@ -789,12 +789,12 @@
       "participacao_pct": 0.5
     },
     {
-      "cargo": "Arquiteto E Urbanista",
+      "cargo": "Enfermeiro",
       "classe_cargo": "Classe E",
-      "total_ativos": 3,
-      "total_avaliados": 3,
-      "taxa_adesao_pct": 100.0,
-      "participacao_pct": 0.4
+      "total_ativos": 5,
+      "total_avaliados": 4,
+      "taxa_adesao_pct": 80.0,
+      "participacao_pct": 0.5
     },
     {
       "cargo": "Porteiro",
@@ -1159,10 +1159,10 @@
   ],
   "serie_institucional": [
     {
-      "total_processos": 830,
+      "total_processos": 831,
       "total_tae_ativos": 1191,
-      "taxa_cobertura_global_pct": 69.7,
-      "saldo_potencial_restante": 361,
+      "taxa_cobertura_global_pct": 69.8,
+      "saldo_potencial_restante": 360,
       "total_campi": 27,
       "total_cargos": 65
     }
