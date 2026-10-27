@@ -1,6 +1,6 @@
 campus,tipo_campus,total_ativos,total_processos,taxa_adesao_pct,participacao_pct,total
 RE,Capital,175,140,80.0,16.7,140
-CNAT,Capital,200,124,62.0,14.8,124
+CNAT,Capital,200,126,63.0,15.0,126
 MO,Interior,61,46,75.4,5.5,46
 PAR,Interior,52,41,78.8,4.9,41
 CH,Capital,46,37,80.4,4.4,37
@@ -20,7 +20,7 @@ SC,Interior,40,24,60.0,2.9,24
 JC,Interior,39,21,53.8,2.5,21
 MC,Interior,40,14,35.0,1.7,14
 LAJ,Interior,21,14,66.7,1.7,14
-PAAS,Interior,23,13,56.5,1.6,13
+PAAS,Interior,23,13,56.5,1.5,13
 CTM,Interior,1,2,200.0,0.2,2
 CAGE,Interior,0,1,0.0,0.1,1
 UMZ,Interior,0,1,0.0,0.1,1
