@@ -292,6 +292,7 @@
     renderClassesChart();
     renderEvolucaoTotalChart();
     renderEvolucaoNiveisChart();
+    renderEvolucaoNovosChart();
   }
 
   function destroyExistingCharts() {
@@ -963,6 +964,48 @@
         scales: {
           x: { ticks: { maxTicksLimit: 10, font: { family: 'Inter', size: 11 } }, grid: { display: false } },
           y: { stacked: true, beginAtZero: true, grid: { color: COLORS.slate200 } }
+        }
+      }
+    });
+  }
+
+  /**
+   * Chart 9: Novos memoriais avaliados por dia (Barras)
+   */
+  function renderEvolucaoNovosChart() {
+    const ctx = document.getElementById('chartEvolucaoNovos')?.getContext('2d');
+    if (!ctx || historicoData.length < 2) return;
+
+    const pontos = historicoData.slice(1).map((r, i) => ({
+      data: r.data,
+      novos: Math.max(0, Number(r.total_avaliados) - Number(historicoData[i].total_avaliados))
+    }));
+
+    chartInstances.evolucaoNovos = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: pontos.map(p => p.data.split('-').reverse().slice(0, 2).join('/')),
+        datasets: [{
+          label: 'Novos avaliados',
+          data: pontos.map(p => p.novos),
+          backgroundColor: COLORS.greenLight,
+          borderRadius: 3
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: items => pontos[items[0].dataIndex].data.split('-').reverse().join('/')
+            }
+          }
+        },
+        scales: {
+          x: { ticks: { maxTicksLimit: 12, font: { family: 'Inter', size: 11 } }, grid: { display: false } },
+          y: { beginAtZero: true, title: { display: true, text: 'Novos por dia' }, grid: { color: COLORS.slate200 } }
         }
       }
     });

@@ -336,6 +336,17 @@
     <span class="section-tag">Snapshots diários desde 13/08/2026</span>
   </div>
 
+  <div class="chart-card" style="margin-bottom: 1.5rem;">
+    <div class="chart-card-header">
+      <h3 class="chart-card-title">Como ler esta série</h3>
+    </div>
+    <div style="padding: 0 1.25rem 1.25rem; font-size: 0.9rem; line-height: 1.6; color: var(--slate-600);">
+      <p><strong>Quando começou:</strong> a série histórica começa em <strong>13/08/2026</strong>, dia da primeira coleta deste painel. Nesse dia a fonte (API pública do SUAP) já listava <strong>488 memoriais avaliados</strong>: as avaliações já estavam em andamento e só passamos a conhecer a fonte naquele momento. Por isso a curva não parte do zero e <strong>não mostra o início real do processo de avaliação</strong>, apenas a evolução a partir do primeiro dia observado.</p>
+      <p><strong>Como foi reconstruída:</strong> cada ponto é o último snapshot do dia dos dados agregados publicados, lido do histórico de commits do repositório (<code>src/historico.py</code>). Mostra o que a fonte divulgava em cada dia, não a data real de cada avaliação. Há dias sem coleta (02/09, 19/09, 21/09 e 29/09) e, em 22/08, o total de TAE ativos foi revisado de 1.360 para 1.191, o que altera a cobertura.</p>
+      <p><strong>Por que arquivamos:</strong> a Comissão concluiu a análise de todos os pedidos de RSC (<a href="https://portal.ifrn.edu.br/campus/reitoria/noticias/comissao-conclui-analise-de-pedidos-de-rsc/" target="_blank" rel="noopener">notícia do IFRN</a>). Sem novas avaliações, a coleta diária não traz informação nova, então o agendamento foi desativado e o projeto arquivado em 27/10/2026, com o último snapshot (839 avaliados, 70,4% de cobertura) preservado como registro final.</p>
+    </div>
+  </div>
+
   <div class="charts-row-2">
     <div class="chart-card">
       <div class="chart-card-header">
@@ -354,6 +365,18 @@
       </div>
       <div class="chart-canvas-container tall">
         <canvas id="chartEvolucaoNiveis"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="charts-row-1">
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Novos Memoriais Avaliados por Dia</h3>
+        <p class="chart-card-desc">Diferença entre snapshots consecutivos: o ritmo foi alto em agosto e foi caindo até quase zero em outubro. Em dias sem coleta, o intervalo é somado ao dia seguinte.</p>
+      </div>
+      <div class="chart-canvas-container">
+        <canvas id="chartEvolucaoNovos"></canvas>
       </div>
     </div>
   </div>
