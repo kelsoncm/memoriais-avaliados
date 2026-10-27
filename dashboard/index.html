@@ -327,11 +327,42 @@
     </div>
   </div>
 
+  <!-- Visualizations Row 4: Evolução Histórica -->
+  <div class="section-heading-group">
+    <h2 class="section-title">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+      4. Evolução Histórica
+    </h2>
+    <span class="section-tag">Snapshots diários desde 13/08/2026</span>
+  </div>
+
+  <div class="charts-row-2">
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Memoriais Avaliados e Cobertura</h3>
+        <p class="chart-card-desc">Total acumulado de memoriais avaliados (eixo esquerdo) e cobertura sobre os TAE ativos (eixo direito). Em 22/08/2026 o total de TAE ativos passou de 1.360 para 1.191, o que explica o salto na cobertura.</p>
+      </div>
+      <div class="chart-canvas-container tall">
+        <canvas id="chartEvolucaoTotal"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-card-header">
+        <h3 class="chart-card-title">Evolução por Nível RSC</h3>
+        <p class="chart-card-desc">Memoriais avaliados acumulados por nível (RSC-III, RSC-V e RSC-VI). Reconstruído a partir do histórico de commits dos dados publicados; reflete o que a fonte divulgava em cada dia.</p>
+      </div>
+      <div class="chart-canvas-container tall">
+        <canvas id="chartEvolucaoNiveis"></canvas>
+      </div>
+    </div>
+  </div>
+
   <!-- Interactive Data Table & Downloads -->
   <div class="section-heading-group">
     <h2 class="section-title">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
-      4. Dados Agregados e Exportação
+      5. Dados Agregados e Exportação
     </h2>
     <span class="section-tag">Tabelas Dinâmicas & Acesso Aberto</span>
   </div>
