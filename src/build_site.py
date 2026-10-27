@@ -340,6 +340,7 @@ def build_all():
             body_clean = body_clean.replace("{{ '/data/fato_anonimo.csv' | relative_url }}", "data/fato_anonimo.csv")
             body_clean = body_clean.replace("{{ '/data/agg_campus_mes.csv' | relative_url }}", "data/agg_campus_mes.csv")
             body_clean = body_clean.replace("{{ '/data/agg_cargo_nivel.csv' | relative_url }}", "data/agg_cargo_nivel.csv")
+            body_clean = body_clean.replace("{{ '/data/historico.csv' | relative_url }}", "data/historico.csv")
             body_clean = body_clean.replace("{{ '/data/agg_summary.json' | relative_url }}", "data/agg_summary.json")
 
             rendered_html = render_page(

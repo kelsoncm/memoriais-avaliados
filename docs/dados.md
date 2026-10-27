@@ -60,6 +60,20 @@ description: Dicionário de dados, schemas das tabelas fato e agregadas, links p
 
         <div class="kpi-card">
           <div class="kpi-header">
+            <span class="kpi-label">Evolução Histórica</span>
+            <span class="badge blue">CSV</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--slate-600); margin-bottom: 1rem;">
+            Snapshot diário (13/08 a 27/10/2026) do total avaliado, cobertura, campi, cargos e níveis, reconstruído do histórico git por <code>src/historico.py</code>. A coluna <code>observacao</code> sinaliza descontinuidades.
+          </p>
+          <a href="{{ '/data/historico.csv' | relative_url }}" class="btn-download" download>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download historico.csv
+          </a>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
             <span class="kpi-label">Consolidado Institucional</span>
             <span class="badge amber">JSON</span>
           </div>

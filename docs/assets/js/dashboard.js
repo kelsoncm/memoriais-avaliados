@@ -11,6 +11,7 @@
   let rawSummaryData = null;
   let campusData = [];
   let cargoData = [];
+  let historicoData = [];
   let chartInstances = {};
   let currentTableTab = 'campus';
 
@@ -119,6 +120,13 @@
       if (cargoText) cargoData = parseCsv(cargoText);
     } catch (e) {
       console.warn('Usando dados embutidos de Cargo do JSON:', e.message);
+    }
+
+    try {
+      const historicoText = await fetchWithFallback('historico.csv', false);
+      if (historicoText) historicoData = parseCsv(historicoText);
+    } catch (e) {
+      console.warn('Histórico indisponível; seção de evolução ficará vazia:', e.message);
     }
   }
 
@@ -282,6 +290,9 @@
     renderCampusNivelStackedChart(filteredItems);
     renderTopCargosChart();
     renderClassesChart();
+    renderEvolucaoTotalChart();
+    renderEvolucaoNiveisChart();
+    renderEvolucaoNovosChart();
   }
 
   function destroyExistingCharts() {
@@ -848,6 +859,154 @@
           }
         },
         cutout: '62%'
+      }
+    });
+  }
+
+  /**
+   * Chart 7: Evolução histórica do total avaliado e da cobertura (Linhas, eixo duplo)
+   */
+  function renderEvolucaoTotalChart() {
+    const ctx = document.getElementById('chartEvolucaoTotal')?.getContext('2d');
+    if (!ctx || !historicoData.length) return;
+
+    const labels = historicoData.map(r => r.data.split('-').reverse().slice(0, 2).join('/'));
+    chartInstances.evolucaoTotal = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: 'Avaliados',
+            data: historicoData.map(r => Number(r.total_avaliados)),
+            borderColor: COLORS.greenPrimary,
+            backgroundColor: COLORS.greenSoft,
+            fill: true,
+            tension: 0.25,
+            pointRadius: 0,
+            pointHitRadius: 8,
+            yAxisID: 'y'
+          },
+          {
+            label: 'Cobertura (%)',
+            data: historicoData.map(r => Number(r.taxa_cobertura_pct)),
+            borderColor: COLORS.amberPrimary,
+            borderDash: [5, 4],
+            tension: 0.25,
+            pointRadius: 0,
+            pointHitRadius: 8,
+            yAxisID: 'y1'
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'bottom', labels: { boxWidth: 14, font: { family: 'Inter', size: 12, weight: '500' } } },
+          tooltip: {
+            callbacks: {
+              title: items => historicoData[items[0].dataIndex].data.split('-').reverse().join('/')
+            }
+          }
+        },
+        scales: {
+          x: { ticks: { maxTicksLimit: 10, font: { family: 'Inter', size: 11 } }, grid: { display: false } },
+          y: { beginAtZero: false, title: { display: true, text: 'Memoriais avaliados' }, grid: { color: COLORS.slate200 } },
+          y1: { position: 'right', min: 0, max: 100, title: { display: true, text: 'Cobertura (%)' }, grid: { drawOnChartArea: false } }
+        }
+      }
+    });
+  }
+
+  /**
+   * Chart 8: Evolução histórica por nível RSC (Áreas empilhadas)
+   */
+  function renderEvolucaoNiveisChart() {
+    const ctx = document.getElementById('chartEvolucaoNiveis')?.getContext('2d');
+    if (!ctx || !historicoData.length) return;
+
+    const labels = historicoData.map(r => r.data.split('-').reverse().slice(0, 2).join('/'));
+    const serie = (col, label, cor) => ({
+      label: label,
+      data: historicoData.map(r => Number(r[col])),
+      borderColor: cor,
+      backgroundColor: cor + '66',
+      fill: true,
+      tension: 0.25,
+      pointRadius: 0,
+      pointHitRadius: 8
+    });
+
+    chartInstances.evolucaoNiveis = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [
+          serie('rsc_vi', 'RSC-VI', COLORS.niveis['RSC-VI']),
+          serie('rsc_v', 'RSC-V', COLORS.niveis['RSC-V']),
+          serie('rsc_iii', 'RSC-III', COLORS.niveis['RSC-III'])
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'bottom', labels: { boxWidth: 14, font: { family: 'Inter', size: 12, weight: '500' } } },
+          tooltip: {
+            callbacks: {
+              title: items => historicoData[items[0].dataIndex].data.split('-').reverse().join('/')
+            }
+          }
+        },
+        scales: {
+          x: { ticks: { maxTicksLimit: 10, font: { family: 'Inter', size: 11 } }, grid: { display: false } },
+          y: { stacked: true, beginAtZero: true, grid: { color: COLORS.slate200 } }
+        }
+      }
+    });
+  }
+
+  /**
+   * Chart 9: Novos memoriais avaliados por dia (Barras)
+   */
+  function renderEvolucaoNovosChart() {
+    const ctx = document.getElementById('chartEvolucaoNovos')?.getContext('2d');
+    if (!ctx || historicoData.length < 2) return;
+
+    const pontos = historicoData.slice(1).map((r, i) => ({
+      data: r.data,
+      novos: Math.max(0, Number(r.total_avaliados) - Number(historicoData[i].total_avaliados))
+    }));
+
+    chartInstances.evolucaoNovos = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: pontos.map(p => p.data.split('-').reverse().slice(0, 2).join('/')),
+        datasets: [{
+          label: 'Novos avaliados',
+          data: pontos.map(p => p.novos),
+          backgroundColor: COLORS.greenLight,
+          borderRadius: 3
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: items => pontos[items[0].dataIndex].data.split('-').reverse().join('/')
+            }
+          }
+        },
+        scales: {
+          x: { ticks: { maxTicksLimit: 12, font: { family: 'Inter', size: 11 } }, grid: { display: false } },
+          y: { beginAtZero: true, title: { display: true, text: 'Novos por dia' }, grid: { color: COLORS.slate200 } }
+        }
       }
     });
   }

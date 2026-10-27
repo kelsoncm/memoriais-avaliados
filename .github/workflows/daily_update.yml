@@ -1,9 +1,9 @@
 name: Atualização Diária e Deploy RSC-TAE
 
 on:
-  schedule:
-    # Executa diariamente às 02:00 UTC (23:00 Horário de Brasília)
-    - cron: '0 2 * * *'
+  # Agendamento diário desativado: todos os RSC já foram avaliados
+  # (https://portal.ifrn.edu.br/campus/reitoria/noticias/comissao-conclui-analise-de-pedidos-de-rsc/).
+  # Para retomar a coleta, restaure o bloco `schedule` com cron '0 2 * * *'.
   workflow_dispatch: # Permite execução manual pelo painel do GitHub Actions
   push:
     branches:
